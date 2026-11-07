@@ -15,10 +15,11 @@
 2. Скачай сборку: на странице репозитория **Code → Download ZIP** (около 1 ГБ) и распакуй архив.
 3. Открой папку игры: Steam → Lethal Company → правая кнопка → **Управление → Просмотреть локальные файлы** (там лежит `Lethal Company.exe`).
 4. Скопируй в эту папку **содержимое** распакованной папки, соглашаясь на замену:
-   * папку `BepInEx`
+   * папки `BepInEx` и `_state`
    * файлы `winhttp.dll`, `doorstop_config.ini`, `.doorstop_version` (точка в начале имени: включи показ скрытых файлов)
+   * `mods.yml` (список установленных модов, как в менеджере модов; на работу игры не влияет)
 
-   Остальные файлы из архива (`README.md`, `MODS.md`, `mods.yml`, `.gitignore`, `.gitattributes`) копировать не обязательно.
+   Остальные файлы из архива (`README.md`, `MODS.md`, `CHANGELOG.md`, `.gitignore`, `.gitattributes`) копировать не обязательно.
 5. Запускай игру из Steam как обычно.
 
 Steam Deck и Linux: в параметры запуска игры добавь `WINEDLLOVERRIDES="winhttp=n,b" %command%`.
@@ -48,7 +49,7 @@ Steam Deck и Linux: в параметры запуска игры добавь 
 
 ## Удаление
 
-Удали из папки игры `BepInEx`, `Cache`, `winhttp.dll`, `doorstop_config.ini`, `.doorstop_version`. Чтобы лишь на время играть без модов,
+Удали из папки игры `BepInEx`, `_state`, `Cache`, `winhttp.dll`, `doorstop_config.ini`, `.doorstop_version`, `mods.yml`. Чтобы лишь на время играть без модов,
 достаточно переименовать `winhttp.dll`.
 
 ## Что мы добавили к чужим модам
