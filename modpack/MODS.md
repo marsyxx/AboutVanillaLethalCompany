@@ -105,4 +105,4 @@ Generated from the Thunderstore Mod Manager profile (`mods.yml`). **96 enabled**
 
 ## Our own mods (team devil1nme)
 
-Not in the list above because they are installed from the zips in the [Releases](../../releases): `devil1nme-GraphicsPlus`, `devil1nme-LanguageSwitch`, `devil1nme-LCCompatFixes` (1.0.0).
+Not in the list above because they are installed from the zips in the [Releases](../../releases): `devil1nme-GraphicsPlus`, `devil1nme-LanguageSwitch`, `devil1nme-LCCompatFixes` (1.0.1).

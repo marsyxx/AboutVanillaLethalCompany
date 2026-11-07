@@ -25,7 +25,7 @@ Based on the official wiki: [Creating a Package](https://wiki.thunderstore.io/mo
 
 1. **Account and team.** Sign in at thunderstore.io (Discord, GitHub or Overwolf). Open *Teams* and create the team
    **`devil1nme`**. The team name cannot be changed later and becomes part of every dependency string
-   (`devil1nme-GraphicsPlus-1.0.0`). Teams are not created automatically.
+   (`devil1nme-GraphicsPlus-1.0.1`). Teams are not created automatically.
 2. **Test the zips like a stranger would.** In Thunderstore Mod Manager create a **new, clean profile**
    (BepInExPack only), then *Settings -> Import local mod* for each zip in `dist/`:
    * `LCCompatFixes`: with LethalCasino installed, the main menu loads with no `MissingMethodException` in the log;
@@ -54,7 +54,7 @@ Based on the official wiki: [Creating a Package](https://wiki.thunderstore.io/mo
 ## Decisions for you
 
 * **Licence**: `LICENSE` is MIT with "devil1nme" as holder: change it if you prefer something else, then rebuild.
-* **Version numbers**: all are `1.0.0`. If you want the first upload to read as a test release, change
+* **Version numbers**: all are `1.0.1`. If you want the first upload to read as a test release, change
   `version_number` to `0.9.0` in the three `package/manifest.json` files (suffixes like `-beta` are not allowed).
 * **LanguageSwitch dependency**: the manifest depends on `RTLC-XUnity_AutoTranslator-5.6.11` (the maintained package;
   `Hayrizan-XUnity_AutoTranslator` is marked deprecated). Re-check that the version number is current right before

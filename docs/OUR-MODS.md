@@ -6,7 +6,7 @@ BepInEx mods for **Lethal Company** by **devil1nme** (Thunderstore team name).
 |---|---|---|
 | [GraphicsPlus](../GraphicsPlus) | Graphics options in the game's own Settings screen (a button inside its Graphics box): render resolution, **DLSS** (NVIDIA RTX), anti-aliasing (FXAA / SMAA / TAA), shadows, textures, ambient occlusion, effects. Everything defaults to vanilla; while it is in use the game's own Graphics controls are locked. | `devil1nme-GraphicsPlus` |
 | [LanguageSwitch](../LanguageSwitch) | English / Russian / German dropdown in the main Settings screen, applied live through XUnity.AutoTranslator. Ships a German dictionary for the game's own text; keeps Russian / German main-menu items clear of the logo. | `devil1nme-LanguageSwitch` |
-| [LCCompatFixes](../LCCompatFixes) | Fixes for other mods **without editing them**: LethalCasino and RTLC sound packs after the 31 Oct 2026 update (preloader patcher + shims), EladsHUD+ crash, the 1-2 s landing freeze caused by the RTLC texture pass, repeated slow HarmonyX type scans, LethalRPG Strength vs BetterStamina patch order. Every fix has a config switch. | `devil1nme-LCCompatFixes` |
+| [LCCompatFixes](../LCCompatFixes) | Fixes for other mods **without editing them**: LethalCasino and RTLC sound packs after the 31 Oct 2026 update (preloader patcher + shims), EladsHUD+ crash, the 1-2 s landing freeze caused by the RTLC texture pass, repeated slow HarmonyX type scans and type-name lookups (half of the dead time at start-up), LethalRPG Strength vs BetterStamina patch order. Every fix has a config switch. | `devil1nme-LCCompatFixes` |
 
 Part of the [AboutVanillaLethalCompany](../README.md) modpack. Target: Lethal Company build of 31 Oct 2026 (Unity 2022.3.62f2, Direct3D 11), BepInEx 5.4.2305.
 
