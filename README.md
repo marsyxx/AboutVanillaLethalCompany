@@ -63,7 +63,8 @@
 * **DawnLib и Configurable Company Variables (LCV)** конфликтуют на `RoundManager.PredictAllOutsideEnemies`: патч DawnLib не
   применяется (в логе `Failed to apply RoundManager.PredictAllOutsideEnemies patch (1)`). Последствие: вероятности внешних
   врагов от DawnLib не используются в предсказании.
-* DawnLib не может сопоставить IL в `PlayerControllerB.DestroyItemInSlot` (`Couldn't match ... (4) IL`).
+* DawnLib не может сопоставить IL в `PlayerControllerB.DestroyItemInSlot` (`Couldn't match ... (4) IL`): этот метод уже
+  переписывает мод `JacobG5.DestroyItemInSlotFix`. Один из двух патчей не применяется; какой важнее, решай по сборке.
 * Configurable Company при старте лобби долго загружает ~3200 настроек (паузы по 2,5 с). Это его собственная работа.
 * Ошибки Newtonsoft `AotHelper` в логе безвредны: их дают облачные службы Unity, которые игра не использует.
 * Немецкий перевод написан с помощью ИИ и не проверен носителем языка.
