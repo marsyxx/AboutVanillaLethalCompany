@@ -1,0 +1,9 @@
+{
+    "name": "GraphicsPlus",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "Graphics options in the game's Settings screen: render resolution, anti-aliasing (FXAA/SMAA/TAA), shadows, textures, ambient occlusion and effects. Everything defaults to vanilla and applies live.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2305"
+    ]
+}
