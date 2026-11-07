@@ -10,7 +10,8 @@ $out = "$sp\out"; New-Item -ItemType Directory -Force $out | Out-Null
 $refs = (Get-ChildItem $man -Filter *.dll | Where-Object { $_.Name -match '^(mscorlib|netstandard|System[\w\.]*|UnityEngine[\w\.]*|Unity\.[\w\.]+|Assembly-CSharp)\.dll$' } | ForEach-Object { $_.FullName }) + @("$core\BepInEx.dll", "$core\0Harmony.dll")
 $lines = @('-nologo', '-noconfig', '-nostdlib+', '-target:library', '-optimize+', '-langversion:9', '-nullable:disable', '-warn:3', "-out:$out\$Name.dll")
 foreach ($r in $refs) { $lines += "-r:`"$r`"" }
-$lines += "`"$sp\src\$Name\Plugin.cs`""
+$source = if (Test-Path "$sp\$Name\Plugin.cs") { "$sp\$Name\Plugin.cs" } else { "$sp\src\$Name\Plugin.cs" }
+$lines += "`"$source`""
 Set-Content -LiteralPath "$out\$Name.rsp" -Value $lines -Encoding UTF8
 $err = (& dotnet $csc "@$out\$Name.rsp" 2>&1 | Out-String) -split "`n" | Where-Object { $_ -match 'error' } | Select-Object -First 6
 if ($err) { "COMPILE ERRORS:"; $err; return }
