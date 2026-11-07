@@ -1,0 +1,5 @@
+## 1.0.0
+- CacheTypeScans: HarmonyX called Assembly.GetTypes on every loaded assembly each time a mod looked a type up by name; for the three assemblies that cannot load fully in a typical big profile (DawnLib, LCV, PremiumScraps referencing mods that are not installed) that call throws and it was repeated about 130 times per session. Each scan is now remembered (132 failing scans -> 7 in a test; about 4 s less loading).
+- RtlcSceneLoadSlicing: the RTLC Russian translation (RTLC and RTLC.Mods) went through every texture in memory in one frame on each level load, a freeze of about 2 seconds when the ship lands (measured: 1.5 s + 0.6 s). The same pass now runs about 3 ms per frame, and textures already handled on an earlier level load are skipped.
+- StreamBundleResult: EladsHUD+ crashed in Awake because AssetBundle.LoadFromStream returned null although Unity had loaded the bundle (BepInEx_Faster_Load_AssetBundles_Patcher + XUnity). The just-loaded bundle is now handed back to the caller.
+- First release: LethalCasino compatibility with the 31 Oct 2026 game update; RTLC sound packs accepted by loaforcsSoundAPI 2.x.

@@ -1,0 +1,9 @@
+{
+    "name": "LCCompatFixes",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "Fixes mods broken by the 31 Oct 2026 game update without editing them or the game files: LethalCasino errors, and RTLC Russian sound packs rejected by loaforcsSoundAPI 2.x.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2305"
+    ]
+}
