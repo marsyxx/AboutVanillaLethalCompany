@@ -1,0 +1,29 @@
+# Druggie
+
+Vodka=Водка
+Wine=Вино
+Butter Schnapps=Сливочный шнапс
+Jagermeister=Ягермайстер
+Bong=Бонг
+Empty Syringe=Пустой шприц
+Zip Jar=Банка с шишками
+Heroin Syringe=Героиновый шприц
+Quarter Jar=Маленькая банка с шишками
+Drop Bong : [G]=Выбросить Бонг: [G]
+Drop Wine : [G]=Выбросить Вино: [G]
+Drop Butter Schnapps : [G]=Выбросить Шнапс: [G]
+Drop Vodka : [G]=Выбросить Водку: [G]
+Drop Jagermeister : [G]=Выбросить Ягермайстер: [G]
+Drop Zip Jar : [G]=Выбросить Шишки: [G]
+Drop Quarter Jar : [G]=Выбросить Шишки: [G]
+Drop Heroin Syringe : [G]=Выбросить Шприц: [G]
+Drop Empty Syringe : [G]=Выбросить Шприц: [G]
+Vodka collected!=Водка собрана!
+Wine collected!=Вино собрано!
+Butter Schnapps collected!=Сливочный шнапс собран!
+Jagermeister collected!=Ягермайстер собран!
+Bong collected!=Бонг собран!
+Empty Syringe collected!=Пустой шприц собран!
+Zip Jar collected!=Банка с шишками собрана!
+Heroin Syringe collected!=Героиновый шприц собран!
+Quarter Jar collected!=Маленькая банка с шишками собрана!

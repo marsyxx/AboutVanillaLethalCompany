@@ -1,0 +1,7 @@
+# PowerRelayMoon
+
+105 Relay Station=105 Relay Station
+sr:"^Orbiting: 105 Relay Station\nAn old power relay station that was overun a few years back. Mustly stable \(\we are not responsible for any exposure to harmful radiation. \nWeather: (.+?)$"=ОРБИТА: 105 Relay Station\nСтарая релейная станция, вышедшая из строя несколько лет назад. Должна быть стабильной (мы не несём ответственности за воздействие вредного излучения.) \nПОГОДА: $1
+Orbiting: 105 Relay Station\nAn old power relay station that was overun a few years back. Mustly stable (we are not responsible for any exposure to harmful radiation. \n=ОРБИТА: 105 Relay Station\nСтарая релейная станция, вышедшая из строя несколько лет назад. Должна быть стабильной (мы не несём ответственности за воздействие вредного излучения.) \n
+An old power relay station that was overun a few years back. Mustly stable (we are not responsible for any exposure to harmful radiation. =Старая релейная станция, вышедшая из строя несколько лет назад. Должна быть стабильной (мы не несём ответственности за воздействие вредного излучения.) 
+sr:"^Orbiting: 105 Relay Station\nWeather: (.+?)\nAn old power relay station that was overun a few years back. Mustly stable \(\we are not responsible for any exposure to harmful radiation. $"=ОРБИТА: 105 Relay Station\nПОГОДА: $1\nСтарая релейная станция, вышедшая из строя несколько лет назад. Должна быть стабильной (мы не несём ответственности за воздействие вредного излучения.) 

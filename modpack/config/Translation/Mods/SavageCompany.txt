@@ -1,0 +1,56 @@
+# SavageCompany
+
+## InputUtils
+
+Savage Company=Savage Company
+Show UI=Показать Интерфейс SC
+Move UI Up=Переместить Интерфейс наверх
+Up Arrow=Стрелка вверх
+Move UI Down=Переместить Интерфейс вниз
+Down Arrow=Стрелка вниз
+Move UI Left=Переместите Интерфейс навлево
+Left Arrow=Стрелка влево
+Move UI Right=Переместить Интерфейс направо
+Right Arrow=Стрелка вправо
+
+## Chat
+
+r:"(?s)^(.+?)Moon Heat: ([0-9]+\%)(.*)$"=$1Нагрев Луны: $2 $3
+r:"(?s)^(.+?)Moon heat is rising, please consider moving to another moon.(.*)$"=$1Тепло Луны растёт, пожалуйста, рассмотрите возможность слетать на другую луну. $2
+r:"(?s)^(.+?)Moon heat is dangerously high, move to another moon to lower the danger level!(.*)$"=$1На Луне жарко, высокая опасность. Переместитесь на другую Луну, чтобы снизить уровень опасности! $2
+
+## UI
+
+Land on a moon to view the currently ongoing events!=Приземлитесь на луну, чтобы увидеть текущие события!
+
+<color\=green><i><size\=15>Welcome to Savage Company!</i></color></size>\n<color\=yellow><size\=11>- This UI will show you the current events on the planet when you land.\n- There are many factors that affect which events happen and how dangerous they are.\n- You can press the UI hotkey in the keybinds menu (default: [T]) to hide this UI.\n- Thanks for playing my mod, and have fun!</color></size>=Добро пожаловать в Savage Company!\n\n- Этот интерфейс покажет вам текущие события на луне, когда вы приземлитесь.\n\n- Существует множество факторов, которые влияют на то, какие события происходят и насколько они опасны.\n\n- Вы можете нажать клавишу (по умолчанию: [T]), чтобы скрыть этот пользовательский интерфейс.\n\n- Спасибо за игру в мой мод и приятного времяпрепровождения!
+
+## Events
+
+sr:"^<i><size\=15><color\=green>([0-9]+) Points were Distributed: </i></size></color>\n(.+?)$"=<i><size\=15><color\=green>$1 Очков было Распределено: </i></size></color>\n$2
+sr:"^<i><size\=15><color\=green>([0-9]+) Points were Distributed: </i></size></color>\n(.+?)\n(.+?)$"=<i><size\=15><color\=green>$1 Очков было Распределено: </i></size></color>\n$2\n$3
+sr:"^<i><size\=15><color\=green>([0-9]+) Points were Distributed: </i></size></color>\n(.+?)\n(.+?)\n(.+?)$"=<i><size\=15><color\=green>$1 Очков было Распределено: </i></size></color>\n$2\n$3\n$4
+sr:"^<i><size\=15><color\=green>([0-9]+) Points were Distributed: </i></size></color>\n(.+?)\n(.+?)\n(.+?)\n(.+?)$"=<i><size\=15><color\=green>$1 Очков было Распределено: </i></size></color>\n$2\n$3\n$4\n$5
+sr:"^<i><size\=15><color\=green>([0-9]+) Points were Distributed: </i></size></color>\n(.+?)\n(.+?)\n(.+?)\n(.+?)\n(.+?)$"=<i><size\=15><color\=green>$1 Очков было Распределено: </i></size></color>\n$2\n$3\n$4\n$5\n$6
+sr:"^<i><size\=15><color\=green>([0-9]+) Points were Distributed: </i></size></color>\n(.+?)\n(.+?)\n(.+?)\n(.+?)\n(.+?)\n(.+?)$"=<i><size\=15><color\=green>$1 Очков было Распределено: </i></size></color>\n$2\n$3\n$4\n$5\n$6\n$7
+sr:"^<i><size\=15><color\=green>([0-9]+) Points were Distributed: </i></size></color>\n(.+?)\n(.+?)\n(.+?)\n(.+?)\n(.+?)\n(.+?)\n(.+?)$"=<i><size\=15><color\=green>$1 Очков было Распределено: </i></size></color>\n$2\n$3\n$4\n$5\n$6\n$7\n$8
+sr:"^<i><size\=15><color\=green>([0-9]+) Points were Distributed: </i></size></color>\n(.+?)\n(.+?)\n(.+?)\n(.+?)\n(.+?)\n(.+?)\n(.+?)\n(.+?)$"=<i><size\=15><color\=green>$1 Очков было Распределено: </i></size></color>\n$2\n$3\n$4\n$5\n$6\n$7\n$8\n$9
+
+r:"^- Minesweeper \(Level ([0-9]+)\)$"=- Сапёр (Уровень $1)
+r:"^- Heavy Weaponry \(Level ([0-9]+)\)$"=- Тяжёлое вооружение (Уровень $1)
+r:"^- RUN \(Level ([0-9]+)\)$"=- БЕГИ (Уровень $1)
+r:"^- Arachnophobia \(Level ([0-9]+)\)$"=- Арахнофобия (Уровень $1)
+r:"^- Bug Mafia \(Level ([0-9]+)\)$"=- Мафия Жуков (Уровень $1)
+r:"^- Lizard Mania \(Level ([0-9]+)\)$"=- Мания Ящеров (Уровень $1)
+r:"^- Behind You \(Level ([0-9]+)\)$"=- Позади Тебя (Уровень $1)
+r:"^- It Says Gullible On The Ceiling \(Level ([0-9]+)\)$"=- Не Доверяй Потолку (Уровень $1)
+r:"^- SLIME \(Level ([0-9]+)\)$"=- СЛАЙМ (Уровень $1)
+r:"^- Schizophrenia \(Level ([0-9]+)\)$"=- Шизофрения (Уровень $1)
+r:"^- The Masquerade \(Level ([0-9]+)\)$"=- Маскарад (Уровень $1)
+r:"^- Nutcracker Ballet \(Level ([0-9]+)\)$"=- Балет Щелкунчиков (Уровень $1)
+r:"^- Weeping Angels \(Level ([0-9]+)\)$"=- Плачущие Ангелы (Уровень $1)
+r:"^- Music MAYHEM \(Level ([0-9]+)\)$"=- Музыка БЕСПРЕДЕЛА (Уровень $1)
+r:"^- Dangerous Surface \(Level ([0-9]+)\)$"=- Опасность Снаружи (Уровень $1)
+r:"^- Ship Defense System \(Level ([0-9]+)\)$"=- Система Защиты Корабля (Уровень $1)
+r:"^- Armageddon \(Level ([0-9]+)\)$"=- Армагеддон (Уровень $1)
+r:"^- LAND Mines \(Level ([0-9]+)\)$"=- НАЗЕМНЫЕ Мины (Уровень $1)

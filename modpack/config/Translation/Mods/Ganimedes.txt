@@ -1,0 +1,24 @@
+# Ganimedes
+
+2 Ganimedes=2 Ganimedes
+Abandoned.=Заброшено
+Jagged and dry, it is a old mine.=Зубчатая и сухая поверхность, это старая шахта.
+A great variety of aggressive and dangerous lifeforms inhabits this moon.=На этой луне обитает множество агрессивных и опасных форм жизни.
+
+Silver Bar=Серебряный слиток
+Bronze Bar=Бронзовый слиток
+Ruby=Рубин
+MP3 player=MP3 плеер
+MP3=MP3
+BronzeBar=Бронзовый слиток
+SilverBar=Серебряный слиток
+Emerald=Изумруд
+
+Open chest : [LMB]=Открыть сундук: [ЛКМ]
+Swing pickaxe : [LMB]=Взмахнуть: [ЛКМ]
+
+Drop MP3 : [G]=Выбросить MP3: [G]
+Drop Emerald : [G]=Выбросить Изумруд: [G]
+Drop Ruby : [G]=Выбросить Рубин: [G]
+Drop BronzeBar : [G]=Выбросить Слиток: [G]
+Drop SilverBar : [G]=Выбросить Слиток: [G]

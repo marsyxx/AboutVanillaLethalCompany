@@ -1,0 +1,229 @@
+Grab : [E]=Подобрать: [E]
+
+[LBM]=[ЛКМ]
+
+Walk : [W/A/S/D]=Передвижение: [W/A/S/D]
+Sprint: [Shift]=Бег: [Shift]
+Scan : [RMB]=Сканирование: [ПКМ]
+
+Ring bell: [E]=Использовать звонок: [E]
+
+Open hatch : [E]=Использовать люк: [E]
+
+Climb : [E]=Использовать лестницу: [E]
+
+Use ladder : [E]=Использовать лестницу: [E]
+Let go : [E]=Отпустить лестницу: [E]
+
+Get log : [E]=Подобрать запись [E]
+
+Press "/" to talk.="/", открыть чат.
+Typing...=Ввод текста...
+Voice volume=\n\nГромкость голоса
+Voice Volume=\n\nГромкость Голоса
+
+Pull switch : [E]=Вкл/Выкл свет: [E]
+
+Start game : [E]=Запустить корабль: [E]
+
+Enter : [E]=Войти: [E]
+Enter: [E]=Войти: [E]
+Exit : [E]=Выйти: [E]
+
+[Near activity detected!]=[Рядом обнаружена активность!]
+
+Use door : [E]=Использовать: [E]
+
+[Hands full]=[Руки заняты]
+
+Locked=Заперто
+
+Disable speaker: [E]=Отключить динамик: [E]
+
+Start ship : [E]=Запустить корабль: [E]
+Land ship : [E]=Посадить корабль: [E]
+
+Confirm: [B]   |   Rotate: [R]   |   Store: [X]=Подтвердить: [B]   | Вращать: [R]  |  На склад: [X]
+
+Flush: [E]=Смыть : [E]
+
+Open : [E]=Использовать: [Е]
+Open: [E]=Использовать: [Е]
+Flip switch: [E]=Переключить рубильник: [E]
+
+Hit pumpkin : [E]=Ударить тыкву: [E]
+
+Use ladder : [E]=Использовать: [E]
+
+Play record: [E]=Воспроизвести пластинку: [E]
+
+Switch water: [E]=Переключить воду: [E]
+
+Switch TV: [E]=Вкл/Выкл Телевизор: [E]
+
+r:"^Squeeze : (.+)$"=Сжать: $1
+
+Sell item : [E]=Продать предмет: [E]
+
+Charge item : [E]=Зарядить предмет: [E]
+
+Beam up : [E]=Запустить: [E]
+
+Get log : [E]=Подобрать запись: [E]
+
+Open hatch: [E]=Использовать: [E]
+
+Loading...=Загрузка...
+Autosaving...=<size\=13>Автосохранение...</size>
+Started server, joining...=Сервер запущен, присоединение...
+
+DOOR HYDRAULICS:=ГИДРАВЛИКА ШЛЮЗА:
+
+SYSTEMS ONLINE=СИСТЕМЫ АКТИВНЫ
+
+VISIBILITY LOW!\n\nSteam leak detected in area=НИЗКАЯ ВИДИМОСТЬ! Обнаружена утечка пара в вашей зоне.
+
+Pull valve : [E]=Провернуть клапан : [E]
+[Cannot pull valve]=[Не удаётся провернуть клапан]
+[Pulling valve]=[Проворот клапана]
+
+CRITICAL INJURY=КРИТИЧЕСКАЯ ТРАВМА
+
+(Cannot hold until ship has landed)=(Нельзя подобрать, пока корабль не приземлится)
+
+(Requires battery-powered item)=(Нужен аккумулятор)
+
+Open door : [E]=Открыть дверь: [E]
+Close door : [E]=Закрыть дверь: [E]
+
+r:"Picking lock: (.+)\ sec."=Взлом замка: $1 сек.
+Use key: [ LMB ]=Использовать ключ: [ ЛКМ ]
+
+Switch lights : [E]=Вкл/Выкл свет: [E]
+
+Pull cord: [E] (Hold)=Потянуть за шнур: [E] (Удерживать)
+
+[Pulling cord]=[Потягивание за шнур]
+
+Switch camera : [E]=Переключить камеру: [E]
+Turn on/off : [E]=Включить/выключить: [E]
+
+Access terminal : [E]=Войти в терминал: [E]
+
+RECEIVING SIGNAL=ПРИЕМ СИГНАЛА
+
+Quit terminal : [TAB]=Выйти из терминала: [TAB]
+
+Change: Green suit=Изменить на: зелёный костюм
+Change suit=Изменить на: оранжевый костюм
+Change: Pajama suit=Изменить на: пижамный костюм
+Change: Hazard suit=Изменить на: защитный костюм
+Change: Bunny Suit=Изменить на: костюм кролика
+
+Set candles: [E]=Зажечь/потушить свечи: [E]
+
+Lift glass : [E]=Поднять/опустить крышку: [E]
+
+[ Not holding items ]=[Нет предмета в руках]
+
+[Nothing to store]=[Нечего положить]
+Store item : [E]=Положить предмет : [E]
+
+Inventory full!=Инвентарь полон!
+
+HANDS FULL=РУКИ ЗАНЯТЫ
+
+QUOTA REACHED!=<size\=65>КВОТА ВЫПОЛНЕНА!</size>
+NEW PROFIT QUOTA:=<size\=65>НОВАЯ КВОТА\nПРИБЫЛИ:</size>
+Overtime bonus:=Премия:
+
+New creature data sent to terminal!=Данные о новом организме отправлены в терминал!
+
+You did not meet the profit quota before the deadline.=Вы не достигли минимальной квоты до окончания срока.
+YOU ARE FIRED.=ВЫ УВОЛЕНЫ.
+
+Tell autopilot ship to leave early : [RMB] (Hold)=Уведомить автопилот улететь раньше: [ПКМ] (Удерживайте)
+
+Paycheck!=Зарплата!
+
+[LIFE SUPPORT: OFFLINE]=[СИСТЕМЫ: ОТКЛЮЧЕНЫ]
+
+(Dead)=(Мёртв)
+
+PERFORMANCE REPORT=ОТЧЁТ О РАБОТЕ
+
+PILOT COMPUTER=БОРТОВОЙ КОМПЬЮТЕР
+WARNING!!! The autopilot ship will leave at midnight. Please return quickly.=ВНИМАНИЕ!!!\nКорабль улетит в полночь.\nПожалуйста, вернитесь на борт.
+Warning! No response from crew, which has not returned. Emergency code activated.=Внимание! \nЭкипаж не отвечает и не возвращается. \nАктивирован аварийный код.
+The autopilot will now attempt to fly to the closest safe spaceport. Your items have been lost.=Автопилот попытается долететь до ближайшего космопорта. \nВаши вещи были потеряны.
+Ship leaving in one hour=Корабль улетит через один час
+Alert! The autopilot is leaving due to dangerous conditions.=Внимание! Автопилот покидает поверхность в связи с опасными условиями.
+The Company must minimize risk of damage to proprietary hardware. Goodbye!=Компания должна минимизировать риск повреждения оборудования. До свидания!
+r:"^WARNING! Please return by (.*)\. A vote has been cast, and the autopilot ship will leave early."=ВНИМАНИЕ! Вернитесь на корабль к $1. Путем голосования решено, что корабль улетит на автопилоте раньше времени.
+Voted for ship to leave early=Вы проголосовали за досрочное отбытие
+
+3 Days Left=Осталось 3 дня
+2 Days Left=Осталось 2 дня
+1 Day Left=Остался 1 день
+0 Days Left=Осталось 0 дней
+TO MEET PROFIT QUOTA=ЧТОБЫ ВЫПОЛНИТЬ КВОТУ
+
+[Wait for ship to land]=[Ожидание посадки корабля]
+
+EMPLOYEE RANK=РАНГ СОТРУДНИКА
+Intern=Интерн
+Part-timer=Временный работник
+Employee=Работник
+Leader=Лидер
+Boss=Босс
+
+Cause of death: Gunshots=<size\=8>Причина смерти: Застрелен</size>
+Cause of death: Bludgeoning=<size\=8>Причина смерти: Прибит</size>
+Cause of death: Gravity=<size\=8>Причина смерти: Гравитация</size>
+Cause of death: Blast=<size\=8>Причина смерти: Взрыв</size>
+Cause of death: Strangulation=<size\=8>Причина смерти: Сломана шея</size>
+Cause of death: Suffocation=<size\=8>Причина смерти: Задушен</size>
+Cause of death: Mauling=<size\=8>Причина смерти: Разорван</size>
+Cause of death: Crushing=<size\=8>Причина смерти: Раздавлен</size>
+Cause of death: Drowning=<size\=8>Причина смерти: Утонул</size>
+Cause of death: Abandoned=<size\=8>Причина смерти: Пропал</size>
+Cause of death: Electrocution=<size\=8>Причина смерти: Электроудар</size>
+Cause of death: Unknown=<size\=8>Причина смерти: Неизвестно</size>
+Cause of death: Kicking=<size\=8>Причина смерти: Избит</size>
+
+Found journal entry: 'First Log - Aug 22=Добавлена запись в журнал: "Первая запись - 22 авг."
+Found journal entry: 'Smells here! - Aug 24=Добавлена запись в журнал: "Тут воняет! - 24 авг."
+Found journal entry: 'Swing of things - Aug 27=Добавлена запись в журнал: "Размах событий - 27 авг."
+Found journal entry: 'Golden planet - Aug ??=Добавлена запись в журнал: "Золотая планета - ?? авг."
+Found journal entry: 'Shady - Aug 31=Добавлена запись в журнал: "Подозрительно - 31 авг."
+Found journal entry: 'Sound behind the wall - Sep 4=Добавлена запись в журнал: "Звук за стеной - 4 сент."
+Found journal entry: 'Goodbye - Sep 7=Добавлена запись в журнал: "Прощай - 7 сент."
+Found journal entry: 'Screams - Sep 13=Добавлена запись в журнал: "Крики - 13 сент."
+Found journal entry: 'Idea - Sep 19=Добавлена запись в журнал: "Идея - 19 сент."
+Found journal entry: 'Nonsense - Sep 27=Добавлена запись в журнал: "Бессмыслица - 27 сент."
+Found journal entry: 'Hiding - Sep 30=Добавлена запись в журнал: "Сокрытие - 30 сент."
+Found journal entry: 'Real Job - Oct 1=Добавлена запись в журнал: "Настоящая работа - 1 окт."
+Found journal entry: 'Desmond - Oct 15=Добавлена запись в журнал: "Десмонд - 15 окт."
+
+Push: [E]=Толкать: [E]
+Pull up : [E]=Поднять: [E]
+Pull down : [E]=Опустить: [E]
+Reverse: [E]=Задняя передача: [E]
+Drive : [E]=Передняя передача: [E]
+Sit down : [E]=Сесть: [E]
+Park : [E]=Парковать: [E]
+Honk: [E]=Сигналить: [E]
+Try ignition : [E] (Hold)=Попробовать зажигание: [E] (Удерживать)
+[ Trying ignition ]=[ Попытка зажигания ]
+Toggle wipers: [E]=Вкл/Выкл стеклоочистители: [E]
+Toggle cabin window: [E]=Открыть/Закрыть окно: [E]
+Switch headlights: [E]=Перключить фары: [E]
+Eject : [E]=Катапультироваться: [E]
+Tune radio: [E]=Переключить радио: [E]
+Toggle radio: [E]=Вкл/Выкл радио: [E]
+(Honking)=(Сигналит)
+Boost: [Space]=Ускорение: [Пробел]
+Brake pedal: [S]=Педаль тормоза: [S]
+Gas pedal: [W]=Педаль газа: [W]
+Open/shut hood: [E]=Открыть/Закрыть капот: [E]
+Remove key : [E]=Извлечь ключ: [E]

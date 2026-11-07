@@ -1,0 +1,5 @@
+# Oxygen
+
+System...=Система...
+The oxygen tanks are running low.=Кислородные баллоны пустеют.
+There is a critical level of oxygen in the oxygen tanks, fill it up immediately!=В кислородных баллонах критически низкий уровень кислорода, немедленно пополните его!

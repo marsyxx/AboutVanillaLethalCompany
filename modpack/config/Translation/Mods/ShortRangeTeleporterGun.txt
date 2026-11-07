@@ -1,0 +1,6 @@
+# ShortRangeTeleporterGun
+
+Telegun=Телепортационная пушка
+Teleport forward : [LMB]=Телепорт вперёд: [ЛКМ]
+Drop SRTeleporter Gun : [G]=Выбросить Телепорт-пушку: [G]
+SRTeleporter Gun=КДТелепортационная пушка

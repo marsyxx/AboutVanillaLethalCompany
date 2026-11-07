@@ -1,0 +1,30 @@
+# MoreInteriors
+
+Use Door : [E]=Использовать: [E]
+
+## Scrap
+
+Army Helmet=Армейский шлем
+Gramophone=Граммофон
+Old Radio=Старое радио
+RockingHorse=Лошадка-качалка
+TypeWriter=Печатная машинка
+WheelRim=Обод колеса
+WireSpool=Катушка с проволокой
+EnergyCore=Энергетическое ядро [Реактор]
+Drop Gramophone : [G]=Выбросить Граммофон: [G]
+Drop RockingHorse : [G]=Выбросить Лошадку: [G]
+Drop WheelRim : [G]=Выбросить Обод: [G]
+Drop EnergyCore : [G]=Выбросить Реактор: [G]
+Drop WireSpool : [G]=Выбросить Катушку: [G]
+Drop Old Radio : [G]=Выбросить Радио: [G]
+Drop TypeWriter : [G]=Выбросить Машинку: [G]
+Drop Army Helmet : [G]=Выбросить Шлем: [G]
+Army Helmet collected!=Армейский шлем собран!
+Gramophone collected!=Граммофон собран!
+Old Radio collected!=Старое радио собрано!
+RockingHorse collected!=Лошадка-качалка собрана!
+TypeWriter collected!=Печатная машинка собрана!
+WheelRim collected!=Обод колеса собран!
+WireSpool collected!=Катушка с проволокой собрана!
+EnergyCore collected!=Энергетическое ядро [Реактор] собран(о)!

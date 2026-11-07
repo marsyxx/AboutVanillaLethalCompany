@@ -1,0 +1,17 @@
+# VileValuables
+
+Lightning McQueen=Молния Маккуин
+Luigi Doll=Кукла Луиджи
+Crash Bandicoot=Крэш Бандикут
+Pochita=Почита
+Pingu=Пингу
+Drop Pochita : [G]=Выбросить Почита: [G]
+Drop Lightning McQueen : [G]=Выбросить Маккуина: [G]
+Drop Crash Bandicoot : [G]=Выбросить Бандикута: [G]
+Drop Pingu : [G]=Выбросить Пингу: [G]
+Drop Luigi Doll : [G]=Выбросить Луиджи: [G]
+Lightning McQueen collected!=Молния Маккуин собран!
+Luigi Doll collected!=Кукла Луиджи собрана!
+Crash Bandicoot collected!=Крэш Бандикут собран!
+Pochita collected!=Почита собран!
+Pingu collected!=Пингу собран!

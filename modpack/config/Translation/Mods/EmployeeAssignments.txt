@@ -1,0 +1,154 @@
+Employee Assignments mod is out of date, new version is atleast 1.1.0. Please update the mod.=Модификация Employee Assignments устарела, новая версия 1.1.0. Пожалуйста, обновите мод.
+
+[ CLOSE ]=[ ЗАКРЫТЬ ]
+
+# EmployeeAssignments
+
+[CRAWLER]=[ТАМПЕР]
+[AIRHORN]=[ГУДОК]
+[APPARATICE]=[РЕАКТОР]
+[APPARATUS]=[РЕАКТОР]
+[BEE HIVE]=[УЛЕЙ]
+[BELL]=[ЛАТУННЫЙ КОЛОКОЛ]
+[BIG BOLT]=[БОЛЬШОЙ БОЛТ]
+[BOTTLES]=[БУТЫЛКИ]
+[BRASS BELL]=[ЛАТУННЫЙ КОЛОКОЛ]
+[BRUSH]=[РАСЧЕСКА]
+[BUBBLEGUM]=[ЖВАЧКА]
+[CANDY]=[ЛЕДЕНЕЦ]
+[CANDY CANE]=[ЛЕДЕНЕЦ]
+[CASH REGISTER]=[КАССОВЫЙ АППАРАТ]
+[CHEMICAL JUG]=[ХИМИЧЕСКИЙ БАЛЛОН]
+[CHOCOLATE BISCUIT]=[ШОКОЛАДНОЕ ПЕЧЕНЬЕ]
+[CHRISTMAS BALL]=[БЕЗДЕЛУШКА]
+[CLOWN HORN]=[КЛОУНСКИЙ ГУДОК]
+[COFFEE MUG]=[КОФЕЙНАЯ КРУЖКА]
+[COG]=[ВИНТИК]
+[COMEDY]=[МАСКА "КОМЕДИИ"]
+[COOKIE MOLD PAN]=[ФОРМА ДЛЯ ВЫПЕЧКИ]
+[CRYSTAL SNOWFLAKE]=[ХРУСТАЛЬНАЯ СНЕЖИНКА]
+[DATA CHIP]=[ЧИП ДАННЫХ]
+[DENTURES]=[ПРОТЕЗ]
+[DOG TOY]=[СОБАЧЬЯ ИГРУШКА]
+[DUST PAN]=[СОВОК]
+[EGG BEATER]=[ВЕНЧИК]
+[FANCY LAMP]=[ПРИЧУДЛИВАЯ ЛАМПА]
+[FANCY RING]=[НЕОБЫЧНОЕ КОЛЬЦО]
+[FISH TOY]=[ПЛАСТИКОВАЯ РЫБА]
+[FLASK]=[КОЛБА]
+[GEARBOX]=[КОРОБКА]
+[GIFT]=[ПОДАРОК]
+[GIFT BOX]=[ПОДАРОЧНАЯ КОРОБКА]
+[GINGERBREAD BEAR]=[ПРЯНИЧНЫЙ МИШКА]
+[GOLD BAR]=[ЗОЛОТОЙ СЛИТОК]
+[GOLDEN CUP]=[ЗОЛОТОЙ КУБОК]
+[HAIR BRUSH]=[РАСЧЕСКА]
+[HAIR DRYER]=[ФЕН]
+[HAIRDRYER]=[ФЕН]
+[HIVE]=[УЛЕЙ]
+[HOMEMADE FLASHBANG]=[САМОДЕЛЬНАЯ ГРАНАТА]
+[JACK O' LANTERN]=[ФОНАРЬ ИЗ ТЫКВЫ]
+[JAR OF PICKLES]=[БАНКА ОГУРЦОВ]
+[KEY]=[КЛЮЧ]
+[LARGE AXLE]=[БОЛЬШАЯ ОСЬ]
+[LASER POINTER]=[ЛАЗЕРНАЯ УКАЗКА]
+[MAGIC 7 BALL]=[ВОЛШЕБНЫЙ ШАР]
+[MAGIC BALL]=[ВОЛШЕБНЫЙ ШАР]
+[MAGIC8BALL]=[ВОЛШЕБНЫЙ ШАР]
+[MAGNIFYING GLASS]=[ЛУПА]
+[METAL SHEET]=[ЛИСТ МЕТАЛЛА]
+[MUG]=[КРУЖКА]
+[OLD PHONE]=[СТАРЫЙ ТЕЛЕФОН]
+[PAINTING]=[КАРТИНА]
+[PERFUME]=[ДУХИ]
+[PERFUME BOTTLE]=[ДУХИ]
+[PICKLE JAR]=[БАНКА ОГУРЦОВ]
+[PILL BOTTLE]=[ТАБЛЕТКИ]
+[PLASTIC FISH]=[ПЛАСТИКОВАЯ РЫБА]
+[RED SODA]=[СОДОВАЯ]
+[REMOTE]=[ПУЛЬТ]
+[RING]=[КОЛЬЦО]
+[ROBOT TOY]=[ИГРУШЕЧНЫЙ РОБОТ]
+[RUBBER DUCKY]=[РЕЗИНОВАЯ УТКА]
+[STEERING WHEEL]=[РУЛЬ]
+[STOP SIGN]=[ЗНАК "СТОП"]
+[TAPE]=[ЛЕНТА]
+[TATTERED METAL SHEET]=[ЛИСТ МЕТАЛЛА]
+[TEA KETTLE]=[ЧАЙНИК]
+[TEDDY BEAR]=[ПЛЮШЕВЫЙ МИШКА]
+[TEETH]=[ЧЕЛЮСТЬ]
+[TOOTHPASTE]=[ЗУБНАЯ ПАСТА]
+[TOY CUBE]=[КУБИК РУБИКА]
+[TOY RUBIX CUBE]=[КУБИК РУБИКА]
+[TOY ROBOT]=[ИГРУШЕЧНЫЙ РОБОТ]
+[TRAGEDY]=[МАСКА "ТРАГЕДИИ"]
+[TREE BISCUIT]=[ДЕРЕВЯННОЕ ПЕЧЕНЬЕ]
+[V-TYPE ENGINE]=[ДВИГАТЕЛЬ]
+[WEDDING RING]=[ОБРУЧАЛЬНОЕ КОЛЬЦО]
+[WHOOPSIE CUSHION]=[ПОДУШКА ПЕРДУШКА]
+[YIELD SIGN]=[ЗНАК "УСТУПИТЕ"]
+
+## Кассеты из LootableMusicTapes
+
+[CASSETTE - TIME AFTER TIME]=[КАССЕТА]
+[CASSETTE - MAMMAS DON'T LET YOUR BABIES GROW UP TO BE COWBOYS]=[КАССЕТА]
+[CASSETTE - HOUND DOG]=[КАССЕТА]
+[CASSETTE - TAKE ME HOME COUNTRY ROADS]=[КАССЕТА]
+[CASSETTE - LAST CHRISTMAS]=[КАССЕТА]
+[CASSETTE - THE WORST BAND IN THE WORLD]=[КАССЕТА]
+[CASSETTE - DANGER ZONE]=[КАССЕТА]
+[CASSETTE - OUT OF TOUCH]=[КАССЕТА]
+[CASSETTE - KONCHITSYA LETO]=[КАССЕТА]
+[CASSETTE - HEARTACHE BY THE NUMBERS]=[КАССЕТА]
+[CASSETTE - NA ZARE]=[КАССЕТА]
+[CASSETTE - KLETKA]=[КАССЕТА]
+[CASSETTE - STAYIN' ALIVE]=[КАССЕТА]
+[CASSETTE - I NEED A HERO]=[КАССЕТА]
+[CASSETTE - ROUNDABOUT]=[КАССЕТА]
+[CASSETTE - IT'S RAINING MEN]=[КАССЕТА]
+[CASSETTE - TOTAL ECLIPSE OF THE HEART]=[КАССЕТА]
+[CASSETTE - FELIZ NAVIDAD]=[КАССЕТА]
+[CASSETTE - WHITE CHRISTMAS]=[КАССЕТА]
+[CASSETTE - LIVIN' ON A PRAYER]=[КАССЕТА]
+[CASSETTE - SLEEP WALK]=[КАССЕТА]
+[CASSETTE - SHADILAY]=[КАССЕТА]
+[CASSETTE - THE GOOD MR. SQUARE SHE WAS TALL, SHE WAS HIGH]=[КАССЕТА]
+
+[BABBON HAWK]=[БАБУИНОВЫЙ ЯСТРЕБ]
+[BRACKEN]=[БРЭКЕН]
+[BUNKER SPIDER]=[БУНКЕРНЫЙ ПАУК]
+[EYELESS DOG]=[СЛЕПАЯ СОБАКА]
+[HOARDING BUG]=[ЖУК-СОБИРАТЕЛЬ]
+[JESTER]=[ДЖЕСТЕР]
+[NUTCRACKER]=[ЩЕЛКУНЧИК]
+[SNARE FLEA]=[УДУШАЮЩАЯ МНОГОНОЖКА]
+[CENTIPEDE]=[УДУШАЮЩАЯ МНОГОНОЖКА]
+[SPORE LIZARD]=[СПОРОВИК]
+[Thumper]=[ТАМПЕР]
+
+Value : ???=Стоимость: ???
+ASSIGNMENT TARGET=Цель задания
+
+HUNT & KILL=НАЙТИ И УБИТЬ
+Loadout=Снаряжение
+NO ASSIGNMENT ACTIVE=НЕТ АКТИВНОГО ЗАДАНИЯ
+REPAIR VALVE=РЕМОНТ КЛАПАНА
+SCRAP RETRIEVAL=ИЗВЛЕЧЕНИЕ ЛОМА
+
+FIND AND REPAIR THE BROKEN VALVE=НАЙДИ И ПОЧИНИ СЛОМАННЫЙ КЛАПАН
+sr:"^FIND AND KILL THE (\[.*\])$"=НАЙДИ И УБЕЙ $1
+sr:"^FIND THE (\[.*\]) MARKED \'ASSIGNMENT TARGET\'$"=НАЙТИ $1 ПОМЕЧЕННЫЙ КАК - ЦЕЛЬ ЗАДАНИЯ
+
+YOU HAVE BEEN SELECTED BY THE COMPANY FOR ASSIGNMENT, YOU MUST FIND AND REPAIR THE BROKEN VALVE=ВАС ВЫБРАЛА КОМПАНИЯ ДЛЯ ВЫПОЛНЕНИЯ ЗАДАНИЯ. ВАМ НУЖНО НАЙТИ И ПОЧИНИТЬ СЛОМАННЫЙ КЛАПАН.
+sr:"^YOU HAVE BEEN SELECTED BY THE COMPANY FOR ASSIGNMENT, YOU MUST COLLECT THE FOLLOWING SCRAP ITEM: (\[.*\]) IT WILL BE MARKED AS \[ASSIGNMENT TARGET\]$"=ВАС ВЫБРАЛА КОМПАНИЯ ДЛЯ ВЫПОЛНЕНИЯ ЗАДАНИЯ. ВАМ НУЖНО СОБРАТЬ СЛЕДУЮЩИЙ ЛОМ: $1 ОН БУДЕТ ПОМЕЧЕН КАК [ЦЕЛЬ ЗАДАНИЯ].
+sr:"^YOU HAVE BEEN SELECTED BY THE COMPANY FOR ASSIGNMENT, YOU MUST HUNT AND KILL THE FOLLOWING ENEMY: (\[.*\]) IT WILL BE MARKED AS \[ASSIGNMENT TARGET\]$"=ВАС ВЫБРАЛА КОМПАНИЯ ДЛЯ ВЫПОЛНЕНИЯ ЗАДАНИЯ. ВАМ НУЖНО НАЙТИ И УНИЧТОЖИТЬ СЛЕДУЮЩЕГО ВРАГА: $1  ОН БУДЕТ ПОМЕЧЕН КАК [ЦЕЛЬ ЗАДАНИЯ].
+ANOTHER EMPLOYEE COLLECTED THE ITEM=ДРУГОЙ СОТРУДНИК СОБРАЛ ЛОМ
+THE BROKEN VALVE WAS NOT FIXED=СЛОМАННЫЙ КЛАПАН НЕ БЫЛ ПОЧИНЕН
+THE ENEMY WAS NOT KILLED=ВРАГ НЕ БЫЛ УНИЧТОЖЕН
+
+ASSIGNMENT COMPLETE=ЗАДАНИЕ ВЫПОЛНЕНО
+ASSIGNMENT FAILED=ЗАДАНИЕ ПРОВАЛЕНО
+YOU HAVE COMPLETED THE ASSIGNMENT, WELL DONE. THE COMPANY VALUES YOUR LOYALTY=ВЫ ВЫПОЛНИЛИ ЗАДАНИЕ, ОТЛИЧНАЯ РАБОТА. КОМПАНИЯ ЦЕНИТ ВАШУ ВЕРНОСТЬ
+sr:"^YOU FAILED TO COMPLETE THE ASSIGNMENT. REASON: (.+)$"=ВЫ НЕ СМОГЛИ ВЫПОЛНИТЬ ЗАДАНИЕ. ПРИЧИНА: $1
+
+sr:"^ASSIGNMENT:(.+)$"=ЗАДАНИЕ:$1

@@ -1,0 +1,10 @@
+# MinimumQuotaFinder
+
+MinimumQuotaFinder=Сыщик Квоты
+Toggle scrap highlight=Вкл/выкл подсветку лома
+Remove bind=Удалить привязку
+
+r:"^Optimal scrap combination found: ([0-9]+) \(([0-9]+) already sold\). <color\=#992403>([0-9]+)</color> over quota. $"=Найдена оптимальная стоимость для продажи лома: $1 ($2 уже продано). Но <color\=#992403>$3</color> кредит(ов) будут превышать квоту. 
+r:"^Not enough scrap to reach quota \(([0-9]+) < ([0-9]+)\). Sell everything.$"=Недостаточно лома чтобы выполнить квоту ($1 < $2).\nПродавайте всё.
+Buying rate is not at 100%, no scrap has been highlighted as the calculations would be inaccurate.=Процент скупки не равен 100%, лом не выделен, поскольку расчёты будут неточными.
+No scrap detected within the ship.=Лом на корабле отсутствует.

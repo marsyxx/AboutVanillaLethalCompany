@@ -1,0 +1,6 @@
+# LittleCompany
+
+Shrink Ray=Термоусадочный луч
+Enlarge: MMB=Увеличить: [СКМ]
+Shrink: LMB=Уменьшить: [ЛКМ]
+Drop Shrink Ray : [G]=Выбросить Устройство: [G]

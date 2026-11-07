@@ -1,0 +1,53 @@
+# PlushiesPlus
+
+Molten Piggie=Магмовая свинюшка
+Drop Molten Piggie : [G]=Выбросить Свинюшку: [G]
+Molten Piggie collected!=Магмовая свинюшка собрана!
+
+Gold Penguin=Золотой пингвин
+Drop Gold Penguin : [G]=Выбросить Пингвина: [G]
+Gold Penguin collected!=Золотой пингвин собран!
+
+Penguin Plush=Плюшевый пингвин
+Drop Penguin Plush : [G]=Выбросить Пингвина: [G]
+Penguin Plush collected!=Плюшевый пингвин собран!
+
+Rabbit-o-Matic=Робо-зайчик
+Drop Rabbit-o-Matic : [G]=Выбросить Зайчика: [G]
+Rabbit-o-Matic collected!=Робо-зайчик собран!
+
+Bunny Plush=Зайчик
+Drop Bunny Plush : [G]=Выбросить Зайчика: [G]
+Bunny Plush collected!=Зайчик собран!
+
+Piggie Plush=Плюшевая свинюшка
+Drop Piggie Plush : [G]=Выбросить Свинюшку: [G]
+Piggie Plush collected!=Плюшевая свинюшка собрана!
+
+Lamb Plush=Плюшевый ягнёнок
+Drop Lamb Plush : [G]=Выбросить Ягнёнка: [G]
+Lamb Plush collected!=Плюшевый ягнёнок собран!
+
+Sheepie Plush=Овечка
+Drop Sheepie Plush : [G]=Выбросить Овечку: [G]
+Sheepie Plush collected!=Овечка собрана!
+
+Blacksheep Plush=Плюшевая чёрная овечка
+Drop Blacksheep Plush : [G]=Выбросить Овечку: [G]
+Blacksheep Plush collected!=Плюшевая чёрная овечка собрана!
+
+Rupert Plush=Плюшевый руперт
+Drop Rupert Plush : [G]=Выбросить Руперта: [G]
+Rupert Plush collected!=Плюшевый руперт собран!
+
+Monkey Plush=Плюшевая обезьянка
+Drop Monkey Plush : [G]=Выбросить Обезьянку: [G]
+Monkey Plush collected!=Плюшевая обезьянка собрана!
+
+Blackbear Plush=Чёрный медвежонок
+Drop Blackbear Plush : [G]=Выбросить Медвежонка: [G]
+Blackbear Plush collected!=Чёрный медвежонок собран!
+
+Bear Plush=Плюшевый медвежонок
+Drop Bear Plush : [G]=Выбросить Медвежонка: [G]
+Bear Plush collected!=Плюшевый медвежонок собран!

@@ -1,0 +1,7 @@
+# KnucklesMod
+
+Knuckles=Наклз
+Knuckles of Uganda=Уганда Наклз
+Drop Knuckles : [G]=Выбросить Наклза: [G]
+Knuckles collected!=Наклз собран!
+Knuckles of Uganda collected!=Уганда Наклз собран!

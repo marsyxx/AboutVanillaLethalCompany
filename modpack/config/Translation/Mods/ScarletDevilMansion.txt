@@ -1,0 +1,8 @@
+# ScarletDevilMansion
+
+Decorative crystal=Декоративный кристалл
+Decoration crystal=Декоративный кристалл
+Decorative crystal collected!=Декоративный кристалл собран!
+Decoration crystal collected!=Декоративный кристалл собран!
+Drop Decorative crystal : [G]=Выбросить Кристалл: [G]
+Knight=Рыцарь

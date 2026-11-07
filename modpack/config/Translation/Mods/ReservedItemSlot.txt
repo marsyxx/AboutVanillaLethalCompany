@@ -1,0 +1,3 @@
+Hold: [Alt]=Зажмите: [ALT]
+Send voice : [LMB][X]=Говорить: [ЛКМ] [X]
+Toggle light : [LMB][F]=Вкл/выкл: [ЛКМ] [F]

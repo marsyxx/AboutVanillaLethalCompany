@@ -1,0 +1,21 @@
+# LethalPlushies
+
+Freddy=Фредди
+Drop Freddy : [G]=Выбросить Фредди: [G]
+Freddy collected!=Фредди собран!
+
+Reimu=Рейму
+Drop Reimu : [G]=Выбросить Рейму: [G]
+Reimu collected!=Рейму собрана!
+
+Car=Максвелл
+Drop Car : [G]=Выбросить Максвелла: [G]
+Car collected!=Максвелл собран!
+
+Pomni=Помни
+Drop Pomni : [G]=Выбросить Помни: [G]
+Pomni collected!=Помни собрана!
+
+Frieren=Фрирен
+Drop Frieren : [G]=Выбросить Фрирен: [G]
+Frieren collected!=Фрирен собрана!

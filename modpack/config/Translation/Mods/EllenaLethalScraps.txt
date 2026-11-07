@@ -1,0 +1,12 @@
+# EllenaLethalScraps
+
+Drop Glowing Orb : [G]=Выбросить Шар: [G]
+Ponder the orb=Подобрать: [E]
+Box=Коробка
+Strange Box=Странная коробочка
+Ball Of Steel=Стальной шар
+Wind : [LMB]=Крутить: [ЛКМ]
+Drop BallOfSteel : [G]=Выбросить Шар: [G]
+Grab strange object=Подобрать: [E]
+Drop Strange Box : [G]=Выбросить Коробочку: [G]
+Sure, try bringing that back=Подобрать: [E]

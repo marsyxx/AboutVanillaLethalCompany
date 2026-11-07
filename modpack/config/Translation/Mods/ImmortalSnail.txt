@@ -1,0 +1,5 @@
+# ImmortalSnail
+
+ImmortalSnail=Бессмертная улитка
+r:"^Current Target: (.+)$"=Текущая цель: $1
+The Immortal Snail=Бессмертная улитка

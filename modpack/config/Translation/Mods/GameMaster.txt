@@ -1,0 +1,92 @@
+GameMaster=Настройка игры
+
+AI Modification/Spawning=Спавн/ИИ
+
+Spawn Enemy=Спавн врага
+Speed of the CoilHead {{A}}=Скорость Пружиноголового {{A}}
+Jester Popup speed {{A}}=Скорость выпрыгивания Джестера {{A}}
+Jester reset speed {{A}}=Скорость сброса Джестера {{A}}
+Jester cranking speed {{A}}=Скорость поворота Джестера {{A}}
+
+Enable AI Modifications=Включить модификации ИИ
+Should Enemies Spawn Naturally=Естесвенный спавн врагов
+
+Host Settings=Хост
+
+Server Name=Имя сервера
+Server Message=Сообщение сервера
+Hide Command Messages=Скрыть сообщения команд
+Hide Enemy Spawn Messages=Скрыть сообщения спавна врагов
+Command Prefix=Префикс команд
+XP Change=Изменение опыта
+
+Infinite Sprint=Бесконечный бег
+Infinite Credits=Бесконечные кредиты
+God Mode=Режим бога
+NightVision=Ночное видение
+SpeedHack=Спидхак
+
+Time Settings=Время
+
+Infinite Deadline(overrides all deadline settings)=Бесконечный крайний срок
+Custom Deadline=Ручной крайний срок
+Random Deadline=Случайный крайний срок
+
+Minimum Deadline {{A}}=Минимальный крайний срок {{A}}
+Maximum Deadline {{A}}=Максимальный крайний срок {{A}}
+
+Custom Timescale=Ручная временная шкала
+Random Timescale=Случайная временная шкала
+
+Minimum Timescale {{A}}=Минимальный временной шкал {{A}}
+Maximum Timescale {{A}}=Максимальный временной шкал {{A}}
+
+Scrap Settings=Лом
+
+Random Buyrate=Случайная ставка покупки
+Custom Buyrate=Ручная ставка покупки
+
+Min Buy Rate -{{A}}=Минимальная ставка -{{A}}
+Max Buy Rate -{{A}}=Максимальная ставка -{{A}}
+Max Buy Rate {{A}}=Максимальная ставка {{A}}
+Min Buy Rate {{A}}=Минимальная ставка {{A}}
+
+Enable Scrap Modifiers=Включить модификаторы лома
+
+Minimum Amount of Scrap {{A}}=Минимальное количество {{A}}
+Maximum Amount of Scrap {{A}}=Максимальное количество {{A}}
+Min Scrap Value {{A}}=Минимальная стоимость {{A}}
+Max Scrap Value {{A}}=Максимальная стоимость {{A}}
+
+CMD=Команды
+
+Inside:=Внутри:
+Outside:=Снаружи:
+
+- Teleports you to the terminal in your ship, keeping all items on you!=-Телепортирует вас к терминалу, сохранив все предметы!
+
+- Teleports you to another player, keeping all items on you!=-Телепортирует вас к другому игроку, сохраняя все предметы!
+
+- See all enemies available to spawn=-Просмотреть всех доступных врагов
+
+- Toggles Night Vision=-Вкл/Выкл ночное видение
+
+- Buy an item=-Купить предмет
+
+- Toggle GodMode= -Вкл/Выкл режим бога
+
+- Toggle SpeedHack=-Вкл/Выкл спидхак
+
+- Toggle all lights inside building=  -Вкл/Выкл свет внутри здания
+
+- Attempt to change weather=-Изменить погоду
+
+- Attempt to spawn an enemy=   -Заспавнить врага
+
+- See more commands=-Показать больше команд
+
+Toggle the ability to passively regen to max health.=-Пассивное восстановление здоровья
+
+
+
+

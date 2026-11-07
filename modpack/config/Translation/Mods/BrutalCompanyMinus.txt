@@ -1,0 +1,97 @@
+# Brutal Company Minus
+
+Grabbable Turret=Подбираемая турель
+Drop Grabbable Turret : [G]=Выбросить Турель: [G]
+Grabbable Turret collected!=Подбираемая турель собрана!
+Grabbable Landmine=Подбираемая мина
+Drop Grabbable Landmine : [G]=Выбросить Мину: [G]
+Grabbable Landmine collected!=Подбираемая мина собрана!
+
+sr:"^<br>Events:<br>-(.+?)</color><br><br>Difficulty:<br> -Day: (.+?)<br><br> -Scrap Amount: x(.+?)<br> -Scrap Value: x(.+?)<br> -Factory Size: x(.+?)<br> -SpawnChance: x(.+?)<br> -Max inside power: +(.+?)<br> -Max outside power: +(.+?)<br> -Bonus enemy hp: +(.+?)$"=<br>События:<br>-$1</color><br><br>Сложность:<br> -День: $2<br><br> -Кол-во Лома: x$3<br> -Цена Лома: x$4<br> -Размер Объекта: x$5<br> -Шанс Спавна: x$6<br> -Макс. сила внутри: +$7<br> -Макс. сила снаружи: +$8<br> -Бонусные хп врага: +$9
+sr:"^<br>Events:<br>-(.+?)</color><br>-(.+?)</color><br><br>Difficulty:<br> -Day: (.+?)<br><br> -Scrap Amount: x(.+?)<br> -Scrap Value: x(.+?)<br> -Factory Size: x(.+?)<br> -SpawnChance: x(.+?)<br> -Max inside power: +(.+?)<br> -Max outside power: +(.+?)<br> -Bonus enemy hp: +(.+?)$"=<br>События:<br>-$1</color><br>-$2</color><br><br>Сложность:<br> -День: $3<br><br> -Кол-во Лома: x$4<br> -Цена Лома: x$5<br> -Размер Объекта: x$6<br> -Шанс Спавна: x$7<br> -Макс. сила внутри: +$8<br> -Макс. сила снаружи: +$9<br> -Бонусные хп врага: +$10
+sr:"^<br>Events:<br>-(.+?)</color><br>-(.+?)</color><br>-(.+?)</color><br><br>Difficulty:<br> -Day: (.+?)<br><br> -Scrap Amount: x(.+?)<br> -Scrap Value: x(.+?)<br> -Factory Size: x(.+?)<br> -SpawnChance: x(.+?)<br> -Max inside power: +(.+?)<br> -Max outside power: +(.+?)<br> -Bonus enemy hp: +(.+?)$"=<br>События:<br>-$1</color><br>-$2</color><br>-$3</color><br><br>Сложность:<br> -День: $4<br><br> -Кол-во Лома: x$5<br> -Цена Лома: x$6<br> -Размер Объекта: x$7<br> -Шанс Спавна: x$8<br> -Макс. сила внутри: +$9<br> -Макс. сила снаружи: +$10<br> -Бонусные хп врага: +$11
+sr:"^<br>Events:<br>-(.+?)</color><br>-(.+?)</color><br>-(.+?)</color><br>-(.+?)</color><br><br>Difficulty:<br> -Day: (.+?)<br><br> -Scrap Amount: x(.+?)<br> -Scrap Value: x(.+?)<br> -Factory Size: x(.+?)<br> -SpawnChance: x(.+?)<br> -Max inside power: +(.+?)<br> -Max outside power: +(.+?)<br> -Bonus enemy hp: +(.+?)$"=<br>События:<br>-$1</color><br>-$2</color><br>-$3</color><br>-$4</color><br><br>Сложность:<br> -День: $5<br><br> -Кол-во Лома: x$6<br> -Цена Лома: x$7<br> -Размер Объекта: x$8<br> -Шанс Спавна: x$9<br> -Макс. сила внутри: +$10<br> -Макс. сила снаружи: +$11<br> -Бонусные хп врага: +$12
+sr:"^<br>Events:<br>-(.+?)</color><br>-(.+?)</color><br>-(.+?)</color><br>-(.+?)</color><br>-(.+?)</color><br><br>Difficulty:<br> -Day: (.+?)<br><br> -Scrap Amount: x(.+?)<br> -Scrap Value: x(.+?)<br> -Factory Size: x(.+?)<br> -SpawnChance: x(.+?)<br> -Max inside power: +(.+?)<br> -Max outside power: +(.+?)<br> -Bonus enemy hp: +(.+?)$"=<br>События:<br>-$1</color><br>-$2</color><br>-$3</color><br>-$4</color><br>-$5</color><br><br>Сложность:<br> -День: $6<br><br> -Кол-во Лома: x$7<br> -Цена Лома: x$8<br> -Размер Объекта: x$9<br> -Шанс Спавна: x$10<br> -Макс. сила внутри: +$11<br> -Макс. сила снаружи: +$12<br> -Бонусные хп врага: +$13
+
+<br>No Events...=<br>Событий Нет...
+
+# Events
+
+<color\=#800000>Dont look at them...=<color\=#800000>Не смотри на них...
+<color\=#800000>Nightmare Facility=<color\=#800000>Кошмарный объект
+<color\=#800000>You feel outnumbered=<color\=#800000>Вы чувствуете себя в меньшинстве
+<color\=#FF0000>BEES!!=<color\=#FF0000>ПЧЁЛКИ!!
+<color\=#00FF00>Corporate is very pleased=<color\=#00FF00>Компания очень довольна
+<color\=#00FF00>The company has ordered a big delivery on this planet.=<color\=#00FF00>Компания заказала большую доставку на эту луну.
+<color\=#FFFFFF>Its bird migration season=<color\=#FFFFFF>Сезон миграции птиц
+<color\=#008000>Corporate is feeling good today.=<color\=#008000>Компания сегодня чувствует себя хорошо.
+<color\=#008000>The company is now paying for kills=<color\=#008000>Компания платит за убийства
+<color\=#800000>Your neck tingles=<color\=#800000>У тебя покалывает шею
+<color\=#800000>Everything here is made cheaply...=<color\=#800000>Здесь всё такое дешёвое...
+<color\=#800000>Coilheads detected in the facility!=<color\=#800000>Внутри объекта были обраружены Пружиноголовые!
+<color\=#FF0000>Description...=<color\=#FF0000>Описание...
+<color\=#008000>Grandma forgot her dentures...=<color\=#008000>Бабуля забыла свою зубную челюсть...
+<color\=#800000>They can hear you=<color\=#800000>Они слышат тебя
+<color\=#FF0000>There is a ghost in the facility=<color\=#FF0000>В объекте водится призрак
+<color\=#800000>Eddie hall in the facility?=<color\=#800000>Эдди Холл в объекте?
+<color\=#008000>Enemies here are a little more fragile than usual.=<color\=#008000>Враги здесь немного более хрупкие, чем обычно.
+<color\=#FF0000>Enemies here are a little more tougher than usual.=<color\=#FF0000>Враги здесь немного жёстче, чем обычно.
+<color\=#00FF00>Bling bling=<color\=#00FF00>Шикос-шикардосик
+<color\=#008000>The scrap looks shiny=<color\=#008000>Лом кажется весь сияет
+<color\=#800000>Theres too many of them=<color\=#800000>Их слишком много
+<color\=#008000>Everything is worth slightly more!=<color\=#008000>Всё стоит немного дороже!
+<color\=#FF0000>They look cute.=<color\=#FF0000>Такие милашки.
+<color\=#008000>Honk!=<color\=#008000>Гоньк!
+<color\=#800000>BEES!! wait...=<color\=#800000>ПЧЁЛКИ!! погодь...
+<color\=#800000>I want to go home=<color\=#800000>Я хочу домой
+<color\=#FF0000>Watch your step=<color\=#FF0000>Смотри под ноги
+<color\=#FFFFFF>These trees look spooky=<color\=#FFFFFF>Эти деревья выглядят жутко
+<color\=#FFFFFF>These trees look dead=<color\=#FFFFFF>Эти деревья выглядят мёртвыми
+<color\=#800000>They just want to touch you=<color\=#800000>Они просто хотят потрогать тебя
+<color\=#FF0000>They dont bite... i swear=<color\=#FF0000>Они не кусаются... клянусь
+<color\=#FFFFFF>Locust season is here=<color\=#FFFFFF>Наступил сезон саранчи
+<color\=#008000>There is slighly more scrap in the facility!=<color\=#008000>Внутри объекта немного больше лома!
+<color\=#008000>No gypsies=<color\=#008000>Никаких цыган
+<color\=#008000>No stalkers=<color\=#008000>Никаких сталкеров
+<color\=#008000>Nothing to stare at today=<color\=#008000>Не на кого тут смотреть
+<color\=#008000>No Barking=<color\=#008000>Никакого лая
+<color\=#008000>No stomping=<color\=#008000>Никаких топотушек
+<color\=#008000>No romani=<color\=#008000>Никаких римлян
+<color\=#008000>It wont be there to fuck you up=<color\=#008000>Его тут не будет чтобы пробудится и взбучить тебя
+<color\=#008000>No landmines=<color\=#008000>Никаких мин
+<color\=#008000>No little shits=<color\=#008000>Никаких мелких засранок
+<color\=#008000>No lizards=<color\=#008000>Никаких ящериц
+<color\=#008000>No masks=<color\=#008000>Никаких масок
+<color\=#008000>No nutcrackers=<color\=#008000>Никаких щелкунчиков
+<color\=#008000>No goo=<color\=#008000>Никаких слаймов
+<color\=#008000>No Ceiling campers!=<color\=#008000>Никаких потолочных засад!
+<color\=#008000>No 8 legged fucks=<color\=#008000>Никаких восминогих уродцев
+<color\=#FFFFFF>--Nothing--=<color\=#FFFFFF>Ничего
+<color\=#008000>No crawlers=<color\=#008000>Никаких ползунчиков
+<color\=#008000>No turrets=<color\=#008000>Никаких турелей
+<color\=#008000>No worms=<color\=#008000>Никаких червяков
+<color\=#800000>Average american school experience=<color\=#800000>Среднестатистический опыт американских школ
+<color\=#FF0000>There are landmines, Outside.=<color\=#FF0000>Там есть мины, Снаружи.
+<color\=#FF0000>The turrets blend in with the trees...=<color\=#FF0000>Турели слились с деревьями...
+<color\=#008000>Tastes salty...=<color\=#008000>На вкус солёный...
+<color\=#00FF00>There is some scrap to be found outside.=<color\=#00FF00>Там снаружи можно найти немало лома.
+<color\=#008000>There is a scarce amount of scrap outside.=<color\=#008000>Там снаружи можно найти мало лома.
+<color\=#00FF00>Scrap here is plentiful and of high quality.=<color\=#00FF00>Лома здесь очень много и он высокого качества.
+<color\=#FF0000>The ground is sticky=<color\=#FF0000>Липкая поверхность
+<color\=#008000>The company has decided to give you a present.=<color\=#008000>Компания решила сделать вам подарок.
+<color\=#008000>This facility is smaller.=<color\=#008000>Этот объект маленький.
+<color\=#FF0000>Ceiling campers!=<color\=#FF0000>Потолочные засады!
+<color\=#FF0000>Your skin crawls...=<color\=#FF0000>По твоей коже бегут мурашки...
+<color\=#FF0000>You need to run=<color\=#FF0000>Тебе нужно бежать
+<color\=#800000>All the scrap has transmuted into something big...=<color\=#800000>Весь лом трансформировался в нечто большое...
+<color\=#008000>All the scrap has transmuted into something small...=<color\=#008000>Весь лом трансформировался во что-то маленькое...
+<color\=#FFFFFF>Trees!!=<color\=#FFFFFF>Деревья!!
+<color\=#FF0000>Turrets!!=<color\=#FF0000>Турели!!
+<color\=#800000>Landmines? Turrets? all of it=<color\=#800000>Мины? Турели? да, всё сразу
+<color\=#FFFFFF>It's raining out here=<color\=#FFFFFF>Здесь идёт дождь
+<color\=#FFFFFF>It's gloomy out here=<color\=#FFFFFF>Здесь мрачновато
+<color\=#FFFFFF>Id rather stay inside=<color\=#FFFFFF>Я лучше останусь внутри
+<color\=#FF0000>The company is now incurring a fee for shipments!=<color\=#FF0000>Компания теперь взимает комиссию за доставку!
+<color\=#FF0000>Some mines have turned into scrap...=<color\=#FF0000>Некоторые мины превратились в лом...
+<color\=#FF0000>Some turrets have turned into scrap...=<color\=#FF0000>Некоторые турели превратились в лом...
+<color\=#280000>The nut slayer is inside the facility...=<color\=#280000>Орехоубийца внутри объекта...

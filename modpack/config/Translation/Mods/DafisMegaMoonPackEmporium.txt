@@ -1,0 +1,149 @@
+# Dafis Mega Moon Pack Emporium
+
+
+Jagged and weathered terrain. =Неровная и выветриваемая местность. 
+Proceed with caution, entities once contained here now roam its halls. =Действуйте осторожно: существа, которые когда-то содержались здесь, теперь бродят по залам объекта. 
+
+Bright Moon Cottage=Bright Moon Cottage
+sr:"^Orbiting: Bright Moon Cottage\nA strange Moon, of which resides a single, abandoned Cottage.\nRumors speculate that this Moon was created out of a madman's Dream Sequence\nWeather: (.+?)$"=ОРБИТА: Bright Moon Cottage\nСтранная Луна, на которой находится единственный заброшенный коттедж.\nХодят слухи, что эта Луна была создана из снов сумасшедшего\nПОГОДА: $1
+Orbiting: Bright Moon Cottage\nA strange Moon, of which resides a single, abandoned Cottage.\nRumors speculate that this Moon was created out of a madman's Dream Sequence\n=ОРБИТА: Bright Moon Cottage\nСтранная Луна, на которой находится единственный заброшенный коттедж.\nХодят слухи, что эта Луна была создана из снов сумасшедшего\n
+A strange Moon, of which resides a single, abandoned Cottage.\nRumors speculate that this Moon was created out of a madman's Dream Sequence=Странная Луна, на которой находится единственный заброшенный коттедж.\nХодят слухи, что эта Луна была создана из снов сумасшедшего
+sr:"^Orbiting: Bright Moon Cottage\nWeather: (.+?)\nA strange Moon, of which resides a single, abandoned Cottage.\nRumors speculate that this Moon was created out of a madman's Dream Sequence$"=ОРБИТА: Bright Moon Cottage\nПОГОДА: $1\nСтранная Луна, на которой находится единственный заброшенный коттедж.\nХодят слухи, что эта Луна была создана из снов сумасшедшего
+
+Chao Garden=Chao Garden
+sr:"^Orbiting: Chao Garden\nA strange Moon, Desolate of Life\nUsed to house small life forms that are now deemed extinct\nWeather: (.+?)$"=ОРБИТА: Chao Garden\nСтранная луна, отстранённая от жизни\nИспользовалась для размещения маленьких форм жизни, которые сейчас считаются вымершими\nПОГОДА: $1
+Orbiting: Chao Garden\nA strange Moon, Desolate of Life\nUsed to house small life forms that are now deemed extinct\n=ОРБИТА: Chao Garden\nСтранная луна, отстранённая от жизни\nИспользовалась для размещения маленьких форм жизни, которые сейчас считаются вымершими\n
+A strange Moon, Desolate of Life\nUsed to house small life forms that are now deemed extinct=Странная луна, отстранённая от жизни\nИспользовалась для размещения маленьких форм жизни, которые сейчас считаются вымершими
+sr:"^Orbiting: Chao Garden\nWeather: (.+?)\nA strange Moon, Desolate of Life\nUsed to house small life forms that are now deemed extinct$"=ОРБИТА: Chao Garden\nПОГОДА: $1\nСтранная луна, отстранённая от жизни\nИспользовалась для размещения маленьких форм жизни, которые сейчас считаются вымершими
+
+Kyoto=Kyoto
+sr:"^Orbiting: Kyoto\nA strange Moon, remains of a Village of ages past\nWeather: (.+?)$"=ОРБИТА: Kyoto\nСтранная Луна, остатки древней деревни\nПОГОДА: $1
+Orbiting: Kyoto\nA strange Moon, remains of a Village of ages past\n=ОРБИТА: Kyoto\nСтранная Луна, остатки древней деревни\n
+A strange Moon, remains of a Village of ages past=Странная Луна, остатки древней деревни
+sr:"^Orbiting: Kyoto\nWeather: (.+?)\nA strange Moon, remains of a Village of ages past$"=ОРБИТА: Kyoto\nПОГОДА: $1\nСтранная Луна, остатки древней деревни
+
+Violence District=Violence District
+sr:"^Orbiting: Violence District\nA strange Moon, of which resides an abandoned city.\nRumors speculate of extreme Violence taking place here\nProceed with high caution\nWeather: (.+?)$"=ОРБИТА: Violence District\nСтранная Луна, на которой находится заброшенный город.\nХодят слухи о крайнем насилии, происходящем здесь\nДействуйте с большой осторожностью\nПОГОДА: $1
+Orbiting: Violence District\nA strange Moon, of which resides an abandoned city.\nRumors speculate of extreme Violence taking place here\nProceed with high caution\n=ОРБИТА: Violence District\nСтранная Луна, на которой находится заброшенный город.\nХодят слухи о крайнем насилии, происходящем здесь\nДействуйте с большой осторожностью\n
+A strange Moon, of which resides an abandoned city.\nRumors speculate of extreme Violence taking place here\nProceed with high caution=Странная Луна, на которой находится заброшенный город.\nХодят слухи о крайнем насилии, происходящем здесь.\nДействуйте с большой осторожностью
+sr:"^Orbiting: Violence District\nWeather: (.+?)\nA strange Moon, of which resides an abandoned city.\nRumors speculate of extreme Violence taking place here\nProceed with high caution$"=ОРБИТА: Violence District\nПОГОДА: $1\nСтранная Луна, на которой находится заброшенный город.\nХодят слухи о крайнем насилии, происходящем здесь\nДействуйте с большой осторожностью
+
+E1M1=E1M1
+sr:"^Orbiting: E1M1\nA strange Moon, considered to be the herald of DOOM itself\nWeather: (.+?)$"=ОРБИТА: E1M1\nСтранная Луна, которую считают вестником самого DOOM\nПОГОДА: $1
+Orbiting: E1M1\nA strange Moon, considered to be the herald of DOOM itself\n=ОРБИТА: E1M1\nСтранная Луна, которую считают вестником самого DOOM\n
+A strange Moon, considered to be the herald of DOOM itself=Странная Луна, которую считают вестником самого DOOM
+sr:"^Orbiting: E1M1\nWeather: (.+?)\nA strange Moon, considered to be the herald of DOOM itself$"=ОРБИТА: E1M1\nПОГОДА: $1\nСтранная Луна, которую считают вестником самого DOOM
+
+Luke 78=Luke 78
+sr:"^Orbiting: Luke 78\nAn Ocean Moon, of which resides a Single Oil Platform\nWeather: (.+?)$"=ОРБИТА: Luke 78\nОкеанская луна, на которой находится единая нефтяная платформа\nПОГОДА: $1
+Orbiting: Luke 78\nAn Ocean Moon, of which resides a Single Oil Platform\n=ОРБИТА: Luke 78\nОкеанская луна, на которой находится единая нефтяная платформа\n
+An Ocean Moon, of which resides a Single Oil Platform=Океанская луна, на которой находится единая нефтяная платформа
+sr:"^Orbiting: Luke 78\nWeather: (.+?)\nAn Ocean Moon, of which resides a Single Oil Platform$"=ОРБИТА: Luke 78\nПОГОДА: $1\nОкеанская луна, на которой находится единая нефтяная платформа
+
+Hyrule Field=Hyrule Field
+sr:"^Orbiting: Hyrule Field\nAn Grassland Moon.\nRumors say Skeletons somehow come alive in this place\nWeather: (.+?)$"=ОРБИТА: Hyrule Field\nЛуговая луна.\nСлухи говорят, что скелеты каким-то образом оживают в этом месте\nПОГОДА: $1
+Orbiting: Hyrule Field\nAn Grassland Moon.\nRumors say Skeletons somehow come alive in this place\n=ОРБИТА: Hyrule Field\nЛуговая луна.\nСлухи говорят, что скелеты каким-то образом оживают в этом месте\n
+An Grassland Moon.\nRumors say Skeletons somehow come alive in this place=Луговая луна.\nСлухи говорят, что скелеты каким-то образом оживают в этом месте
+sr:"^Orbiting: Hyrule Field\nWeather: (.+?)\nAn Grassland Moon.\nRumors say Skeletons somehow come alive in this place$"=ОРБИТА: Hyrule Field\nПОГОДА: $1\nЛуговая луна.\nСлухи говорят, что скелеты каким-то образом оживают в этом месте
+
+Silent Town=Silent Town
+sr:"^Orbiting: Silent Town\nA strange Moon, With the remains of a small, silent Town.\nNo hills were detected.\nWeather: (.+?)$"=ОРБИТА: Silent Town\nСтранная луна с остатками маленького тихого города.\nХолмов обнаружено не было.\nПОГОДА: $1
+Orbiting: Silent Town\nA strange Moon, With the remains of a small, silent Town.\nNo hills were detected.\n=ОРБИТА: Silent Town\nСтранная луна с остатками маленького тихого города.\nХолмов обнаружено не было.\n
+A strange Moon, With the remains of a small, silent Town.\nNo hills were detected.=Странная луна с остатками маленького тихого города.\nХолмов обнаружено не было.
+sr:"^Orbiting: Silent Town\nWeather: (.+?)\nA strange Moon, With the remains of a small, silent Town.\nNo hills were detected.$"=ОРБИТА: Silent Town\nПОГОДА: $1\nСтранная луна с остатками маленького тихого города.\nХолмов обнаружено не было.
+
+Town Square=Town Square
+sr:"^Orbiting: Town Square\nA strange Moon, with a Large Castle residing in it.\nRumors are that there was a single Dragon.\nIt is however long gone...\nWeather: (.+?)$"=ОРБИТА: Town Square\nСтранная Луна, на которой находится Большой Замок.\nХодят слухи, что существовал один-единственный Дракон.\nОднако его давно нет...\nПОГОДА: $1
+Orbiting: Town Square\nA strange Moon, with a Large Castle residing in it.\nRumors are that there was a single Dragon.\nIt is however long gone...\n=ОРБИТА: Town Square\nСтранная Луна, на которой находится Большой Замок.\nХодят слухи, что существовал один-единственный Дракон.\nОднако его давно нет...\n
+A strange Moon, with a Large Castle residing in it.\nRumors are that there was a single Dragon.\nIt is however long gone...=Странная Луна, на которой находится Большой Замок.\nХодят слухи, что существовал один-единственный Дракон.\nОднако его давно нет...
+sr:"^Orbiting: Town Square\nWeather: (.+?)\nA strange Moon, with a Large Castle residing in it.\nRumors are that there was a single Dragon.\nIt is however long gone...$"=ОРБИТА: Town Square\nПОГОДА: $1\nСтранная Луна, на которой находится Большой Замок.\nХодят слухи, что существовал один-единственный Дракон.\nОднако его давно нет...
+
+Clock Town=Clock Town
+sr:"^Orbiting: Clock Town\nA strange Moon, Resembling an abandoned Town\nThe clock in the centre of Town appears to represent the good times to come.\nWeather: (.+?)$"=ОРБИТА: Clock Town\nСтранная луна, напоминающая заброшенный город.\nЧасы в центре города, похоже, символизируют грядущие хорошие времена.\nПОГОДА: $1
+Orbiting: Clock Town\nA strange Moon, Resembling an abandoned Town\nThe clock in the centre of Town appears to represent the good times to come.\n=ОРБИТА: Clock Town\nСтранная луна, напоминающая заброшенный город.\nЧасы в центре города, похоже, символизируют грядущие хорошие времена.\n
+A strange Moon, Resembling an abandoned Town\nThe clock in the centre of Town appears to represent the good times to come.=Странная луна, напоминающая заброшенный город.\nЧасы в центре города, похоже, символизируют грядущие хорошие времена.
+sr:"^Orbiting: Clock Town\nWeather: (.+?)\nA strange Moon, Resembling an abandoned Town\nThe clock in the centre of Town appears to represent the good times to come.$"=ОРБИТА: Clock Town\nПОГОДА: $1\nСтранная луна, напоминающая заброшенный город.\nЧасы в центре города, похоже, символизируют грядущие хорошие времена.
+
+Mayhem Temple=Mayhem Temple
+sr:"^Orbiting: Mayhem Temple\nA strange Moon, Resembling the remains of an Ancient Civilisation. \nWeather: (.+?)$"=ОРБИТА: Mayhem Temple\nОПИСАНИЕ: Горная Луна, среди сотни скал возвышается храм древней цивилизации.\nПОГОДА: $1
+Orbiting: Mayhem Temple\nA strange Moon, Resembling the remains of an Ancient Civilisation. \n=ОРБИТА: Mayhem Temple\nСтранная Луна, напоминающая остатки древней цивилизации. \n
+A strange Moon, Resembling the remains of an Ancient Civilisation.=Странная Луна, напоминающая остатки древней цивилизации.
+sr:"^Orbiting: Mayhem Temple\nWeather: (.+?)\nA strange Moon, Resembling the remains of an Ancient Civilisation. $"=ОРБИТА: Mayhem Temple\nПОГОДА: $1\nОПИСАНИЕ: Горная Луна, среди сотни скал возвышается храм древней цивилизации.
+
+Peach's Castle=Peach's Castle
+sr:"^Orbiting: Peach's Castle\nA strange Moon, With a Lone Castle\nRumors are that Stars once held power here\nWeather: (.+?)$"=ОРБИТА: Peach's Castle\nСтранная луна с одиноким замком\nХодят слухи, что когда-то здесь царили звёзды\nПОГОДА: $1
+Orbiting: Peach's Castle\nA strange Moon, With a Lone Castle\nRumors are that Stars once held power here\n=ОРБИТА: Peach's Castle\nСтранная луна с одиноким замком\nХодят слухи, что когда-то здесь царили звёзды\n
+A strange Moon, With a Lone Castle\nRumors are that Stars once held power here=Странная луна с одиноким замком\nХодят слухи, что когда-то здесь царили звёзды
+sr:"^Orbiting: Peach's Castle\nWeather: (.+?)\nA strange Moon, With a Lone Castle\nRumors are that Stars once held power here$"=ОРБИТА: Peach's Castle\nПОГОДА: $1\nСтранная луна с одиноким замком\nХодят слухи, что когда-то здесь царили звёзды
+
+The Moon=The Moon
+sr:"^Orbiting: The Moon\nA strange Moon...\nWeather: (.+?)$"=ОРБИТА: The Moon\nСтранная Луна...\nПОГОДА: $1
+Orbiting: The Moon\nA strange Moon...\n=ОРБИТА: The Moon\nСтранная Луна...\n
+A strange Moon...=Странная Луна...
+sr:"^Orbiting: The Moon\nWeather: (.+?)\nA strange Moon...$"=ОРБИТА: The Moon\nПОГОДА: $1\nСтранная Луна...
+
+Lobby=Lobby
+sr:"^Orbiting: Lobby\nA strange Moon, Desolate of Life\nUsed to house small life forms that are now deemed extinct\nWeather: (.+?)$"=ОРБИТА: Lobby\nСтранная луна, отстранённая от жизни\nИспользовалась для размещения маленьких форм жизни, которые сейчас считаются вымершими\nПОГОДА: $1
+Orbiting: Lobby\nA strange Moon, Desolate of Life\nUsed to house small life forms that are now deemed extinct\n=ОРБИТА: Lobby\nСтранная луна, отстранённая от жизни\nИспользовалась для размещения маленьких форм жизни, которые сейчас считаются вымершими\n
+A strange Moon, Desolate of Life\nUsed to house small life forms that are now deemed extinct=Странная луна, отстранённая от жизни\nИспользовалась для размещения маленьких форм жизни, которые сейчас считаются вымершими
+sr:"^Orbiting: Lobby\nWeather: (.+?)\nA strange Moon, Desolate of Life\nUsed to house small life forms that are now deemed extinct$"=ОРБИТА: Lobby\nПОГОДА: $1\nСтранная луна, отстранённая от жизни\nИспользовалась для размещения маленьких форм жизни, которые сейчас считаются вымершими
+
+Ganon's Castle=Ganon's Castle
+sr:"^Orbiting: Ganon's Castle\nA crimson Moon\nRemains of what appear to be a Dark Castle crest in the centre.\nRumors of an ancient evil is said to lurk within.\nJust get to work and don't worry about that. Probably long gone.\nWeather: (.+?)$"=ОРБИТА: Ganon's Castle\nБагровая луна.\nОстаки того, что выглядит как герб Тёмного Замка в центре.\nХодят слухи, что внутри скрывается древнее зло.\nПросто приступайте к работе и не беспокойтесь об этом. Наверное, оно давно ушло.\nПОГОДА: $1
+Orbiting: Ganon's Castle\nA crimson Moon\nRemains of what appear to be a Dark Castle crest in the centre.\nRumors of an ancient evil is said to lurk within.\nJust get to work and don't worry about that. Probably long gone.\n=ОРБИТА: Ganon's Castle\nБагровая луна.\nОстаки того, что выглядит как герб Тёмного Замка в центре.\nХодят слухи, что внутри скрывается древнее зло.\nПросто приступайте к работе и не беспокойтесь об этом. Наверное, оно давно ушло.\n
+A crimson Moon\nRemains of what appear to be a Dark Castle crest in the centre.\nRumors of an ancient evil is said to lurk within.\nJust get to work and don't worry about that. Probably long gone.=Багровая луна.\nОстаки того, что выглядит как герб Тёмного Замка в центре.\nХодят слухи, что внутри скрывается древнее зло.\nПросто приступайте к работе и не беспокойтесь об этом. Наверное, оно давно ушло.
+sr:"^Orbiting: Ganon's Castle\nWeather: (.+?)\nA crimson Moon\nRemains of what appear to be a Dark Castle crest in the centre.\nRumors of an ancient evil is said to lurk within.\nJust get to work and don't worry about that. Probably long gone.$"=ОРБИТА: Ganon's Castle\nПОГОДА: $1\nБагровая луна.\nОстаки того, что выглядит как герб Тёмного Замка в центре.\nХодят слухи, что внутри скрывается древнее зло.\nПросто приступайте к работе и не беспокойтесь об этом. Наверное, оно давно ушло.
+
+Kokiri Village=Kokiri Village
+sr:"^Orbiting: Kokiri Village\nA Lush Forest Moon.\nSightings of what appears to be evidence of prior civilisation have been seen between the trees\nWeather: (.+?)$"=ОРБИТА: Kokiri Village\nЛуна в пышном лесу.\nМежду деревьями можно было увидеть то, что, по-видимому, является свидетельством существования предыдущей цивилизации\nПОГОДА: $1
+Orbiting: Kokiri Village\nA Lush Forest Moon.\nSightings of what appears to be evidence of prior civilisation have been seen between the trees\n=ОРБИТА: Kokiri Village\nЛуна в пышном лесу.\nМежду деревьями можно было увидеть то, что, по-видимому, является свидетельством существования предыдущей цивилизации\n
+A Lush Forest Moon.\nSightings of what appears to be evidence of prior civilisation have been seen between the trees=Луна в пышном лесу.\nМежду деревьями можно было увидеть то, что, по-видимому, является свидетельством существования предыдущей цивилизации
+sr:"^Orbiting: Kokiri Village\nWeather: (.+?)\nA Lush Forest Moon.\nSightings of what appears to be evidence of prior civilisation have been seen between the trees$"=ОРБИТА: Kokiri Village\nПОГОДА: $1\nЛуна в пышном лесу.\nМежду деревьями можно было увидеть то, что, по-видимому, является свидетельством существования предыдущей цивилизации
+
+Egg Carrier=Egg Carrier
+sr:"^Orbiting: Egg Carrier\nA moon that is a Flying Fortress hovering above a flooded world\nRumors of Chaos have arisen from this place\nWeather: (.+?)$"=ОРБИТА: Egg Carrier\nЛуна, представляющая собой Летающую Крепость, парящую над затопленным миром\nИз этого места пошли слухи о Хаосе\nПОГОДА: $1
+Orbiting: Egg Carrier\nA moon that is a Flying Fortress hovering above a flooded world\nRumors of Chaos have arisen from this place\n=ОРБИТА: Egg Carrier\nЛуна, представляющая собой Летающую Крепость, парящую над затопленным миром\nИз этого места пошли слухи о Хаосе\n
+A moon that is a Flying Fortress hovering above a flooded world\nRumors of Chaos have arisen from this place=Луна, представляющая собой Летающую Крепость, парящую над затопленным миром\nИз этого места пошли слухи о Хаосе
+sr:"^Orbiting: Egg Carrier\nWeather: (.+?)\nA moon that is a Flying Fortress hovering above a flooded world\nRumors of Chaos have arisen from this place$"=ОРБИТА: Egg Carrier\nПОГОДА: $1\nЛуна, представляющая собой Летающую Крепость, парящую над затопленным миром\nИз этого места пошли слухи о Хаосе
+
+Circus=Circus
+sr:"^Orbiting: Circus\nA strange Moon, Resembling a place of mild entertainment\nWeather: (.+?)$"=ОРБИТА: Circus\nСтранная Луна, напоминающая место лёгких развлечений\nПОГОДА: $1
+Orbiting: Circus\nA strange Moon, Resembling a place of mild entertainment\n=ОРБИТА: Circus\nСтранная Луна, напоминающая место лёгких развлечений\n
+A strange Moon, Resembling a place of mild entertainment=Странная Луна, напоминающая место лёгких развлечений
+sr:"^Orbiting: Circus\nWeather: (.+?)\nA strange Moon, Resembling a place of mild entertainment$"=ОРБИТА: Circus\nПОГОДА: $1\nСтранная Луна, напоминающая место лёгких развлечений
+
+Outset Island=Outset Island
+sr:"^Orbiting: Outset Island\nA strange Moon, Resembling a small Sea-side Village\nWeather: (.+?)$"=ОРБИТА: Outset Island\nСтранная луна, напоминающая небольшую приморскую деревню\nПОГОДА: $1
+Orbiting: Outset Island\nA strange Moon, Resembling a small Sea-side Village\n=ОРБИТА: Outset Island\nСтранная луна, напоминающая небольшую приморскую деревню\n
+A strange Moon, Resembling a small Sea-side Village=Странная луна, напоминающая небольшую приморскую деревню
+sr:"^Orbiting: Outset Island\nWeather: (.+?)\nA strange Moon, Resembling a small Sea-side Village$"=ОРБИТА: Outset Island\nПОГОДА: $1\nСтранная луна, напоминающая небольшую приморскую деревню
+
+Windfallfall Island=Windfallfall Island
+sr:"^Orbiting: Windfallfall Island\nA strange Moon, Resembling a Sea-Side Castle\nWeather: (.+?)$"=ОРБИТА: Windfallfall Island\nСтранная луна, напоминающая морской замок\nПОГОДА: $1
+Orbiting: Windfallfall Island\nA strange Moon, Resembling a Sea-Side Castle\n=ОРБИТА: Windfallfall Island\nСтранная луна, напоминающая морской замок\n
+A strange Moon, Resembling a Sea-Side Castle=Странная луна, напоминающая морской замок
+sr:"^Orbiting: Windfallfall Island\nWeather: (.+?)\nA strange Moon, Resembling a Sea-Side Castle$"=ОРБИТА: Windfallfall Island\nПОГОДА: $1\nСтранная луна, напоминающая морской замок
+
+Dragon Roost Island=Dragon Roost Island
+sr:"^Orbiting: Dragon Roost Island\nA strange Moon, Housing a long dormant Dragon.\nWeather: (.+?)$"=ОРБИТА: Dragon Roost Island\nСтранная Луна, на которой обитает давно спящий Дракон.\nПОГОДА: $1
+Orbiting: Dragon Roost Island\nA strange Moon, Housing a long dormant Dragon.\n=ОРБИТА: Dragon Roost Island\nСтранная Луна, на которой обитает давно спящий Дракон.\n
+A strange Moon, Housing a long dormant Dragon.=Странная Луна, на которой обитает давно спящий Дракон.
+sr:"^Orbiting: Dragon Roost Island\nWeather: (.+?)\nA strange Moon, Housing a long dormant Dragon.$"=ОРБИТА: Dragon Roost Island\nПОГОДА: $1\nСтранная Луна, на которой обитает давно спящий Дракон.
+
+Gods Tower=Gods Tower
+sr:"^Orbiting: Gods Tower\nA strange Moon of a Seaside Tower. The light of their Gods has since faded.\nWeather: (.+?)$"=ОРБИТА: Gods Tower\nСтранная луна Приморской башни. Свет их богов с давних пор померк.\nПОГОДА: $1
+Orbiting: Gods Tower\nA strange Moon of a Seaside Tower. The light of their Gods has since faded.\n=ОРБИТА: Gods Tower\nСтранная луна Приморской башни. Свет их богов с давних пор померк.\n
+A strange Moon of a Seaside Tower. The light of their Gods has since faded.=Странная луна Приморской башни. Свет их богов с давних пор померк.
+sr:"^Orbiting: Gods Tower\nWeather: (.+?)\nA strange Moon of a Seaside Tower. The light of their Gods has since faded.$"=ОРБИТА: Gods Tower\nПОГОДА: $1\nСтранная луна Приморской башни. Свет их богов с давних пор померк.
+
+Pizza Tower=Pizza Tower
+sr:"^Orbiting: Pizza Tower\nA strange Moon of a Gigantic Tower. Smells like what they once used to call Italy.\nWeather: (.+?)$"=ОРБИТА: Pizza Tower\nСтранная луна гигантской башни. Пахнет тем, что когда-то называли Италией.\nПОГОДА: $1
+Orbiting: Pizza Tower\nA strange Moon of a Gigantic Tower. Smells like what they once used to call Italy.\n=ОРБИТА: Pizza Tower\nСтранная луна гигантской башни. Пахнет тем, что когда-то называли Италией.\n
+A strange Moon of a Gigantic Tower. Smells like what they once used to call Italy.=Странная луна гигантской башни. Пахнет тем, что когда-то называли Италией.
+sr:"^Orbiting: Pizza Tower\nWeather: (.+?)\nA strange Moon of a Gigantic Tower. Smells like what they once used to call Italy.$"=ОРБИТА: Pizza Tower\nПОГОДА: $1\nСтранная луна гигантской башни. Пахнет тем, что когда-то называли Италией.
+
+Happy Town=Happy Town
+sr:"^Orbiting: Happy Town\nA strange Moon, Resembles a happy Town\nRumors of Danger lurk surrounding this place\nWeather: (.+?)$"=ОРБИТА: Happy Town\nСтранная луна, напоминающая счастливый город\nСлухи об опасности таятся вокруг этого места\nПОГОДА: $1
+Orbiting: Happy Town\nA strange Moon, Resembles a happy Town\nRumors of Danger lurk surrounding this place\n=ОРБИТА: Happy Town\nСтранная луна, напоминающая счастливый город\nСлухи об опасности таятся вокруг этого места\n
+A strange Moon, Resembles a happy Town\nRumors of Danger lurk surrounding this place=Странная луна, напоминающая счастливый город\nСлухи об опасности таятся вокруг этого места
+sr:"^Orbiting: Happy Town\nWeather: (.+?)\nA strange Moon, Resembles a happy Town\nRumors of Danger lurk surrounding this place$"=ОРБИТА: Happy Town\nПОГОДА: $1\nСтранная луна, напоминающая счастливый город\nСлухи об опасности таятся вокруг этого места

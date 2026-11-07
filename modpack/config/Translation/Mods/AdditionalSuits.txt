@@ -1,0 +1,10 @@
+# AdditionalSuits
+
+Change: Red Suit=Изменить на: красный костюм
+Change: Green Suit=Изменить на: зелёный костюм
+Change: Black Suit=Изменить на: чёрный костюм
+Change: White Suit=Изменить на: белый костюм
+Change: Pink Suit=Изменить на: розовый костюм
+Change: Purple Suit=Изменить на: фиолетовый костюм
+Change: Blue Suit=Изменить на: синий костюм
+Change: Yellow Suit=Изменить на: жёлтый костюм

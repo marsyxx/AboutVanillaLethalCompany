@@ -1,0 +1,13 @@
+# FlipMods-ReservedItemSlot
+
+Hold: [Alt]=Зажмите: [ALT]
+Send voice : [LMB][X]=Говорить: [ЛКМ] [X]
+Toggle light : [LMB][F]=Вкл/выкл: [ЛКМ] [F]
+
+
+## Настройки
+
+Left Alt=ALT
+[ReservedItemSlots]\nSwap hotbar=[ReservedItemSlots]\nСменить инвентарь
+[ReservedItemSlots]\nToggle flashlight=[ReservedItemSlots]\nВкл/выкл фонарик
+[ReservedItemSlots]\nActivate walkie=[ReservedIteMLOTS] Говорить в рацию

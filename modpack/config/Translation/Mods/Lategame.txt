@@ -1,0 +1,134 @@
+# Lategame
+
+PRESS ESCAPE=НАЖМИТЕ [ESC]
+\nType `lgu` or `lategame store` in the terminal !!!\n\nType `lategame` to see more info !!!\n\n\n\n\n[ 2.8.0 ]\n\nStimpack\nHunter\nMedkit\nDiving Kit\nProtein Powder Crit\nFixes :)=\nВведите "lgu" или "lategame store" в терминале!!!\n\nВведите "lategame" чтобы увидеть больше информации!!!\n\n\n\n\n[2.8.0]\n\nСтимулятор\nОхотник\nАптечка\nКомплект дайвера\nПротеиновый порошок\nИсправления :)
+
+# Уведомления о прокачке в чате
+
+r:"(?s)^(.+?)Protein Powder is active!(.*)$"=$1Протеиновый Порошок активен!$2
+r:"(?s)^(.+?)Bigger Lungs is active!(.*)$"=$1Большие Лёгкие активны!$2
+r:"(?s)^(.+?)Running Shoes is active!(.*)$"=$1Беговые Кроссовки активны!$2
+r:"(?s)^(.+?)Strong Legs is active!(.*)$"=$1Сильные Ноги активны!$2
+r:"(?s)^(.+?)Malware Broadcaster is active!(.*)$"=$1Распространитель Вирусов активен!$2
+r:"(?s)^(.+?)Discombobulator is active!\nType 'cooldown' into the terminal for info!!!(.*)$"=$1Дискомбобулятор активен!\nДля получения информации введите «cooldown» в терминале!!!$2
+r:"(?s)^(.+?)Stun Duration: (.+?) seconds.(.*)$"=$1Оглушены на: $2 секунд.$3
+r:"(?s)^(.+?)Effected enemies are no longer stunned!(.*)$"=$1Враги больше не оглушены!$2
+r:"(?s)^(.+?)Hunter is active!(.*)$"=$1Охотник активен!$2
+r:"(?s)^(.+?)Better Scanner is active!(.*)$"=$1Улучшенный Сканер активен!$2
+r:"(?s)^(.+?)Lightning Rod is active!(.*)$"=$1Громоотвод активен!$2
+r:"(?s)^(.+?)Walkie GPS is active!(.*)$"=$1GPS Рация активна!$2
+r:"(?s)^(.+?)Back Muscles is active!(.*)$"=$1Спинные Мышцы активны!$2
+r:"(?s)^(.+?)Stimpack is active!(.*)$"=$1Стимпак активен!$2
+r:"(?s)^(.+?)Fast Encryption is active!(.*)$"=$1Быстрое Шифрование активно!$2
+r:"(?s)^(.+?)Locksmith is active!(.*)$"=$1Слесарь активен!$2
+r:"(?s)^(.+?)Sick Beats is active!(.*)$"=$1Биты Боли активны!$2
+r:"(?s)^(.+?)Beekeeper is active!(.*)$"=$1Пчеловод активен!$2
+r:"(?s)^(.+?)Shutter Batteries is active!(.*)$"=$1Затворные Батареи активны!$2
+r:"(?s)^(.+?)Bargain Connections is active!(.*)$"=$1Выгодные Связи активны!$2
+r:"(?s)^(.+?)Lethal Deals is active!(.*)$"=$1Летальные Сделки активны!$2
+r:"(?s)^(.+?)Market Influence is active!(.*)$"=$1Влияние Рынка активно!$2
+r:"(?s)^(.+?)Quantum Disruptor is active!(.*)$"=$1Квантовый Разрушитель активен!$2
+
+Drop Portable Tele : [G]=Выбросить Телепортер: [G]
+Portable Tele=Портативный Телепортер
+Portable Teleporter=Портативный Телепортер
+
+Advanced Portable Tele=Улучшенный Портативный телепортер
+Advanced Portable Teleporter=Улучшенный Портативный телепортер
+Drop Advanced Portable Tele : [G]=Выбросить Телепортер: [G]
+TELEPORTER BROKE!=ТЕЛЕПОРТЕР СЛОМАЛСЯ!
+The teleporter button has suffered irreparable damage and destroyed itself!=Кнопка телепорта получила повреждение и уничтожила себя!
+Keep your items!=Хватайте свои вещи!
+
+Peeper=Пипер
+Outsourcing at its finest=Аутсорсинг в лучшем виде
+Drop Peeper : [G]=Выбросить Пипера: [G]
+
+Medkit=Аптечка
+MedKit=Аптечка
+Heal yourself=Подлечи себя
+Drop Medkit : [G]=Выбросить Аптечку: [G]
+
+Night Vision Goggles=ПНВ
+Drop Night Vision Goggles : [G]=Выбросить ПНВ: [G]
+Press LeftAlt to toggle Night Vision!!!=Нажмите [Alt], чтобы переключить ночное видение!!!
+Night Vision Battery=Заряд ПНВ
+
+Wheelbarrow=Тачка
+Allows carrying multiple items=<size\=7>Позволяет перевозить предметы</size>
+Drop Wheelbarrow : [G]=Оставить Тачку: [G]
+No items to deposit...=Нечего сложить...
+Storing item...=Складирование...
+You're not allowed to do that...=Вы не можете сделать это...
+Deposit item: [E]=Сложить: [E]
+Too many items in the wheelbarrow=Тачка переполнена
+
+Diving Kit=Трёхболтовка
+Breathe Underwater=Дышите под водой
+Drop Diving Kit : [G]=Выбросить Трёхболтовку: [G]
+
+Helmet=Шлем
+Safety First=Безопасность превыше всего
+Drop Helmet : [G]=Выбросить Шлем: [G]
+
+Shopping Cart=Магазинная тележка
+
+Eyeless Dog Sample=Образец Слепой Собаки
+Drop Eyeless Dog Sample : [G]=Выбросить Образец: [G]
+Thumper Flear Sample=Образец Тампера
+Drop Thumper Sample : [G]=Выбросить Образец: [G]
+Bracken Sample=Образец Брэкена
+Drop Bracken Sample : [G]=Выбросить Образец: [G]
+Hoarding Bug Sample=Образец Жука-собирателя
+Drop Hoarding Bug Sample : [G]=Выбросить Образец: [G]
+Bunker Spider Sample=Образец Бункерного Паука
+Drop Bunker Spider Sample : [G]=Выбросить Образец: [G]
+Snare Flear Sample=Образец Удушающей Многоножки
+Drop Snare Flea Sample : [G]=Выбросить Образец: [G]
+
+## Контракты
+
+Bomb=Бомба
+Drop Bomb : [G]=Выбросить Бомбу: [G]
+Cut Blue Wire=Разрезать Синий провод
+Cut Green Wire=Разрезать Зелёный провод
+Cut Red Wire=Разрезать Красный провод
+Cutting Blue Wire!=Резка Синего провода!
+Cutting Red Wire!=Резка Красного провода!
+Cutting Green Wire!=Резка Зелёного провода!
+
+Hoarder Bug Egg=Яйцо Жуков-собирателей
+Drop Hoarder Bug Egg : [G]=Выбросить Яйцо: [G]
+Hoarding Bug Eggs=Яйца Жуков-собирателей
+Very Tasty=Вкуснятина
+Bag [ E ]=Собрать: [E]
+
+Ritual Item=Ритуальный элемент
+Teddy Bear=Плюшевый мишка
+Drop Teddy Bear : [G]=Выбросить Мишку: [G]
+Crucifix=Распятие
+Drop Crucifix : [G]=Выбросить Распятие: [G]
+Candelabra=Канделябр
+Drop Candelabra : [G]=Выбросить Канделябру: [G]
+Bones=Кости
+Drop Bones : [G]=Выбросить Кости: [G]
+Heart=Сердце
+Drop Heart : [G]=Выбросить Сердце: [G]
+r:"^(.+) ALTAR$"=АЛТАРЬ $1
+PLACE : [E]=РАЗМЕСТИТЬ: [E]
+Pentagram=Пентаграмма
+Fine place for a ritual=Хорошее место для ритуала
+Demonic Tome=Демонический фолиант
+Drop Demonic Tome : [G]=Выбросить Фолиант: [G]
+
+Old PC=Старый ПК
+Contract Item=Контрактный элемент
+Search for data=Поиск данных: [E]
+PRESS ESC=<size\=10>НАЖМИТЕ [ESC]</size>
+Another player is using this.=Это использует другой игрок.
+
+Lost Scavenger=Потерявшийся мусорщик
+You need to be holding a medkit!=Вы должны держать аптечку!
+Heal Scavenger=Исцелить мусорщика: [E]
+Healing=Исцеление
+Drop Lost Scavenger : [G]=Выбросить Мусорщика: [G]

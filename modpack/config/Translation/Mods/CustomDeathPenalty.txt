@@ -1,0 +1,3 @@
+# CustomDeathPenalty
+
+r:"(?s)^(.+?)\nUnrecovered bodies: ([0-9]+)\nQuota has increased from ([0-9]+) to ([0-9]+)$"=$1\nУтерянных тел: $2\nКвота увеличена с\n$3 до $4

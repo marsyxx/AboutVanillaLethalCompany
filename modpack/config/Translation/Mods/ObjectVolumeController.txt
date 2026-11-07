@@ -1,0 +1,75 @@
+# ObjectVolumeController
+
+## Бумбокс
+
+Grab boombox: [E]\n150% volume\nVolume up:   [+]\nVolume down: [-]=Подобрать: [E]\n150% громкость
+Grab boombox: [E]\n140% volume\nVolume up:   [+]\nVolume down: [-]=Подобрать: [E]\n140% громкость
+Grab boombox: [E]\n130% volume\nVolume up:   [+]\nVolume down: [-]=Подобрать: [E]\n130% громкость
+Grab boombox: [E]\n120% volume\nVolume up:   [+]\nVolume down: [-]=Подобрать: [E]\n120% громкость
+Grab boombox: [E]\n110% volume\nVolume up:   [+]\nVolume down: [-]=Подобрать: [E]\n110% громкость
+Grab boombox: [E]\n100% volume\nVolume up:   [+]\nVolume down: [-]=Подобрать: [E]\n100% громкость
+Grab boombox: [E]\n90% volume\nVolume up:   [+]\nVolume down: [-]=Подобрать: [E]\n90% громкость
+Grab boombox: [E]\n80% volume\nVolume up:   [+]\nVolume down: [-]=Подобрать: [E]\n80% громкость
+Grab boombox: [E]\n70% volume\nVolume up:   [+]\nVolume down: [-]=Подобрать: [E]\n70% громкость
+Grab boombox: [E]\n60% volume\nVolume up:   [+]\nVolume down: [-]=Подобрать: [E]\n60% громкость
+Grab boombox: [E]\n50% volume\nVolume up:   [+]\nVolume down: [-]=Подобрать: [E]\n50% громкость
+Grab boombox: [E]\n40% volume\nVolume up:   [+]\nVolume down: [-]=Подобрать: [E]\n40% громкость
+Grab boombox: [E]\n30% volume\nVolume up:   [+]\nVolume down: [-]=Подобрать: [E]\n30% громкость
+Grab boombox: [E]\n20% volume\nVolume up:   [+]\nVolume down: [-]=Подобрать: [E]\n20% громкость
+Grab boombox: [E]\n10% volume\nVolume up:   [+]\nVolume down: [-]=Подобрать: [E]\n10% громкость
+Grab boombox: [E]\n0% volume\nVolume up:   [+]\nVolume down: [-]=Подобрать: [E]\n0% громкость
+
+150% volume\nVolume up:   [+]\nVolume down: [-]=150% громкость\nГромче: [+]\nТише: [-]
+140% volume\nVolume up:   [+]\nVolume down: [-]=140% громкость\nГромче: [+]\nТише: [-]
+130% volume\nVolume up:   [+]\nVolume down: [-]=130% громкость\nГромче: [+]\nТише: [-]
+120% volume\nVolume up:   [+]\nVolume down: [-]=120% громкость\nГромче: [+]\nТише: [-]
+110% volume\nVolume up:   [+]\nVolume down: [-]=110% громкость\nГромче: [+]\nТише: [-]
+100% volume\nVolume up:   [+]\nVolume down: [-]=100% громкость\nГромче: [+]\nТише: [-]
+90% volume\nVolume up:   [+]\nVolume down: [-]=90% громкость\nГромче: [+]\nТише: [-]
+80% volume\nVolume up:   [+]\nVolume down: [-]=80% громкость\nГромче: [+]\nТише: [-]
+70% volume\nVolume up:   [+]\nVolume down: [-]=70% громкость\nГромче: [+]\nТише: [-]
+60% volume\nVolume up:   [+]\nVolume down: [-]=60% громкость\nГромче: [+]\nТише: [-]
+50% volume\nVolume up:   [+]\nVolume down: [-]=50% громкость\nГромче: [+]\nТише: [-]
+40% volume\nVolume up:   [+]\nVolume down: [-]=40% громкость\nГромче: [+]\nТише: [-]
+30% volume\nVolume up:   [+]\nVolume down: [-]=30% громкость\nГромче: [+]\nТише: [-]
+20% volume\nVolume up:   [+]\nVolume down: [-]=20% громкость\nГромче: [+]\nТише: [-]
+10% volume\nVolume up:   [+]\nVolume down: [-]=10% громкость\nГромче: [+]\nТише: [-]
+0% volume\nVolume up:   [+]\nVolume down: [-]=0% громкость\nГромче: [+]\nТише: [-]
+
+## Телевизор
+
+Television: [E]\n150% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n150% громкость\nГромче: [+]\nТише:  [-]
+Television: [E]\n140% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n140% громкость\nГромче: [+]\nТише:  [-]
+Television: [E]\n130% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n130% громкость\nГромче: [+]\nТише:  [-]
+Television: [E]\n120% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n120% громкость\nГромче: [+]\nТише:  [-]
+Television: [E]\n110% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n110% громкость\nГромче: [+]\nТише:  [-]
+Television: [E]\n100% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n100% громкость\nГромче: [+]\nТише:  [-]
+Television: [E]\n90% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n90% громкость\nГромче: [+]\nТише:  [-]
+Television: [E]\n80% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n80% громкость\nГромче: [+]\nТише:  [-]
+Television: [E]\n70% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n70% громкость\nГромче: [+]\nТише:  [-]
+Television: [E]\n60% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n60% громкость\nГромче: [+]\nТише:  [-]
+Television: [E]\n50% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n50% громкость\nГромче: [+]\nТише:  [-]
+Television: [E]\n40% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n40% громкость\nГромче: [+]\nТише:  [-]
+Television: [E]\n30% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n30% громкость\nГромче: [+]\nТише:  [-]
+Television: [E]\n20% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n20% громкость\nГромче: [+]\nТише:  [-]
+Television: [E]\n10% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n10% громкость\nГромче: [+]\nТише:  [-]
+Television: [E]\n0% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n0% громкость\nГромче: [+]\nТише:  [-]
+
+## Грамофон
+
+Record player: [E]\n150% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n150% громкость\nГромче: [+]\nТише:  [-]
+Record player: [E]\n140% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n140% громкость\nГромче: [+]\nТише:  [-]
+Record player: [E]\n130% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n130% громкость\nГромче: [+]\nТише:  [-]
+Record player: [E]\n120% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n120% громкость\nГромче: [+]\nТише:  [-]
+Record player: [E]\n110% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n110% громкость\nГромче: [+]\nТише:  [-]
+Record player: [E]\n100% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n100% громкость\nГромче: [+]\nТише:  [-]
+Record player: [E]\n90% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n90% громкость\nГромче: [+]\nТише:  [-]
+Record player: [E]\n80% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n80% громкость\nГромче: [+]\nТише:  [-]
+Record player: [E]\n70% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n70% громкость\nГромче: [+]\nТише:  [-]
+Record player: [E]\n60% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n60% громкость\nГромче: [+]\nТише:  [-]
+Record player: [E]\n50% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n50% громкость\nГромче: [+]\nТише:  [-]
+Record player: [E]\n40% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n40% громкость\nГромче: [+]\nТише:  [-]
+Record player: [E]\n30% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n30% громкость\nГромче: [+]\nТише:  [-]
+Record player: [E]\n20% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n20% громкость\nГромче: [+]\nТише:  [-]
+Record player: [E]\n10% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n10% громкость\nГромче: [+]\nТише:  [-]
+Record player: [E]\n0% volume\nVolume up:   [+]\nVolume down: [-]=Вкл/выкл: [E]\n0% громкость\nГромче: [+]\nТише:  [-]

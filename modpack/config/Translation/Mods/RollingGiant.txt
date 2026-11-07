@@ -1,0 +1,6 @@
+# RollingGiant
+
+A poster?=Плакат?
+giant poster collected!=Плакат про Гиганта собран!
+Drop giant poster : [G]=Выбросить Плакат: [G]
+Rolling Giant=Катящийся Гигант

@@ -1,0 +1,7 @@
+# ControlCompanyDetector
+
+Control Company Detector:=Детектор мода Control Company:
+Lobbies created by friends are currently being ignored. Check the mod config for more info=Лобби, созданные друзьями, в настоящее время игнорируются. Проверьте конфигурацию мода для получения дополнительной информации.
+
+WARNING:=ПРЕДУПРЕЖДЕНИЕ:
+The host is using Control Company=Хост использует мод Control Company

@@ -1,0 +1,16 @@
+# ShipLootPlus
+
+r:"^Deadline: ([0-9]+) - ([0-9]+)st day$"=Срок: $1 - $2й_день
+r:"^Quota: (\$[0-9]+) / (\$[0-9]+) - Profit: (\$[0-9]+)\(([0-9]+\%)\)$"=Квота: $1 / $2 - Прибыль: $3 ($4)
+r:"^Ship:(.*)$"=Корабль:$1
+
+Offense=Offense
+Assurance=Assurance
+March=March
+Experimentation=Experimentation
+Vow=Vow
+March=March
+Dine=Dine
+Gordion=Gordion
+Titan=Titan
+Rend=Rend

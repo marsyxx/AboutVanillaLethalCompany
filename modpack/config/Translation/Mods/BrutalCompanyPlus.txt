@@ -1,0 +1,44 @@
+# BrutalCompanyPlus
+
+### НАГРЕТА
+
+r:"(?s)^(.+?)MOON IS AT ([0-9]+\%) HEAT(.*)$"=$1ЛУНА НА $2 НАГРЕТА$3
+
+### ИВЕНТЫ
+
+r:"(?s)^(.+?)EVENT(.*)$"=$1СОБЫТИЕ$2
+
+r:"(?s)^(.+?)Nothing Happened Today!(.*)$"=Сегодня ничего не произошло!$2
+r:"(?s)^(.+?)Turret Terrorr(.*)$"=$1Турельный террор$2
+r:"(?s)^(.+?)ICE SCREAM!!!(.*)$"=$1МОРОЖЕНКА!!!$2
+r:"(?s)^(.+?)They are EVOLVING?!?(.*)$"=$1Они ЭВОЛЮЦИОНИРУЮТ?!?$2
+r:"(?s)^(.+?)They gaurd this place!(.*)$"=$1Они охраняют это место!$2
+r:"(?s)^(.+?)The surface is explosive(.*)$"=$1Поверхность взрывоопасна$2
+r:"(?s)^(.+?)Bring a Shovel!!(.*)$"=$1Хватайте лопату!!$2
+r:"(?s)^(.+?)The Rumbling!(.*)$"=$1Грохот!$2
+r:"(?s)^(.+?)They just wants to play!!(.*)$"=$1Они просто хотят поиграть!!$2
+r:"(?s)^(.+?)The Beasts Inside!(.*)$"=$1Звери внутри!$2
+r:"(?s)^(.+?)UNFAIR COMPANY(.*)$"=$1НЕЧЕСТНАЯ КОМПАНИЯ$2
+r:"(?s)^(.+?)Spring Escape!(.*)$"=$1Пружинный побег$2
+r:"(?s)^(.+?)Outside the box!(.*)$"=$1Вне коробки!$2
+r:"(?s)^(.+?)Pop goes the.. HOLY FUC- (.*)$"=$1Поп-ит делает.. СВЯТОЙ ПИЗ- $2
+r:"(?s)^(.+?)Minescape Terror(.*)$"=$1Миновый террор$2
+r:"(?s)^(.+?)The Hunger Games?(.*)$"=$1Голодные игры?$2
+r:"(?s)^(.+?)When did we get this installed?!?(.*)$"=$1Когда мы это установили?!?$2
+r:"(?s)^(.+?)The shadows are roaming(.*)$"=$1Тени сгущаются$2
+r:"(?s)^(.+?)Hoarder Town(.*)$"=$1Город собирателей$2
+r:"(?s)^(.+?)Don't look... away?(.*)$"=$1Не отводи взгляд... в сторону?$2
+r:"(?s)^(.+?)All Moons Heat Reset(.*)$"=$1Сброс нагретости на всех лунах$2
+
+### ПРЕДУПРЕЖДЕНИЯ
+
+r:"(?s)^(.+?)Welcome to the Company Buidling!(.*)$"=$1Добро пожаловать в Здание Компании!$2
+r:"(?s)^(.+?)That was Brutal! No free cash today :c(.*)$"=$1Это было жёстко! Сегодня бесплатных денег нет :с$2
+r:"(?s)^(.+?)You survived another day! Here's free cash c:(.*)$"=$1Вы пережили ещё один день! Вот бесплатные деньги c:$2
+r:"(?s)^(.+?)Visit other moons to decrease your moon heat!(.*)$"=$1Посетите другие луны, чтобы уменьшить нагрев этой луны!$2
+r:"(?s)^(.+?)Moonheat is rising and caused it to rain.(.*)$"=$1Нагрев луны поднялся и вызвал дождь.$2
+r:"(?s)^(.+?)Moonheat is rising causing a layer of fog.(.*)$"=$1Нагрев луны поднимается, вызывая слой тумана.$2
+r:"(?s)^(.+?)Moonheat is HOT, flooding the moon to cool it off.(.*)$"=$1Из за нагрева на луне очень жарко, луна затопляется, чтобы охладиться.$2
+r:"(?s)^(.+?)Extremely high moonheat detected causing dangerous weather.(.*)$"=$1Обнаружен чрезвычайно высокий лунный нагрев, вызвавший опасную погоду.$2
+r:"(?s)^(.+?)The Moon is overheated and now hostile creatures roam it.(.*)$"=$1Луна сильно перегрета, и теперь по ней бродят враждебные существа.$2
+r:"(?s)^(.+?)You survived another day! Here's free cash c:(.*)$"=$1Вы пережили ещё один день! Вот бесплатные деньги c:$2

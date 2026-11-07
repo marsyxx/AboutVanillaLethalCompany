@@ -1,0 +1,35 @@
+# AmogusScrap
+
+Red Amogus=Красный Амогус
+Orange Amogus=Оранжевый Амогус
+Yellow Amogus=Жёлтый Амогус
+Green Amogus=Зелёный Амогус
+Cerulean Amogus=Лазурный Амогус
+Indigo Amogus=Индиго Амогус
+Purple Amogus=Фиолетовый Амогус
+Pink Amogus=Розовый Амогус
+White Amogus=Белый Амогус
+Black Amogus=Чёрный Амогус
+Brown Amogus=Коричневый Амогус
+Drop Red Amogus : [G]=Выбросить Амогуса: [G]
+Drop Orange Amogus : [G]=Выбросить Амогуса: [G]
+Drop Black Amogus : [G]=Выбросить Амогуса: [G]
+Drop White Amogus : [G]=Выбросить Амогуса: [G]
+Drop Pink Amogus : [G]=Выбросить Амогуса: [G]
+Drop Purple Amogus : [G]=Выбросить Амогуса: [G]
+Drop Yellow Amogus : [G]=Выбросить Амогуса: [G]
+Drop Brown Amogus : [G]=Выбросить Амогуса: [G]
+Drop Green Amogus : [G]=Выбросить Амогуса: [G]
+Drop Cerulean Amogus : [G]=Выбросить Амогуса: [G]
+Drop Indigo Amogus : [G]=Выбросить Амогуса: [G]
+Red Amogus collected!=Красный Амогус собран!
+Orange Amogus collected!=Оранжевый Амогус собран!
+Yellow Amogus collected!=Жёлтый Амогус собран!
+Green Amogus collected!=Зелёный Амогус собран!
+Cerulean Amogus collected!=Лазурный Амогус собран!
+Indigo Amogus collected!=Индиго Амогус собран!
+Purple Amogus collected!=Фиолетовый Амогус собран!
+Pink Amogus collected!=Розовый Амогус собран!
+White Amogus collected!=Белый Амогус собран!
+Black Amogus collected!=Чёрный Амогус собран!
+Brown Amogus collected!=Коричневый Амогус собран!

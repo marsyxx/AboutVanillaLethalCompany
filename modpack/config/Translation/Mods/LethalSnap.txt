@@ -1,0 +1,37 @@
+# LethalSnap
+
+Polaroid=Поляроид
+Switch flash on/off: [Q]=Вкл/выкл вспышку: [Q]
+Take picture: [Mouse]=Сфотографировать: [ЛКМ]
+Drop Polaroid : [G]=Выбросить Полароид: [G]
+Picture=Фотография
+Picture collected!=Фотография собрана!
+Aim: [Z]=Прицелиться: [Z]
+Drop Picture : [G]=Выбросить Фотографию: [G]
+
+Pin: [Mouse]=Прикрепить: [ЛКМ]
+Zoom: [Z]=Изучить: [Z]
+
+A boring picture with nothing in it=Скучная фотография на которой ничего нет
+[Copy]A boring picture with nothing in it=[Копия]Скучная фотография на которой ничего нет
+
+sr:"^A beautiful picture of a (.+?).$"=Прекрасная фотография $1.
+sr:"^[Copy]A beautiful picture of a (.+?).$"=[Копия]Прекрасная фотография $1.
+
+sr:"^A beautiful picture of a (.+?) and a (.+?).$"=Прекрасная фотография $1 и $2.
+sr:"^[Copy]A beautiful picture of a (.+?) and a (.+?).$"=[Копия]Прекрасная фотография $1 и $2.
+
+sr:"^A beautiful picture of a (.+?), a (.+?), a (.+?).$"=Прекрасная фотография $1, $2, $3.
+sr:"^[Copy]A beautiful picture of a (.+?), a (.+?), a (.+?).$"=[Копия]Прекрасная фотография $1, $2, $3.
+
+BaboonHawk=Бабуиновый ястреб
+BunkerSpider=Бункерный паук
+CircuitBees=Электропчёлы
+EarthLeviathan=Левиафан
+MouthDog=Слепая собака
+ForestGiant=Хранитель леса
+GhostGirl=Призрачная девочка
+HoardingBug=Жук-собиратель
+RoamingLocusts=Блуждающая саранча
+SnareFlea=Удушающая многоножка
+SporeLizard=Споровик

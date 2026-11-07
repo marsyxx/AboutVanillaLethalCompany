@@ -1,0 +1,4 @@
+# WeatherTweaks
+
+sr:"^ORBITING: (.+?)\nWEATHER: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)$"=ОРБИТА: $1\nПОГОДА: $2\nНАСЕЛЕНИЕ: $3\nУСЛОВИЯ: $4\nФАУНА: $5
+sr:"^ORBITING: (.+?)\nWEATHER: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)\n(.+?)$"=ОРБИТА: $1\nПОГОДА: $2\nНАСЕЛЕНИЕ: $3\nУСЛОВИЯ: $4\nФАУНА: $5\n$6

@@ -1,0 +1,20 @@
+# HuntDdown
+
+sr:"(?s)^(.+?)\n<color\=#7069ff><color\=purple>TARGET: </color><color\=white>(.+?)</color></color>(.*)$"=$1\n<color\=#7069ff><color\=purple>ЦЕЛЬ: </color><color\=white>$2</color></color>$3
+sr:"(?s)^(.+?)\n<color\=#7069ff><color\=red>MISSION FAILED. TARGET WAS: </color><color\=white>(.+?)</color></color>(.*)$"=$1\n<color\=#7069ff><color\=red>МИССИЯ ПРОВАЛЕНА.\nЦЕЛЬ БЫЛА: </color><color\=white>$2</color></color>$3
+sr:"(?s)^(.+?)\n<color\=#7069ff><color\=purple>MISSION COMPLETED</color>\n<color\=green>REWARD: </color><color\=white>(.+?)</color></color>(.*)$"=$1\n<color\=#7069ff><color\=purple>МИССИЯ ВЫПОЛНЕНА</color>\n<color\=green>НАГРАДА: </color><color\=white>$2</color></color>$3
+r:"(?s)^(.+?)\n<color\=#7069ff>\((.+?)\) <color\=purple>TARGETS TERMINATED</color></color>(.*)$"=$1\n<color\=#7069ff>($2) <color\=purple>ЦЕЛЬ УСТРАНЕНА</color></color>$3
+
+<color\=white>TARGET</color>=<color\=white>ЦЕЛЬ</color>
+Snare Flea=Удушающая многоножка
+Hoarding Bug=Жук-собиратель
+Thumper=Тампер
+Bunker Spider=Бункерный Паук
+Bracken=Брэкен
+Nutcracker=Щелкунчик
+Masked=Одержимый
+A good boy inside the facility...?=Хороший мальчик внутри объекта...?
+Bug Mafia=Мафия Жуков
+Blunderbug=Дробо-Жук
+Infestation=Инсектарий
+Last Month's Interns=Прошломесячные стажёры

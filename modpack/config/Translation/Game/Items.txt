@@ -1,0 +1,360 @@
+# Предметы магазина/Store items
+
+r:"^Body of (.+)$"=Тело $1
+Drop Body : [G]=Выбросить Тело : [G]
+sr:"^(.+?) collected!$"=$1 собран!
+
+Spray paint =Баллончик с краской
+Drop Spray paint : [G]=Выбросить Баллончик: [G]
+Spray : [LMB]=Покрасить: [ЛКМ]
+Shake can : [Q]=Встряхнуть: [Q]
+
+Jetpack=Реактивный ранец
+Drop Jetpack : [G]=Выбросить Ранец: [G]
+Use jetpack : [LMB]=Взлететь: [ЛКМ]
+
+Shovel=Лопата
+Drop Shovel : [G]=Выбросить Лопату: [G]
+Swing shovel : [LMB]=Ударить: [ЛКМ]
+
+Boombox=Бумбокс
+Drop Boombox : [G]=Выбросить Бумбокс: [G]
+Toggle music : [LMB]=Переключить музыку: [ЛКМ]
+
+Lockpicker=Отмычка
+Drop Lockpicker : [G]=Выбросить Отмычку: [G]
+Place on door : [LMB]=Поместить на дверь: [ЛКМ]
+
+Walkie-talkie=Рация
+Drop Walkie-talkie : [G]=Выбросить Рацию: [G]
+Power button : [Q]=Вкл/выкл: [Q]
+Send voice : [LMB]=Говорить: [ЛКМ]
+
+TZP-Inhalant=ТЗП-ингалятор
+Drop TZP-Inhalant : [G]=Выбросить ТЗП-ингалятор: [G]
+Take TZP : [LMB]=Использовать: [ЛКМ]
+
+Pro-flashlight=PRO-фонарик
+Drop Pro-flashlight : [G]=Выбросить PRO-фонарик: [G]
+Toggle light : [LMB]=Вкл/выкл: [ЛКМ]
+
+Unnamed=Безымянный
+Radar-booster=Радар-усилитель
+Drop Radar-booster : [G]=Выбросить Радар-усилитель: [G]
+Turn on booster : [LMB]=Вкл/Выкл: [ЛКМ]
+(Radar booster)=(Радар усилитель)
+
+Stun grenade=Шумовая граната
+Drop Stun grenade : [G]=Выбросить Шумовую гранату: [G]
+Use grenade : [LMB]=Использовать: [ЛКМ]
+Throw grenade: [LMB]=Бросить: [ЛКМ]
+
+Extension ladder=Выдвижная лестница
+Drop Extension ladder : [G]=Выбросить Лестницу: [G]
+Pop up ladder : [LMB]=Разместить: [ЛКМ]
+
+Zap gun=Электрошокер
+Drop Zap gun : [G]=Выбросить Электрошокер: [G]
+Scan for threat: [LMB]=Сканировать угрозу: [ЛКМ]
+
+Flashlight=Фонарик
+Drop Flashlight : [G]=Выбросить Фонарик: [G]
+
+# Прочее/Other
+
+Clipboard=Планшет
+Drop clipboard : [G]=Выбросить Планшет: [G]
+Turn page : [Q/E]=Перевернуть страницу: [Q/E]
+Inspect: [Z]=Изучить: [Z]
+
+Sticky note=Заметка
+Drop Sticky note : [G]=Выбросить Заметку: [G]
+
+Big bolt=Большой болт
+Drop Big bolt : [G]=Выбросить Большой болт: [G]
+Big bolt collected!=Большой болт собран!
+
+Key=Ключ
+Use key : [LMB]=Использовать Ключ: [ЛКМ]
+Drop Key : [G]=Выбросить Ключ: [G]
+
+Jar of pickles=Банка огурцов
+Drop Jar of pickles : [G]=Выбросить Банку огурцов: [G]
+Jar of pickles collected!=Банка огурцов собрана!
+
+Laser pointer=Лазерная указка
+Laser pointer collected!=Лазерная указка собрана!
+Drop Laser pointer : [G]=Выбросить Лазерную указку: [G]
+Toggle laser : [LMB]=Использовать: [ЛКМ]
+
+Magnifying glass=Лупа
+Magnifying glass collected!=Лупа собрана!
+Drop Magnifying glass : [G]=Выбросить Лупу: [G]
+
+Candy=Леденец
+Candy collected!=Леденец собран!
+Drop Candy : [G]=Выбросить Леденец: [G]
+
+Brass bell=Латунный колокол
+Bell collected!=Латунный колокол собран!
+Drop Bell : [G]=Выбросить Колокол: [G]
+
+Fancy lamp=Причудливая лампа
+Fancy lamp collected!=Причудливая лампа собрана!
+Drop Fancy lamp : [G]=Выбросить Лампу: [G]
+
+Large axle=Большая ось
+Large axle collected!=Большая ось собрана!
+Drop Large axle : [G]=Выбросить Большую ось: [G]
+
+V-type engine=Двигатель
+V-type engine collected!=Двигатель собран!
+Drop V-type engine : [G]=Выбросить Двигатель: [G]
+
+Clown horn=Клоунский гудок
+Clown horn collected!=Клоунский гудок собран!
+Drop Clown horn : [G]=Выбросить Клоунский гудок: [G]
+Use horn : [LMB]=Использовать: [ЛКМ]
+
+Toothpaste=Зубная паста
+Toothpaste collected!=Зубная паста собрана!
+Drop Toothpaste : [G]=Выбросить Зубную пасту: [G]
+
+Red soda=Содовая
+Red soda collected!=Содовая собрана!
+Drop Red soda : [G]=Выбросить Содовую: [G]
+
+Robot Toy=Игрушечный робот
+Toy robot=Игрушечный робот
+Toy robot collected!=Игрушечный робот собран!
+Drop Toy robot : [G]=Выбросить Робота: [G]
+
+Plastic fish=Пластиковая рыба
+Plastic fish collected!=Пластиковая рыба собрана!
+Drop Plastic fish : [G]=Выбросить Рыбку: [G]
+
+Metal sheet=Лист металла
+Metal sheet collected!=Лист металла собран!
+Drop Metal sheet : [G]=Выбросить Лист металла: [G]
+
+Tattered metal sheet=Лист металла
+Tattered metal sheet!=Лист металла собран!
+Drop Tattered metal sheet : [G]=Выбросить Лист металла: [G]
+
+Tea Kettle=Чайник
+Tea kettle collected!=Чайник собран!
+Drop Tea kettle : [G]=Выбросить Чайник: [G]
+
+Teeth=Челюсть
+Teeth collected!=Челюсть собрана!
+Drop Teeth : [G]=Выбросить Челюсть: [G]
+
+Airhorn=Гудок
+Airhorn collected!=Гудок собран!
+Use airhorn : [LMB]=Использовать: [ЛКМ]
+Drop Airhorn : [G]=Выбросить Гудок: [G]
+
+Stop sign=Знак "СТОП"
+Stop sign collected!=Знак "СТОП" собран!
+Swing sign : [LMB]=Ударить: [ЛКМ]
+Drop Stop sign : [G]=Выбросить Знак: [G]
+
+Apparatice=Реактор
+Apparatus=Реактор
+Apparatus collected!=Реактор собран!
+Drop Apparatus : [G]=Выбросить Реактор: [G]
+
+Bee hive=Улей
+Bee hive collected!=Улей собран!
+Hive collected!=Улей собран!
+Drop Bee hive : [G]=Выбросить Улей: [G]
+Drop Hive : [G]=Выбросить Улей: [G]
+
+Mug=Кружка
+Mug collected!=Кружка собрана!
+Drop Mug : [G]=Выбросить Кружку: [G]
+
+Bottles=Бутылки
+Bottles collected!=Бутылки собраны!
+Drop Bottles : [G]=Выбросить Бутылки: [G]
+
+Gold Bar=Золотой слиток
+Gold bar collected!=Золотой слиток собран!
+Drop Gold bar : [G]=Выбросить Золотой слиток: [G]
+
+Painting=Картина
+Painting collected!=Картина собрана!
+Drop Painting : [G]=Выбросить Картину: [G]
+
+Data chip=Чип данных
+
+Rubber ducky=Резиновая уточка
+Rubber Ducky=Резиновая уточка
+Rubber ducky collected!=Резиновая уточка собрана!
+Rubber Ducky collected!=Резиновая уточка собрана!
+Drop Rubber ducky : [G]=Выбросить Уточку: [G]
+Drop Rubber Ducky : [G]=Выбросить Уточку: [G]
+
+Cash register=Кассовый аппарат
+Cash register collected!=Кассовый аппарат собран!
+Use cash register : [LMB]=Использовать Кассу: [ЛКМ]
+Drop Cash register : [G]=Выбросить Кассу: [G]
+
+Chemical jug=Химический баллон
+Chemical jug collected!=Химический баллон собран!
+Drop Chemical jug : [G]=Выбросить Баллон: [G]
+
+Wedding ring=Обручальное кольцо
+Drop Ring : [G]=Выбросить Кольцо: [G]
+Ring collected!=Обручальное собрано!
+
+Toy cube=Кубик Рубика
+Toy cube collected!=Кубик Рубика собран!
+Drop Toy cube : [G]=Выбросить Кубик Рубика: [G]
+
+Yield sign=Знак "УСТУПИТЕ"
+Yield sign collected!=Знак "УСТУПИТЕ" собран!
+Drop Yield sign : [G]=Выбросить Знак: [G]
+
+Steering wheel=Руль
+Steering wheel collected!=Руль собран!
+Drop Steering wheel : [G]=Выбросить Руль: [G]
+
+Remote=Пульт
+Remote collected!=Пульт собран!
+Use remote : [LMB]=Удалённое управление: [ЛКМ]
+Drop Remote : [G]=Выбросить Пульт: [G]
+
+Hair brush=Расчёска
+Hair brush collected!=Расчёска собрана!
+Brush collected!=Расчёска собрана!
+Drop Brush : [G]=Выбросить Расчёску: [G]
+
+Coffee mug=Кофейная кружка
+Coffee mug collected!=Кофейная кружка собрана!
+Drop Coffee mug : [G]=Выбросить Кружку: [G]
+
+Cookie mold pan=Форма для выпечки
+Cookie mold pan collected!=Форма для выпечки собрана!
+Drop Cookie mold pan : [G]=Выбросить Форму: [G]
+
+Dust pan=Совок
+Dust pan collected!=Совок собран!
+Drop Dust pan : [G]=Выбросить Совок: [G]
+
+Egg beater=Венчик
+Egg beater collected!=Венчик собран!
+Drop Egg beater : [G]=Выбросить Венчик : [G]
+
+Golden cup=Золотой кубок
+Golden cup collected!=Золотой кубок собран!
+Drop Golden cup : [G]=Выбросить Золотой кубок: [G]
+
+Old phone=Старый телефон
+Old phone collected!=Старый телефон собран!
+Drop Old phone : [G]=Выбросить Старый телефон: [G]
+
+Perfume bottle=Духи
+Perfume bottle collected!=Духи собраны!
+Drop Perfume bottle : [G]=Выбросить Духи: [G]
+
+Pill bottle=Таблетки
+Pill bottle collected!=Таблетки собраны!
+Drop Pill bottle : [G]=Выбросить Таблетки: [G]
+
+Gift box=Подарочная коробка
+Gift collected!=Подарок собран!
+Open gift : [LMB]=Открыть Подарок: [ЛКМ]
+Drop Gift : [G]=Выбросить Подарок: [G]
+
+Hairdryer=Фен
+Hairdryer collected!=Фен собран!
+Use hairdryer : [LMB]=Использовать: [ЛКМ]
+Drop Hairdryer : [G]=Выбросить Фен: [G]
+
+Comedy=Маска "Комедии"
+Drop Comedy : [G]=Выбросить Маску: [G]
+Comedy collected!=Маска "Комедии" собрана!
+
+Wear mask : [LMB]=Примерить: [ЛКМ]
+
+Tragedy=Маска "Трагедии"
+Drop Tragedy : [G]=Выбросить Маску: [G]
+Tragedy collected!=Маска "Трагедии" собрана!
+
+Shotgun=Двустволка
+Double-barrel=Двустволка
+Drop Shotgun : [G]=Выбросить Двустволку: [G]
+Reload : [E]=Перезарядить: [E]
+Turn safety on: [Q]=Поставить предохранитель: [Q]
+Turn safety off: [Q]=Снять предохранитель: [Q]
+
+Binoculars=Бинокль
+Drop Binoculars : [G]=Выбросить Бинокль: [G]
+Use binoculars : [LMB]=Использовать: [ЛКМ]
+
+Mapper=Картограф
+Drop Mapper : [G]=Выбросить Картограф: [G]
+Update map : [LMB]=Обновить: [ЛКМ]
+Inspect map : [Z]=Изучить: [Z]
+
+Homemade Flashbang=Самодельная граната
+Homemade flashbang collected!=Самодельная граната собрана!
+Use DIY-Flashbang : [LMB]=Выдернуть штырь: [ЛКМ]
+Drop Homemade flashbang : [G]=Выбросить Гранату: [G]
+
+Whoopie cushion=Подушка пердушка
+Whoopie cushion collected!=Подушка пердушка собрана!
+Drop Whoopie cushion : [G]=Выбросить Пердушку: [G]
+
+Shotgun shell=Патрон
+Ammo=Патрон
+Ammo collected!=Патрон собран!
+Drop Ammo : [G]=Выбросить Патрон: [G]
+
+Flask=Колба
+Flask collected!=Колба собрана!
+Drop Flask : [G]=Выбросить Колбу: [G]
+
+Magic 7 ball=Волшебный шар
+Magic 7 ball collected!=Волшебный шар собран!
+Drop Magic 7 ball : [G]=Выбросить Волшебный шар: [G]
+
+Bubblegum=Жевательная резинка
+
+Sneakers=Кроссовки
+
+Item collected!=Предмет собран!
+
+Easter egg=Пасхальное яйцо
+Easter egg collected!=Пасхальное яйцо собрано!
+Toss egg: [LMB]=Метнуть Яйцо: [ЛКМ]
+Drop Easter egg : [G]=Выбросить Яйцо: [G]
+
+Kitchen knife=Кухонный нож
+Kitchen knife collected!=Кухонный нож собран!
+Stab : [LMB]=Ударить: [ЛКМ]
+Drop Kitchen knife : [G]=Выбросить Нож: [G]
+
+Weed killer=Средство от сорняков
+Drop Weed killer : [G]=Выбросить Средство: [G]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+# DiscountAlert
+
+ Today's discounts= Сегодняшние скидки
+ None :( \n Check back tomorrow!= Их нет :( Узнаем завтра!
+ 
+# Items
+
+Remote Radar=Радар-усилитель
+Zap gun=Электрошокер
+Walkie-talkie=Рация
+TZP-inhalant=ТЗП-ингалятор
+Extension ladder=Выдвижная лестница
+Stun grenade=Светошумовая граната
+Shovel=Лопата
+Pro-flashlight=PRO-фонарик
+Lockpicker=Отмычка
+Jetpack=Реактивный ранец
+Flashlight=Фонарик
+Boombox=Бумбокс
+Spray paint=Баллончик с краской
+
+sr:"^* Remote Radar (.+?)$"=* Радар-усилитель $1
+sr:"^* Zap gun (.+?)$"=Электрошокер $1
+sr:"^* Walkie-talkie (.+?)$"=Рация $1
+sr:"^* TZP-inhalant (.+?)$"=ТЗП-ингалятор $1
+sr:"^* Extension ladder (.+?)$"=Выдвижная лестница $1
+sr:"^* Stun grenade (.+?)$"=Светошумовая граната $1
+sr:"^* Shovel (.+?)$"=Лопата $1
+sr:"^* Pro-flashlight (.+?)$"=PRO-фонарик $1
+sr:"^* Lockpicker (.+?)$"=Отмычка $1
+sr:"^* Jetpack (.+?)$"=Реактивный ранец $1
+sr:"^* Flashlight (.+?)$"=Фонарик $1
+sr:"^* Boombox (.+?)$"=Бумбокс $1
+sr:"^* Spray paint (.+?)$"=Баллончик с краской $1
+
+# Выдаёт \n<color\=#008000>* Jetpack $490 (30% OFF!)</color>\n<color\=#008000>* Hacking Tool $36 (70% OFF!)</color>=\n<color\=#008000>* JetPack $ 490 (скидка 30%!)</color>\n<color\=#008000>* Инструмент взлома $ 36 (скидка 70%!)</color>

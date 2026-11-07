@@ -1,0 +1,61 @@
+# Emergency Dice
+
+The Gambler=Азарт
+Drop The Gambler : [G]=Выбросить Азарт: [G]
+Chronos=Хронос
+Drop Chronos : [G]=Выбросить Хронос: [G]
+The Sacrificer=Жертвенник
+Drop The Sacrificer : [G]=Выбросить Жертвенник: [G]
+Emergency Die=Аварийный штамп
+Drop Emergency Die : [G]=Выбросить Аварийный штамп: [G]
+
+r:"^Rolled ([0-9]+)$"=Выпало число: $1
+Penalty=Штраф
+Company penalty=Штраф Компании
+Rolled 1...=Выпало число: 1...
+
+This handy, unstable device might be your last chance to save yourself.\n\nRolls a number from 1 to 6:\n-Rolling 6 teleports you and players standing closely near you to the ship with all your items.\n-Rolling 4 or 5 teleports you to the ship with all your items.\n-Rolling 3 might be bad, or might be good. You decide? \n-Rolling 2 will causes some problems\n-You dont want to roll a 1\n=Это удобное и нестабильное устройство может стать вашим последним шансом спастись.\n\nВыбрасывает число от 1 до 6:\n-Если выпало 6, телепортирует вас и игроков, стоящих рядом с вами, на корабль со всеми вашими предметами.\n-Выпадение 4 или 5 телепортирует вас на корабль со всеми вашими предметами.\n-При выпадении 3, может быть хорошо, но может быть и плохо. Вам решать? \n-Число 2 вызовет некоторые проблемки\n-Вы не должны хотеть чтобы выпало 1\n
+
+This could have been worse=Это могло быть хуже
+Terrible=Ужасно
+Do not try this again.=Не пытайтесь повторить это снова.
+Next time roll it inside :)=В следующий раз кидай внутри :)
+
+Uh oh=О-оу
+Enjoy.=Наслаждайтесь.
+Lucky.=Лакер.
+Debatable=Спорный
+
+Infinite stamina for everyone=Бесконечная выносливость для всех
+Check the doors=Проверьте двери
+Alarm!=Тревога!
+Boo!=Бу!
+Dont go outside!=Не ходи наружу!
+You got a pathfinder!=У тебя есть следопыт!
+Infinite stamina for you=Бесконечная выносливость для тебя
+Spawning a shotgun!=Появился дробовик!
+Turret near the ship!=Турели близко к кораблю!
+More turrets spawned inside!=Много турелей появились внутри!
+Mines are silent=Мины молчат
+Returning to ship with items!=Возвращение на корабль с предметами!
+Be ware of worms=Остерегайтесь червей
+Bee swarm=Пчелиный рой
+Coilheads randomly ignore if a player is looking at them.=Пружиноголовые могут проигнорировать то, что вы смотрите на них.
+Returning to ship with your nearest crewmates!=Возвращение на корабль с ближайшими сотрудниками экипажа!
+Turns off all lights=Выключение всего света
+Healing everyone and recharging their batteries=Вылечивание всех и подзарядка их батареек
+Spawning scrap!=Появился лом!
+Swapping two players!=Два игрока меняются местами!
+Good luck communicating=Удачи в коммуникации
+Mines spawned outside!=Мины появились снаружи!
+More mines spawned inside!=Мины появились внутри!
+Spawned a bracken outside!=Брэкен появился снаружи!
+Spawned a popped jester!=Появился активный Джестер!
+Spawned a lot of bugs!=Появилась куча Жуков!
+More fire exits!=Больше пожарных выходов!
+Fire exit blocked!=Пожарный выход заблокирован!
+Returning to ship with items!=Возвращение на корабль с предметами!
+Teleported inside=Телепорт внутрь
+Zombie apocalypse!=Зомби апокалипсис!
+Reviving everyone=Воскрешение всех
+A random player will soon explode=Случайный игрок скоро взорвётся

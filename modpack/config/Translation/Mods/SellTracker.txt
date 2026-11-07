@@ -1,0 +1,3 @@
+# SellTracker
+
+r:"^PROFIT QUOTA: (.+)"=КВОТА:\n\n$1

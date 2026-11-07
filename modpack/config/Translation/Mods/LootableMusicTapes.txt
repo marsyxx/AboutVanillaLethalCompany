@@ -1,0 +1,37 @@
+# LootableMusicTapes
+
+Insert into Walkman : [LMB]=Вставить в Плеер: [ЛКМ]
+Inspect : [Z]=Изучить: [Z]
+Cassette=Кассета
+
+r:"^Grab Cassette(.*?)$"="Подобрать Кассету : [E]"
+r:"^Drop Cassette(.*?)$"="Выбросить Кассету: [G]"
+
+Grab Walkman : [E]=Подобрать Плеер : [E]
+Drop Walkman : [G]=Выбросить Плеер: [G]
+
+## Кассета собрана
+
+Cassette - Time After Time collected!=Кассета - Time After Time собрана!
+Cassette - Mammas Don't Let Your Babies Grow Up to Be Cowboys collected!=Кассета - Mammas Don't Let Your Babies Grow Up to Be Cowboys собрана!
+Cassette - Hound Dog collected!=Кассета - Hound Dog собрана!
+Cassette - Take Me Home Country Roads collected!=Кассета - Take Me Home Country Roads собрана!
+Cassette - Last Christmas collected!=Кассета - Last Christmas собрана!
+Cassette - The Worst Band In The World collected!=Кассета - The Worst Band In The World собрана!
+Cassette - Danger Zone collected!=Кассета - Danger Zone собрана!
+Cassette - Out Of Touch collected!=Кассета - Out Of Touch собрана!
+Cassette - Konchitsya Leto collected!=Кассета - Кончится лето собрана!
+Cassette - Heartache By The Numbers collected!=Кассета - Heartache By The Numbers собрана!
+Cassette - Na Zare collected!=Кассета - На заре собрана!
+Cassette - Kletka collected!=Кассета - Клетка собрана!
+Cassette - Stayin' Alive collected!=Кассета - Stayin' Alive собрана!
+Cassette - I Need A Hero collected!=Кассета - I Need A Hero собрана!
+Cassette - Roundabout collected!=Кассета - Roundabout собрана!
+Cassette - It's Raining Men collected!=Кассета - It's Raining Men собрана!
+Cassette - Total Eclipse of the Heart collected!=Кассета - Total Eclipse of the Heart собрана!
+Cassette - Feliz Navidad collected!=Кассета - Feliz Navidad собрана!
+Cassette - White Christmas collected!=Кассета - White Christmas собрана!
+Cassette - Livin' On A Prayer collected!=Кассета - Livin' On A Prayer собрана!
+Cassette - Sleep Walk collected!=Кассета - Sleep Walk собрана!
+Cassette - Shadilay collected!=Кассета - Shadilay собрана!
+Cassette - The Good Mr. Square She was Tall, She Was High collected!=Кассета - The Good Mr. Square She was Tall, She Was High собрана!

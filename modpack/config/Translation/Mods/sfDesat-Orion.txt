@@ -1,0 +1,10 @@
+# Orion
+
+43 Orion=43 Orion
+Orbiting: 43 Orion\nWARNING: Danger levels are High.\nThis planet has reportedly sustained complex life. An advanced civilization was detected. Current status is unknown. \n=ОРБИТА: 43 Orion\nВНИМАНИЕ: Уровень опасности Высокий.\nСообщается, что на этой планете существует сложная для понимания науке жизнь.\nОбнаружена развитая цивилизация.\nТекущий статус неизвестен. \n
+sr:"^Orbiting: 43 Orion\nWARNING: Danger levels are High.\nThis planet has reportedly sustained complex life. An advanced civilization was detected. Current status is unknown. \nWeather: (.+?)$"=ОРБИТА: 43 Orion\nВНИМАНИЕ: Уровень опасности Высокий.\nСообщается, что на этой планете существует сложная для понимания науке жизнь.\nОбнаружена развитая цивилизация.\nТекущий статус неизвестен. \nПОГОДА: $1
+WARNING: Danger levels are High.\nThis planet has reportedly sustained complex life. An advanced civilization was detected. Current status is unknown. \n=ВНИМАНИЕ: Уровень опасности Высокий.\nСообщается, что на этой планете существует сложная для понимания науке жизнь.\nОбнаружена развитая цивилизация.\nТекущий статус неизвестен. 
+
+# Corporate_Restructure
+
+sr:"^Orbiting: 43 Orion\nWeather: (.+?)\nWARNING: Danger levels are High.\nThis planet has reportedly sustained complex life. An advanced civilization was detected. Current status is unknown. $"=ОРБИТА: 43 Orion\nПОГОДА: $1\nВНИМАНИЕ: Уровень опасности Высокий.\nСообщается, что на этой планете существует сложная для понимания науке жизнь.\nОбнаружена развитая цивилизация.\nТекущий статус неизвестен.

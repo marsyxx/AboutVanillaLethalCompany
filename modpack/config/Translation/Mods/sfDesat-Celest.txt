@@ -1,0 +1,10 @@
+# Celest
+
+28 Celest=28 Celest
+Orbiting: 28 Celest\nEnviromental dangers are low. Reports indicated that multiple dangerous creatures roam the surface.  \nExplore carefully.\n=ОРБИТА: 28 Celest\nЭкологическая опасность низкая.\nВ сообщениях указывается, что по поверхности бродит множество опасных существ.  \nИсследуйте внимательно.\n
+sr:"^Orbiting: 28 Celest\nEnviromental dangers are low. Reports indicated that multiple dangerous creatures roam the surface.  \nExplore carefully.\nWeather: (.+?)$"=ОРБИТА: 28 Celest\nЭкологическая опасность низкая.\nВ сообщениях указывается, что по поверхности бродит множество опасных существ.  \nИсследуйте внимательно.\nПОГОДА: $1
+Enviromental dangers are low. Reports indicated that multiple dangerous creatures roam the surface.  \nExplore carefully.=Экологическая опасность низкая.\nВ сообщениях указывается, что по поверхности бродит множество опасных существ.  \nИсследуйте внимательно.
+
+# Corporate_Restructure
+
+sr:"^Orbiting: 28 Celest\nWeather: (.+?)\nEnviromental dangers are low. Reports indicated that multiple dangerous creatures roam the surface.  \nExplore carefully.$"=ОРБИТА: 28 Celest\nПОГОДА: $1\nЭкологическая опасность низкая.\nВ сообщениях указывается, что по поверхности бродит множество опасных существ.  \nИсследуйте внимательно.

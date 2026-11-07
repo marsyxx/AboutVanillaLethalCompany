@@ -1,0 +1,34 @@
+# LethalSettings
+
+MOD SETTINGS=НАСТРОЙКА МОДОВ
+> Open=> Открыть
+> LethalSettings=> LethalSettings
+A centralized place for configuring mods from in-game=Централизованное место для настройки внутриигровых модов
+Description=Описание
+Version=Версия
+Mod ID=ID Мода
+
+## FacilityMeltdown
+
+> FacilityMeltdown=> FacilityMeltdown
+Particle Effects=Частицы
+Screen Shake=Тряска экрана
+Play Music Outside?=Играть музыку снаружи?
+r:"^Music Volume ([0-9]+)$"=Громкость Музыки $1
+r:"^Meltdown Sequence Time [NOT SUPPORTED, EDIT AT YOUR OWN RISK, NOT RECOMMENDED] ([0-9]+)$"=Время последовательности взрыва [НЕ ПОДДЕРЖИВАЕТСЯ, ИЗМЕНЯЙТЕ НА СВОЙ РИСК, НЕ РЕКОМЕНДУЕТСЯ] $1
+Facility has Emergency Lights?=В объекте включается аварийное освещение?
+r:"^Monster Spawn Amount ([0-9]+)$"=Кол-во появляющихся монстров $1
+r:"^Appartus Value ([0-9]+)$"=Стоимость Реактора $1
+Override Appartus Value?=Переопределить стоимость Реактора?
+Visual Settings [Client Side]=Визуальные настройки [Клиентская сторона]
+Audio Settings [Client Side]=Аудио настройки [Клиентская сторона]
+Game Balance Settings [Synced]=Настройки баланса игры [Синхронизация]
+Edit what enemies can spawn in the config file.=Отредактируйте какие враги могут появляться в файле конфигурации.
+Maybe taking the appartus isn't such a great idea...=Возможно, брать Реактор – не такая уж и хорошая идея...
+
+##
+
+> MirrorDecor=> MirrorDecor
+Mirror Resolution 1024=Разрешние отражения 1024
+The resolution/quality of the mirror image. Reduce size for better framerate.=Разрешение/качество зеркального изображения. Уменьшите размер для улучшения ФПС.
+Adds a working mirror decoration that you can buy for your ship!=Добавляет рабочее зеркало, которое можно купить для своего корабля!

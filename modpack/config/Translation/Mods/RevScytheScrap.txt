@@ -1,0 +1,5 @@
+# RevScytheScrap
+
+Dead Man's Curve=Коса мертвеца
+Drop Dead Man's Curve : [G]=Выбросить Косу: [G]
+Dead Man's Curve collected!=Коса мертвеца собрана!

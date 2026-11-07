@@ -1,0 +1,5 @@
+# CompanyBellScrap
+
+Company bell=Звонок Компании
+Drop Company bell : [G]=Выбросить Звонок: [G]
+Company bell collected!=Звонок Компании собран!

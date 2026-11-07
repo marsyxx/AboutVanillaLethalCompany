@@ -1,0 +1,6 @@
+# Football
+
+Train=Паровозик
+Drop Train : [G]=Выбросить Паровозик: [G
+Train collected!=Паровозик собран!
+Football=Футбол

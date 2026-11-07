@@ -1,0 +1,10 @@
+# PeachesCastle
+
+Castle Grounds=Castle Grounds
+Orbiting: Castle Grounds\nAn abandoned castle from years passed. A renowned ruler once lived here.\n=ОРБИТА: Castle Grounds\nЗаброшенный замок прошедших лет.\nКогда-то здесь жил известный правитель.\n
+sr:"^Orbiting: Castle Grounds\nAn abandoned castle from years passed. A renowned ruler once lived here.\nWeather: (.+?)$"=ОРБИТА: Castle Grounds\nЗаброшенный замок прошедших лет.\nКогда-то здесь жил известный правитель.\nПОГОДА: $1
+An abandoned castle from years passed. A renowned ruler once lived here.=Заброшенный замок прошедших лет.\nКогда-то здесь жил известный правитель.
+
+# Corporate_Restructure
+
+sr:"^Orbiting: Castle Grounds\nWeather: (.+?)\nAn abandoned castle from years passed. A renowned ruler once lived here.$"=ОРБИТА: Castle Grounds\nПОГОДА: $1\nЗаброшенный замок прошедших лет.\nКогда-то здесь жил известный правитель.

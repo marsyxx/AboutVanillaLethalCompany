@@ -1,0 +1,4 @@
+# LethalStats
+
+Sent Stats!=Статистика отправлена!
+Your stats for the previous round were successfully sent to Lethal.SplitStats.io!=Ваша статистика за предыдущий раунд была успешно отправлена ​​на Lethal.SplitStats.io !

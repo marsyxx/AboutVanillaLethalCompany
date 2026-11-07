@@ -1,0 +1,7 @@
+# GamblersMod
+
+Gamble: [E]=Рискнуть: [E]
+Please hold a scrap on your hand=Пожалуйста, держите лом в руках
+
+r:"^Cooling down... (.+)"=Погодите... $1
+r:"^Scrap value on hand: (.+)"=Стоимость лома в руках: $1

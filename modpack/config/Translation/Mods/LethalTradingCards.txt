@@ -1,0 +1,136 @@
+# LethalTradingCards
+
+Lethamon Booster Pack=Lethamon Бустер-пакет
+Lethámon Booster Pack=Lethámon Бустер-пакет
+Open Booster Pack: [LMB]=Открыть Бустер-пакет: [ЛКМ]
+Drop Lethamon Booster Pack : [G]=Выбросить Бустер-пакет: [G]
+Lethamon Booster Pack collected!=Lethamon Бустер-пакет собран!
+Lethámon Booster Pack collected!=Lethámon Бустер-пакет собран!
+
+Snare Flea Card=Карта Удушающей многоножки
+Drop Snare Flea Card : [G]=Выбросить Карту: [G]
+Snare Flea Card collected!=Карта Удушающей многоножки собрана!
+
+Bunker Spider Card=Карта Бункерного паука
+Drop Bunker Spider Card : [G]=Выбросить Карту: [G]
+Bunker Spider Card collected!=Карта Бункерного паука собрана!
+
+Hoarding Bug Card=Карта Жука-собирателя
+Drop Hoarding Bug Card : [G]=Выбросить Карту: [G]
+Hoarding Bug Card collected!=Карта Жука-собирателя собрана!
+
+Bracken Card=Карта Брэкена
+Drop Bracken Card : [G]=Выбросить Карту: [G]
+Bracken Card collected!=Карта Брэкена собрана!
+
+Thumper Card=Карта Тампера
+Drop Thumper Card : [G]=Выбросить Карту: [G]
+Thumper Card collected!=Карта Тампера собрана!
+
+Hygrodere Card=Карта Гидродера
+Drop Hygrodere Card : [G]=Выбросить Карту: [G]
+Hygrodere Card collected!=Карта Гидродера собрана!
+
+Ghost Girl Card=Карта Призрачной девочки
+Drop Ghost Girl Card : [G]=Выбросить Карту: [G]
+Ghost Girl Card collected!=Карта Призрачной девочки собрана!
+
+Spore Lizard Card=Карта Споровика
+Drop Spore Lizard Card : [G]=Выбросить Карту: [G]
+Spore Lizard Card collected!=Карта Споровика собрана!
+
+Nutcracker Card=Карта Щелкунчика
+Drop Nutcracker Card : [G]=Выбросить Карту: [G]
+Nutcracker Card collected!=Карта Щелкунчика собрана!
+
+Coil-Head Card=Карта Пружиноголового
+Drop Coil-Head Card : [G]=Выбросить Карту: [G]
+Coil-Head Card collected!=Карта Пружиноголового собрана!
+
+Jester Card=Карта Джестера
+Drop Jester Card : [G]=Выбросить Карту: [G]
+Jester Card collected!=Карта Джестера собрана!
+
+The Masked Card=Карта Одержимого
+Drop The Masked Card : [G]=Выбросить Карту: [G]
+The Masked Card collected!=Карта Одержимого собрана!
+
+Eyeless Dog Card=Карта Слепой собаки
+Drop Eyeless Dog Card : [G]=Выбросить Карту: [G]
+Eyeless Dog Card collected!=Карта Слепой собаки собрана!
+
+Forest Keeper Card=Карта Хранителя леса
+Drop Forest Keeper Card : [G]=Выбросить Карту: [G]
+Forest Keeper Card collected!=Карта Хранителя леса собрана!
+
+Earth Leviathan Card=Карта Левиафана
+Drop Earth Leviathan Card : [G]=Выбросить Карту: [G]
+Earth Leviathan Card collected!=Карта Левиафана собрана!
+
+Baboon Hawk Card=Карта Бабуинового ястреба
+Drop Baboon Hawk Card : [G]=Выбросить Карту: [G]
+Baboon Hawk Card collected!=Карта Бабуинового ястреба собрана!
+
+Holofoil Snare Flea=Голографическая Удушающая многоножка
+Drop Holofoil Snare Flea : [G]=Выбросить Карту: [G]
+Holofoil Snare Flea collected!=Голографическая Удушающая многоножка собрана!
+
+Holofoil Bunker Spider=Голографический Бункерный паук
+Drop Holofoil Bunker Spider : [G]=Выбросить Карту: [G]
+Holofoil Bunker Spider collected!=Голографический Бункерный паук собран!
+
+Holofoil Hoarding Bug=Голографический Жук-собиратель
+Drop Holofoil Hoarding Bug : [G]=Выбросить Карту: [G]
+Holofoil Hoarding Bug collected!=Голографический Жук-собиратель собран!
+
+Holofoil Bracken=Голографический Брэкен
+Drop Holofoil Bracken : [G]=Выбросить Карту: [G]
+Holofoil Bracken collected!=Голографический Брэкен собран!
+
+Holofoil Thumper=Голографический Тампер
+Drop Holofoil Thumper : [G]=Выбросить Карту: [G]
+Holofoil Thumper collected!=Голографический Тампер собран!
+
+Holofoil Hygrodere=Голографический Гидродер
+Drop Holofoil Hygrodere : [G]=Выбросить Карту: [G]
+Holofoil Hygrodere collected!=Голографический Гидродер собран!
+
+Holofoil Ghost Girl=Голографическая Призрачная девочка
+Drop Holofoil Ghost Girl : [G]=Выбросить Карту: [G]
+Holofoil Ghost Girl collected!=Голографический Призрачная девочка собрана!
+
+Holofoil Spore Lizard=Голографический Споровик
+Drop Holofoil Spore Lizard : [G]=Выбросить Карту: [G]
+Holofoil Spore Lizard collected!=Голографический Споровик собран!
+
+Holofoil Nutcracker=Голографический Щелкунчик
+Drop Holofoil Nutcracker : [G]=Выбросить Карту: [G]
+Holofoil Nutcracker collected!=Голографический Щелкунчик собран!
+
+Holofoil Coil-Head=Голографический Пружиноголовый
+Drop Holofoil Coil-Head : [G]=Выбросить Карту: [G]
+Holofoil Coil-Head collected!=Голографический Пружиноголовый собран!
+
+Holofoil Jester=Голографический Джестер
+Drop Holofoil Jester : [G]=Выбросить Карту: [G]
+Holofoil Jester collected!=Голографический Джестер собран!
+
+Holofoil The Masked=Голографический Одержимый
+Drop Holofoil The Masked : [G]=Выбросить Карту: [G]
+Holofoil The Masked collected!=Голографический Одержимый собран!
+
+Holofoil Eyeless Dog=Голографическая Слепая собака
+Drop Holofoil Eyeless Dog : [G]=Выбросить Карту: [G]
+Holofoil Eyeless Dog collected!=Голографическая Слепая собака собрана!
+
+Holofoil Forest Keeper=Голографический Хранитель леса
+Drop Holofoil Forest Keeper : [G]=Выбросить Карту: [G]
+Holofoil Forest Keeper collected!=Голографический Хранитель леса собран!
+
+Holofoil Earth Leviathan=Голографический Левиафан
+Drop Holofoil Earth Leviathan : [G]=Выбросить Карту: [G]
+Holofoil Earth Leviathan collected!=Голографический Левиафан собран!
+
+Holofoil Baboon Hawk=Голографический Бабуиновый ястреб
+Drop Holofoil Baboon Hawk : [G]=Выбросить Карту: [G]
+Holofoil Baboon Hawk collected!=Голографический Бабуиновый ястреб собран!

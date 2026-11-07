@@ -1,0 +1,15 @@
+# LethalDevMode
+
+Enter text...=...
+Item:=Предмет:
+Enemy:=Враг:
+Number to spawn:=Кол-во:
+DEBUG/TEST=ОТЛАДКА/ТЕСТ
+Spawn item=Спавн предмета
+Enemy type:=Тип врага:
+Toggle invincibility=Вкл/выкл непобедимость
+Toggle test room=Тест-комната
+Spawn creature=Спавн существа
+Inside=Внутри
+Daytime=Дневное время
+Outside=Снаружи

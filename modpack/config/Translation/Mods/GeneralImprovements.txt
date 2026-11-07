@@ -1,0 +1,38 @@
+# GeneralImprovements
+
+Beam out : [E]=Телепорт наружу: [E]
+Confirm: [B]   |   Rotate: [R]   |   Store: [X]\nFree Rotate: Hold [LeftAlt]  |  CCW: Hold [LeftShift]=Подтвердить: [B]   |   Вращать: [R]   |   На склад: [X]\nСвободное вращение: [ALT]   |   Обратное вращение: [Shift]
+Confirm: [B]   |   Rotate: [К]   |   Store: [X]\nFree Rotate: Hold [LeftAlt]  |  CCW: Hold [LeftShift]=Подтвердить: [B]   |   Вращать: [R]   |   На склад: [X]\nСвободное вращение: [ALT]   |   Обратное вращение: [Shift]
+[LMB] : Toggle Light=Вкл/выкл: [ЛКМ]
+\\   ___   /\r\n-  |    | -\r\n/   ---   \\\r\n  CLEAR!\r\n=ЯСНАЯ\r\nПОГОДА!\r\n☼
+\\   ___   /\r\n  -|    |-\r\n/   ---   \\\r\n  CLEAR!\r\n=ЯСНАЯ\r\nПОГОДА!\r\n      ☼
+
+r:"^SCRAP IN SHIP:\n(\$[0-9]+)$"=ДОБЫЧА:\n$1
+TIME:\nPENDING=ВРЕМЯ:\nОЖИДАНИЕ
+SALES COMING SOON!=ПРОДАЖИ СКОРО!
+r:"^DOOR POWER:\n([0-9]+\%)$"=ЭНЕРГИЯ ШЛЮЗА:\n$1
+r:"^CREDITS:\n(\$[0-9]+)$"=КРЕДИТЫ:\n$1
+NO SALES TODAY=ПРОДАЖ СЕГОДНЯ НЕТ
+r:"^(.+?) SALES(.+?):\n(.+?)$"=$1 ПРОДАЖИ$2:\n$3
+sr:"^WEATHER:\n(.+?)$"=ПОГОДА:\n$1
+NO EXTERNAL SCRAP DETECTED=ЛОМ\nНЕ\nОБНАРУЖЕН
+r:"^DAY (.+?)$"=ДЕНЬ\n$1
+r:"^QUOTA (.+?)$"=КВОТА\n$1
+
+ZERO DEATHS (YET)=НОЛЬ СМЕРТЕЙ\n(ПОКА-ЧТО)
+r:"^([2,3,4]) DAYS WITHOUT DEATHS$"=$1 ДНЯ\nБЕЗ\nСМЕРТЕЙ
+r:"^([0,5,6,7,8,9]) DAYS WITHOUT DEATHS$"=$1 ДНЕЙ\nБЕЗ\nСМЕРТЕЙ
+1 DAY WITHOUT DEATHS=1 ДЕНЬ\nБЕЗ\nСМЕРТЕЙ
+
+r:"^SCRAP LEFT:\n(.+?) ITEMS\n(\$[0-9]+)$"=ЛОМ:\n$1 шт.\nНА\n$2
+
+(Health Full)=(Полное Здоровье)
+Heal=Лечиться: [E]
+r:"^(.+?) HP$"=$1 ♥
+
+Light Switch=Выключатель
+Med Station=Медицинская станция
+Fully heal yourself=Исцелите себя полностью
+
+exit maze=Покинуть лабиринт: [E]
+enter test maze=Войти в лабиринт: [E]

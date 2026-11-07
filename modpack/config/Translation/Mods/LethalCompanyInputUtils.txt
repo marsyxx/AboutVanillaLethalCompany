@@ -1,0 +1,5 @@
+# InputUtils
+
+Keyboard/Mouse=<size\=20>Клавиатура/Мышь</size> 
+Controller=<size\=20>Геймпад</size>   
+r:"^> Show Legacy Controls \(([0-9]+) present\)$"=> Показать устаревшие назнач. ($1)

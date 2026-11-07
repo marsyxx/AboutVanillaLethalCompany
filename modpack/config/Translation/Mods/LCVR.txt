@@ -1,0 +1,81 @@
+# LCVR
+
+# Меню
+
+Welcome to LCVR!=<size\=20>Добро пожаловать в LCVR!</size>
+Welcome! Thank you for downloading LCVR!\nIf you run into any issues, you can always hop on in the LCVR Discord server. Make sure to check if the mods you are using are compatible with LCVR.\n\nThis mod has taken a lot of time to write and is available completely for free, but if you'd like to donate to help support further development, you can do so with the button below.\n\n- DaXcess=<size\=13>Добро пожаловать! Спасибо, что загрузили LCVR!\nЕсли у вас возникнут какие-либо проблемы, вы всегда можете подключиться к Discord серверу LCVR. Обязательно проверьте, совместимы ли используемые вами моды с LCVR.\n\nНаписание этого мода заняло много времени, и он доступен совершенно бесплатно. Если вы хотите сделать пожертвование для поддержки дальнейшей разработки, вы можете сделать это с помощью кнопки ниже.\n\n- DaXсess</size>
+
+# Подсказки
+
+Welcome to VR!=Добро пожаловать в VR!
+Now you can experience the horrors of Lethal Company in an immersive VR experience.=Теперь вы можете испытать ужасы Летальной Компании в захватывающей виртуальной реальности.
+
+Basic movement=Основы передвижения
+To move, use your left joystick. You can sprint by pressing or holding down the left joystick.=Для перемещения используйте левый джойстик. Вы можете бежать, зажав и удерживая левый джойстик.
+
+Resetting height=Сброс роста
+If your height is incorrect, you can recalibrate by pressing the Y button.=Если ваш рост неверен, вы можете выполнить повторную калибровку, нажав кнопку Y.
+
+Too scared?=Слишком напуганы?
+Press the X button to open up the pause menu.=Нажмите кнопку X, чтобы открыть меню паузы.
+
+Switching items=Переключение предметов
+You can use the right joystick up/down to swap your items. Going left/right with the joystick will turn your player unless disabled.=Двигайте правый джойстик вверх/вниз, чтобы сменить предмет. Влево/вправо чтобы поворачиваться.
+
+Have fun!=Веселитесь!
+Good luck and have fun on your journey to the hellscapes of Lethal Company!=Удачи и веселья в путешествиях по адским пейзажам Летальной Компании!
+
+Shovel movement=Холодное оружие
+You can physically whack enemies and players with the shovel. Go ahead and try it out!=Этим предметом вы можете физически бить врагов и игроков. Попробуйте!
+
+Shake shake shake=Тряси тряси тряси!
+You can shake the can by shaking your hand back on forth in quick succession.=Вы можете встряхнуть баллончик, быстро махая рукой вверх-вниз.
+
+# Клавиатура
+
+Space=Пробел
+
+# Взаимодействия (Ванилла)
+
+(This item cannot be used in VR)=(Этот предмет не следует использовать в VR)
+
+Grab=Подобрать
+Ring bell=Использовать звонок
+Open hatch=Использовать люк
+Climb=Использовать лестницу
+Use ladder=Использовать лестницу
+Let go=Отпустить лестницу
+Get log=Подобрать запись
+Pull switch=Вкл/Выкл свет
+Start game=Запустить корабль
+Enter=Войти
+Exit=Выйти
+Use door=Использовать
+Disable speaker=Отключить динамик
+Start ship=Запустить корабль
+Land ship=Посадить корабль
+Flush=Смыть
+Open=Использовать
+Open=Использовать
+Flip switch=Переключить рубильник
+Hit pumpkin=Пнуть тыкву
+Use ladder=Использовать
+Play record=Воспроизвести пластинку
+Switch water=Переключить воду
+Sell item=Продать предмет
+Charge item=Зарядить предмет
+Beam up=Запустить
+Open hatch=Использовать
+Pull valve=Провернуть клапан
+Open door=Открыть дверь
+Close door=Закрыть дверь
+Use key=Использовать ключ
+Switch lights=Вкл/Выкл свет
+Pull cord=Потянуть за шнур
+Switch camera=Переключить камеру
+Turn on/off=Включить/выключить
+Access terminal=Войти в терминал
+Quit terminal=Выйти из терминала
+Set candles=Зажечь/потушить свечи
+Lift glass=Поднять/опустить крышку
+Store item=Положить предмет

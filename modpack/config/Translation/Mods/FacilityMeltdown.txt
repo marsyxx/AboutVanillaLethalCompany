@@ -1,0 +1,10 @@
+SAFETY COMPUTER=БОРТОВОЙ КОМПЬЮТЕР
+The company has deemed the current levels of radiation too high.=Компания признала, что текущий уровень радиации слишком высок.
+The company can not risk damaging its equipment.=Компания не может рисковать повреждением своего оборудования.
+... FAILED TO CONNECT TO INTERNAL FACILITY COMPUTER ... IDENTIFIYING ROOT CAUSE ...=...НЕ УДАЛОСЬ ПОДКЛЮЧИТЬСЯ К ВНУТРЕННЕМУ КОМПЬЮТЕРУ ОБЪЕКТА... ВЫЯВЛЕНИЕ ПРИЧИНЫ...
+UNSTABLE NUCLEAR REACTOR ... PREDICTING TIME UNTIL CATASTROPHIC EVENT ...=ЯДЕРНЫЙ РЕАКТОР НЕСТАБИЛЕН... ПРОГНОЗ ВРЕМЕНИ ДО РАЗРУШЕНИЯ ОБЪЕКТА...
+<color\="red">2 MINUTES</color> UNTIL CATASTROPHIC NUCLEAR REACTOR EVENT=ОСТАЛОСЬ <color\="red">2 МИНУТЫ</color> ДО РАЗРУШЕНИЯ ОБЪЕКТА.
+
+Geiger Counter=Счётчик Гейгера
+Toggle detection : [LMB]=Вкл/выкл: [ЛКМ]
+Drop Geiger Counter : [G]=Выбросить Счётчик Гейгера: [G]

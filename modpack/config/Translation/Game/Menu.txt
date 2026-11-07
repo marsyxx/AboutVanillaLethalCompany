@@ -1,0 +1,238 @@
+# Start/Начало
+
+SET-UP=НАСТРОЙКА
+
+Adjust screen brightness until the symbol on the right is barely visible.=Настройте яркость экрана так, чтобы символ справа был едва заметен.
+Gamma/Brightness:=Гамма/Яркость:
+This experience has been designed for in-game voice chat, so I recommend giving it a try.\n\n=Для наилучшего игрового опыта лучше использовать внутриигровой голосовой чат.\n\n
+
+  CONFIRM=  ПОДТВЕРДИТЬ
+> CONFIRM=> ПОДТВЕРДИТЬ
+
+# Режим запуска/Launch mode
+
+LAUNCH MODE=РЕЖИМ ЗАПУСКА
+
+(Recommended)=(Рекомендуется)
+
+> Online=> Онлайн
+  Online=  Онлайн
+> LAN=> LAN
+  LAN=  LAN
+
+# Биос
+
+BG IG, A System-Act Ally\n      Copyright (C) 2084-2108, Halden Electronics Inc.\n\nCPU Type      :     BORSON 300 CPU at 2500 MHz\nMemory test  :      4521586K OK\n\nBoot Distributioner Application v0.04\nCopyright (C) 2107 Distributioner\n    Detecting Sting X ROM\n    Detecting Web LNV Extender\n    Detecting Heartbeats OK\n\n\nUTGF Device Listening...\n\nBody   ID   Neural   Device Class\n________________________________________\n\n2      52   Jo152       H515\n2      52   Sa5155      H515\n2      52   Bo75        H515\n2      52   Eri510      H515\n1      36   Ell567      H515\n1      36   Jos912      H515\n0\n=      BG IG, Системный помощник\n      Копирайт (C) 2084-2108, Halden Electronics Inc.\n\nПроцессор    :     БОРСОН 300 ЦПУ, 2500 МГц\nТест памяти  :     4521586K OK\n\nПриложение для распределения загрузочных данных v0.04\nКопирайт (C) 2107 Distributioner\n    Обнаружено Sting X ROM\n    Обнаружено Web LNV Extender\n    Обнаружено Heartbeats OK\n\n\nУстройство UTGF в режиме прослушивания...\n\nКласс   ИД   Модуль   Устройство\n________________________________________\n\n2      52   Jo152       H515\n2      52   Sa5155      H515\n2      52   Bo75        H515\n2      52   Eri510      H515\n1      36   Ell567      H515\n1      36   Jos912      H515\n0\n
+
+# Катсцена
+
+Detecting difficulties...=Обнаружение трудностей...
+\nRunning reboot diagnostic...=\nЗапуск перезагрузки\nдиагностики...
+\n\nUNABLE TO START.\nPLEASE FIX ISSUES=\n\nНЕ УДАЁТСЯ ЗАПУСТИТЬ.\nПОЖАЛУЙСТА, ИСПРАВЬТЕ\nПРОБЛЕМЫ
+
+# Главное меню/Main menu
+
+> Host=> Создать сервер
+> Join a crew=> Список серверов
+> Join LAN session=> Присоединиться по LAN
+> Settings=> Настройки
+> Credits=> Благодарности
+> Quit=> Выйти
+
+(Launched in LAN mode)=(Режим LAN)
+
+# Создать сервер/Host (Online)
+
+Server name:=Имя сервера:
+Name your server...=Назовите свой сервер...
+
+Public=Публичный
+PUBLIC means your game will be visible on the server list for all to see.=Публичный: ваша игра будет видна всем в списке серверов.
+
+Friends-only=Только друзья
+PRIVATE means you must send invites through Steam for players to join.=Только друзья: вы должны отправить приглашение через Steam, чтобы игроки могли присоединиться.
+
+Save File=Сохранения
+r:"^File ([0-9]+)$"=Файл $1
+r:"^(\$[0-9]+)\\nDays: ([0-9]+)$"=$1\nДней: $2
+File incompatible!=Файл несовместим!
+
+r:"^Do you want to delete File (.+)\?$"=Вы точно хотите удалить Файл $1?
+Delete=Удалить
+Go back=Отменить
+
+[ Confirm ]=[Принять]
+[ Back ]=[Назад]
+
+# Создать сервер/Host (LAN)
+
+You are in LAN mode. When allowing remote connections through LAN, please ensure you have sufficient network security such as a firewall and/or VPN.=Вы находитесь в режиме локальной сети.\nПри использовании удаленных подключений через локальную сеть убедитесь, что у вас есть защита сети, например брандмауэр и/или VPN.
+Host LAN Server:=Сервер LAN:
+INSTABILITY:=НЕСТАБИЛЬНОСТЬ:
+Option A=Вариант А
+Local-only=Только локально
+Allow remote connections=Разрешить удаленные соединения
+
+This is the weekly challenge moon. You have one day to make as much profit as possible.=Это еженедельная челлендж-луна.\nУ вас есть один день и одна попытка получить как можно больше прибыли.
+
+# Servers/Сервера
+
+With challenge moon=С челлендж-луной
+
+Servers=Сервера
+Enter server tag...=Введите тег сервера...
+Enter a tag...=Введите тег...
+With challenge moon=С челлендж-луной
+CHALLENGE=ИСПЫТАНИЕ
+No available servers to join.=Нет доступных серверов\nдля подключения.
+Loading server list...=Загрузка списка серверов...
+Lobby is full!=Лобби переполнено!
+r:"^(.*)\[MODDED\](.+?)$"=$1[МОДЫ]$2
+
+An error occured!=Произошла ошибка!
+An error occured when syncing the scene! The host might not have loaded in.=При синхронизации сцены произошла ошибка! Возможно, хост не загрузился.
+An error occured while spawning into the game. Please report the glitch!=Произошла ошибка при входе в игру. Пожалуйста, сообщите о сбое!
+The host has not loaded or has already landed their ship.=Хоcт ещё не загрузился или уже приземлил свой корабль.
+The server host disconnected.=Хост сервера отключён.
+The server is full!=Сервер переполнен!
+You cannot rejoin after being kicked.=Вы не можете перезайти после того, как вас кикнули.
+
+Sort: near=Сорт: близко
+Sort: far=Сорт: далеко
+Sort: worldwide=Сорт: весь мир
+
+[ Refresh ]=[Обновить]
+
+Join=Войти
+
+> Back to menu=> Вернуться в меню
+
+
+# Settings/Настройки
+
+ENABLED=ВКЛЮЧЕНО
+DISABLED=ВЫКЛЮЧЕНО
+
+r:"^(Current input device: \n)(.*)$"=Текущее устройство ввода：$2
+
+MODE: Voice activation=Режим: активация по голосу
+MODE: Push to talk=Режим: активация по нажатию
+
+Master volume:=Общая громкость:
+
+CONTROLS=УПРАВЛЕНИЕ
+
+Look sensitivity:=Чувствительность камеры:
+
+Push to talk:=Активация по нажатию:
+
+Invert Y-Axis=Инверсия оси Y
+
+> Confirm changes=> Подтвердить изменения
+Unconfirmed changes!=Изменения не подтверждены!
+
+DISCARD=ОТМЕНИТЬ
+BACK=НАЗАД
+
+DISPLAY=ЭКРАН
+
+Frame rate cap:=Частота кадров:
+Use monitor (V-Sync)=V-Sync
+Uncapped=Неограниченно
+r:"^(\d|\d{2}|\d{3}) FPS$"=$1 FPS
+
+Display mode:=Режим экрана:
+Fullscreen=Полноэкранный
+Windowed fullscreen=Оконный без рамок
+Maximized window=Максимизированный
+Window=Оконный
+
+> Reset all to default=> Настройки по умолчанию
+
+# Credits/Благодарности
+
+Credits=Благодарности
+Blep2=Blep2
+Crazydude12=Crazydude12
+
+# ESC Меню/ESC menu
+
+> Resume=> Продолжить
+
+> Invite friends=> Пригласить друзей
+
+CREW:=ЭКИПАЖ:
+
+Discard changes=Отменить изменения
+Confirm=Подтвердить
+Discard=Отменить
+Confirm changes?=Подтвердить изменения?
+
+Would you like to leave the game?=Вы действительно хотите покинуть игру?
+The file will NOT save! Your ship must be in orbit.=Игра НЕ сохранится! Ваш корабль должен находиться на орбите.
+> Confirm=<size\=8>> Подтвердить</size>
+> Cancel=<size\=8>> Отмена</size>
+
+ACCESSIBILITY=ДОСТУПНОСТЬ
+Arachnophobia Mode=Режим арахнофобии
+
+> Change keybinds=> Изменить управление
+> Back=> Назад
+> Set to defaults=> Настройки по умолчанию
+REMAP CONTROLS=НАСТРОЙКИ УПРАВЛЕНИЯ
+
+Push to talk=Нажмите, чтобы говорить
+Walk forward=Вперёд
+Walk back=Назад
+Walk left=Влево
+Walk right=Вправо
+Jump=Прыжок
+Sprint=Бег
+Crouch=Приседание
+Interact=Взаимодействие
+Ping scan=Сканирование
+Item primary use=Первичное использование
+Item Secondary use=Вторичное использование
+Item Tertiary use=Третичное использование
+Item drop=Выбросить предмет
+Item switch left=Переключение предмета влево
+Item switch right=Переключение предмета вправо
+Item inspect=Осмотреть предмет
+Replace furniture=Переставить обьект
+Turn furniture=Повернуть обьект
+Store furniture=Поместить обьект на склад
+Dance=Танцевать
+Point=Указать пальцем
+Enable chat=Открыть чат
+Submit chat=Отправить сообщение
+Left Button=ЛКМ
+Right Button=ПКМ
+Middle Button=СКМ
+
+REBIND CONTROLLERS=НАСТРОЙКИ УПРАВЛЕНИЯ (ГЕЙМПАД)
+Move forward=Вперёд
+Move back=Назад
+Move left=Влево
+Move right=Вправо
+Item secondary use=Вторичное использование
+Item tertiary use=Третичное использование
+
+### Челлендж-луны
+
+r:"^Challenge Moon (.+?) Results$"=Результаты челлендж-луны $1
+Weekly Challenge Results=Результаты Еженедельных Челленджей
+[ Remove my score ]=<size\=16>[ Удалить мой рекорд ]</size>
+(Removed score)=(Рекорд удалён)
+[ Play again ]=[ Сыграть снова ]
+Loading ranking...=Загрузка рейтинга...
+Sort: Friends=Сорт: Друзья
+Sort: Top 20=Сорт: Топ 20
+Sort: Similar rank=Сорт: Схожий ранг
+Deceased=Погиб
+
+ Cancel= Отмена 
+Back=Назад
+
+# Благодарности
+
+r:"(?s)^Thanks to PuffoThePufferfish and Blueray901165 for helping shape this game. They were the closest with it through the entire process, helping me test and improve it every step of the way.\n\nThanks to my patrons who have generously supported me throughout this game's long and sometimes-rocky development:(.*)Thanks to Zenonclaw for modelling the shovel and the old elevator, which was scrapped long ago but still used for its parts.\n\nThanks to ZedFox for one of the boombox tracks \(the good one\).\n\nThanks to youreashotgun for the snare flea TV channel.\n\nAnd thanks to Noah, Seth, Null, Sam, Zenonclaw, Zedfox, and Joseph for helping playtest throughout early development.(.*)Sound effects from Freesound.org, licensed under CC-BY \(Attribution\). Thank you:(.*)$"=RTLC Russian Translation:\nПеревод текста, текстур и доработка: <color\=#439ac9>Hayrizan</color>\nПеревод текста: <color\=#8f0559>DimaLooper</color> \nПеревод аудио: <color\=#ff00e4>Paradox75831004</color>\n\nLethal Company:\nСпасибо PuffoThePufferfish и Blueray901165 за помощь в создании этой игры. Они были ближе всех на протяжении всего процесса, помогая мне тестировать и улучшать её на каждом этапе пути.\n\nСпасибо моим подписчикам на патреоне, которые щедро поддерживали меня на протяжении всей долгой и порой непростой разработки этой игры:$1Спасибо Zenonclaw за моделирование лопаты и старого лифта, который давно убран, но до сих пор используется по частям.\n\nСпасибо ZedFox за один из треков для бумбокса \(хороший\).\n\nСпасибо youreashotgun за телеканал «Snare Flea».\n\nИ спасибо Noah, Seth, Null, Sam, Zenonclaw, Zedfox и Joseph за помощь в тестировании на ранних этапах разработки.$2Звуковые эффекты с сайта Freesound.org, под лицензией CC-BY \(Атрибуция\). Спасибо:$3

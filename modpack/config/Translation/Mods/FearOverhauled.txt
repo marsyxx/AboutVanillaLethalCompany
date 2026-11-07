@@ -1,0 +1,4 @@
+# FearOverhauled
+
+WARNING: High heartbeat detected. Find a place to rest ASAP. Your body can't take this.=ВНИМАНИЕ: Обнаружено сильное сердцебиение. Найдите место для отдыха как можно скорее. Ваше тело не выдержит этого.
+INFO: Heartrate slowing down to normal levels.=ИНФОРМАЦИЯ: Пульс замедляется до нормального уровня.

@@ -1,0 +1,9 @@
+# BetterLobbies
+
+> Lobby Code=>Код Лобби
+(Copied to clipboard!)=(Скопировано в буфер!)
+Search or Enter a room code...=Найти или Ввести код лобби...
+Code=Код
+Copied!=Скопировано!
+r:"^CREW \(([0-9]+)\):$"=ЭКИПАЖ ($1):
+Rejoin=Вернуться

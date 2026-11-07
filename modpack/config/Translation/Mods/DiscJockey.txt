@@ -1,0 +1,10 @@
+[DiscJockey]\nOpen DiscJockey=Отркыть меню плеера
+Open DiscJockey:  [F10]=Открыть плеер: [F10]
+No Track Selected=Трек не выбран
+From Your Tracklist=Из вашего трек-листа
+SAVE=сохранить
+CANCEL=отмена
+Enter URL=Введите URL
+Track Name=Название трека
+DiscJockey=Плеер
+Grab Boombox:  [E]\nOpen DiscJockey:  [F10]=Подобрать бумбокс: [E]\nОткрыть плеер: [F10]

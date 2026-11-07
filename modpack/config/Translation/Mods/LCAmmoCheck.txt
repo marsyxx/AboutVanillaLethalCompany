@@ -1,0 +1,3 @@
+# LCAmmoCheck
+
+Reload / Check ammo : [E]=Зарядить / Проверить: [E]

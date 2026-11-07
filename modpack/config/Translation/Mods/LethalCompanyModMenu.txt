@@ -1,0 +1,169 @@
+# LethalCompanyModMenu
+
+## Конфигурации
+
+Config=Конфигурации
+
+Default grabDistance=Дистанция Подбора
+Grab distance:{{A}}=Дистанция Подбора: {{A}}
+Default EnemyESP=Хитбокс Врагов
+EnemyESP:False=Хитбокс Врагов: Выключен
+EnemyESP:True=Хитбокс Врагов: Включён
+Default PlayerESP=Хитбокс Игроков
+PlayerESP:False=Хитбокс Игроков: Выключен
+PlayerESP:True=Хитбокс Игроков: Включён
+Default ItemESP=Хитбокс Предметов
+ItemESP:False=Хитбокс Предметов: Выключен
+ItemESP:True=Хитбокс Предметов: Включён
+Default InfBattery=Бесконечная Батарея
+InfBattery:False=Бесконечная Батарея: Выключена
+InfBattery:True=Бесконечная Батарея: Включена
+Default InfSprint=Бесконечный Спринт
+InfSprint:False=Бесконечный Спринт: Выключен
+InfSprint:True=Бесконечный Спринт: Включён
+Default InfAmmo=Бесконечные Патроны
+InfAmmo:False=Бесконечные Патроны: Выключены
+InfAmmo:True=Бесконечные Патроны: Включены
+Default AllowLocalPlayerDeath=Смерть Игроков
+AllowLocalPlayerDeath:False=Смерть Игроков: Выключена
+AllowLocalPlayerDeath:True=Смерть Игроков: Включена
+Default Night Vision=Ночное Видение
+Night Vision:False=Ночное Видение: Выключено
+Night Vision:True=Ночное Видение: Включено
+Disable ToolTips=Подсказки
+Disable ToolTips:False=Подсказки: Выключены
+Disable ToolTips:True=Подсказки: Включены
+
+## Дополнительно
+
+Save Colors=Сохранить Цвет
+ConfigMenu Y=Конфигурация y
+ConfigMenu X=Конфигурация x
+DungeonMenu Y=Объект y
+DungeonMenu X=Объект x
+HostMenu Y=Настройки Хоста y
+HostMenu X=Настройки Хоста x
+PlayerMenu Y=Игрок y
+PlayerMenu X=Игрок x
+CompanyMenu Y=Компания y
+CompanyMenu X=Компания x
+WorldMenu y=Мир y
+WorldMenu X=Мир x
+MainMenu Y=Главное меню y
+Save MainMenu X=Главное x
+
+## Объект
+
+Dungeon=Объект
+
+Reset Level vars=Сброс уровня
+Toggle Lights=Вкл/выкл Свет
+Kill All Mobs=Убить Всех Мобов
+Unlock All Doors=Разблокировать Двери
+Explode All Landmines=Взорвать Мины
+Disable All Turrets=Отключить Турели
+Open Big Doors=Открыть Двери
+Fix Steam Valves=Починить Клапаны
+
+## Компания
+
+The Company=Компания
+
+Set Buy Rate=Курс Скупки
+Set Patience=Терпение
+Attack Players=Атаковать Игроков
+
+## Мир
+
+The World=Мир
+
+Spawn All=Призвать Всё
+Display Info=Информация
+valueOfFoundScrapItems: {{A}}=КоличествоНайденногоЛома: {{A}}
+Total Money: {{A}}=Всего Кредитов: {{A}}
+totalScrapValueInLevel: {{A}}=КоличествоЛомаНаУровне: {{A}}
+Alive Players: {{A}}=Живые Игроки: {{A}}
+Always Name=Всегда Называть
+Flicker Terminal=Мерцающий Терминал
+Toggle On Items=Переключить Предметы
+Flicker Lights=Мерцание Света
+Play Sound=Проиграть Звук
+Cycle Planet=Направить Корабль
+EndGame takeoff=Взлёт Корабля
+Force Start=Принудить Запуск
+Send Message as=Сообщение в чат
+Signal Message=Уведомление
+
+## Настройки Хоста
+
+Host Options=Настройки Хоста
+
+Test Moon=Тестовая Луна
+Eject=Катапультирование
+Spawn Items=Спавн Предметов
+Enable Test Room=Комната для Тестов
+Test Room: False=Тест-комната: Выключена
+Test Room: True=Тест-комната: Включена
+God Mode + friends=Режим Бога (всем)
+allowLocalPlayerDeath: False=Смерть Игроков: Выключена
+allowLocalPlayerDeath: True=Смерть Игроков: Включена
+Set DeadLine=Крайний Срок
+Set Quota=Квота
+Set Credits=Кредиты
+
+# Игрок
+
+r:"^Player (.+)$"=Игрок $1
+
+PlayerESP=Хитбокс Игроков
+ItemESP=Хитбокс Предметов
+NightVision Intensity=Сила Ночного Видения
+Inf Sprint=Бесконечный Спринт
+allowLocalPlayerDeath:False=Смерть Игроков: Выключена
+allowLocalPlayerDeath:True=Смерть Игроков: Включена
+Disable Speed Cheat=Отключить Чит Скорости
+Set GrabDistance=Дистанция подбора
+Set Speed=Скорость
+Teleport to Player=Телепорт к Игроку
+Mark=Метка
+Goto Mark=ТП к Метке
+Recall=Отменить Телепорт
+Teleport to Ship=Телепорт на Корабль
+Teleport to Entrance=Телепорт на Вход
+Set player XP=Установить Опыт
+TurretContainer=Турель
+Despawn Objects=Убрать Объект
+Spawn Object=Поставить Объект
+MouthDog=СлепаяСобака
+ForestGiant=ХранительЛеса
+Red Locust Bees=Электропчёлы
+Docile Locust Bees=БлуждающаяСаранча
+Puffer=Споровик
+Girl=ПризрачнаяДевочка
+Blob=Гидродер
+Crawler=Брэкен
+Bunker Spider=БункерныйПаук
+Teleport Items=Телепорт предметов
+RainBow Suit Toggle=Радужный костюм
+Set as Radar Target=Цель Радара
+Play Audio=Проиграть Звук
+Kill Player=Убить Игрока
+Heal Player=Вылечить Игрока
+Damage Player=Урон Игроку
+playerID: {{A}}=ID Игрока: {{A}}
+carryWeight: {{A}}=переносимыйВес: {{A}}
+isPlayerDead: False=ИгрокМёртв: Нет
+isPlayerDead: True=ИгрокМёртв: Да
+insanityLevel: {{A}}=уровеньПараноика: {{A}}
+drunkness: {{A}}=пьянство: {{A}}
+health: {{A}}=здоровье: {{A}}
+playerLevelNumber: {{A}}=УровеньИгрока: {{A}}
+EnemyESP=Хитбокс Врагов
+No Clip=No Clip
+Free cam=Свободная камера
+Infinite ammo=Бесконечные патроны
+Infinite battery=Бесконечная батарея
+Hear Everything=Всё Слышит
+Submit Challenge scrap=Вызов на лом
+Shoot all shotguns=Стрелять дробовокам
+r:"^playerUsername: (.+)$"=НикнеймИгрока: $1

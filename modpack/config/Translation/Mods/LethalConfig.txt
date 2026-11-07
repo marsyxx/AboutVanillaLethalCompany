@@ -1,0 +1,5 @@
+# LethalConfig
+
+[Apply]=<size\=10>[Применить]</size>
+[Close]=<size\=10>[Закрыть]</size>
+> LethalConfig=> Конфигурация модов

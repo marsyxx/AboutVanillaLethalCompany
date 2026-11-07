@@ -1,0 +1,118 @@
+# LethalThings
+
+# Предметы магазина/Store items
+
+Turn on: [Q]=Вкл/выкл: [Q]
+Fire : [LMB]=Выстрелить: [ЛКМ]
+
+Toy Hammer=Игрушечный молот
+Drop Toy Hammer : [G]=Выбросить Молот: [G]
+Swing hammer : [LMB]=Ударить: [ЛКМ]
+Toy Hammer collected!=Игрушечный молот собран!
+
+Flaregun=Сигнальный пистолет
+Drop Flaregun : [G]=Выбросить Пистолет: [G]
+Reload : [Q]=Перезадрядить: [Q]
+Emergency Flare=Аварийный сигнал
+No ammo found.=Боеприпасов не обнаружено.
+Buy Emergency Flare (ammo) from the Terminal to reload.=Купите аварийный сигнал (патрон) в терминале, чтобы перезарядить.
+Item already loaded.=Предмет уже заряжен.
+You can reload once you use up all the ammo.=Вы сможете перезарядиться, как только израсходуете все патроны.
+
+Drop Remote Radar : [G]=Выбросить Радар-усилитель: [G]
+Switch target: [LMB]=Переключить цель: [ЛКМ]
+
+Emergency Flare (ammo)=Аварийный сигнал (патрон)
+Drop Emergency Flare (ammo) : [G]=Выбросить Патрон: [G]
+
+Pinger=Устройство для меток
+Ping : [LMB]=Метка: [ЛКМ]
+Turn on : [Q]=Вкл/выкл: [Q]
+Drop Pinger : [G]=Выбросить Устройство: [G]
+[Unknown Surface]=[Неизвестная поверхность]
+Received Ping=Получена метка
+r:"^Received from (.+)$"=от $1
+sr:"^[(.+?)]$"=[$1]
+
+Dart=Дротик
+Drop Dart : [G]=Выбросить Дротик: [G]
+
+Hacking Tool=Хакерский инструмент
+Drop Hacking Tool : [G]=Выбросить Взломщик: [G]
+Select target: [LMB]=Выберите цель: [ЛКМ]
+Input value: [0-9]=Ввести значение: [0-9]
+No target=Нет цели
+[No Target]=[Нет цели]
+Stay in area.=Оставайтесь рядом.
+Connecting...=Соединение...
+SOLVE=РЕШИТЕ
+Access granted=Доступ предоставлен
+
+Utility Belt=Универсальный пояс
+Drop Utility Belt : [G]=Выбросить Пояс: [G]
+Pick up belt=Надеть пояс: [E]
+(Cannot hold more than 1 belt)=(Невозможно надеть более 1 ремня)
+
+Rocket Launcher=Ракетомёт
+Toggle laser : [Q]=Вкл/выкл лазер: [Q]
+Drop Rocket Launcher : [G]=Выбросить Ракетомёт: [G]
+
+# Прочее/Other
+
+Teleporter Trap=Ловушка Телепортер
+Boomba=Бумба
+
+Meow : [LMB]=Сжимать: [ЛКМ]
+
+Revolver=Револьвер
+Drop Revolver : [G]=Выбросить Револьвер: [G]
+Revolver collected!=Револьвер собран!
+
+Gremlin Can=Энергетик "Гремлин"
+Gremlin Energy=Энергетик "Гремлин"
+Drop Gremlin Can : [G]=Выбросить Энергетик: [G]
+Gremlin Can collected!=Энергетик "Гремлин" собран!
+
+Gnarpy=Плюшевый Гнарпи
+Gnarpy Plush=Плюшевый Гнарпи
+Drop Gnarpy Plush : [G]=Выбросить Гнарпи: [G]
+Gnarpy collected!=Плюшевый Гнарпи собран!
+Gnarpy Plush collected!=Плюшевый Гнарпи собран!
+
+Maxwell=Плюшевый Максвелл
+Drop Maxwell : [G]=Выбросить Максвелла: [G]
+Toggle Music : [Q]=Вкл/выкл музыку: [Q]
+Maxwell collected!=Максвелл собран!
+
+Arson Plush=Плюшевый Арсон
+Drop Arson Plush : [G]=Выбросить Арсона: [G]
+Arson Plush collected!=Арсон собран!
+
+Dirty Arson Plush=Грязный плюшевый Арсон
+Arson Plush (Dirty)=Грязный плюшевый Арсон
+Drop Dirty Arson Plush : [G]=Выбросить Арсона: [G]
+Dirty Arson Plush collected!=Грязный плюшевый Арсон собран!
+
+Hamis Plush=Плюшевый Хэмис
+Hämis Plush=Плюшевый Хэмис
+Drop Hamis Plush : [G]=Выбросить Хэмиса: [G]
+Hamis Plush collected!=Хэмис собран!
+
+Cookie Fumo=Фумо Куки
+Drop Cookie Fumo : [G]=Выбросить Куки: [G]
+Cookie Fumo collected!=Куки собрана!
+Throw : [Q]=Метнуть: [Q]
+
+Toimari Plush=Плюшевый Тоймари
+Drop Toimari Plush : [G]=Выбросить Тоймари: [G]
+Toimari Plush collected!=Тоймари собран!
+
+Glizzy=Сосиска
+Drop Glizzy : [G]=Выбросить Сосиску: [G]
+Throw : [LMB]=Метнуть: [ЛКМ]
+Glizzy collected!=Сосиска собрана!
+
+
+
+
+

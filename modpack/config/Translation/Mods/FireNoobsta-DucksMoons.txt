@@ -1,0 +1,10 @@
+# DucksMoons
+
+Ducky=Ducky
+Orbiting: Ducky\nA small civilization recently abandoned this moon. When asked for the reason why, the only response was "moon's haunted."\n=ОРБИТА: Ducky\nНебольшая цивилизация недавно покинула эту луну.\nКогда её спросили о причине, единственным ответом было: «Луна преследует.»\n
+sr:"^Orbiting: Ducky\nA small civilization recently abandoned this moon. When asked for the reason why, the only response was "moon's haunted."\nWeather: (.+?)$"=ОРБИТА: Ducky\nНебольшая цивилизация недавно покинула эту луну.\nКогда её спросили о причине, единственным ответом было: «Луна преследует.»\nПОГОДА: $1
+A small civilization recently abandoned this moon. When asked for the reason why, the only response was "moon's haunted."=Небольшая цивилизация недавно покинула эту луну.\nКогда её спросили о причине, единственным ответом было: «Луна преследует.»
+
+# Corporate_Restructure
+
+sr:"^Orbiting: Ducky\nWeather: (.+?)\nA small civilization recently abandoned this moon. When asked for the reason why, the only response was "moon's haunted."$"=ОРБИТА: Ducky\nПОГОДА: $1\nНебольшая цивилизация недавно покинула эту луну. Когда её спросили о причине, единственным ответом было: «Луна преследует.»

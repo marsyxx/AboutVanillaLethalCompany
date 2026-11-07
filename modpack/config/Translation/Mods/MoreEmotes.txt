@@ -1,0 +1,61 @@
+# MoreEmotes
+
+> More Emotes=   > Изменить эмоции
+Quick Emotes=  
+WAITING FOR KEY=Выберите клавишу
+Inventory Check=Проверка инвентаря
+Remap=Клавиши
+More Emotes=Управление
+Emote Wheel=Колесо эмоций
+Prevents some emotes \nfrom performing while\nholding items/scrap=Предотвращает выполнение \nнекоторых эмоций при \nудержании инстурментов/лома
+(Keyboard only)=(Только клавиатура)
+(Controller)=(Контроллер)
+Use Config File=Использовать конфиг
+(Read Only) Ignores all \ningame saved settings and\ninstead uses the config file\n=(Только для чтения)\nИгнорирует все сохраненные\nнастройки в игре и вместо \nэтого использует файл \nконфигурации
+
+Salute=Отдать\nчесть
+Shy=Робкость
+Twerk=Тверк
+The Griddy=Танец\nГридди
+Clap=Хлопать
+Middle Finger=Средний\nпалец
+Prisyadka=Присядка
+Sign=Табличка
+
+Middle Finger\n=Средний\nпалец\n
+Point\n=Указать пальцем\n
+Dance\n=Танцевать\n
+Salute\n=Отдать\nчесть\n
+Twerk\n=Тверк\n
+The Griddy\n=Танец\nГридди\n
+Shy\n=Робкость\n
+Clap\n=Хлопать\n
+Sign\n=Табличка\n
+Prisyadka\n=Присядка\n
+EMPTY\n<SIZE\=120>[]</SIZE>=ПУСТОЙ\n<SIZE\=120>[]</SIZE>
+
+Settings=Дополнительно
+
+
+Page 1/1=Страница 1/1
+Dance\n[1]=Танец
+Point\n[2]=Указать
+Middle Finger\n[3]=Средний палец
+Clap\n[4]=Хлопать
+Shy\n[5]=Робкость
+Griddy\n[6]=Танец Гридди
+Twerk\n[7]=Тверк
+Salute\n[8]=Отдать честь
+
+<color\=#fe6b02><</color> Page 1/2 <color\=#fe6b02>></color>=<color\=#fe6b02><</color> Страница 1/2 <color\=#fe6b02>></color>
+<color\=#fe6b02><</color> Page 2/2 <color\=#fe6b02>></color>=<color\=#fe6b02><</color> Страница 2/2 <color\=#fe6b02>></color>
+
+
+Line Break <color\=yellow>[SHIFT+ENTER] </color>=Перенос строки <color\=yellow>[Shift+Enter] </color>
+PREVIEW=ПРЕДПРОСМОТР
+CHARACTERS LEFT: <color\=yellow>100</color>=ОСТАЛОСЬ СИМВОЛОВ: <color\=yellow>100</color>
+sr:"^CHARACTERS LEFT: <color\=yellow>([0-9]|[1-9][0-9]|100)<\/color>=ОСТАЛОСЬ СИМВОЛОВ: <color\=yellow>\1<\/color>$"="CHARACTERS LEFT: <color=yellow>$1</color>=ОСТАЛОСЬ СИМВОЛОВ: <color=yellow>$1</color>"
+Enter Text...=Введите текст...
+<color\=#fe6b02>[ENTER/X]</color> Submit=<color\=#fe6b02>[Enter/x]</color> Подтвердить
+<color\=#fe6b02>[RMB/B]</color> Cancel=<color\=#fe6b02>[RMB/B]</color> Отмена 
+

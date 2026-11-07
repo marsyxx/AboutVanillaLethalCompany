@@ -1,0 +1,6 @@
+# YippeeScrap
+
+Yippee=Игрушка Yippee
+Drop Yippee : [G]=Выбросить Игрушку: [G]
+Use: [LMB]=Использовать: [ЛКМ]
+Yippee collected!=Игрушка Yippee собрана!

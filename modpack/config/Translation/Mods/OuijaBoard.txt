@@ -1,0 +1,4 @@
+# OuijaBoard
+
+Drop Ouija Board : [G]=Выбросить Уиджу: [G]
+Press 'o' when dead=Нажмите [O] когда мертвы

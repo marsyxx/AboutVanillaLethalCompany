@@ -1,0 +1,9 @@
+// LanguageSwitch: German labels for the Language page. XUnity.AutoTranslator reads this file in German mode.
+> Language=> Sprache
+LANGUAGE=SPRACHE
+- GAME LANGUAGE -=- SPIELSPRACHE -
+Language=Sprache
+English=Englisch
+Russian=Russisch
+German=Deutsch
+> Back=> Zurück

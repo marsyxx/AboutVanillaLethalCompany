@@ -1,0 +1,8 @@
+# PolaroidCamera
+
+Polaroid Camera=Камера
+Drop Polaroid Camera : [G]=Выбросить Камеру: [G]
+Photo collected!=Фотография собрана!
+Value: =Не имеет цену
+Photo=Фотография
+Drop Photo : [G]=Выбросить Фотографию: [G]

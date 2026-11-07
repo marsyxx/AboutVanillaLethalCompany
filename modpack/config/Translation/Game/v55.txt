@@ -1,0 +1,11 @@
+v56=<size%3D20>v56\n(RU)</size>
+v56 (MC)=<size%3D20>v56\n(RU)</size>
+v56 MOD=<size%3D20>v56\n(RU)</size>
+
+Some of your save files may not be compatible with version 50 and may be corrupted if you play them.=Некоторые из ваших файлов сохранения могут быть несовместимы с версией 50 и могут быть повреждены при попытке сыграть на них.
+
+Version 55 is here!=Версия 55 уже здесь!
+
+Welcome back!\nThis update includes the Company Cruiser truck and a couple new creatures.\n\nOthers must update their game to play with you on this version.\n\n\nGood luck!=Добро пожаловать!\nЭто обновление включает в себя грузовик "Крейсер Компании" и пару новых существ.\n\nДругие должны обновить свою игру, чтобы поиграть с вами в этой версии.\n\n\nУдачи!
+
+[ Continue ]=[ Продолжить ]

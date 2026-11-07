@@ -1,0 +1,60 @@
+﻿# Location/Локации
+
+Abandoned=Заброшено
+Diverse=Разнообразное
+Eclipsed=Затмение
+Flooded=Наводнение
+Foggy=Туман
+Rainy=Дождь
+Safe=Безопасно
+Stormy=Шторм
+Unknown=Неизвестно
+None=Отсутствует
+
+
+A competitive ecosystem supports aggressive lifeforms.=Экосистема способствует развитию агрессивных форм жизни.
+Arid. Thick haze, worsened by industrial artifacts.=Засушливо. Густой туман, ухудшенный промышленными артефактами.
+Dangerous entities have been rumored to take residence in the vast network of tunnels.=По слухам, в обширной сети туннелей обитают опасные существа.
+Dominated by a few species.=Доминируют несколько видов.
+Ecosystem supports territorial behaviour.=Экосистема поддерживает территориальное поведение.
+Expansive. Constant rain.=Просторная. Постоянный дождь.
+Frozen, rocky. Its planet orbits a white dwarf star.=Замерзшая, каменистая. Ее планета вращается вокруг белого карлика.
+Frozen, rocky. This moon was mined for resources. It's easy to get lost here.=Замерзшая, каменистая. На этой луне добывали ресурсы. Здесь легко заблудиться.
+Humid. Rough terrain. Teeming with plant-life.=Влажно. Пересеченная местность. Кишит растительностью.
+No land masses. Continual storms.=Отсутствие суши. Непрерывные штормы.
+Oxygen critically low!=Критический уровень кислорода!
+Unlikely for complex life to exist=Маловероятно существование сложных форм жизни.
+Where the Company resides.=Местонахождение Компании.
+Jagged and weathered terrain.=Неровная и выветриваемая местность.
+A landscape of deep valleys and mountains.=Пейзаж глубоких долин и гор.
+Home to a lively, diverse ecosystem of smaller-sized omnivores.=Здесь обитает оживлённая и разнообразная экосистема мелких всеядных животных.
+Rumored active machinery left behind.=По слухам, действующая техника осталась позади.
+Waning forests. Abandoned facilities littered across the landscape.=Угасающие леса. Заброшенные объекты разбросаны по всему ландшафту.
+Desolate, made of amethyst.=Пустынный, сделанный из аметиста.
+Embrion is devoid of biological life.=Embrion лишена биологической жизни.
+
+21 Offense=21 Offense
+220 Assurance=220 Assurance
+31 March=31 March
+41 Experimentation=41 Experimentation
+56 Vow=56 Vow
+61 March=61 March
+7 Dine=7 Dine
+71 Gordion=71 Gordion
+8 Titan=8 Titan
+85 Rend=85 Rend
+Voiumya-10=Voiumya-10
+20 Adamance=20 Admance
+68 Artifice=68 Artifice
+5 Embrion=5 Embrion
+
+HAZARD LEVEL:=РАНГ РИСКА:
+
+sr:"^CELESTIAL BODY: ([\s\S]+)$"=ОБЪЕКТ: $1
+
+sr:"^Orbiting: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?) \nFAUNA: (.+?)\nWeather: (.+?)$"=ОРБИТА: $1\nНАСЕЛЕНИЕ: $2\nУСЛОВИЯ: $3 \nФАУНА: $4\nПОГОДА: $4
+sr:"^Orbiting: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)\n(.+?)$"=ОРБИТА: $1\nНАСЕЛЕНИЕ: $2\nУСЛОВИЯ: $3\nФАУНА: $4\n$5
+sr:"^Orbiting: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)\nWeather: (.+?)$"=ОРБИТА: $1\nНАСЕЛЕНИЕ: $2\nУСЛОВИЯ: $3\nФАУНА: $4\nПОГОДА: $5
+sr:"^Orbiting: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)$"=ОРБИТА: $1\nНАСЕЛЕНИЕ: $2\nУСЛОВИЯ: $3\nФАУНА: $4
+sr:"^POPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)\n(.+?)$"=НАСЕЛЕНИЕ: $1\nУСЛОВИЯ: $2\nФАУНА: $3\n$4
+sr:"^POPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)$"=НАСЕЛЕНИЕ: $1\nУСЛОВИЯ: $2\nФАУНА: $3

@@ -1,0 +1,28 @@
+# LethalMissions
+
+Lethal Missions=Lethal Missions
+New missions are available!=Проверьте новые миссии в терминале!\nВведите `Missions`\nИли нажмите [J] для вызова окна с миссиями
+No completed missions=Выполненных миссий нет
+
+PAYCHECK!=ЗАРПЛАТА!
+r:"^You have completed ([1])\nmissions.\n\nHere are your rewards:\n\n$"=Вы выполнили\n$1 миссию.\n\nВот ваши награды:\n\n
+r:"^You have completed ([2,3,4])\nmissions.\n\nHere are your rewards:\n\n$"=Вы выполнили\n$1 миссии.\n\nВот ваши награды:\n\n
+r:"^You have completed ([0,5,6,7,8,9])\nmissions.\n\nHere are your rewards:\n\n$"=Вы выполнили\n$1 миссий.\n\nВот ваши награды:\n\n
+
+### [J]
+
+Lightning rod\nBecome the human lightning rod, stop a lightning with style=<size\=12>Громоотвод</size>\n\n<size\=12>Станьте человеческим громоотводом, остановите молнию со стилем</size>
+Witness a Celestial Event\nWitness the dramatic farewell of a fellow crewmate=<size\=12>Свидетель трагического события</size>\n\n<size\=12>Станьте свидетелем драматической смерти товарища по команде</size>
+Retrieve Your Pal's Corpse\nBecause being a hero also means playing space undertaker=<size\=12>Возврат трупа вашего приятеля</size>\n\n<size\=12>Потому что быть героем — это ещё и быть личным гробовщиком друзей</size>
+Get a beehive!\nBecause even in space, we all need some honey and laughter=<size\=12>Добыча Улья!</size>\n\n<size\=12>Потому что даже в космосе нам всем нужны мёд и смех.</size>
+r:"^Preserve the Group's Life\nMake sure at least ([0-9]+) crewmates survive the space odyssey!$"=<size\=12>Сохранение жизни экипажа</size>\n\n<size\=12>Убедитесь, что хотя бы $1 из членов экипажа выжили в этой вылазке!</size>
+Defeat the Monster\nEmbark on a daring mission to eliminate a menacing creature=<size\=12>Победа над монстром</size>\n\n<size\=12>Отправьтесь на смелую миссию по уничтожению грозного существа</size>
+Obtaining the Apparatus\nTake the Generator from the factory to the ship.=<size\=12>Извлечение Реактора</size>\n\n<size\=12>Добудьте Реактор в объекте, и принесите его на корабль.</size>
+sr:"^Find Scrap\nFind the next scrap: (.+?)$"=<size\=12>Поиск лома</size>\n\n<size\=12>Найдите следующий лом: $1</size>
+r:"^Repair the Valves\nAs broken as your heart, show your skills and fix at least ([0-9]+) of them.$"=<size\=12>Починка клапанов</size>\n\n<size\=12>Столь же разбитые, как и ваше сердце, покажите свои навыки и исправьте хотя бы $1 из них.</size>
+r:"^Escape before (.+?)\nDon't stay on the moon after (.+?)! It's a dangerous place!$"=Сбегите раньше $1\nНе оставайтесь на Луне после $2! Это опасное место!
+
+### InputUtils
+
+LethalMissions=LethalMissions
+[LethalMissions]\nOpen Missions Menu=[LethalMissions]\nОткрыть Меню Миссий

@@ -1,0 +1,10 @@
+# Malfunctions
+
+ROUTE TABLE OFFSET: NAVIGATION ERROR\n\nIT IS ADVISED TO LAND THE SHIP TO ALLOW RECALIBRATION OF SYSTEMS AND RESTORATION OF FUNCTIONALITY\n\n=СМЕЩЕНИЕ ТАБЛИЦЫ МАРШРУТА: ОШИБКА НАВИГАЦИИ\n\nРЕКОМЕНДУЕТСЯ ПОСАДИТЬ СУДНО ДЛЯ ПЕРЕКАЛИБРОВКИ СИСТЕМ И ВОССТАНОВЛЕНИЯ ФУНКЦИОНАЛЬНОСТИ\n\n
+SHIP TELEPORTER MALFUNCTION:\nTIMEOUT FROM ATOMIC MISALIGNMENT=НЕИСПРАВНОСТЬ КОРАБЛЬНОГО ТЕЛЕПОРТЕРА:\nВОССТАНОВЛЕНИЕ ИЗ-ЗА АТОМНОГО СМЕЩЕНИЯ
+SHIP NAVIGATION MALFUNCTION:\nROUTE TABLE OFFSET ERROR=НЕИСПРАВНОСТЬ КОРАБЕЛЬНОЙ НАВИГАЦИИ:\nОШИБКА СМЕЩЕНИЯ ТАБЛИЦЫ МАРШРУТОВ
+SHIP NAVIGATION MALFUNCTION\nOrbiting: Unknown\nWeather: Unknown\nBE ADVISED THE ROUTE TABLE WILL RECALIBRATE AFTER LANDING=НЕИСПРАВНОСТЬ КОРАБЕЛЬНОЙ НАВИГАЦИИ\nОРБИТА: Неизвестно\nПогода: Неизвестно\nСООБЩАЕМ, ЧТО ТАБЛИЦА МАРШРУТА БУДЕТ ПЕРЕКАЛИБРОВАНА ПОСЛЕ ПОСАДКИ
+SHIP CORE SURGE:\nRUNNING ON EMERGENCY POWER=ВСПЫШКА ЯДРА КОРАБЛЯ:\nРАБОТА ОТ АВАРИЙНОГО ПИТАНИЯ
+SHIP CORE DEPLETION:\nAWAIT 12AM EMERGENCY AUTOPILOT=ИСТОЩЕНИЕ ЯДРА КОРАБЛЯ:\nДОЖДИТЕСЬ АВАРИЙНОГО АВТОПИЛОТА В 12 УТРА
+SHIP COMS DISTURBANCE:\nELECTROMAGNETIC ANOMALY=НАРУШЕНИЯ КОРАБЕЛЬНОЙ СВЯЗИ:\nЭЛЕКТРОМАГНИТНАЯ АНОМАЛИЯ
+SHIP DOOR LOCK FAIL:\nCRACKDOWN PROTOCOL ACTIVE=НЕИСПРАВНОСТЬ КОРАБЕЛЬНОГО ШЛЮЗА:\nПРОТОКОЛ ПРЕКРАЩЕНИЯ ДЕЙСТВИЙ АКТИВЕН

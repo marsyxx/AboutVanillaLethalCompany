@@ -1,0 +1,3 @@
+# LethalRadiation
+
+[Radiation detected!]=[Внутри радиация!]

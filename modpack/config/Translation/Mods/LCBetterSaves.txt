@@ -1,0 +1,5 @@
+# LCBetterSaves
+
+BetterSaves=Сохранения
+New File=Новый файл
+r:"^Do you want to delete file (.+)\?$"=Вы точно хотите удалить Файл $1?

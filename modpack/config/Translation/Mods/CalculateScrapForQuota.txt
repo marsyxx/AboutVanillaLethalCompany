@@ -1,0 +1,3 @@
+# CalculateScrapForQuota
+
+r:"^Optimal: ([0-9]+)$"=Оптимально\nдля сдачи квоты: $1

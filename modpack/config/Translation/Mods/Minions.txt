@@ -1,0 +1,8 @@
+# Minions
+
+Small Minion=Миньон
+Big_Minion=Большой Миньон
+Drop Big_Minion : [G]=Выбросить Миньона: [G]
+Drop Small Minion : [G]=Выбросить Миньона: [G]
+Small Minion collected!=Миньон собран!
+Big_Minion collected!=Большой Миньон собран!

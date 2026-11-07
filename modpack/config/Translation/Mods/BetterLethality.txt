@@ -1,0 +1,4 @@
+# BetterLethality
+
+> Mods=> Моды
+Installed Mods=Установленные моды

@@ -1,0 +1,42 @@
+# LethalProgression
+
+Upgrades:= Улучшения:
+> Skills=> Навыки
+r:"^You've made.. (\d{1,3}\$)$"=Вы заработали.. $1
+r:"^Level: (\d{1,3})$"=Уровень: $1
+Level up to earn more skill points. You can level up by picking scrap and killing enemies.=Поднимайте уровень, чтобы получить больше очков навыков. Вы можете поднимать уровень, собирая лом и уничтожая врагов.
+Level Up! Spend your skill points.=Уровень повышен! Используйте свои очки навыков.
+(Pause Menu -> Skills)=(Меню паузы [ESC] -> Навыки)
+
+HPR:=ВЗД:
+STM:=ВНС:
+BAT:=ВРБ:
+HND:=ДСЛ:
+VAL:=СДБ:
+OXY:=КСЛ:
+
+r:\+(\d{1,2}(?:[.,]\d{1,2})?)%\sHealth Regeneration=(+$1% восстановление здоровья)
+r:\+(\d{1,2}(\.\d{1,2})?%)\sStamina=($1 выносливость)
+r:\+(\d{1,2}(\.\d{1,2})?%)\sBattery Life=($1 срок службы батареи)
+r:\+(\d{1,2}(\.\d{1,2})?%)\sHand Slots=($1 дополнительный слот)
+r:\+(\d{1,2}(?:[.,]\d{1,2})?)%\sLoot Value=(+$1% значение добычи)
+r:\+(\d{1,2}(\.\d{1,2})?%)\sExtra Oxygen=($1 дополнительный кислород)
+
+Health Regen=Восстановление здоровья
+Stamina=Выносливость
+Battery Life=Время работы батареи
+Hand Slot=Дополнительный слот
+Loot Value=Стоимость добычи
+Oxygen=Дополнительный кислород
+
+The company installs a basic healer into your suit, letting you regenerate health slowly. Only regenerate up to 100 HP.=Компания устанавливает базовый исцеляющий модуль в ваш костюм, позволяя вам медленно восстанавливать здоровье. Можно восстановить вплоть до 100%.
+
+Hours on that company gym finally coming into play. Allows you to run for longer.=Часы, проведенные в тренажерном зале компании, наконец, начинают приносить пользу. Позволяет вам бегать дольше.
+
+The company provides you with better batteries. Replace your batteries AT THE SHIP'S CHARGER to see an effect.=Компания предоставляет вам более качественные батареи. Замените её в зарядном устройстве корабля, чтобы увидеть эффект.
+
+The company finally gives you a better belt! Fit more stuff! (Reach 100% for one slot.)=Компания наконец-то предоставляет вам лучший пояс! Вмещайте больше вещей! (Достигните 100% для одного слота.)
+
+The company gives you a better pair of eyes, allowing you to see the value in things.=Увеличивает общую стоимость вещей при генерации.
+
+The company installs you with oxygen tanks. You gain extra time in the water. (Start drowning when the bar is empty.)=Компания устанавливает вам баллоны с кислородом. Вы получаете дополнительное время под водой. (Начнете задыхаться, когда шкала опустеет.)

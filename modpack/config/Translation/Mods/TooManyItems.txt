@@ -1,0 +1,32 @@
+# TooManyItems
+
+Beans=Бобы
+Metal Pipe=Металлическая труба
+Jar Of Honey=Банка мёда
+Chocolate(Normal)=Шоколадка
+Chocolate White=Белая шоколадка
+RollingPin=Скалка
+Package=Упаковка
+ToiletPaper=Туалетная бумага
+Water Bottle=Бутылочка с водой
+Cigarettes=Пачка сигарет
+Water Jug=Бутыль
+Coffee=Кофе
+Rolling Pin=Скалка
+WaterJug=Бутыль
+Cigarrets=Пачка сигарет
+Bar Of Chocolate (White)=Белая шоколадка
+Bar Of Chocolate (Normal)=Шоколадка
+Pipe=Металлическая труба
+Drop Water Jug : [G]=Выбросить Бутыль: [G]
+Drop Package : [G]=Выбросить Упаковку: [G]
+Drop ToiletPaper : [G]=Выбросить Туалетку: [G]
+Drop Beans : [G]=Выбросить Бобы: [G]
+Drop Metal Pipe : [G]=Выбросить Трубу: [G]
+Drop Jar Of Honey : [G]=Выбросить Мёд: [G]
+Drop Coffee : [G]=Выбросить Кофе: [G]
+Drop RollingPin : [G]=Выбросить Скалку: [G]
+Drop Water Bottle : [G]=Выбросить Бутылочку: [G]
+Drop Cigarettes : [G]=Выбросить Сигареты: [G]
+Drop Chocolate White : [G]=Выбросить Шоколадку: [G]
+Drop Chocolate(Normal) : [G]=Выбросить Шоколадку: [G]

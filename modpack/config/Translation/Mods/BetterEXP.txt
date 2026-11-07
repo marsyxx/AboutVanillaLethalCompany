@@ -1,0 +1,78 @@
+# BetterEXP
+
+<color\=#009600ff><size\=80%>Thanks for installing BetterEXP!</size></color>=<color\=#009600ff><size\=80%>Спасибо за установку BetterEXP!</size></color>
+sr:"^<size\=90%>Based on your vanilla EXP, your BXP Rank has been automatically assigned to <color\=#0096ffff>(.+?)</color>! Remember to be a great asset.</size>$"=<size\=90%>Основываясь на вашем опыте из ванильной игры, вам автоматически присваивается ранг <color\=#0096ffff>$1</color>! Не забывайте побольше активничать.</size>
+
+sr:"^(.+?) <size=70%><color=#ff00ffff>([0-9]+)/([0-9]+)</color></size>$"=$1 <size=70%><color=#ff00ffff>$2/$3</color></size>
+r:"([0-9]+) BXP$"=$1 BXP
+
+r:"^Round Experience:(.+?)$"=Отчёт по вылазке:$1
+
+r:"^(.+?)Death Penalty(.+?)$"=$1Приговор за смерти$2
+r:"(?s)^(.+?)Death Penalty(.+?)$"=$1Приговор за смерти$2
+r:"^(.+?)Collected(.+?)$"=$1Собрано$2
+r:"(?s)^(.+?)Collected(.+?)$"=$1Собрано$2
+r:"(?s)^(.+?)Enemy Kill Bonus(.+?)$"=$1Убийства врагов$2
+r:"^(.+?)Enemy Kill Bonus(.+?)$"=$1Убийства врагов$2
+r:"(?s)^(.+?)Weather Bonus(.+?)$"=$1Бонус за непогоду$2
+r:"^(.+?)Weather Bonus(.+?)$"=$1Бонус за непогоду$2
+
+r:"^(.+?)<size\=85%>\n<color\=#ff96bb>Collected: (\$[0-9]+)</color></size>\n$"=$1<size\=85%>\n<color\=#ff96bb>Собрал: $2</color></size>\n
+
+sr:"^Notes: \n* (.+)\n* (.+)\n* (.+)\n* (.+)\n* (.+)$"=Примечания: \n* $1\n* $2\n* $3\n* $4\n* $5
+sr:"^Notes: \n* (.+)\n* (.+)\n* (.+)\n* (.+)\n* (.+)\n* (.+)$"=Примечания: \n* $1\n* $2\n* $3\n* $4\n* $5\n* $6
+
+r:"(?s)^(.*)Most Profitable!(.*)$"=$1Самый прибыльный!$2
+r:"(?s)^(.*)Most Active(.*)$"=$1Самый активный$2
+r:"(?s)^(.*)Most Injured(.*)$"=$1Самый раненый$2
+r:"(?s)^(.*)Most Paranoid(.*)$"=$1Самый параноидальный$2
+r:"(?s)^(.*)The Laziest(.*)$"=$1Самый ленивый$2
+r:"(?s)^(.*)Least Profitable(.*)$"=$1Наименее прибыльный$2
+r:"^(\$[0-9]+)$"=$1
+r:"^\(([0-9]+) steps\)$"=($1 шагов)
+r:"^\(([0-9]+) damage\)$"=($1 урона)
+r:"^\(([0-9]+) turns\)$"=($1 поворотов)
+
+Intern=Интерн
+Trainee=Стажёр
+Apprentice=Подмастерье
+Part-Timer=Временный работник
+Full-Timer=Работник
+Leader=Лидер
+Manager=Менеджер
+Sr. Manager=Старший менеджер
+3rd Boss=3-й Босс
+2nd Boss=2-й Босс
+1st Boss=1-й Босс
+3rd Vice President=3-й Вице-президент
+2nd Vice President=2-й Вице-президент
+1st Vice President=1-й Вице-президент
+3rd Executive V.P.=3-й Административный В.-п.
+2nd Executive V.P.=2-й Административный В.-п.
+1st Executive V.P.=1-й Административный В.-п.
+Deputy President=Депутат
+President=Президент
+Vice Chairman=Вице-председатель
+Chairman=Председатель
+Co-Founder=Сооснователь
+Founder=Основатель
+Greatest Asset=Величайший активист 
+Greatest Asset II=Величайший активист II
+Greatest Asset III=Величайший активист III
+Greatest Asset IV=Величайший активист IV
+Greatest Asset V=Величайший активист V
+Greatest Asset VI=Величайший активист VI
+Greatest Asset VII=Величайший активист VII
+Greatest Asset VIII=Величайший активист VIII
+Greatest Asset IX=Величайший активист IX
+Greatest Asset X=Величайший активист X
+The Company=Компания
+The Company II=Компания II
+The Company III=Компания III
+The Company IV=Компания IV
+The Company V=Компания V
+The Company VI=Компания VI
+The Company VII=Компания VII
+The Company VIII=Компания VIII
+The Company IX=Компания IX
+The Company X=Компания X

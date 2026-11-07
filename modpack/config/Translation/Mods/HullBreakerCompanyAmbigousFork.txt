@@ -1,0 +1,24 @@
+# HullBreakerCompanyAmbigousFork
+
+r:"(?s)^(.+?)Enemy killed. Your work keeps the company happy. You receive </color><color=green>"(.+?)"</color><color=white> credits.(.*)$"=$1Враг убит. Ваша работа делает компанию счастливой. Ваша награда </color><color=green>"$2"</color><color=white> кредитов.$3
+r:"(?s)^(.+?)Large number of life forms detected, likely hostile(.*)$"=$1Обнаружено большое количество форм жизни, вероятно, враждебных$2
+r:"(?s)^(.+?)HIGH POPULATION(.*)$"=$1ВЫСОКАЯ НАСЕЛЁННОСТЬ$2
+r:"(?s)^(.+?)Scans indiciate all scrap is.. organic?(.*)$"=$1Сканирование показывает, что весь лом... органический?$2
+r:"(?s)^(.+?)SCRAP ANOMALY(.*)$"=$1АНОМАЛЬНЫЙ ЛОМ$2
+r:"(?s)^(.+?)Detected signs of paranormal acitivy(.*)$"=$1Обнаружены признаки паранормальной активности$2
+r:"(?s)^(.+?)PARANORMAL(.*)$"=$1ПАРАНОРМАЛЬНОЕ ЯВЛЕНИЕ$2
+r:"(?s)^(.+?)Company bounty active: RIP AND TEAR(.*)$"=$1Вонаграждение компании активно: РАЗОРВИ И ВЗОРВИ$2
+r:"(?s)^(.+?)KILL BOUNTY(.*)$"=$1НАГРАДА ЗА УБИЙСТВА$2
+r:"(?s)^(.+?)Security systems offline(.*)$"=$1Системы безопасности оффлайн$2
+r:"(?s)^(.+?)SECURITY OFFLINE(.*)$"=$1БЕЗОПАСНОСТЬ ОФЛАЙН$2
+r:"(?s)^(.+?)CAUTION: </color><color=white>very dense population, hostile(.*)$"=$1ОСТОРОЖНО: </color><color=white>очень плотное население, враждебное$2
+r:"(?s)^(.+?)Residues of pesticide detected in atmosphere(.*)$"=$1В атмосфере обнаружены остатки пестицидов$2
+r:"(?s)^(.+?)CAPTURE THE SCRAP(.*)$"=$1ХВАТАЙТЕ ЛОМ$2
+r:"(?s)^(.+?)KPI report: underperforming</color>\n<color=green>"(.+?)"</color><color=white> credits received. Prove your worth to the company!(.*)$"=$1Отчёт КПЭ: неэффективный</color>\n<color=green>"$2"</color><color=white> кредитов получено. Докажите свою ценность компании!$3
+r:"(?s)^(.+?)BONUS CREDITS: </color><color=green>"(.+?)"(.*)$"=$1БОНУСНЫЕ КРЕДИТЫ: </color><color=green>"$2"$3
+r:"(?s)^(.+?)High security compound(.*)$"=$1Объект строгого режима$2
+r:"(?s)^(.+?)FORTIFIED(.*)$"=$1УКРЕПЛЁННЫЙ$2
+r:"(?s)^(.+?)Explosions detected(.*)$"=$1Обнаружены взрывы$2
+r:"(?s)^(.+?)You were selected for team building measures. Once signal to an employee is lost the ship will leave within an hour!(.*)$"=$1Вы были выбраны для проведения мероприятий по строительству отношений в команде. При потере сотрудника, корабль улетит через час!$2
+r:"(?s)^(.+?)HIGH SECURITY(.*)$"=$1ВЫСОКАЯ БЕЗОПАСНОСТЬ$2
+r:"(?s)^(.+?)This place was shrouded in darkness for weeks(.*)$"=$1Это место было окутано тьмой на несколько недель.$2

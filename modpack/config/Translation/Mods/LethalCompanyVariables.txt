@@ -1,0 +1,78 @@
+# LethalCompanyVariables
+
+r:"Default value: ([0-9]+)$"=Значение по умолчанию: $1
+Configuration's menu has been <color\=red>disabled</color> in challenge mode.\nIf you don't like this change you can vote for it to come back. You have multiple options:\n- Vote in the <color\=#037bfc><u><link\=discord>lethal company modding discord</link></u></color> at the corresponding <color\=#8229ff>#mod-releases</color> forum channel.\n- Contact the developer <color\=#037bfc><u><link\=developer>the_ansuz</link></u></color> at discord.\n- Complain about it enough <color\=#037bfc><u><link\=complain>here</link></u></color>.=Меню конфигурации находилось <color\=red>disabled</color> в режиме вызова.\nЕсли вам не нравится это изменение, вы можете проголосовать за его возвращение. У вас есть несколько вариантов:\n- Проголосовать в <color\=#037bfc><u><link\=discord>дискорде lethal company modding</link></u></color> в этом <color\=#8229ff>#mod-releases</color> канал-форуме.\n- Связаться с разработчиком <color\=#037bfc><u><link\=developer>the_ansuz</link></u></color> в дискорде.\n- Просто пожаловаться на это <color\=#037bfc><u><link\=complain>здесь</link></u></color>.
+Type=Тип
+Type: Decimal=Тип: Десятичный
+Client synchronize=Синхронизация клиентов
+Needs restart=Требуется перезапуск
+Default value=Значение по умолчанию
+Reset configuration=Сбросить конфигурацию
+Information / Guide=Информация / Руководство
+Level generation=Генерация уровня
+Enemy spawn multiplier=Множитель спавна врагов
+Enemy power multiplier=Множитель силы врагов
+Enemy cap multiplier=Уникальность врагов
+Scrap amount multiplier=Множитель кол-ва лома
+Scrap price multiplier=Множитель цены лома
+Dust clouds weather chance=Шанс Туч пыли
+Rainy weather chance=Шанс Дождя
+Stormy weather chance=Шанс Шторма
+Foggy weather chance=Шанс Тумана
+Flooded weather chance=Шанс Наводнения
+Eclipsed weather chance=Шанс Затмения
+No weather chance=Нет шансов погоды
+Gameplay=Геймплей
+Starting money=Стартовые кредиты
+Daytime speed multiplier=Множитель течения времени
+Daytime speed mode=Режим течения времени
+BALANCED=СБАЛАНСИРОВАННЫЙ
+Deadline days=Крайний срок
+Hide weather=Скрыть погоду
+Ship door power=Энергия дверей корабля
+Disable ship item limit=Отключить лимит предметов на корабле
+Disable signal translator limit=Отключить лимит у транслятора сигналов
+Experience multiplier=Множитель опыта
+Quota settings=Настройки квоты
+Starting quota=Стартовая квота
+Quota increase base=Рост квоты
+Quota steepness=Крутизна квоты
+Quota multiplier=Множитель квоты
+Enemy spawn probabilities=Вероятность появления врагов
+Red pill=Красная таблетка
+Lethal company variables=Переменные Lethal Company
+Modifies the amount of enemies spawned each hour\n\nThere is a maximum total of enemies which you can modify with the <u>Enemy power multiplier</u>\nThere are also individual enemy caps for each monster type, you can modify this with the <u>Enemy cap multiplier</u>\n\n(This does not affect turrets or landmines)=Изменяет количество врагов, появляющихся каждый час\n\nСуществует максимальное количество врагов, которых вы можете изменить с помощью <u>Множитель силы врагов</u>\nДля каждого типа монстров также установлены индивидуальные ограничения количества врагов. Вы можете изменить это с помощью множителя <u>Уникальность врагов.</u>\n\n(Это не влияет на турели или мины)
+Multiplies the maximum enemy power of the level\n\n(Each enemy spawn adds power to the level. If there is not enough capacity for an enemy, it does not spawn)=Умножает максимальную силу противника на уровне\n\n(Каждое появление врага добавляет силу уровню. Если врагу недостаточно мощности, он не появляется)
+Multiplies the maximum amount of individual enemies\n\n(Some enemies types can only spawn <u>X</u> amount in a level, for example there is a cap of 5 coil-heads by default)=Умножает максимальное количество отдельных врагов\n\n(Некоторые типы врагов могут порождать только <u>X</u> количество на уровне, например, по умолчанию существует ограничение в 5 пружиноголовых)
+Modifies the amount of scrap that spawns in the level\n\n(Does not affect beehive spawning)=Изменяет количество лома, который появляется на уровне\n\n(Не влияет на ульи)
+Multiplies the value of each individual scrap piece\n=Умножает значение каждого отдельного кусочка\n
+Type: Percent=Тип: Процент
+Changes how often should a level have DustClouds weather\n\nThis is a hidden weather that makes planets a little foggy=Изменяет, как часто на уровне должны быть тучи пыли\n\nЭто скрытая погода, которая делает планеты немного туманными
+Changes how often should a level have Rainy weather\n\nCareful, wet floor=Изменяет, как часто на уровне должна быть дождливая погода\n\nОсторожно, мокрый пол
+Changes how often should a level have Stormy weather\n\nRain and lightning. Be careful not to carry metal on you for too long=Изменяет, как часто на уровне должна быть штормовая погода\n\nДождь и молния. Будьте осторожны, не носите с собой металл слишком долго
+Changes how often should a level have Foggy weather\n\nA dense fog covers the planet, reducing visibility of almost all living creatures=Изменяет, как часто на уровне должна быть туманная погода\n\nПлотный туман покрывает планету, снижая видимость практически всей живности
+Changes how often should a level have Flooded weather\n\nHeavy rain may have flooded the entrance to the facilities=Изменяет, как часто на уровне должно быть наводнение\n\nСильный дождь мог затопить вход в объект
+Changes how often should a level have Eclipsed weather\n\nThe light can no longer protect you from monsters=Изменяет, как часто на уровне должно быть затмение\n\nСвет больше не может защитить вас от монстров
+Changes how often should a level have None weather\n\n=Изменяет, как часто на уровне должна быть благоприятная погода\n\n
+Type: Whole number=Тип: Целое число
+Modifies the starting amount of money=Изменяет стартовую сумму кредитов
+Changes the duration of the days, higher values mean the day will pass faster\n\nThe time starts passing the moment you flick the level so values that differ from the default will affect at what time you land on the moon\n\n(This setting can be changed with the <color\=#aaaaaa>Daytime speed mode</color> configuration)=Изменяет продолжительность дней. Более высокие значения означают, что день пройдёт быстрее\n\nВремя начинает течь в тот момент, когда вы переключаете автопилот на орбиту, поэтому значения, отличные от значений по умолчанию, будут влиять на то, в какое время вы приземлитесь на Луну.\n\n(Это можно изменить с помощью настройки <color\=#aaaaaa>Режим течения времени</color>)
+Type: Options=Тип: Параметры
+Changes how the in-game day works\n\n<color\=#bafc03>BALANCED</color>: Time starts passing by the moment you flick the level, normal behavior\n<color\=#bafc03>FIXED</color>: Time starts passing by when the ship finishes landing.\n<color\=#ed4040>If the value is not "BALANCED", other clients must have the mod installed</color>=Изменяет порядок проведения игрового дня\n\n<color\=#bafc03>БАЛАНСИРОВАННЫЙ</color>: Время начинает идти в тот момент, когда вы переключаете автопилот на орбиту, нормальное поведение\n<color\=#bafc03>ИСПРАВЛЕННОЕ</color>: Время начинает идти, когда корабль приземляется.\n<color\=#ed4040>Если значение не "БАЛАНСИРОВАННОЕ", у других клиентов должен быть установлен этот мод</color>
+Modifies how many days you have to fulfull the next quota\n\nThis configuration takes effect when you start a new game or when a new deadline and quota are set=Изменяет количество дней, необходимое для выполнения следующей квоты\n\nЭта конфигурация вступает в силу при запуске новой игры или при установке нового крайнего срока и квоты
+Default value: False=Значение по умолчанию: false
+Type: Boolean=Тип: Логическое знач.
+Hides the weather display\n\n<color\=#ac0606>Warning</color>\nOther players need to have installed the mod for this configuration to work on them=Скрывает отображение погоды\n\n<color\=#ac0606>Внимание</color>\nДругим игрокам необходимо установить этот мод, чтобы эта конфигурация работала на них
+Modifies how much money is lost for each <b>individual</b> death penalty\n\n<color\=#ac0606>Warning</color>\nOther players need to have installed the mod for this configuration to work on them=Изменяет количество денег, потерянных за каждое <b>отдельное</b> наказание за смерть\n\n<color\=#ac0606>Внимание</color>\nДругим игрокам необходимо установить этот мод, чтобы эта конфигурация работала на них
+Modifies how long can the ship door remain closed\n\nGreater values mean the door will remain closed more time before overheating=Изменяет время, в течение которого дверь корабля может оставаться закрытой.\n\nБольшие значения означают, что дверь будет оставаться закрытой больше времени, прежде чем перегреется
+Disables the default limit of items inside the ship\n\nKeep in mind that the limit was there for a reason so don't try to keep a million flashlights\n<color\=#ebb434>If you manage to do so, I wanna see how that ends up</color>=Отключает установленный по умолчанию лимит предметов внутри корабля\n\nИмейте в виду, что ограничение было установлено не просто так, поэтому не пытайтесь держать миллион фонариков\n<color\=#ebb434>Если тебе удастся это сделать, я хочу посмотреть, чем это закончится</color>
+Disables the limit of characters for the signal translator\n\nDoes not disable the terminal writing limit=Отключает ограничение символов для транслятора сигналов\n\nНе отключает ограничение символов в терминале
+Multiplies the amount of experience that you gain or lose when completing a day\n\n<color\=#ac0606>Warning</color>\nIf you lose experience due to skill issue, it will also be multiplied.=Умножает количество опыта, которое вы получаете или теряете по завершении дня\n\n<color\=#ac0606>Внимание</color>\nЕсли вы потеряете опыт из-за проблем с навыками, он также будет умножен.
+Type: Whole number ( 1 : 2147483647 )=Тип: Целое число ( 1 : 2147483647 )
+Changes what the starting quota is\n\nEvery time you start a new game, this quota have this value, as simple as that=Изменяет стартовую квоту\n\nКаждый раз, когда вы начинаете новую игру, эта квота имеет такое значение, вот и всё
+Type: Decimal ( 0 : 900 )=Тип: Десятичный ( 0 : 900 )
+Changes how much is added to the quota after each deadline\n\nThis is the base value and will be scaled before adding it to your current quota=Изменения сколько добавляется к квоте после каждого срока\nЭто базовое значение и будет масштабировано, прежде чем добавить его в свою текущую квоту
+Type: Decimal ( 0,01 : 1000 )=Тип: Десятичный ( 0,01 : 1000 )
+Smooths the quota raise\n\nHigher values mean the quota will raise slower. This value can't be zero nor lower=Сглаживает повышение квоты\n\nБолее высокие значения означают, что квота будет повышаться медленнее. Это значение не может быть равно нулю или ниже
+Changes the exponential increase for the quota after each deadline\n\nThis value is directly proportional to how hard it gets after each deadline, higher values mean the quota will get high faster=Изменяет экспоненциальное увеличение квоты после каждого крайнего срока\n\nЭто значение прямо пропорционально тому, насколько сложно становится после каждого крайнего срока. Более высокие значения означают, что квота будет увеличиваться быстрее
+sr:"^Changes how probable is the (.+?) to spawn\n\nRemember that natural probabilities vary with the moon. Multiplying this value will affect all of them separately$"=Изменяется вероятность того, что $1 заспавнится\n\nПомните, что естественные вероятности меняются в зависимости от Луны. Умножение этого значения повлияет на все из них по отдельности.

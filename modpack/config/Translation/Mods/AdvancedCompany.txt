@@ -1,0 +1,509 @@
+# AdvancedCompany
+
+#### МЕНЮ
+
+> AdvancedCompany settings=> Настройки AC
+
+### InputUtils
+
+Inventory slot 1=1-й Слот инвентаря
+Inventory slot 2=2-й Слот инвентаря
+Inventory slot 3=3-й Слот инвентаря
+Inventory slot 4=4-й Слот инвентаря
+Inventory slot 5=5-й Слот инвентаря
+Inventory slot 6=6-й Слот инвентаря
+Inventory slot 7=7-й Слот инвентаря
+Inventory slot 8=8-й Слот инвентаря
+Inventory slot 9=9-й Слот инвентаря
+Inventory slot 10=10-й Слот инвентаря
+Equipment comms=Рация в оборудовании
+Switch to equipment=Переключиться на оборудование
+Portable terminal=Портативный терминал
+
+
+#### Часто встречаются
+
+X=X
+Enable:=Активировать:
+Enabled:=Включено:
+secs=секунд
+
+### Кнопки
+
+> Create new=> Создать новый
+> Save=<size\=8>> Сохранить</size>
+> Abort=<size\=8>> Отменить</size>
+> Continue=<size\=8>> Продолжить</size>
+> Save as new preset=<size\=8>> Сохранить новый профиль</size>
+
+### Профили
+
+Presets=Профили
+File config=<size\=13>Файл конфигурации</size>
+Please set a new name for your preset. If you enter an already existing name, you will override that existing preset:=<size\=10>Пожалуйста, задайте новое имя для вашего профиля.</size>\n<size\=8>Если вы введёте уже существующее имя, вы переопределите существующий профиль:</size>
+r:"^Do you really want to remove \"(.+)"\? This step is irreversible\.$"=Вы действительно хотите удалить '$1'? Этот шаг необратим.
+r:"^Do you really want to override \"(.+)"\? This step is irreversible\.$"=Вы действительно хотите заменить '$1'?\nЭтот шаг необратим.
+Override preset=Заменить профиль
+Preset saved=Профиль сохранён
+Delete preset=Удалить профиль
+Preset deleted=Профиль удалён
+Name new preset=Назовите новый профиль
+Preset created=Профиль создан
+
+Mostly Vanilla=В основном Ванилла
+Alternative=Альтернатива
+
+
+### Файл
+
+Settings regarding file handling.=Настройки, касающиеся обработки файлов.
+File=Файл
+Save in profile=Сохранить в профиле
+When activated your progression file will be saved in your profile folder.=После активации ваш файл прогресса будет сохранен в папке вашего профиля.
+
+### Игра
+
+Graphics=Графика
+Game=Игра
+Music volume:=Громкость музыки:
+Change audio volume.=Изменить громкость звука.
+Audio=Аудио
+Change how the vision enhancer looks.=Измените внешний вид усилителя ПНВ (Прибор Ночного Видения).
+Brightness:=Яркость:
+PLEASE NOTE: If you deactivate the portable terminal you won't have access to perks as well. There is NO replacement!=ПОЖАЛУЙСТА, ОБРАТИТЕ ВНИМАНИЕ: если вы отключаете портативный терминал, у вас также не будет доступа к перкам. Замены НЕТ!
+The extend deadline option adds a command to your portable terminal to extend your deadline once per quota. You can also change the length of the deadline in general. Changes to this variable only takes effect when starting a new game or quota=Опция продления срока добавляет на ваш портативный терминал команду продлить срок один раз для каждой квоты. Вы также можете изменить продолжительность срока в целом. Изменения этой переменной вступают в силу только при запуске новой игры или квоты.
+Deadline=Крайний срок
+Length of deadline:=Крайний срок (по умолч.):
+Global multipliers=Глобальные множители
+Max enemy power:=Максимальная сила врага:
+Amount:=Количество:
+Settings to change how much scrap spawns and how valueable it is and other stuff like enemy max power.=Настройки, позволяющие изменить количество появляющегося лома и его ценность, а также другие параметры, такие как максимальная сила врага.
+Settings to change how a round starts.=Настройки для изменения стартовых значений раунда.
+Start settings=Стартовые настройки
+Start credits=Стартовые кредиты
+
+### Инвентарь
+
+Here you can customize the appearance of the hotbar.=Здесь вы можете настроить внешний вид Инвентаря.
+Hotbar alpha:=Прозрачность инвентаря:
+Hotbar scale:=Масштаб инвентаря:
+Hotbar=Инвентарь
+Hotbar Y pos:=Позиция инвентаря по Y:
+Invert scroll:=Инвертировать прокрутку:
+Hotbar border width:=Ширина границы инвентаря
+Hotbar spacing:=Расстояние инвентаря
+
+### Совместимость
+
+Compatibility=Совместимость
+Animation compability mode:=Режим совместимости анимаций:
+Hide equipment:=Скрыть оборудование:
+Hide cosmetics:=Скрыть косметику:
+Here you can change certain client side functionality for сompatibility reasons. Those settings will mostly only take effect when applied BEFORE joining a game.=Здесь вы можете изменить определённые функции на стороне клиента по соображениям совместимости. Эти настройки в большинстве случаев вступят в силу только в том случае, если они будут применены ДО присоединения к игре.
+Disable music:=Отключить музыку:
+
+### Косметика
+
+Here you can equip cosmetics for your character. All MoreCompany cosmetics mods are compatible. You can change your cosmetics while in-game.=Здесь вы можете оборудовать косметику для своего персонажа.\nВся косметика из мода More Company совместима.\nТакже вы сможете изменить свою косметику во время игры.
+Drag to rotate=Перетаскивайте, чтобы вращать
+Cosmetics=Косметика
+Loading cosmetics...=Загрузка косметики...
+
+
+### Лобби
+
+Lobby=Лобби
+Lobby size:=Размер лобби:
+
+Day settings=Настройки дня
+Settings to change how days behave.=Настройки для изменения продолжительности дней.
+Length of day:=<size\=10>Продолжительность дня:</size>
+
+Keep open - EXPERIMENTAL=Оставить открытым - экспериментальный
+When activated your Steam lobby will be kept open and joinable when you are in orbit. You can also activate to allow joining of players while on a moon. This will put the players into spectator mode.=После активации ваше лобби Steam останется открытым, и к нему можно будет присоединиться, когда вы находитесь на орбите.\nВы также можете активировать это, чтобы разрешить игрокам присоединяться, находясь на луне.\nЭто перевёдет игроков в режим наблюдения.
+Allow when landed:=Разрешить когда корабль приземлён
+
+Extend deadline=Продлить крайний срок
+When activated you can extend your deadline once per quota on the terminal with the command "extend".=При активации, вы сможете продлить срок один раз для каждой квоты на терминале с помощью команды «extend».
+
+Save suits after being fired=Сохранять костюмы после увольнения
+When activated will save your suits when you are getting fired.=При активации, ваши костюмы будут сохраняться если вас уволят.
+
+Enable cosmetics=Включить косметику
+When activated players will have the ability to wear cosmetics.=При активации, игроки смогут носить косметику.
+
+Save progress=Сохранять прогресс
+When deactivated allows you to customize starting XP and XP multipliers. Progress for all players will be saved in the hosts save file and reset when not meeting the quota.=При деактивации позволяет настраивать начальный опыт и множители опыта.\nПрогресс всех игроков будет сохранен в файле сохранения хоста, и будет сброшен при несоблюдении квоты.
+
+Start XP:=Стартовый Опыт:
+XP=Опыт
+XP multiplier:=Множитель Опыта:
+
+Deactivate hotbar=Отключить инвентарь
+WARNING: If you enable this setting, AdvancedCompany won't touch the hotbar and inventories at all. This means that the inventory perk gets auto deactivated, all equippable items, including cursed items, will get forcefully deactivated, the energy bars are removed, customization of the hotbar is removed, there wont be any hotkeys, neither flashlight nor quick access, added and no inventory fixes like flashlight fixes. This mode is experimental and there won't be any support for it whatsoever. If I see you using it and creating a GitHub issue relating to this mode it will get auto closed. Activating this option might result in unwanted results as the hotbar changes are a core function of AdvancedCompany. Spawning in and equipping any equipment item might break your game in unexpected ways.=ВНИМАНИЕ: если вы включите этот параметр, AdvancedCompany вообще не будет трогать хотбар-панель и инвентарь. Это означает, что перк инвентаря автоматически деактивируется, все надеваемые предметы, включая проклятые, будут принудительно деактивированы, полосы энергии удалены, настройка инвентаря удалена, не будет никаких горячих клавиш, ни фонарика, ни быстрого доступа, никаких исправлений инвентаря, таких как исправления фонарика. Этот режим является экспериментальным и никакой поддержки для него не будет. Если я увижу, что вы используете его и создаёте проблему на GitHub, связанную с этим режимом, он автоматически закроется. Активация этой опции может привести к нежелательным результатам, поскольку изменения панели быстрого доступа являются основной функцией AdvancedCompany. Появление и оснащение любого предмета снаряжения может неожиданным образом испортить вашу игру.
+Deactivate:=Отключить:
+
+
+### Предметы
+
+Items=Предметы
+Here you can activate and deactivate items. Deactivated items can't be purchased any longer. You can adjust the price and weight of items to balance your lobby.=Здесь вы можете активировать и деактивировать предметы.\nдеактивированные предметы будут недоступны для приобретения.\nВы можете регулировать цену и вес предметов, чтобы сбалансировать своё лобби.
+
+General=Основные
+Name=<size\=13>название</size>
+Price=<size\=13>цена</size>
+Weight=<size\=13>вес</size>
+Maximum\ndiscount=макс.\nскидка
+
+to=до
+Value=Цена
+
+Missile launcher:=Ракетная установка:
+Rocket boots:=Реактивные ботинки:
+Flippers:=Ласты:
+Vision enhancer:=ПНВ:
+Bulletproof vest:=Бронежилет:
+Lightning rod:=Молниеотвод:
+Helmet lamp:=Налобный фонарь:
+Headset:=Гарнитура:
+Tactical helmet:=Тактический шлем:
+Radar booster:=Радар-усилитель:
+Zap gun:=Электрошокер:
+Walkie talkie:=Рация:
+TZP inhalant:=ТЗП-ингалятор:
+Extension ladder:=Выдвижная лестница:
+Stun grenade:=Шумовая граната:
+Shovel:=Лопата:
+Pro flashlight:=Про-фонарик:
+Lockpicker:=Отмычка:
+Jetpack:=Реактивный ранец:
+Flashlight:=Фонарик:
+Boombox:=Бумбокс:
+Spray paint:=Баллончик с краской:
+
+Airhorn:=Гудок:
+Here you can configure scrap items and if they should spawn.=Здесь вы можете настроить лом, и указать, должен ли он появляться.
+Scrap items=Лом
+Teleporter:=Телепортер:
+Signal translator:=Транслятор сигналов:
+Loud horn:=Громкий гудок:
+Inverse Teleporter:=Обратный телепортер:
+Welcome mat:=Коврик:
+Toilet:=Туалет:
+Television:=Телевизор:
+Table:=Стол:
+Shower:=Душ:
+Romantic table:=Романтический стол:
+Record player:=Проигрыватель:
+Purple Suit:=Фиолетовый костюм:
+Plushie pajama man:=Плюшевый пижама-чел:
+Pajama suit:=Костюм-пижама:
+JackOLantern:=Тыква:
+Hazard suit:=Опасный костюм:
+Green suit:=Зелёный костюм:
+Goldfish:=Золотая рыбка:
+Cozy lights:=Гирлянда:
+Here you can configure unlockables and if they should be purchaseable.=Здесь вы можете настроить открываемые предметы и указать, можно ли их купить.
+Unlockables=Разблокируемые
+Walkie-talkie:=Рация:
+TZP-Inhalant:=TZP-Ингалятор:
+Radar-booster:=Радар-усилитель:
+Pro-flashlight:=Про-фонарик:
+Here you can configure store items and if they should be activated.=Здесь вы можете настроить предметы магазина и указать, следует ли их активировать.
+Store items=Покупные предметы
+Bell:=Колокол:
+Big bolt:=Большой болт:
+Bottles:=Ящик с бутылками:
+Brush:=Щётка:
+Bunny ears:=Кроличьи уши:
+Candy:=Конфеты:
+Cash register:=Кассовый аппарат:
+Chemical jug:=Химический баллон:
+Clown horn:=Клоунский гудок:
+Comedy:=Маска Комедии:
+Controller:=Контроллер:
+Cookie mold pan:=Форма для выпечки:
+Dust pan:=Совок:
+Egg beater:=Венчик:
+Fancy lamp:=Причудливая лампа:
+Flask:=Колба:
+Gift:=Подарок:
+Gold bar:=Золотой слиток:
+Golden cup:=Золотой кубок:
+Hairdryer:=Фен:
+Homemade flashbang:=Самодельная граната:
+Jar of pickles:=Банка огурцов:
+Large axle:=Большая ось:
+Laser pointer:=Лазерная указка:
+Light shoes:=Лёгкая обувь:
+Magic 7 ball:=Волшебный шар:
+Magnifying glass:=Лупа:
+Metal sheet:=Лист металла:
+Mug:=Кружка:
+Old phone:=Старый телефон:
+Painting:=Картина:
+Perfume bottle:=Духи:
+Pill bottle:=Таблетки:
+Plastic fish:=Пластиковая рыба:
+Potatoes:=Картофель:
+Red soda:=Содовая:
+Remote:=Пульт:
+Ring:=Кольцо:
+Rubber Ducky:=Резиновая уточка:
+Skillet:=Сковорода:
+Steering wheel:=Руль:
+Stop sign:=Знак СТОП:
+Tea kettle:=Чайник:
+Teeth:=Челюсть:
+Toothpaste:=Зубная паста:
+Toy car:=Игрушечная машинка:
+Toy cube:=Игрушечный кубик:
+Toy robot:=Игрушечный робот:
+Toy tank:=Игрушечный танк:
+Tragedy:=Маска Трагедии:
+V-type engine:=Двигатель:
+Warplane toy:=Игрушечный самолётик:
+Whoopie cushion:=Подушка пердушка:
+Yield sign:=Знак УСТУПИТЕ:
+
+Tea kettle=Чайник
+Ring=Обручальное кольцо
+Light shoes=Лёгкая обувь
+Homemade flashbang=Самодельная граната
+Gold bar=Золотой слиток
+Gift=Подарок
+Bunny ears=Кроличьи ушки
+Brush=Щётка
+Bell=Латунный колокол
+
+> Add item=> Добавить Предмет
+
+Vision enhancer=ПНВ
+Here you can change parameters for the vision enhancer.=Здесь вы можете изменить параметры ПНВ (Прибор Ночного Видения).
+Battery life:=Срок службы батареи:
+
+Bulletproof vest=Бронежилет
+Here you can change parameters for the bulletproof vest.=Здесь вы можете изменить параметры для бронежилета.
+Max damage:=<size\=10>Макс. урон:</size>
+HP=ОЗ
+Destroy on no health:=<size\=10>Уничтожать при отсутствии здоровья:</size>
+Turret damage:=<size\=10>Урон турели:</size>
+Shotgun damage:=<size\=10>Урон дробовика:</size>
+Damage reduction at full health:=<size\=10>Снижение урона при полном здоровье:</size>
+Damage reduction at no health:=<size\=10>Снижение урона при отсутствии здоровья:</size>
+
+
+### Перки
+
+Perks=Перки
+Here you can configure which perks to activate. All defined base values will get applied regardless of the active state of the perk, enabling you to use the perks just as a way to tweak your game without using perks.\n\nThe costs are a comma-separated list containing the XP costs for each level. The max level of a perk is determined by the count of values provided.=Здесь вы можете настроить, какие перки активировать.\nВсе определённые базовые значения будут применяться независимо от активного состояния перка, что позволит вам использовать перки просто как способ настройки игры без использования перков.\n\nСтоимость представляет собой список, разделённый запятыми, содержащий кол-во необходимого опыта за каждый уровень.\nМаксимальный уровень перка определяется общим количеством предоставленных значений.
+
+Individual XP:=Индивидуальный XP:
+Reset XP:=Сбросить XP:
+Start ship XP:=Стартовый корабельный XP:
+
+Perk=<size\=13>перк</size>
+Base=<size\=13>база</size>
+Change=<size\=13>улучш.</size>
+Costs=<size\=13>стоимость</size>
+
+Player perks=Перки игрока
+Player perks can be purchased by every player individually and will only have an effect for the player who've bought them.=Перки могут быть приобретены каждым игроком индивидуально и будут иметь эффект только для того игрока, который их купил.
+Sprint speed:=Скорость при спринте:
+Sprint stamina:=Выносливость на спринт:
+Jump height:=Высота прыжка:
+Jump stamina:=Выносливость на прыжок:
+Fall damage:=Урон от падения:
+Damage:=Урон:
+Weight:=Вес:
+Critical strike chance:=Шанс критического удара:
+Climbing speed:=Скорость лазания:
+Inventory slots:=Слоты инвентаря:
+
+Ship perks=Перки корабля
+Ship perks can be purchased by every player for the whole crew and they will have an effect for the entire team.=Перки для корабля могут быть приобретены каждым игроком, и они будут иметь эффекты для всего экипажа.
+Scan distance:=Расстояние сканирования:
+Extra battery:=доп. батарея:
+Extend deadline discount:=Скидка на продление срока:
+Landing speed:=Скорость посадки:
+Delivery speed:=Скорость доставки:
+Save loot:=Сохранять добычу:
+Travel discount:=Скидка на путешествие:
+
+Helmet lamp=Налобный фонарь
+Here you can change parameters for the helmet lamp.=Здесь вы можете изменить параметры налобного фонаря.
+Headset=Гарнитура
+Here you can change parameters for the headset.=Здесь вы можете изменить параметры гарнитуры.
+Tactical helmet=Тактический шлем
+Here you can change parameters for the tactical helmet.=Здесь вы можете изменить параметры тактического шлема.
+Battery life with light:=Срок службы батареи при работе:
+Flippers=Ласты
+Here you can change parameters for the flippers.=Здесь вы можете изменить параметры ласт.
+Speed:=Скорость:
+Weight speed:=Скорость веса:
+Stamina regen:=Регенерация выносливости:
+
+### Враги
+
+Enemies=Враги
+
+Power=Сила
+Here you can configure enemies power levels and if they should spawn at all.=Здесь вы можете настроить уровни силы врагов и должны ли они вообще появляться.
+
+Spring:=Пружиноголовый:
+Red Locust Bees:=Блуждающая саранча:
+Puffer:=Споровик:
+Nutcracker:=Щелкунчик:
+MouthDog:=СлепаяСобака:
+Masked:=Одержимый:
+Manticoil:=Мантикоил:
+Lasso:=Лассо:
+Jester:=Джестер:
+Hoarding bug:=Жук-собиратель:
+Girl:=Девочка:
+ForestGiant:=ХранительЛеса:
+Flowerman:=Брэкен:
+Earth Leviathan:=Левиафан:
+Docile Locust Bees:=Электропчёлы:
+Crawler:=Тампер:
+Centipede:=Удушающая многоножка:
+Bunker Spider:=Бункерный паук:
+Blob:=Гидродер:
+Baboon hawk:=Бабуиновый ястреб:
+
+### Луны
+
+Moons=Луны
+To balance the game you can apply weather modifiers and change thr prices for moons here:=Чтобы сбалансировать игру, вы можете применить модификаторы погоды и изменить цены на луны здесь:
+
+Weather modifiers=Модификаторы погоды
+If activated you can change the scrap value and amount when certain weather is present on a moon.=Если активировано, вы можете изменить стоимость и количество лома, когда на луне присутствует определённая погода.
+
+Weather=<size\=13>Погода</size>
+Scrap value=<size\=13>Стоимость лома</size>
+Scrap amount=<size\=13>Кол-во лома</size>
+Clear=Благоприятно
+
+> Add moon=> Добавить Луну
+
+Moon prices=Цены на луны
+If activated you can change the prices for moons.=При активации вы можете изменить цены на луны.
+
+Moon=Луна
+Experimentation=Experimentation
+Vow=Vow
+Assurance=Assurance
+Offense=Offense
+March=March
+Rend=Rend
+Dine=Dine
+Titan=Titan
+
+Eclipsed:=Затмение:
+Stormy:=Шторм:
+Flooded:=Наводнение:
+Rainy:=Дождь:
+Foggy:=Туман:
+Clear:=Благоприятно:
+Here you can modify the scrap value and amount present on moons during specific weather conditions.=Здесь вы можете изменить стоимость и количество лома, присутствующего на лунах в определённых погодных условиях.
+Inside enemies list:=Список врагов в объекте:
+Inside enemies:=Враги в объекте:
+Outside enemies list:=Список врагов снаружи:
+Outside enemies:=Враги снаружи:
+Enemy name:=Название врага:
+Daytime enemies list:=Список врагов днём:
+Probability:=Вероятность:
+Max power:=Максимальная сила:
+Daytime enemies:=Враги днём:
+Rarity:=Редкость
+Item name:=Имя предмета:
+Loot table:=Таблица добычи:
+Value multiplier:=Множитель стоимости:
+Amount multiplier:=Множитель количества:
+Here you can configure moons, their loot tables and enemy spawn table. If a moon is missing from the list, start a game once and come back here after that. They should show up then.=Здесь вы можете настроить луны, их таблицы добычи и таблицу появления врагов. Если луна отсутствует в списке, запустите игру один раз и после этого вернитесь сюда. Тогда она должны появиться.
+Price:=Цена:
+Dungeon size:=Размер объекта:
+Scrap:=Лом:
+Min amount:=Мин сумма:
+Max amount:=Макс сумма:
+
+### Итоги
+
+NOTES=ПРИМЕЧАНИЯ
+DECEASED=ПОГИБ
+Grade:=Оценка:
+Collected:=Собрано:
+MISSING\n=ПРОПАВШИЙ\n
+NO SURVIVORS=ВЫЖИВШИХ НЕТ
+r:"^LOST (.+?) SCRAP$"=УТЕРЯНО $1 ЛОМА
+
+### Ручной терминал
+
+## Help
+                      ╔═════════════╗\r\n╭─────────────────────╢ <color\=#ff6666>ADVANCED</color> <color\=#ffffff>OS</color> ╟────────────────────╮\r\n│                     ╚═════════════╝                    │\r\n│                    advancing mankind                   │\r\n│                                                        │\r\n│ Welcome Lethal-1,                                      │\r\n│ Your <color\=#ffffff>license</color> is <color\=#00ff00>valid</color> for <color\=#ffffff>2 years and 11 months</color>        │\r\n│                                                        │\r\n│ <color\=#ffffff>▶ PERKS</color>                                                │\r\n│   Let you level your perks on-the-fly                  │\r\n│ <color\=#ffffff>▶ EXTEND</color>                                               │\r\n│   Extend the deadline.                                 │\r\n│ <color\=#ffffff>▶ INFO</color>                                                 │\r\n│   Opens a manual with further information.             │\r\n│ <color\=#ffffff>▶ STORE</color>                                                │\r\n│   Open the store.                                      │\r\n│ <color\=#ffffff>▶ HELP</color>                                                 │\r\n│   Shows this text for guidance.                        │\r\n╰────────────────────────────────────────────────────────╯\r\n=                      ╔═════════════╗\r\n╭─────────────────────╢ <color\=#ff6666>ADVANCED</color> <color\=#ffffff>ОС</color> ╟────────────────────╮\r\n│                     ╚═════════════╝                    │\r\n│                  развиваем человечество                │\r\n│                                                        │\r\n│ Здравстуйте Lethal-1,                                  │\r\n│ Ваша <color\=#ffffff>лицензия</color> <color\=#00ff00>действительна</color> ещё <color\=#ffffff>2 года и 11 месяцев</color>    │\r\n│                                                        │\r\n│ <color\=#ffffff>▶ PERKS</color>                                                │\r\n│   Позвольте себе качать перки на лету.                 │\r\n│ <color\=#ffffff>▶ EXTEND</color>                                               │\r\n│   Продлевает крайний срок.                             │\r\n│ <color\=#ffffff>▶ INFO</color>                                                 │\r\n│   Открывает руководство с дополнительной информацией.  │\r\n│ <color\=#ffffff>▶ STORE</color>                                                │\r\n│   Открывает магазин.                                   │\r\n│ <color\=#ffffff>▶ HELP</color>                                                 │\r\n│   Показывает этот текст для справки.                   │\r\n╰────────────────────────────────────────────────────────╯\r\n
+## Extend
+  ╔═════════════════╗\n╭─╢ <color\=#ffffff>EXTEND DEADLINE</color> ╟────────────────────────────────────╮\n│ ╚═════════════════╝                                    │\n│ To extend the deadline you need 130 credits.           │\n│                                                        │\n│ Insufficient funds.                                    │\n│  ► BACK                                                │\n╰────────────────────────────────────────────────────────╯\n=  ╔═════════════════╗\n╭─╢ <color\=#ffffff>ПРОДЛЕНИЕ СРОКА</color> ╟────────────────────────────────────╮\n│ ╚═════════════════╝                                    │\n│ Чтобы продлить срок, вам нужно 130 кредитов.           │\n│                                                        │\n│ Недостаточно средств.                                  │\n│  ▶ НАЗАД                                               │\n╰────────────────────────────────────────────────────────╯\n
+  ╔═════════════════╗\n╭─╢ <color\=#ffffff>EXTEND DEADLINE</color> ╟────────────────────────────────────╮\n│ ╚═════════════════╝                                    │\n│ To extend the deadline you need 130 credits.           │\n│                                                        │\n│ Do you really want to extend the deadline?             │\n│  ► CONFIRM                                             │\n│    DENY                                                │\n╰────────────────────────────────────────────────────────╯\n=  ╔═════════════════╗\n╭─╢ <color\=#ffffff>ПРОДЛЕНИЕ СРОКА</color> ╟────────────────────────────────────╮\n│ ╚═════════════════╝                                    │\n│ Чтобы продлить срок, вам нужно 130 кредитов.           │\n│                                                        │\n│ Вы действительно хотите продлить срок?                 │\n│  ► ПОДТВЕРДИТЬ                                         │\n│    ОТМЕНИТЬ                                            │\n╰────────────────────────────────────────────────────────╯\n
+  ╔═════════════════╗\n╭─╢ <color\=#ffffff>EXTEND DEADLINE</color> ╟────────────────────────────────────╮\n│ ╚═════════════════╝                                    │\n│ To extend the deadline you need 130 credits.           │\n│                                                        │\n│ Do you really want to extend the deadline?             │\n│    CONFIRM                                             │\n│  ► DENY                                                │\n╰────────────────────────────────────────────────────────╯\n=  ╔═════════════════╗\n╭─╢ <color\=#ffffff>ПРОДЛЕНИЕ СРОКА</color> ╟────────────────────────────────────╮\n│ ╚═════════════════╝                                    │\n│ Чтобы продлить срок, вам нужно 130 кредитов.           │\n│                                                        │\n│ Вы действительно хотите продлить срок?                 │\n│    ПОДТВЕРДИТЬ                                         │\n│  ► ОТМЕНИТЬ                                            │\n╰────────────────────────────────────────────────────────╯\n
+
+[ Deadline was extended by one day ]\r\n=[ Срок продлён на один день ]\r\n
+Deadline extended=Крайний срок продлён
+Deadline was extended by day!=Срок продлён на один день!
+
+## Store
+
+Thanks for your purchase! Your ordered items are on the way!\r\n=Спасибо за покупку! Заказанные вами товары уже в пути!\r\n
+
+#### Предметы и Скрап
+
+Drop Missile launcher : [G]=Выбросить Установку: [G]
+Drop Lightning rod : [G]=Выбросить Громоотвод: [G]
+Drop Vision enhancer : [G]=Выбросить ПНВ: [G]
+Drop Flippers : [G]=Выбросить Ласты: [G]
+Drop Bulletproof vest : [G]=Выбросить Бронежилет: [G]
+Drop Rocket boots : [G]=Выбросить Ботинки: [G]
+Drop Headset : [G]=Выбросить Гарнитуру: [G]
+Drop Helmet lamp : [G]=Выбросить Фонарь: [G]
+Drop Tactical Helmet : [G]=Выбросить Шлем: [G]
+Drop Removed item : [G]=Выбросить Удалённый предмет: [G]
+
+Warplane toy=Военный самолётик
+Drop Warplane toy : [G]=Выбросить Самолётик: [G]
+Warplane toy collected!=Военный самолётик собран!
+
+Toy car=Игрушечная машинка
+Drop Toy car : [G]=Выбросить Машинку: [G]
+Toy car collected!=Игрушечная машинка собрана!
+
+Toy tank=Игрушечный танк
+Drop Toy tank : [G]=Выбросить Танк: [G]
+Toy tank collected!=Игрушечный танк собран!
+
+Skillet=Сковорода
+Drop Skillet : [G]=Выбросить Сковороду: [G]
+Skillet collected!=Сковорода собрана!
+
+Potatoes=Картофель
+Drop Potatoes : [G]=Выбросить Картофель: [G]
+Potatoes collected!=Картофель собран!
+
+Missile launcher=Ракетная пусковая установка
+
+Rocket boots=Реактивные ботинки
+
+Lightning rod=Громоотвод
+
+Hive=Улей
+Magic {{A}} ball=Волшебный {{A}} шар
+box=коробка
+Drop ??? : [G]=Выбросить ???: [G]
+Drop Controller : [G]=Выбросить Контроллер: [G]
+Drop Light shoes : [G]=Выбросить Обувь: [G]
+Drop Tactical helmet : [G]=Выбросить Шлем: [G]
+Drop Bunny ears : [G]=Выбросить Ушки: [G]
+r:"^(.+?) collected!$"=$1 собран!
+
+#### Подсказки
+
+XP gained!=Получен ОПЫТ!
+r:"^You have gained ([0-9]+) for fulfilling the quota. Type "perks" on the portable terminal to level up.$"=Вы получили $1 за выполнение квоты. Введите "perks" в портативном терминале, чтобы прокачать перки.

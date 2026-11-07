@@ -1,0 +1,10 @@
+# Aquatis
+
+112 Aquatis=112 Aquatis
+Orbiting: 112 Aquatis\nA water heavy planet that is capable of supporting life. \n\nDanger levels are minimal.\n=ОРБИТА: 112 Aquatis\nТяжёлая водная планета, способная поддерживать жизнь.\n\nУровни опасности минимальны.\n
+sr:"^Orbiting: 112 Aquatis\nA water heavy planet that is capable of supporting life. \n\nDanger levels are minimal.\nWeather: (.+?)$"=ОРБИТА: 112 Aquatis\nТяжёлая водная планета, способная поддерживать жизнь.\n\nУровни опасности минимальны.\nПОГОДА: $1
+A water heavy planet that is capable of supporting life. \n\nDanger levels are minimal.=Тяжёлая водная планета, способная поддерживать жизнь.\n\nУровни опасности минимальны.
+
+# Corporate_Restructure
+
+sr:"^Orbiting: 112 Aquatis\nWeather: (.+?)\nA water heavy planet that is capable of supporting life. \n\nDanger levels are minimal.$"=ОРБИТА: 112 Aquatis\nПОГОДА: $1\nТяжёлая водная планета, способная поддерживать жизнь.\n\nУровни опасности минимальны.

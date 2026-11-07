@@ -1,0 +1,3 @@
+# MetalRecharging
+
+(Requires battery-powered or metal item)=(Нужен аккумулятор или металлический предмет)

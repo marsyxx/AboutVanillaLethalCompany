@@ -1,0 +1,4 @@
+# MoreCompany
+
+Cosmetics Enabled:=Вкл/Выкл косметику:
+Crew Size:=Размер экипажа:

@@ -1,0 +1,3 @@
+# LightSwitchScanNode
+
+Turn lights on and off=Включает и выключает свет

@@ -1,0 +1,4 @@
+# StrangerThingsMod
+
+Demogorgon=Демогоргон
+Strange=Странный

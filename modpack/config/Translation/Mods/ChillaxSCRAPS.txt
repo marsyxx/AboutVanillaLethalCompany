@@ -1,0 +1,54 @@
+# ChillaxSCRAPS
+
+Boink=Бойньк
+Boink: [LMB]=Бойньк: [ЛКМ]
+Free Robux: [ALT + F4]=Бесплатные робаксы: [ALT + F4]
+Drop Boink : [G]=Выбросить Бойньк: [G]
+Boink collected!=Бойньк собран!
+
+Cup Noodle=Стакан с лапшой
+Eat Mama: [LEFT CLICK]=Ешь мама: [ЛКМ]
+Drop Cup Noodle : [G]=Выбросить Стакан: [G]
+Cup Noodle collected!=Стакан с лапшой собран!
+
+Freddy Fast Bear?=Фредди Фазбер?
+Freddy Fazbear?=Фредди Фазбер?
+Drop Freddy Fast Bear? : [G]=Выбросить Фредди Фазбера: [G]
+Freddy Fast Bear? collected!=Фредди Фазбер собран!
+Freddy Fazbear? collected!=Фредди Фазбер собран!
+
+Moai=Моай
+Moai Statue=Статуя Моай
+Drop Moai : [G]=Выбросить Моай: [G]
+Moai collected!=Моай собран!
+
+Froggy Chair=Лягушачий стул
+Drop Froggy Chair : [G]=Выбросить Лягушачий стул: [G]
+Froggy Chair collected!=Лягушачий стул собран!
+
+Eevee Plush=Плюшевый Иви
+Drop Eevee Plush : [G]=Выбросить Иви: [G]
+Use : [LMB]=Использовать: [ЛКМ]
+Eevee Plush collected!=Плюшевый Иви собран!
+
+Nokia 3310=Nokia 3310
+Drop Nokia 3310 : [G]=Выбросить Nokia 3310: [G]
+Nokia 3310 collected!=Nokia 3310 собрана!
+Listen to voice mail: [LEFT CLICK]=Прослушать голосовое сообщение: [ЛКМ]
+
+Death Note=<size\=16>Тетрадь Смерти</size>
+Drop Death Note : [G]=Выбросить Тетрадь Смерти: [G]
+r:"^(.+?) (EnemyType)$"=$1 (Враг)
+Kill=Убить
+Player #1=Игрок #1
+Player #2=Игрок #2
+Player #3=Игрок #3
+Player #4=Игрок #4
+Death Note collected!=Тетрадь Смерти собрана!
+Notebook=Блокнот
+Notebook collected!=Блокнот собран!
+Drop Notebook : [G]=Выбросить Блокнот: [G]
+
+Uno Reverse Card=Уно карта "Реверс"
+Drop Uno Reverse Card : [G]=Выбросить Уно карту: [G]
+Uno Reverse Card collected!=Уно карта "Реверс" собрана!

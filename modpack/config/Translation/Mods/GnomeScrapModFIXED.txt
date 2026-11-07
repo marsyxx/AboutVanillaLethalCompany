@@ -1,0 +1,5 @@
+# GnomeScrapModFIXED
+
+Gnome Chompski=Гном
+Drop Gnome Chompski : [G]=Выбросить Гнома: [G]
+Gnome Chompski collected!=Гном собран!

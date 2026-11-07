@@ -1,0 +1,9 @@
+## PintoBoy
+
+PintoBoy=ПинтоБой
+Pintoboy collected!=Пинтобой собран!
+Fast Fall: [LMB] in the air=Приземлиться: [ЛКМ] в воздухе
+Press Button: [LMB]=Нажать кнопку: [ЛКМ]
+Drop Pintoboy : [G]=Выбросить ПинтоБой: [G]
+sr:"^New Best!\n(\d{1,4})\nLast Best:\n(\d{1,4})$"="Новый рекорд!\n$1\nПредыдущий: $2"
+sr:"^Score:\n(\d{1,4})\nBest:\n(\d{1,4})$"="Счет:\n$1\nЛучший:\n$2"

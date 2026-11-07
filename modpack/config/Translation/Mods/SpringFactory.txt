@@ -1,0 +1,20 @@
+# SpringFactory
+
+Factory X=Factory X
+Orbiting: Factory X\nThe old abandoned spring and coil factory.\n=ОРБИТА: Factory X\nСтарый заброшенный завод по производству пружин и катушек.\n
+sr:"^Orbiting: Factory X\nThe old abandoned spring and coil factory.\nWeather: (.+?)$"=ОРБИТА: Factory X\nСтарый заброшенный завод по производству пружин и катушек.\nПОГОДА: $1
+The old abandoned spring and coil factory.=Старый заброшенный завод по производству пружин и катушек.
+
+# Corporate_Restructure
+
+sr:"^Orbiting: Factory X\nWeather: (.+?)\nThe old abandoned spring and coil factory.$"=ОРБИТА: Factory X\nПОГОДА: $1\nСтарый заброшенный завод по производству пружин и катушек.
+
+# Map
+
+Shipping Container=Транспортный контейнер
+r:"^Fire Exit (.+?)$"=Пожарный выход $1
+Need A Ladder To Enter=Нужна лестница, чтобы войти
+Rooftop=Крыша
+Meet me under the big spring.=Встреть меня под большой пружиной.
+Third Floor =Третий этаж 
+Backdoor=Чёрный ход

@@ -1,0 +1,16 @@
+# LCOffice
+
+Idle=Бездействует
+Elevator Controller=Управление лифтом
+Go up : [E]=Вверх: [E]
+Go down : [E]=Вниз: [E]
+Moving Down=Едет вниз
+Moving Up=Едет вверх
+if u see this,\nit's an error!=если ты видишь это,\nэто ошибка!
+Auxiliary power unit=Вспомогательный блок питания
+An emergency power unit=Аварийная электроэнергия
+[Not holding Apparatus]=[Нужен Реактор]
+Descending=Едет вниз
+Shrimp=Креветка
+Ascending=Едет вверх
+Place Apparatus : [E]=Вставить Реактор: [E]

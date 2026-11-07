@@ -1,0 +1,20 @@
+# BetterSprayPaint
+
+r:"^Size : (.+?)$"=Размер: $1
+
+# InputUtils
+
+BetterSprayPaint=BettersPrayPaint
+Spray Paint Erase Modifier=Модификатор стирания краски
+Spray Paint Erase=Стирание краски
+Spray Paint Next Color=Следующий цвет баллончика
+Spray Paint Previous Color=Предыдущий цвет баллончика
+Spray Paint Color 1=1-й цвет балончика
+Spray Paint Color 2=2-й цвет балончика
+Spray Paint Color 3=3-й цвет балончика
+Spray Paint Color 4=4-й цвет балончика
+Spray Paint Increase Size=Увеличение размера струи с краской
+Spray Paint Decrease Size=Уменьшение размера струи с краской
+Spray Paint Set Size 0.1=Установить размер струи 0.1
+Spray Paint Set Size 1.0=Установить размер струи 1.0
+Spray Paint Set Size 2.0=Установить размер струи 2.0

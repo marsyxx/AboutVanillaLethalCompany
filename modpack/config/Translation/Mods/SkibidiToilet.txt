@@ -1,0 +1,6 @@
+# Skibidi Toilet
+
+SkibidiToilet=СкибидиТуалет
+Skibidi Toilet=Скибиди Туалет
+Flush : [E]=Смыть: [E]
+Flushing...=Смывание...

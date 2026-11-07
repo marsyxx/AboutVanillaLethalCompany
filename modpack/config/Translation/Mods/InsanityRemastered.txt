@@ -1,0 +1,16 @@
+# InsanityRemastered
+
+WARNING!=ВНИМАНИЕ!
+Heartrate is at dangerous levels. Please seek help immediately.=Ваш пульс находится на опасном уровне. Немедленно обратитесь за помощью.
+Heartrate level is above normal. Please exercise caution.=Уровень пульса выше нормы. Пожалуйста, соблюдайте осторожность.
+Heartrate is . Please exercise caution.=Уровень пульса . Пожалуйста, соблюдайте осторожность.
+I'm always watching.=Я всегда наблюдаю.
+behind you.=сзади тебя.
+You will never make it out of here.=Ты никогда не выберешься отсюда.
+Did you see that?=Ты это видел?
+The company will never be satisfied. This is all pointless.=Компания никогда не будет удовлетворена. Это всё бессмысленно.
+you are the only one alive.=в живых остался только ты.
+WARNING:\n\nMultiple organ failures detected. Please lie down and hope it ends quick.=ВНИМАНИЕ\n\nВыявлена ​​множественная органная недостаточность. Пожалуйста, приляжьте и надейтесь, что это быстро закончится.
+SYSTEM ERROR:\n\nLife support power is dropping. Please return to your ship immediately.=СИСТЕМНАЯ ОШИБКА:\n\nПитание жизнеобеспечения падает. Немедленно вернитесь на свой корабль.
+Unknown lifeform detected nearby.=Поблизости обнаружена неизвестная форма жизни.
+

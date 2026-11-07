@@ -1,0 +1,26 @@
+# Herobrine
+
+Herobrine=Хиробрин
+r:"(?s)^(.+?)Herobrine(.*)$"=$1Хиробрин$2
+r:"(?s)^(.+?)'Fear has a new address, and it's where I want.'(.*)$"=$1'У страха новый адрес, и он там, где я захочу.'$2
+r:"(?s)^(.+?)'Let chaos dictate your path.'(.*)$"=$1'Позволь хаосу диктовать твой путь.'$2
+r:"(?s)^(.+?)'Let's go somewhere else.'(.*)$"=$1'Пойдём-ка куда-нибудь ещё.'$2
+r:"(?s)^(.+?)'I decide where your nightmares unfold.'(.*)$"=$1'Я решаю, где разворачиваются твои кошмары.'$2
+r:"(?s)^(.+?)'Destination: Nowhere.'(.*)$"=$1'Пункт назначения: Никуда.'$2
+r:"(?s)^(.+?)'I'll drag you into my domain, willingly or not.'(.*)$"=$1'Я затащу тебя в свои владения, вольно или нет.'$2
+r:"(?s)^(.+?)'You thought you could escape? Think again.'(.*)$"=$1'Ты думал, что сможешь сбежать? Подумай ещё раз.'$2
+r:"(?s)^(.+?)'Little teleportation surprise.'(.*)$"=$1'Маленький телепортационный сюрприз.'$2
+r:"(?s)^(.+?)'This is your inescapable reality.'(.*)$"=$1'Это твоя неизбежная реальность.'$2
+r:"(?s)^(.+?)'Say goodbye to familiarity.'(.*)$"=$1'Попрощайся со знакомством.'$2
+r:"(?s)^(.+?)'Enjoy your new coordinates.'(.*)$"=$1'Наслаждайся своими новыми координатами.'$2
+r:"(?s)^(.+?)'I'll choose where the game continues.'(.*)$"=$1'Я выбираю, где продолжить игру.'$2
+r:"(?s)^(.+?)'I'll decide where this game continues.'(.*)$"=$1'Я решаю, где продолжить эту игру.'$2
+r:"(?s)^(.+?)'This is my domain now.'(.*)$"=$1'Теперь это моя территория.'$2
+r:"(?s)^(.+?)'The chase is eternal, the terror unyielding.'(.*)$"=$1'Погоня вечна, ужас непреклонен.'$2
+r:"(?s)^(.+?)'Let's go to another location.'(.*)$"=$1'Пойдём-ка в другое место.'$2
+r:"(?s)^(.+?)'Fate has granted you an extended playtime.'(.*)$"=$1'Судьба подарила тебе кучу времени для игр.'$2
+r:"(?s)^(.+?)'We are not done yet.'(.*)$"=$1'Мы ещё не закончили.'$2
+
+Redstone Torch=Красный факел
+Drop Redstone Torch : [G]=Выбросить Красный факел: [G]
+Redstone Torch...=Красный факел...

@@ -1,0 +1,11 @@
+# EGyptMoon
+
+10 EGypt=10 EGypt
+Orbiting: 10 EGypt\nPOPULATION: Abandoned\nCONDITIONS: Volatile atmospheric phases.\nFAUNA: Leviathans live in excessive quantities beneath the dunes.\n\n=ОРБИТА: 10 EGypt\nНАСЕЛЕНИЕ: Заброшено\nУСЛОВИЯ: Летучие фазы атмосферы.\nФАУНА: Под дюнами в огромных количествах живут Левиафаны.\n\n
+sr:"^Orbiting: 10 EGypt\nPOPULATION: Abandoned\nCONDITIONS: Volatile atmospheric phases.\nFAUNA: Leviathans live in excessive quantities beneath the dunes.\n\nWeather: (.+?)$"=ОРБИТА: 10 EGypt\nНАСЕЛЕНИЕ: Заброшено\nУСЛОВИЯ: Летучие фазы атмосферы.\nФАУНА: Под дюнами в огромных количествах живут Левиафаны.\nПОГОДА: $1
+POPULATION: Abandoned\nCONDITIONS: Volatile atmospheric phases.\nFAUNA: Leviathans live in excessive quantities beneath the dunes.=НАСЕЛЕНИЕ: Заброшено\nУСЛОВИЯ: Летучие фазы атмосферы.\nФАУНА: Под дюнами в огромных количествах живут Левиафаны.
+
+# Corporate_Restructure
+
+Volatile atmospheric phases.=Летучие фазы атмосферы.
+Leviathans live in excessive quantities beneath the dunes.=Под дюнами в огромных количествах живут Левиафаны.

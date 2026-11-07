@@ -1,0 +1,31 @@
+# ControlCompany
+
+F{{A}}: Ghost mode=Режим призрака: [F{{A}}]
+r:"^Spawn target: (.+)$"=Цель: $1
+O/P: Change target=Сменить цель: [O/P]
+U: Hide UI=Скрыть интерфейс: [U]
+Esc: Exit=Выйти: [Esc]
+F{{A}}: Control Masked=Одержимый: [F{{A}}]
+F{{A}}: Control Forest Keeper=Хранитель леса: [F{{A}}]
+F{{A}}: AI control=Отдать управление ИИ: [F{{A}}]
+F{{A}}: Take control=Вернуть управление: [F{{A}}]
+AI controlled=Контролируется ИИ
+F{{A}}: Control Thumper=Тампер: [F{{A}}]
+F{{A}}: Control Bracken=Брэкен: [F{{A}}]
+F{{A}}: Control Hoarding Bug=Жук-собиратель: [F{{A}}]
+F{{A}}: Control Snare Flea=Удушающая многоножка: [F{{A}}]
+F{{A}}: Control Blob=Гидродер: [F{{A}}]
+F{{A}}: Control Spore Lizard=Споровик: [F{{A}}]
+F{{A}}: Control Nutcracker=Щелкунчик: [F{{A}}]
+RMB: (HOLD) Sentry mode=Режим осмотра: [ПКМ] (УДЕРЖ.)
+LMB: Fire=Выстрелить: [ЛКМ]
+RMB: Smoke=Облако дыма: [ПКМ]
+LMB: Stomp=Ударить: [ЛКМ]
+RMB: Secondary Skill=Второстепенный навык: [ПКМ]
+RMB: Grab item=Взять предмет [ПКМ]
+RMB: Drop item=Выбросить предмет [ПКМ]
+RMB: Attach to ceiling=Притянуться к потолку [ПКМ]
+LMB: Drop=Спрыгнуть: [ЛКМ]
+Grab: [E]=Захватить: [E]
+LMB: Drop body=Выбросить тело: [ЛКМ]
+Not hosting. ControlCompany mod is disabled. Press U to hide.=Вы не хост. Мод ControlCompany отключён. Нажмите [U] чтобы скрыть.

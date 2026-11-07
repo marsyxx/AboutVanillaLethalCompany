@@ -1,0 +1,3 @@
+# TouchScreen
+
+[E] Interact\r\n[LΜB] Flash (Radar)\r\n=[E] Использовать\r\n[ЛКМ] Вспышка (Радар)\r\n

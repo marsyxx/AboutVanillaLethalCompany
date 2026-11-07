@@ -1,0 +1,28 @@
+# LethalEmotesApi
+
+r:"^Wheel (.+)"=Колесо $1
+Stop Current Emote=<size\=30>Остановить\nЭмоцию</size>
+none=Пусто
+Customize=Настроить
+Close=Закрыть
+Hide join spots while emoting=Скрыть точки входа во время эмоции
+Emotes Alert Enemies=Враги Слышат Эмоцию
+Third Person Mode:=Режим Третьего Лица:
+Off=Выключено
+DMCA Protection:=Защита от АП:
+Camera Lock:=Блокировка Камеры:
+Emote volume:=Громкость эмоции:
+New Wheel=<size\=15>Новое Колесо</size>
+Delete Current\nWheel=Удалить\nКолесо
+Next=<size\=15>Следующее</size>
+Prev=<size\=15>Предыдущее</size>
+Set as Default Wheel=<size\=30>Установить\nколесо\nпо умолч.</size>
+Search Emotes...=Поиск эмоций...
+Delete Wheel=Удалить Колесо
+You sure?=Вы уверены?
+Normal=По умолч.
+Forced DMCA Friendly Audio=Аудио, совместимое с АП
+Mute DMCA Audio=Заглушить Аудио с АП
+Probably DMCA Friendly Audio=Наверное, аудио, совместимое с АП
+All Off=Выключить Всё
+All On=Включить Всё

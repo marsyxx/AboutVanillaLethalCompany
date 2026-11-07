@@ -1,0 +1,32 @@
+Coil=<size\=15>Зарядная станция</size>
+Charges batteries=Заряжает аккумуляторы
+
+Terminal=<size\=15>Терминал</size>
+Buy flashlights and travel to new planets!=Покупайте фонарики и \nотправляйтесь на новые планеты!
+
+Brake lever=<size\=15>Рычаг запуска</size>
+Lands the ship.=Запускает корабль.
+
+Quota=<size\=15>Квота</size>
+Sell scrap for cash.=Продавайте лом за деньги.
+
+Ship=<size\=15>Корабль</size>
+Home base=Домашняя база
+
+Main entrance=<size\=15>Главный вход</size>
+
+Training manual=<size\=15>Руководство</size>
+Useful info!=Полезная информация!
+
+Door controls=<size\=15>Управление шлюзом</size>
+Can't stay closed forever=Не может оставаться закрытым
+
+Secure door=Дверь безопасности
+Can be accessed from terminal=Можно открыть через терминал
+
+Bursted Steam Valve=Повреждённый паровой клапан
+Fix it to get rid of the steam=Проверните, чтобы убрать пар
+
+TOTAL:=ВСЕГО:
+r:"^TOTAL: (\$[0-9]+)$"=ВСЕГО: $1
+

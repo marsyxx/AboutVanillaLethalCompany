@@ -1,0 +1,5 @@
+# MikuScrap
+
+Hatsune Miku figurine=Фигурка Хацунэ Мику
+Drop Hatsune Miku figurine : [G]=Выбросить Фигурку: [G]
+Hatsune Miku figurine collected!=Фигурка Хацунэ Мику собрана!

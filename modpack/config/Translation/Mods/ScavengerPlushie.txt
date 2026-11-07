@@ -1,0 +1,7 @@
+# Scavenger Plushie
+
+Scavenger Plushie=Плюшевый мусорщик
+Scavenger Plush=Плюшевый мусорщик
+Drop Scavenger Plushie : [G]=Выбросить Игрушку: [G]
+Scavenger Plushie collected!=Плюшевый мусорщик собран!
+Scavenger Plush collected!=Плюшевый мусорщик собран!

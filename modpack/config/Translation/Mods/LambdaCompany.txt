@@ -1,0 +1,12 @@
+# LambdaCompany
+
+Gnome=Гном
+Doll=Кукла
+Explosive Barrel=Взрывоопасная бочка
+Drop carefully!: [Ctrl]=Выбросить аккуратно!: [Ctrl]
+Drop Explosive Barrel : [G]=Выбросить Бочку: [G]
+Drop Gnome : [G]=Выбросить Гнома: [G]
+Drop Doll : [G]=Выбросить Куклу: [G]
+Gnome collected!=Гном собран!
+Doll collected!=Кукла собрана!
+Explosive Barrel collected!=Взрывоопасная бочка собрана!
