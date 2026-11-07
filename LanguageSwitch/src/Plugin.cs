@@ -19,7 +19,7 @@ namespace LanguageSwitch
 
     // Lets the player pick the game language (English / Russian / German) in the Settings screen. The text itself is
     // translated by XUnity.AutoTranslator (the same engine the RTLC Russian translation uses); this mod only drives it.
-    [BepInPlugin(Guid, "LanguageSwitch", "1.0.0")]
+    [BepInPlugin(Guid, "LanguageSwitch", "1.0.1")]
     [BepInDependency(XuaGuid, BepInDependency.DependencyFlags.SoftDependency)]
     public class Plugin : BaseUnityPlugin
     {
@@ -222,9 +222,10 @@ namespace LanguageSwitch
         private static void Apply()
         {
             var tighten = Plugin.Current() != Language.English;
-            foreach (var t in Resources.FindObjectsOfTypeAll<Transform>())
+            // scene objects only: going through every Transform in memory (assets of all loaded bundles included) costs seconds
+            foreach (var t in UnityEngine.Object.FindObjectsOfType<Transform>(true))
             {
-                if (t == null || t.name != "MainButtons" || !t.gameObject.scene.IsValid()) continue;
+                if (t == null || t.name != "MainButtons") continue;
                 foreach (var text in t.GetComponentsInChildren<TMP_Text>(true))
                 {
                     float first;

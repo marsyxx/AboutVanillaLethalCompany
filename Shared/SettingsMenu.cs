@@ -92,12 +92,22 @@ namespace __NS__
 
         private static void InjectAll()
         {
-            foreach (var t in Resources.FindObjectsOfTypeAll<Transform>())
+            // Every control of a Settings screen carries a SettingsOption, and the path up from it leads to the SettingsPanel. Searching
+            // the scene objects of that one type is cheap; going through every Transform in memory (assets and prefabs of all loaded
+            // bundles included) cost seconds per call and was repeated several times per scene by each mod.
+            var seen = new HashSet<int>();
+            foreach (var option in UnityEngine.Object.FindObjectsOfType<SettingsOption>(true))
             {
-                if (t == null || t.name != "SettingsPanel" || !t.gameObject.scene.IsValid()) continue;
-                if (!extended.Add(t.GetInstanceID())) continue;
-                if (t.Find(objectPrefix + "Button") != null || t.Find(objectPrefix + "Dropdown") != null) continue;
-                if (inlineOption != null) ExtendInline(t); else Extend(t);
+                for (var t = option != null ? option.transform : null; t != null; t = t.parent)
+                {
+                    if (t.name != "SettingsPanel") continue;
+                    var id = t.GetInstanceID();
+                    if (seen.Add(id) && extended.Add(id) && t.Find(objectPrefix + "Button") == null && t.Find(objectPrefix + "Dropdown") == null)
+                    {
+                        if (inlineOption != null) ExtendInline(t); else Extend(t);
+                    }
+                    break;
+                }
             }
         }
 

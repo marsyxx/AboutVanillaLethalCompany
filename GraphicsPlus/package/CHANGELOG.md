@@ -1,3 +1,6 @@
+## 1.0.1
+- Faster start: the Settings page used to look for the game's Settings panel among every object in memory (assets of all loaded bundles included), several times per scene; it now looks only at the controls of the open scene.
+
 ## 1.0.0
 - Fixed: in the pause menu in a game the Graphics+ page opened empty (the page was drawn on the wrong UI layer and the game's UI camera skipped it).
 - The Graphics+ button sits inside the Graphics box of the Settings screen. While any Graphics+ option is changed from its default, the game's own Graphics controls are greyed out and locked (switch off with the "Lock vanilla Graphics settings" option).

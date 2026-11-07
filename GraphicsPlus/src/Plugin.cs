@@ -9,7 +9,7 @@ namespace GraphicsPlus
 {
     // Extra graphics options in the game's own Settings screen (see SettingsMenu.cs); LethalConfig shows the same
     // entries as a fallback. Everything defaults to "vanilla": installing the mod changes nothing until a value is moved.
-    [BepInPlugin(Guid, "GraphicsPlus", "1.0.0")]
+    [BepInPlugin(Guid, "GraphicsPlus", "1.0.1")]
     [BepInDependency("ainavt.lc.lethalconfig", BepInDependency.DependencyFlags.SoftDependency)]
     public class Plugin : BaseUnityPlugin
     {
