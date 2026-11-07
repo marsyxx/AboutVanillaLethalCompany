@@ -1,0 +1,10 @@
+{
+    "name": "LanguageSwitch",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "Pick the game language (English, Russian, German) in the Settings screen, live. Works with XUnity.AutoTranslator and the RTLC Russian translation; includes a German dictionary for the game's text.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2305",
+        "RTLC-XUnity_AutoTranslator-5.6.11"
+    ]
+}
