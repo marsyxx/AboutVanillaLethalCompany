@@ -15,7 +15,7 @@ namespace LCCompatFixes
 {
     // Fixes for mods that broke after a game update, applied from the outside so the mods themselves stay untouched.
     // Every fix can be switched off in BepInEx/config/lc.compatfixes.cfg.
-    [BepInPlugin(Guid, "LCCompatFixes", "1.0.0")]
+    [BepInPlugin(Guid, "LCCompatFixes", "1.0.1")]
     [BepInDependency("me.loaforc.soundapi", BepInDependency.DependencyFlags.SoftDependency)]
     public class Plugin : BaseUnityPlugin
     {
@@ -43,12 +43,16 @@ namespace LCCompatFixes
             var cacheTypeScans = Config.Bind("Fixes", "CacheTypeScans", true,
                 "Mods that look types up by name (AccessTools.TypeByName / AllTypes) make HarmonyX call Assembly.GetTypes on every loaded assembly each time. For the few assemblies that cannot load fully (they reference mods that are not installed) that call throws and takes 1-2 seconds, and it was repeated over a hundred times per session. The result of each scan is remembered, so it runs once per assembly.");
 
+            var fastTypeByName = Config.Bind("Fixes", "FastTypeByName", true,
+                "HarmonyX's AccessTools.TypeByName (also behind AccessTools.Method(\"Type:Method\") and similar) compares the full name of every type in every loaded assembly, twice, on each call, and builds a new string for each one. A lookup of a mod that is not installed takes 2-6 seconds, and mods such as LazyLobby, LazyLanding and WeatherRegistry do dozens of them at startup and in the main menu; this was the biggest single cause of the long start and of the freezes of ten seconds and more in the menu. When on, names are looked up with the runtime's own per-assembly lookup and the answers are remembered; the result is the same type as before, a miss is answered at once, and the 'Could not find type named' warning for misses is no longer printed.");
+
             var rpgOrder = Config.Bind("Fixes", "LethalRpgStrengthBeforeBetterStamina", true,
                 "LethalRPG's Strength skill finds the carry-weight reads in PlayerControllerB.Update/LateUpdate and scales them, but BetterStamina's patch (which runs first because of its priority) has already replaced those reads, so LethalRPG logs 'no reads of carryWeight found' and Strength does nothing. This puts LethalRPG's two carry-weight patches ahead of BetterStamina's, so both see the code they expect. Only the order changes; neither mod's code is touched.");
 
             var harmony = new Harmony(Guid);
             if (rpgOrder.Value) StartCoroutine(RpgOrderLoop());
             if (cacheTypeScans.Value) Safe("type scan cache", () => PatchTypeScans(harmony));
+            if (fastTypeByName.Value) Safe("fast TypeByName", () => PatchTypeByName(harmony));
             if (sliceRtlc.Value) Safe("RTLC scene load slicing", () => PatchRtlc(harmony));
             if (stubDarkenScreen.Value) Safe("stub loadingDarkenScreen", () => PatchHud(harmony));
             if (fixPackNames.Value) Safe("SoundAPI pack names", () => PatchSoundApi(harmony));
@@ -176,6 +180,78 @@ namespace LCCompatFixes
         {
             if (assembly == null || __result == null || assembly.IsDynamic) return;
             lock (typeScanLock) typeScans[assembly] = __result;
+        }
+
+        // ---- HarmonyX: AccessTools.TypeByName compared the full name of every type, twice per call --------------------
+
+        private static readonly Dictionary<string, Type> typeFound = new Dictionary<string, Type>();
+        private static readonly Dictionary<string, int> typeMissed = new Dictionary<string, int>();   // name -> number of loaded assemblies when it was not found
+        private static readonly Dictionary<Assembly, Dictionary<string, Type>> shortNames = new Dictionary<Assembly, Dictionary<string, Type>>();
+        private static readonly object typeByNameLock = new object();
+        private static int typeLookups, typeMissAnswers;
+        private static bool loggedTypeLookups;
+
+        private static void PatchTypeByName(Harmony harmony)
+        {
+            var target = AccessTools.Method(typeof(AccessTools), "TypeByName", new[] { typeof(string) });
+            if (target == null) { Log.LogWarning("AccessTools.TypeByName not found; lookups stay as they are."); return; }
+            harmony.Patch(target, prefix: new HarmonyMethod(typeof(Plugin), nameof(TypeByNamePrefix)) { priority = Priority.First });
+        }
+
+        // Same answer as HarmonyX gives: Type.GetType first, then the first type (in assembly order) whose FullName equals the name,
+        // then the first whose Name equals it. Only the way of searching differs.
+        private static bool TypeByNamePrefix(string name, ref Type __result)
+        {
+            if (string.IsNullOrEmpty(name)) return true;
+            try
+            {
+                typeLookups++;
+                if (!loggedTypeLookups && typeLookups >= 25) { loggedTypeLookups = true; Log.LogInfo("Fast TypeByName: 25 lookups so far, answered without scanning every type."); }
+                lock (typeByNameLock)
+                {
+                    Type known;
+                    if (typeFound.TryGetValue(name, out known)) { __result = known; return false; }
+                }
+                var found = Type.GetType(name, false);
+                var assemblies = AppDomain.CurrentDomain.GetAssemblies();
+                if (found == null)
+                {
+                    int missedAt;
+                    lock (typeByNameLock) { if (typeMissed.TryGetValue(name, out missedAt) && missedAt == assemblies.Length) { typeMissAnswers++; __result = null; return false; } }
+                    foreach (var assembly in assemblies)
+                    {
+                        if (assembly.FullName.StartsWith("Microsoft.VisualStudio", StringComparison.Ordinal)) continue;
+                        try { found = assembly.GetType(name, false); } catch { found = null; }
+                        if (found != null) break;
+                    }
+                    if (found == null && name.IndexOf('.') < 0 && name.IndexOf('+') < 0)
+                    {
+                        foreach (var assembly in assemblies)
+                        {
+                            if (assembly.FullName.StartsWith("Microsoft.VisualStudio", StringComparison.Ordinal)) continue;
+                            Dictionary<string, Type> index;
+                            lock (typeByNameLock) shortNames.TryGetValue(assembly, out index);
+                            if (index == null)
+                            {
+                                index = new Dictionary<string, Type>();
+                                Type[] all = null;
+                                try { all = AccessTools.GetTypesFromAssembly(assembly); } catch { }
+                                if (all != null) foreach (var t in all) { if (t != null && !index.ContainsKey(t.Name)) index[t.Name] = t; }
+                                if (!assembly.IsDynamic) lock (typeByNameLock) shortNames[assembly] = index;
+                            }
+                            if (index.TryGetValue(name, out found)) break;
+                        }
+                    }
+                }
+                lock (typeByNameLock) { if (found != null) typeFound[name] = found; else typeMissed[name] = assemblies.Length; }
+                __result = found;
+                return false;
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning("Fast TypeByName fell back to HarmonyX for '" + name + "': " + e.Message);
+                return true;
+            }
         }
 
         // ---- RTLC: texture pass on every level load, spread over frames ---------------------------------------------

@@ -1,3 +1,6 @@
+## 1.0.1
+- New fix `FastTypeByName`: HarmonyX's `AccessTools.TypeByName` (also behind `AccessTools.Method("Type:Method")`) compared the full name of every type in every loaded assembly, twice per call, so a lookup of a mod that is not installed took 2-6 seconds. LazyLobby, LazyLanding and WeatherRegistry do dozens of those at startup and in the main menu; together they were about half of the long start and of the freezes of 10-20 seconds in the menu. Lookups now go through the runtime's per-assembly lookup and are remembered; the answer is the same type as before.
+
 ## 1.0.0
 - CacheTypeScans: HarmonyX called Assembly.GetTypes on every loaded assembly each time a mod looked a type up by name; for the three assemblies that cannot load fully in a typical big profile (DawnLib, LCV, PremiumScraps referencing mods that are not installed) that call throws and it was repeated about 130 times per session. Each scan is now remembered (132 failing scans -> 7 in a test; about 4 s less loading).
 - RtlcSceneLoadSlicing: the RTLC Russian translation (RTLC and RTLC.Mods) went through every texture in memory in one frame on each level load, a freeze of about 2 seconds when the ship lands (measured: 1.5 s + 0.6 s). The same pass now runs about 3 ms per frame, and textures already handled on an earlier level load are skipped.
