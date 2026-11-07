@@ -1,0 +1,12 @@
+{
+  "name": "JKConfig",
+  "version_number": "1.0.1",
+  "website_url": "https://discord.com/channels/1168655651455639582/1392978985872261220",
+  "description": "An Addon for JLL to allow Items and Enemies registered with LLL to have configs",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100",
+    "Evaisa-HookGenPatcher-0.0.5",
+    "IAmBatby-LethalLevelLoader-1.6.0",
+    "JacobG5-JLL-1.9.9"
+  ]
+}

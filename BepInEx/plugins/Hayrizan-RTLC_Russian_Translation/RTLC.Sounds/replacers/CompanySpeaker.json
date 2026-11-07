@@ -1,0 +1,76 @@
+{
+    "replacements": [
+        {
+            "matches": "SpeakerAudio:Mic1",
+            "sounds": [
+                {
+                    "sound": "CompanySpeaker/Mic1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:Mic2",
+            "sounds": [
+                {
+                    "sound": "CompanySpeaker/Mic2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:Mic3",
+            "sounds": [
+                {
+                    "sound": "CompanySpeaker/Mic3.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:Mic4",
+            "sounds": [
+                {
+                    "sound": "CompanySpeaker/Mic4.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:Mic7",
+            "sounds": [
+                {
+                    "sound": "CompanySpeaker/Mic7.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:Mic8",
+            "sounds": [
+                {
+                    "sound": "CompanySpeaker/Mic8.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:Mic9",
+            "sounds": [
+                {
+                    "sound": "CompanySpeaker/Mic9.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:Mic10",
+            "sounds": [
+                {
+                    "sound": "CompanySpeaker/Mic10.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:Mic11",
+            "sounds": [
+                {
+                    "sound": "CompanySpeaker/Mic11.ogg"
+                }
+            ]
+        }
+    ]
+}

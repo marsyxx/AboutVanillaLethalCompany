@@ -1,0 +1,9 @@
+{
+    "name": "TestAccountCore",
+    "version_number": "1.18.0",
+    "website_url": "https://gitlab.com/TestAccount666/LethalCompany-TestAccountCore/",
+    "description": "A mod with some common methods I use in my mods",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

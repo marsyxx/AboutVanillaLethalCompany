@@ -1,0 +1,148 @@
+{
+    "replacements": [
+        {
+            "matches": "SpeakerAudio:Welcome_1",
+            "sounds": [
+                {
+                    "sound": "Speaker_Diversity/Welcome_1.wav"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:Welcome_2",
+            "sounds": [
+                {
+                    "sound": "Speaker_Diversity/Welcome_2.wav"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:0_Days_Left",
+            "sounds": [
+                {
+                    "sound": "Speaker_Diversity/0_Days_Left.wav"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:0_Days_Left_2",
+            "sounds": [
+                {
+                    "sound": "Speaker_Diversity/0_Days_Left_2.wav"
+                }
+            ]
+        },
+        {
+            "matches": "Sound:Attempt_To_Shut_Off_Speaker",
+            "sounds": [
+                {
+                    "sound": "Speaker_Diversity/Attempt_To_Shut_Off_Speaker.wav"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:Dog_Spawn_Or_When_Close_to_Ship",
+            "sounds": [
+                {
+                    "sound": "Speaker_Diversity/Dog_Spawn_Or_When_Close_to_Ship.wav"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:Eject_1",
+            "sounds": [
+                {
+                    "sound": "Speaker_Diversity/Eject_1.wav"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:Eject_2",
+            "sounds": [
+                {
+                    "sound": "Speaker_Diversity/Eject_2.wav"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:Loading_Back_In_After_An_Eject",
+            "sounds": [
+                {
+                    "sound": "Speaker_Diversity/Loading_Back_In_After_An_Eject.wav"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:Reaching_Quota",
+            "sounds": [
+                {
+                    "sound": "Speaker_Diversity/Reaching_Quota.wav"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:Reaching_Quota_2",
+            "sounds": [
+                {
+                    "sound": "Speaker_Diversity/Reaching_Quota_2.wav"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:Reaching_Quota_Again",
+            "sounds": [
+                {
+                    "sound": "Speaker_Diversity/Reaching_Quota_Again.wav"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:Reaching_Quota_Again_2",
+            "sounds": [
+                {
+                    "sound": "Speaker_Diversity/Reaching_Quota_Again_2.wav"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:Return_From_Eject_2",
+            "sounds": [
+                {
+                    "sound": "Speaker_Diversity/Return_From_Eject_2.wav"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:Terminal_Error_2",
+            "sounds": [
+                {
+                    "sound": "Speaker_Diversity/Terminal_Error_2.wav"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:Terminal_Error_No_Laugh",
+            "sounds": [
+                {
+                    "sound": "Speaker_Diversity/Terminal_Error_No_Laugh.wav"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:Terminal_Error_With_Laugh",
+            "sounds": [
+                {
+                    "sound": "Speaker_Diversity/Terminal_Error_With_Laugh.wav"
+                }
+            ]
+        },
+        {
+            "matches": "Sound:Turning_Off_Speaker_2",
+            "sounds": [
+                {
+                    "sound": "Speaker_Diversity/Turning_Off_Speaker_2.wav"
+                }
+            ]
+        }
+    ]
+}

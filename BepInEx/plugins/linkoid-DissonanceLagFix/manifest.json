@@ -1,0 +1,9 @@
+{
+   "name": "DissonanceLagFix",
+   "version_number": "1.0.0",
+   "website_url": "https://github.com/linkoid/Linkoid.Dissonance.LagFix",
+   "description": "This plugin significantly reduces the duration of lag spikes simply by changing the log level of DissonanceVoip.",
+   "dependencies": [
+      "BepInEx-BepInExPack-5.4.2100"
+   ]
+}

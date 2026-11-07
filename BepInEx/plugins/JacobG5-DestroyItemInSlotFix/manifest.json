@@ -1,0 +1,9 @@
+{
+  "name": "DestroyItemInSlotFix",
+  "version_number": "1.0.0",
+  "website_url": "https://www.youtube.com/@Jacob-DT",
+  "description": "Fixes niche vanilla issue with PlayerControllerB.DestroyItemInSlot(int itemSlot) and the new utility slot.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}

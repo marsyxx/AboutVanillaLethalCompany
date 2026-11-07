@@ -1,0 +1,7 @@
+{
+    "name": "XUnity_AutoTranslator",
+    "version_number": "5.6.1",
+    "website_url": "https://github.com/bbepis/XUnity.AutoTranslator",
+    "description": "Advanced translator plugin",
+    "dependencies": ["BepInEx-BepInExPack-5.4.2100"]
+}

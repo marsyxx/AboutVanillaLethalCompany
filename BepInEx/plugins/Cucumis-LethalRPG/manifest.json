@@ -1,0 +1,9 @@
+{
+  "name": "LethalRPG",
+  "version_number": "0.10.0",
+  "website_url": "https://github.com/feedback4cucu/LethalRPG",
+  "description": "Level up in Lethal Company: spend your share of the quota on 21 upgrades and unlock a skill tree of 31 skills with XP you keep forever. Works alongside LateGameUpgrades. Everyone in the lobby needs it.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}

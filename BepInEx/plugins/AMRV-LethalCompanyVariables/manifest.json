@@ -1,0 +1,10 @@
+{
+  "name": "LethalCompanyVariables",
+  "version_number": "2.7.4",
+  "website_url": "https://github.com/TheAnsuz",
+  "description": "Configure everything from the game to your liking. Create your own custom experience or challenge while in-game and for each save file. (Compatible with custom content and vanilla clients)",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100",
+    "AMRV-ConfigurableCompany-3.5.0"
+  ]
+}

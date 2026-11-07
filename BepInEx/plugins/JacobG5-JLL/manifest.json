@@ -1,0 +1,10 @@
+{
+  "name": "JLL",
+  "version_number": "1.10.1",
+  "website_url": "https://github.com/JacobG55/JLL",
+  "description": "Jacob's Lethal Libraries - For Jacob's Mods",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2305",
+    "JacobG5-DestroyItemInSlotFix-1.0.0"
+  ]
+}

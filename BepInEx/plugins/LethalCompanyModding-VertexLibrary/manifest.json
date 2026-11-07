@@ -1,0 +1,11 @@
+{
+  "namespace": "LethalCompanyModding",
+  "name": "VertexLibrary",
+  "description": "Provides extension methods for obtaining the oriented bounding box (OBB) of Unity objects.",
+  "version_number": "1.1.0",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ],
+  "website_url": "https://github.com/LethalCompanyModding/UnityVertexLibrary",
+  "FullName": "LethalCompanyModding-VertexLibrary"
+}

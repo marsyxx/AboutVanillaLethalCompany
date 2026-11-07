@@ -1,0 +1,7 @@
+{
+    "name": "OpusDotNet",
+    "version_number": "1.0.30",
+    "website_url": "https://github.com/mrphil2105/OpusDotNet",
+    "description": "An easy-to-use library for encoding and decoding 16-bit audio using the Opus Audio Codec.",
+    "dependencies": []
+}

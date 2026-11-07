@@ -1,0 +1,20 @@
+{
+    "replacements": [
+        {
+            "matches": "Nokia:FarAudio:Im Strokin Meme Sound Effect  Soundboard Link",
+            "sounds": [
+                {
+                    "sound": "Nokia_ChillaxScraps/ImStrokinMemeSoundEffectSoundboardLink.wav"
+                }
+            ]
+        },
+        {
+            "matches": "Nokia:Im Strokin Meme Sound Effect  Soundboard Link",
+            "sounds": [
+                {
+                    "sound": "Nokia_ChillaxScraps/ImStrokinMemeSoundEffectSoundboardLink.wav"
+                }
+            ]
+        }
+    ]
+}

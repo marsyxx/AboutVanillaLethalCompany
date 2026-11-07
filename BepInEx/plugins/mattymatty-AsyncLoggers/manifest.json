@@ -1,0 +1,9 @@
+{
+  "name": "AsyncLoggers",
+  "version_number": "2.2.4",
+  "website_url": "https://github.com/mattymatty97/LTC_AsyncLoggers",
+  "description": "YEET the logs to their own thread!",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2304"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "MelanieMelicious_2_sToRy_ShIp__works_w_Wider_Ship_Mod",
+  "version_number": "2.2.14",
+  "website_url": "",
+  "description": "Very cool MelanieMelicious mod that makes the ship 2-stories tall. Compatible with Wider Ship Mod, Ship Windows (reset config), AND Celestial Tint. You can contact me in Lethal Company Modding Discord, I'll add more options later.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}

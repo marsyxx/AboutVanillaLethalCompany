@@ -1,0 +1,18 @@
+{
+    "name": "RTLC.Sounds",
+
+    "config": {
+        "EnabledSounds:ShipSpeaker": {
+            "description": "Включить озвучку диктора на корабле?",
+            "default": true
+        },
+         "EnabledSounds:CompanySpeaker": {
+            "description": "Включить озвучку диктора у здания Компании?",
+            "default": true
+        },
+         "EnabledSounds:TV": {
+            "description": "Включить озвучку обучающего ролика на телевизоре?",
+            "default": true
+        }
+    }
+}

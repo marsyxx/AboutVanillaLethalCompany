@@ -1,0 +1,11 @@
+{
+  "name": "Beanie_Lib",
+  "version_number": "1.1.0",
+  "website_url": "",
+  "description": "A Library for my niche (But maybe useful) scripts",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100",
+    "Evaisa-HookGenPatcher-0.0.5",
+    "Evaisa-FixPluginTypesSerialization-1.1.2"
+  ]
+}

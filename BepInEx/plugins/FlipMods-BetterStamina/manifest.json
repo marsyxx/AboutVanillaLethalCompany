@@ -1,0 +1,9 @@
+{
+    "name": "BetterStamina",
+    "version_number": "1.5.7",
+    "website_url": "",
+    "description": "Tweaks stamina regen/consumption, as well as lessens the penalty of speed/stamina based on weight. Config values are fully customizable for stamina, movement speed, ladder climbing speed, jumping, etc, and will sync with the host.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

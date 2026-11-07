@@ -1,0 +1,10 @@
+{
+    "name": "Generic_Doorscript",
+    "version_number": "1.0.2",
+    "website_url": "https://github.com/GenericGMD/Generic-Moons",
+    "description": "(V80) Makes doorways with the tag id 7779 unable to connect. Does nothing on its own.",
+    "dependencies": [
+        "IAmBatby-LethalLevelLoader-1.2.2",
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "SyncedSkinwalkers",
+  "description": "A config preset for Mirage that doesn't change the vanilla behaviour of Masked enemies and lets other monsters mimic player voices.",
+  "version_number": "2.1.1",
+  "dependencies": [
+    "Hamunii-DetourContext_Dispose_Fix-1.0.7",
+    "willis81808-LethalSettings-1.4.1",
+    "Hamunii-AutoHookGenPatcher-1.0.9",
+    "qwbarch-NAudioLame-2.1.1",
+    "Bobbie-NAudio-2.2.2",
+    "qwbarch-MirageCore-1.0.4",
+    "qwbarch-Mirage-1.29.0",
+    "BepInEx-BepInExPack-5.4.2305",
+    "qwbarch-Concentus-2.3.0",
+    "qwbarch-OpusDotNet-1.0.30",
+    "VirusTLNR-MaskedInvisFix-0.0.3",
+    "ButteryStancakes-MaskFixes-1.6.0"
+  ],
+  "website_url": ""
+}

@@ -1,0 +1,140 @@
+{
+    "replacements": [
+        {
+            "matches": "Sound:voice_Insert 1",
+            "sounds": [
+                {
+                    "sound": "Girl_Diversity/voice_Insert 1.wav"
+                }
+            ]
+        },
+        {
+            "matches": "Sound:voice_Insert 2",
+            "sounds": [
+                {
+                    "sound": "Girl_Diversity/voice_Insert 2.wav"
+                }
+            ]
+        },
+        {
+            "matches": "Sound:voice_Insert 3",
+            "sounds": [
+                {
+                    "sound": "Girl_Diversity/voice_Insert 3.wav"
+                }
+            ]
+        },
+        {
+            "matches": "Sound:voice_Insert 4",
+            "sounds": [
+                {
+                    "sound": "Girl_Diversity/voice_Insert 4.wav"
+                }
+            ]
+        },
+        {
+            "matches": "Sound:voice_Insert 5",
+            "sounds": [
+                {
+                    "sound": "Girl_Diversity/voice_Insert 5.wav"
+                }
+            ]
+        },
+        {
+            "matches": "Sound:voice_Insert 6",
+            "sounds": [
+                {
+                    "sound": "Girl_Diversity/voice_Insert 6.wav"
+                }
+            ]
+        },
+        {
+            "matches": "Sound:voice_Insert 7",
+            "sounds": [
+                {
+                    "sound": "Girl_Diversity/voice_Insert 7.wav"
+                }
+            ]
+        },
+        {
+            "matches": "Sound:voice_Insert 8",
+            "sounds": [
+                {
+                    "sound": "Girl_Diversity/voice_Insert 8.wav"
+                }
+            ]
+        },
+        {
+            "matches": "Sound:voice_Insert 9",
+            "sounds": [
+                {
+                    "sound": "Girl_Diversity/voice_Insert 9.wav"
+                }
+            ]
+        },
+        {
+            "matches": "Sound:voice_Insert 10",
+            "sounds": [
+                {
+                    "sound": "Girl_Diversity/voice_Insert 10.wav"
+                }
+            ]
+        },
+        {
+            "matches": "Sound:voice_Insert 11",
+            "sounds": [
+                {
+                    "sound": "Girl_Diversity/voice_Insert 11.wav"
+                }
+            ]
+        },
+        {
+            "matches": "Sound:voice_Insert 12",
+            "sounds": [
+                {
+                    "sound": "Girl_Diversity/voice_Insert 12.wav"
+                }
+            ]
+        },
+        {
+            "matches": "Sound:voice_Insert 14",
+            "sounds": [
+                {
+                    "sound": "Girl_Diversity/voice_Insert 14.wav"
+                }
+            ]
+        },
+        {
+            "matches": "Sound:voice_Insert 15",
+            "sounds": [
+                {
+                    "sound": "Girl_Diversity/voice_Insert 15.wav"
+                }
+            ]
+        },
+        {
+            "matches": "Sound:voice_Insert 16",
+            "sounds": [
+                {
+                    "sound": "Girl_Diversity/voice_Insert 16.wav"
+                }
+            ]
+        },
+        {
+            "matches": "Sound:voice_Insert 17",
+            "sounds": [
+                {
+                    "sound": "Girl_Diversity/voice_Insert 17.wav"
+                }
+            ]
+        },
+        {
+            "matches": "Sound:voice_Insert 18",
+            "sounds": [
+                {
+                    "sound": "Girl_Diversity/voice_Insert 18.wav"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "replacements": [
+        {
+            "matches": "accidentlog1:fatality_report_1",
+            "sounds": [
+                {
+                    "sound": "Logs_Gratar/fatality_report_1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "accidentlog2:fatality_report_2",
+            "sounds": [
+                {
+                    "sound": "Logs_Gratar/fatality_report_2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "accidentlog3:fatality_report_3",
+            "sounds": [
+                {
+                    "sound": "Logs_Gratar/fatality_report_3.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "accidentlog4:fatality_report_4",
+            "sounds": [
+                {
+                    "sound": "Logs_Gratar/fatality_report_4.ogg"
+                }
+            ]
+        }
+    ]
+}

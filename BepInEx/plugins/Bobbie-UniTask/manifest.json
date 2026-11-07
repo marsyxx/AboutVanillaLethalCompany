@@ -1,0 +1,9 @@
+{
+    "name": "UniTask",
+    "version_number": "2.5.0",
+    "website_url": "https://github.com/Cysharp/UniTask",
+    "description": " Provides an efficient allocation free async/await integration for Unity.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

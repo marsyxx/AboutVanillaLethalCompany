@@ -1,0 +1,9 @@
+{
+  "name": "MaskedInvisFix",
+  "version_number": "0.0.3",
+  "website_url": "",
+  "description": "[V81]Fixes bugs (1 Currently) where masked are invisible. make this a dependency, or add your own implementation in your own masked mimicking mod. I dont mind :) Any mod that makes masked look like the player they are copying will need this.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}

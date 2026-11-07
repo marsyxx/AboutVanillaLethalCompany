@@ -1,0 +1,7 @@
+{
+    "name": "NAudioLame",
+    "version_number": "2.1.1",
+    "website_url": "https://github.com/Corey-M/NAudio.Lame",
+    "description": "Wrapper for libmp3lame.dll to add MP3 encoding support to NAudio.",
+    "dependencies": ["Bobbie-NAudio-2.2.2"]
+}

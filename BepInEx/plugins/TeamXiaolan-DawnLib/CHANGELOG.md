@@ -1,0 +1,944 @@
+# v0.9.27
+
+- Added the ability to replace state behaviour sounds for enemy replacements.
+- Skinned Renderer replacements also allow adding bones to an armature.
+- Added fixes for editor only configs related to `Config Reader` component.
+- This is probably the last update before 1.0.0.
+
+## v0.9.26
+
+- Imported a bunch of fixes from experimental as experimental is going through the biggest changes right now.
+- Fixed DawnLib Stingers not playing + playing when entering and exiting the interior.
+- Simplified EntranceTeleport grabbing stuff.
+- Grabbed modded enesemy bestiaries more reliably.
+- Fixed an issue with Entity Replacement Registration forcing the need to replace the EnemyType's audioclips which caused some enemies like nutcrackers to break when replacing them.
+- Fixed an early return in restoring audiosources.
+- Fixed not replacing `RandomScrapSpawn` `ItemGroup`'s with vanilla ones.
+- Fixed earth leviathan not being able to come out with DawnSurface stuff.
+- Fixed issue with story logs double registering.
+- Fixed issue with hazard replacement on some DawnLib moons.
+- Improved terminal resolution with two-word queries.
+- Fixed an issue with items that destroy other items in the inventory making you lose incorrect amount of weight (i.e. shotgun).
+- Fixed an issue with having multiple animationreplacements for entity replacements.
+- Fixed Renderer replacements with rigs that have an not-root root bone.
+
+## v0.9.25
+
+- Fixed incompat with Lategame Upgrades.
+
+## v0.9.24
+
+- Added null-safety checks to `LethalQuantitiesCompat` and `TerminalFormatterCompat` to prevent a crash when a dependency updates and renames an internal method.
+- Fixed a minor issue with moons's Route nodes that was missing a value (did not cause any issues in game as far as I know).
+- Made `DawnMapObjectInfo.GetMapObjectPrefab();` nullable.
+
+## v0.9.23
+
+- Solved fake extra fire exit existing.
+- Cleaned up code for more compatibility with other mods.
+- Stored ILHooks in a list just incase they need to be unpatched by another mod.
+- Fixed a big issue caused by last update if you had any DawnLib moons installed.
+
+## v0.9.22
+
+- Added more logging for interiors hotloading about messed up SpawnSyncedObjects
+- Null checked a button for achievements.
+- Prevented the disabledHoverTip being set to null accidently before first routing.
+- Start replacing blanks for .specialEnemy in levels.
+- Adjusted the sound fix for DawnLib's AssetBundleLoader.
+- Potentially fixed an issue with clients desyncing fire exits?
+- Added a fix to `DestroyItemInSlot`.
+  - This fix is more in-depth than the one made by JacobG5.
+  - Fixing more issues in the function than just the error being made.
+
+## v0.9.21
+
+- Made sure weathers are synced with host on client joining.
+- Minor code cleanup.
+- Stopped predictable warnings from showing up on lobby reload.
+- Fixed a seemingly? vanilla bug where joining clients think experimentation is stormy but only on the monitor's end until you switch moons or update the ship screen.
+
+## v0.9.20
+
+- Fixed small issue that made vanilla dungeons unrecognisable to DawnLib.
+- Same as above but for some terminal command registration.
+
+## v0.9.19
+
+- Code cleanup.
+- Added the ability to add crouching footsteps to a custom footstep surface.
+- Added the ability to control the volume of all audioclips in a custom footstep surface.
+- Added the option to have a bundle in a content container disabled/enabled by default.
+- Added the ability to create your own story logs system similar to sigurd's for the terminal.
+  - You can use the scripts CommitKeyToSave and ExtraScanEvents to unlock parts of the log.
+  - This is not part of the story log registry, it is part of the terminal commands registry, this may be changed in the future.
+- Added a soft reset all progress to achievements for AchievementTriggers script.
+  - This allows resetting achievement progress IF the achievement had not been completed.
+- User generated configs from the editor are now affected by the AllowEditingConfig setting.
+- Fixed issue with disabling/enabling DawnLib on and off with older save files affecting newer ones.
+
+## v0.9.18
+
+- I haven't been this frustrated in a singular thing in such a long time.
+
+## v0.9.17
+
+- This has to be my 3rd or 4th attempt on the enemy transpilers thing.
+
+## v0.9.16
+
+- Fixed some more issues with transpilers relating to dawnlib enemy spawns.
+- Adjusted the logic for replacing blank map objects/hazards.
+
+## v0.9.15
+
+- Removed some unneeded logging.
+- Improved DunGenPlus compat.
+- Added the ability to set whether an earth leviathan can rise on custom footstep surface (not set-able on the component).
+- Added the ability to set whether quicksand works on custom footstep surfaces.
+
+## v0.9.14
+
+- Refined DunGenPlus compat.
+- Fixed issues with DawnLib and LunarConfig'd enemies that caused them to be able to spawn more than they should especially on eclipsed moons.
+- Thanks to paco for last version's help with the outside and inside map objects.
+- Updated GoodItemScanCompat.
+- Added visualisers for the following in the editor:
+  - Tile size visualiser.
+  - GlobalPropSettings Drawer.
+  - Tag Drawer.
+  - TagPair Drawer.
+  - TileInjectionRule Drawer.
+  - Refined Doorway visualisers.
+  - Added a menu when right-clicking tiles to copy from the automatic tile bounds to the manual one.
+  - GameObjectChance Drawer.
+  - GraphNode Drawer.
+  - GraphLine Drawer.
+
+## v0.9.13
+
+- Restored DunGenPlus compat.
+- Fixed errors with outside map objects and inside map objects.
+- Fixed my pc, so i'm back.
+
+## v0.9.12
+
+- Fixed an error from non unity-terrain moons.
+- Adjusted an issue with enemy power level that'd go off if you pack didn't have StarlancerAIFix. (There is currently a bad issue that happens with DawnLib+LunarConfig+StarlancerAIFix happening that's been around for presumably a long time, hopefully StarlancerAIFix can be updated to fix this).
+
+## v0.9.11
+
+- Synced `ChangeWeatherTo` method, only call this on the host please.
+- Added WR compat to `ChangeWeatherTo` method.
+- Edited some hazard code due to new stuff by zeekerss on v81.
+
+## v0.9.10
+
+- Fixed fire exits desync with only DawnLib installed.
+- Added new `ChangeWeatherTo` that uses `DawnWeatherEffectInfo`.
+- Fixed RoutePrice configs not generating.
+- Added public interface to the saving of items' locations so that they're not loaded back into the centre of the ship if need be.
+
+## v0.9.9
+
+- Whoops.
+
+## v0.9.8
+
+- Added replacing of the various item sfx into the item replacements.
+- Added replacing the conductivity of an item into the item replacements.
+- Started saving item skins into the savefile where clients can load in and it'll sync.
+- Added a `ChangeWeatherTo` method to `DawnMoonInfo`.
+- Improved Editor tooling slightly.
+
+## v0.9.7
+
+- Improved item entity skins to show up on the collect display when bringing item back to ship.
+- Improved editor looks regarding obsolete fields and headers.
+- Fixed Skins not working in editor for new version.
+
+## v0.9.6
+
+- Fixed a couple issues relating to Vanilla compatibility config.
+- Fixed some localisation issues with BoundedRange.
+- Simplified some custom interior code.
+- Added some debugging in case of invalid doorway sockets.
+- Allowed configuring the weights of different scenes on a moon.
+- Fixed visualisation issue with SpawnSyncedObject visualiser having incorrect scaling sometimes.
+
+## v0.9.5
+
+- Added Routeprice configurability to items, enemies, interiors and entity replacements.
+- Got rid of my logging on vow and march from last update, whoops.
+- Fixed vow making snow sounds on near fire exit.
+
+## v0.9.4
+
+- Added compatibility with latest `TestAccount666.GoodItemScan` update.
+- Addded more logging related to achievements.
+- Possibly fixed issues relating to making more TileSets attached to interiors.
+- Tried to fix old moons with terrain colliders not having proper footsteps.
+- Fixed an issue with lobby reloads in relation to footstep surfaces.
+
+## v0.9.3
+
+- Updated the editor dll for the following changes:
+  - Long-awaited visualisers for scrap and hazard spawning.
+  - Visualisers for DunGen Doorways.
+  - A dropdown on the top of the screen that generates every single Blank ScriptableObject you'll need, which will auto account for future updates.
+  - A button on every DuskDefinition that will generate basic weights for every vanilla moon, interior, weather and a selection of tags: `none, low, medium, high, ultra_high`.
+  - Visualisation added to the moon if redlocustbees can spawn (which shows the radius for hives reduced price).
+- Updated DawnSurface to support TerrainColliders.
+- Added a config to enable vanilla compatibility (untested, let me know how it goes).
+- Added Component that reads the result of a config file and runs UnityEvents in correspondence to the value of the config.
+  - Currently only supports string, float, int, bool, BoundedRange, Vector3, Color and AnimationCurve.
+- OutsideObjects from DawnLib break trees if setup to like vanilla OutsideObjects now.
+- Simulate and Filter commands added.
+  - Simulate supports typing an interior or moon name.
+  - Filter supports being fed a tag name.
+- General code quality improvements.
+
+## v0.9.2
+
+- Updated for latest V80 beta.
+
+## v0.9.1
+
+- Fixed inside hazards not working and massively updated the code quality, thanks zeekerss for changing how they work like I asked :p
+- Some breaking changes were made to how DawnMapObjectInfo is written so please keep that in mind for any mods trying to be compatible with DawnLib.
+- Restored additional missing functionality such as LLL compatibility for some things.
+- Added the vanilla keys for the new additions into the registries.
+- Gave the new custom entities etc some tags I felt appropriate.
+- Added Carjack Bloke.
+
+## v0.9.0
+
+- Updated for v80 beta, please do not use this version on v73.
+- It is currently 2:36pm, I missed my class on 1pm for this and update came out 6am, I've been working on fixing stuff since probably 6:30am
+- Inside hazards are broken for now, I need to sleep it's been 25 hours.
+- WIP route price configuration.
+
+## v0.8.16
+
+- Fixed an issue with DuskDefinitions defaulting to mod dev defined weights if none are defined in the config.
+- Fixed issues with interior weights not being applied to enemies.
+- Fixed issues relating to ship upgrades not being completely picked up by DawnLib, also cleaned up the unlockable terminal code a bit.
+
+## v0.8.15
+
+- This has not been a good day for me, adjusted the progressive predicate thing to add a `Has` option.
+
+## v0.8.14
+
+- Fixed another small issue with setting progressive predicates to be unhidden not saving that unhidden state.
+
+## v0.8.13
+
+- Fixed an issue where making a hidden decoration would cause the terminal to crash in some rare scenarios.
+
+## v0.8.12
+
+- Fixed an issue with unlockables list on store not displaying some unlockables if they have the same display name (different buy name).
+
+## v0.8.11
+
+- Rewrote the outside hazard system to be more reliable with the amount that should be spawning.
+- Correctly applied some unapplied moon tags.
+- Implemented another PR by Darmuh for the terminal allowing editing text in different terminal display texts.
+
+## v0.8.10
+
+- Little fix for HUDDisplayTip not having a default constructor which only didn't work sometimes? not sure what the issue honestly is.
+
+## v0.8.9
+
+- Added `TryDoPathingToDestination` to `SmartAgentNavigator` for better info to caller when trying to path to a position.
+- Added `CanTryToFlyToDestination` to `SmartAgentNavigator` to allow for a custom check to see if the agent can fly to a position if it cannot path to it.
+- Improved `EnemyAI`'s handling with the FlyToDestination parts of `SmartAgentNavigator`.
+
+## v0.8.8
+
+- Added DungeonGenerationPlus compat!
+- Fixed compat with mods like TwoRadarMap.
+- Fixed compat related to terminal issues with having terminalevents and store items with similar names.
+
+## v0.8.7
+
+- Fixed an issue with negative weights being read as `--` hence a positive (basically -999 was being read as a substraction operation with a value of -999, hence --999).
+
+## v0.8.6
+
+- Added better LethalConfig compatibility from No-Code/Editor based mods (They used to not show up with no-code/editor based mods but now they do).
+
+## v0.8.5
+
+- Updated to add better compat with LunarConfig MapObject weights.
+
+## v0.8.4
+
+- Fixed issue where extra scan events wouldn't run.
+- Improved terminal writing space for the display text to be bigger.
+
+## v0.8.3
+
+- Added a new command, `SimpleInput` for editor use, uses the Input command but for editor purposes like multiple results with specific inputs, including a failed result.
+- Added a bool for code based terminal commands to decide whether to build the command on terminal awake or manually call `DawnTerminalCommandInfo.InjectCommandIntoTerminal();`.
+
+## v0.8.2
+
+- Forgot to serialize the fields for the custom terminal commands in editor.
+
+## v0.8.1
+
+- Inherited a patch from CruiserImproved (that doesn't work with DawnLib installed) that fixes items from the cruiser close to the ship not being sent to the ship on lobby reload causing them to just float.
+
+## v0.8.0
+
+- Rewrote most of the terminal commands implementation to be simpler (for now) and much more extensible.
+  - Currently possible commands, some of these are not able to created via editor and require code:
+  - Input
+    - Feeds the player input back to them, allowing you to modify the text or running code according to whatever they might have typed, does not have unity editor support.
+  - SimpleQuery
+    - A command that has two outcomes, with a query that lets you type something to end up in either outcome, has unity editor support.
+  - ComplexQuery
+    - Similar to SimpleQuery, but allows you to have as many outcomes as you'd like, has unity editor support.
+  - Simple
+    - A command that displays text, that's it, has unity editor support.
+  - Complex
+    - Similar to Simple, takes in multiple words in one command to display different text, has unity editor support.
+  - EventDriven
+    - A command that has an event that is run when it's activated, does not have unity editor support.
+  - TerminalObject
+    - Used by Hazards, not much is able to be done with this yet, does not have unity editor support.
+- All these commands, when created via code, can have their results edited via a `Func<string>` for different results according to different conditions.
+
+## v0.7.15
+
+- Organised configs a bit more, user auto generated configs using the editor should be under the main configs auto generated now.
+
+## v0.7.14
+
+- Brought back overriding LLL terminal moon page with DawnLib's version of it.
+
+## v0.7.13
+
+- Updated to add compat with new weather registry breaking changes.
+
+## v0.7.12
+
+- Removed instance warnings from showing up, they were for debugging anyway.
+- Removed LL from being packaged with the DawnLib NuGet
+
+## v0.7.11
+
+- Added to the Query implementation of DawnTerminalCommands.
+  - You can now run a DawnEvent after ending a query.
+  - You can now set a condition on the query for whether it should continue even after typing the continue keyword.
+- Interiors are now able to add extra scrap upon their generation.
+- Added ability to control gravity through DawnSurfaces.
+  - Editing where gravity comes from does NOT automatically rotate the player or anything like that, it'll likely be a while before that type of thing is implemented (I don't know how to lol).
+- General code quality improvements (`@ratijas` added to credits).
+
+## v0.7.10
+
+- I said the dungeon stuff breaking wasn't DawnLib and then I woke up to a message showing it was, It's time I pull out the ukelele.
+
+## v0.7.9
+
+- Adjusted `BoundedRange` configs to take in a `min` and `max` value that aren't just integers but also floats.
+
+## v0.7.8
+
+- Reverted to old namespace system due to too many issues, Sorry but there's no support for if you register multiple items with the same name except they start with a different number.
+- Cleaned up some code, Added more safeguards around.
+- Terminal commands can now override other commands like vanilla commands (thanks to darmuh).
+- Organised Config ordering a little bit better so configs aren't generating in an unintuitive order.
+- Added a new default config to generate, `AllowEditingConfig`, at the top of each content type's config entries.
+  - This config is used to toggle whether the user is allowed to edit the config for that content type, or whether they follow the mod developer's defaults incase the developer updates the default configs.
+  - This config is defaulted to true if you have used DawnLib before, otherwise it's defaulted to false, and also defaults to false after you launch DawnLib more than once after version 0.7.8.
+- Added Mod Dev configurability for whether stuff like Unlockable cost should be configurable.
+
+## v0.7.7
+
+- Fixed an issue where the None weather simply doth not exist.
+
+## v0.7.6
+
+- Fixed a rare issue where a save's items would be seen in another save.
+
+## v0.7.5
+
+- Fixed multiplayer connection issues.
+- Fixed renaming terminal entries causing duplicates.
+- Allowed NamespacedKeys to convert digits like `1` into the matching words `one`, this is technically a breaking change in some logic but I doubt anyone will have to adjust anything currently, except maybe me.
+
+## v0.7.4
+
+- Added some null checks to fix compat with experimental WeatherRegistry;
+
+## v0.7.3
+
+- Cleaned up code, removed a few files around.
+- Added `AllowStingerToPlay` to set custom conditions for whether a stinger should play, i.e. current interior.
+- Massively rewrote `SpawnWeightsPreset` class for future maintainability, this is a breaking change with LunarConfig until they update to latest DawnLib (which is soon).
+
+## v0.7.2
+
+- Added compatibility with MoonDaySpeedMultiplierPatcher lol, almost forgot immediately.
+- Prettied finding the components for the Dawn`VanillaWeatherName`Overrides.
+
+## v0.7.1
+
+- Compeletely rebuilt the ship upgrades part instead of only adding dawnlib ship upgrades.
+- Added a script to help with weather overrides (Dawn`VanillaWeatherName`Override).
+- Added a time speed patch so that moon speed can be sped up or slowed down without introducing new bugs into the game.
+- Finished implementing stingers into dawn interiors, allowing you to have stingers that play more than once, set a custom chance for how frequent a stinger will run.
+- Finished implementing giving dawn moons the ability to modify the outside spawn probability range (vanilla hardcodes every moon to have a range of + and - 3).
+- Added a native TerminalConflictFix to fix the terminal conflicts issue with similar keywords.
+  - Added two configs to toggle this off/on and increase/decrease accuracy of the terminal's preciseness of keyword matching.
+
+## v0.7.0
+
+- Added DuskTerminalCommandDefinition, allowing you to define commands for the terminal.
+  - Commands can either be one off commands, i.e. `version` to display something like current version of your mod's version (this is just an example setup).
+  - Commands can also be Query commands with a confirm and a cancel.
+- Non-DawnLib registered UnlockableShopItem price can now be affected by stuff like LunarConfig.
+
+## v0.6.4
+
+- Fixed issue where FailedResult predicates would end up using up credits still.
+
+## v0.6.3
+
+- Moved Networkers spawning to be much earlier to avoid a few save-related issues I've noticed.
+- AnimationCurveConverter ignores empty entries now.
+
+## v0.6.2
+
+- Added more logging for incorrect curve config formats.
+- Fixed an edge-case of registered pre-unlocked furniture.
+- Removed erroring from vanilla items that can't be put into the save file (clipboard etc).
+- Fixed a vanilla issue where the same item would be added to a moon spawn list twice.
+- Updated wiki slightly too.
+- Added crafty and darmuh to credits.
+- Next major update is planned to grant a lot of terminal functionality in terms of creating terminal pages, commands, etc.
+
+## v0.6.1
+
+- Fixed rare scenario of some weights not working right if grabbed at the wrong timing (would mostly break dawn interior weights).
+
+## v0.6.0
+
+- Added custom footsteps controlled through the component DawnSurface.
+  - You need to register a custom DawnFootstepSurface and then use the component DawnSurface to set a collider to be a specific Surface.
+  - Allows you to also emit particles based on the surface you're setting on incase you'd like to emit sand from the player's footsteps while they're walking on sand.
+  - You can also use a DawnSurface to do something like, making Quicksand terrain sink you with cement sounds (use the cement DawnSurface with the appropriate quicksand tags on the terrain!).
+- Adjusted AnimationCurveConverter.ConvertToString to give atleast 10 keys minimum to avoid tangent-related issues.
+- Added more logging to look into invalid furnitures.
+- Fixed an issue with tag weights not averaging.
+- Publicised some functions in NamespacedConfigWeight.
+- Rewrote SpawnWeightsPreset a bit to be cleaner (no breaking changes I hope).
+- AnimationCurveConverter returns a constant 0 curve when provided with null or 0 key curve.
+
+## v0.5.17
+
+- Added more null checking because of mods deleting AINodes mid round.
+- Refined interior registration a bit more internally.
+- Set the parent of unlockables on purchasing rather than just on lobby load.
+- Removed the overriding of all terminal keywords to be a specific format.
+- Updated Editor.dll to have holograms for SpawnSyncedObject and SpawnSyncedDawnLibObject and DawnLibTemplate unity package!
+
+## v0.5.16
+
+- Fixed not grabbing of non-DawnLib moon Confirmation nodes.
+
+## v0.5.15
+
+- Added dependency of MonkeyInjectionLibrary to let it handle the preloader shenanigans.
+
+## v0.5.14
+
+- Adjusted a rare scenario where a 0 weight enemy would spawn due to vanilla game infestations.
+- Fixed UnlockProgressiveObject breaking for some odd reason, not sure why.
+- Fixed an issue with not grabbing the correct rotation offset and settings of vanilla outside objects.
+
+## v0.5.13
+
+- Backported a fix for ClientNetworkTransform's that used to work but didn't after the `Netcode for GameObjects` update.
+- Added the `WeightedOutcomeScript`, which allows you to roll a select/random amounts of weighted events.
+
+## v0.5.12
+
+- Fixed DuskUnlockable not going to every UnlockableItem as it should be (the non-modded ones).
+
+## v0.5.11
+
+- Fixed DawnLib items and unlockables not making the purchased sound on buying.
+- Fixed soft dependency issue caused by linq.
+
+## v0.5.10
+
+- Dungeon blank references uses network prefabs list.
+- Added more null checks.
+- Started supporting Vector3 and Vector2 for network variables.
+
+## v0.5.9
+
+- Added compatibility with LLL clamping.
+- Added interior clamping.
+- Added a null check in the map objects.
+- Fixed a small issue with smart matching not always working.
+- Fixed an issue where a config with no additive or substractive weights would work
+
+## v0.5.8
+
+- Fixed vanilla story logs not being registered because zeekerss never actually made prefabs for them.
+- Added a config to give LLL control over vanilla moon visibility whether they're locked or hidden, defaulted to false.
+- Made it cleaner to add storylogs' text.
+
+## v0.5.7
+
+- Fixed another minor issue with DatePredicate in some edge cases.
+
+## v0.5.6
+
+- Added a fallback for unity being weird about assets not being picked up sometimes.
+
+## v0.5.5
+
+- Fixed a null ref with some story log mods that add story logs late.
+
+## v0.5.4
+
+- Added Storylog registration.
+- Added `DawnStoryLogSpawner` component to utils addcomponent menu.
+- Properly implemented smart matching.
+- Fixed an obsolete editor oopsie with interior and moon weights for entity replacements.
+- Fixed interior mapobjects blanks not being replaced.
+- Created `StoryLogKeys` for vanilla story logs.
+- Moved where most registries freeze to be after a harmony patch of startofround.start prefix for more compat with more mods that add items etc late.
+- Publicised a few internal methods.
+- Updated wiki to adding a new page on how to make the editor look more like base-game thanks to help by `Scoops`.
+- Fixed a bunch of issues relating to entity replacements not working properly in some edge cases.
+
+## v0.5.3
+
+- Not sure how I missed this issue when testing: fixed not being able to play?
+- Created a migrator for the new saving.
+
+## v0.5.2
+
+- Reverted save system to what it was before temporarily to create a migration system.
+
+## v0.5.1
+
+- Optimised saving system a lot more, it should be a lot faster.
+- If you have a current ongoing save, disable the saving system so it does not delete every item and unlockable in that save, then re-enable it when you make a new save.
+- Made editor experience cleaner again
+
+## v0.5.0
+
+- Optimised the save system even more.
+- Interior hotloading is real.
+- Added more options for outside object conditions like ground tag, ship and entrance positions, AI node count, etc.
+- Added NamespacedKey smart matching, so you should be able to do stuff like `oxyde` without typing in `code_rebirth:oxyde`, needs more testing but should work.
+
+## v0.4.12
+
+- Made weight configs more user friendly to avoid unexpected issues.
+
+## v0.4.11
+
+- Polished vehicle stuff on the station side a bit more.
+- Hotfix for shop items breaking on lobby reload.
+
+## v0.4.10
+
+- Fixed an issue where the DatePredicate would not run for the entity replacements.
+- Improved the Editor UI for spawn weight related options in the different definitions, i.e. enemies, items, etc.
+- Updated Editor dll for better readability in some cases.
+- Improved vehicle registration, it should technically work now?
+- Internally added a `TryRegisterItemToShop` method for non DawnLib items
+- Internally edited some fields to be private rather than read-only.
+
+## v0.4.9
+
+- Cleaned up credits a bit more.
+- Fixed an issue where depending on the pc's locale (country I think?) some configs would get generated incorrectly.
+- Added more logging for the preloader issue that some people rarely have.
+
+## v0.4.8
+
+- Added more null checks just incase.
+- Actually added the GiantKiwi fix what.
+- Fixed an issue with some interior stuff being null.
+
+## v0.4.7
+
+- Fixed issue with GiantKiwi just lying to me about what it has in-game.
+
+## v0.4.6
+
+- Fixed issues relating to joining multiplayer and landing on a moon.
+Not entirely sure how those happened but they did ig.
+
+## v0.4.5
+
+- Edited MapObjects in the editor to be much easier to add onto.
+- Added Interior priority onto MapObject SpawnWeights.
+- Fixed issue with interior registration weights.
+- Added blank reference replacing with interior SpawnSyncedObjects, butlerbees, enemy ai nests, haunted mask, sapsucker, lungprop script.
+- Fixed another issue with unlockables when saving.
+- Gave DawnLib Interiors SpawnWeight configs.
+- Gave DawnLib Moons a lot more configs.
+- Did more work onto documentation and made the editor experience cleaner.
+
+## v0.4.4
+
+- Fixed a small bug with an oversight in storing unlockables.
+- Fixed some editor side tinks and made it a bit cleaner to create content related to moons.
+- Updated the documentation in the DawnLib's thunderstore Wiki page.
+
+## v0.4.3
+
+- Fixed incompat with moresuits.
+- Gave more configs to moons.
+- Fixed a long standing issue with registering no-code mods when you have multiple pieces of content.
+
+## v0.4.2
+
+- Added support for `PlayerControllerReference`, `int` and `double` in `NetworkVariable`s
+- Added components from DawnLib and DuskMod to be visible within the list in the Add Component Menu
+- Added `PlanetUnlocker` a useable grabbable object to unlock a planet that uses `ProgressivePredicate`
+- Actually implemented the OutOfBounds fix from MattyFixes, I accidently forgot.
+- Removed some unneeded obsolete fields like AlwaysKeepLoaded
+
+## v0.4.1
+
+- Removed some redundant code.
+- Implemented an OutOfBounds fix from MattyFixes into here due to having a saving system.
+- Fixed client being able to pull lever during the start of the game that would break the lever.
+- Readme and wiki updated with more information about how to create content with DawnLib.
+
+## v0.4.0
+
+- Fixed incompat with LCBetterSave.
+- Totally didn't screw up the content order thing as well.
+
+## v0.3.16
+
+- Accidently had ContentOrder as internal, changed to public.
+
+## v0.3.15
+
+- Fixed another issue created by some unlockables that caused errors.
+- Fixed an incompat between LLL, DawnLib and DarmuhsTerminalStuff that made every moon hidden.
+- Added a config to disable achievements button in the main menu.
+
+## v0.3.14
+
+- Made unlockables parent to the ship to remove a stuttering issue when landing or leaving.
+- Fixed an issue with replacements where the rotation sometimes isn't accurate depending on parent.
+
+## v0.3.13
+
+- Fixed a lobby reload softlock issue.
+- Fixed issue where only half of the unlockables would save.
+- Removed facility's `#natural` tag.
+
+## v0.3.12
+
+- Added `ContentOrder` attribute to apply to content handlers if you'd like them to run in specific order.
+- Fixed client/host desync in unlockable skins and unlockable id causing position desyncs.
+- Touched up UI a little bit.
+
+## v0.3.11
+
+- Potentially fixed issues regarding save file not being deleted properly.
+- Added ways to edit the item's holding rotation, resting rotation, position offsets etc for skins.
+- Fixed incompat with mod UnlockOnStart.
+- Fixed incompat with mod TooManySuits.
+- Touched up hotloading UI a bit. (will do more later)
+
+## v0.3.10
+
+- Fixed an issue where all replacements wouldn't take more than 1 replacement at once.
+- Added MapObject replacements.
+- Fixed DatePredicate being inaccurate.
+- Made buying unlockables clear terminal text.
+
+## v0.3.9
+
+- Added more logging for a specific issue that shouldn't really happen?
+- Added a `WaitAction` to replacements so you can have a wait happen inbetween actions.
+- Fixed an issue where the combination of the mods WeatherTweaks, TerminalFormatter and OpenMonitors would break the ship monitor.
+- Cleaned up the hotloading UI a bit more.
+- Created ProgressiveMoonScrap that when interacted with, unlocks a specified moon and destroys itself.
+- Added more config options to unlockable definition
+
+## v0.3.8
+
+- Fixed a compat issue with TwoRadarMap.
+- Fixed registering issues with MoreSuits.
+- Fixes regarding soft dependencies breaking.
+- Fixes regarding UI to achievements tab.
+- Fixed issues regarding LL shop items not being registered potentially
+- Fixed issues regarding items not spawning on top of furniture as they should be, including fixing some vanilla furniture that would have forced items to spawn under, like the following:
+  - Table
+  - Romantic Table
+  - Signal Transmitter
+  - Sofa
+  - Microwave
+  - Fridge
+  - Electric Chair
+  - Dog House
+
+## v0.3.7
+
+- Nothing cuz i accidently pushed it.
+
+## v0.3.6
+
+- Got rid of DawnGrabbableObject, replaced with a preloader injected interface, DawnSaveData
+- Fixed incompat with LL items not getting registered
+
+## v0.3.5
+
+- Replaced vanilla save system (atleast for items rn only) with DawnLib's own system.
+  - Also allows for the rotations of items to be retained in comparison to vanilla resetting rotations.
+  - Also allows you to get rid of and add mods that add items without your save's items getting scrambled.
+  - Added config to opt out of it in case of issues or dislike I guess.
+- Added UnlockableReplacementDefinition for replacing the model etc of unlockables
+- Fixed an issue with Unlockables sometimes registering as suits depending on setup errors.
+- Added a loading bar that tracks each player's progress for moons with DawnLib hotloading!
+
+## v0.3.4
+
+- Fixed a small issue with custom moon terminal loading.
+- Added proper soft compat with LLL hiding and locking moons.
+
+## v0.3.3
+
+- Fixed SkinnedMeshReplacement removing all base materials.
+- Allowed materials to be replaced with null to hide.
+- Edited 1 character in the SmartAgentNavigator class that should fix a lot of pathing issues, this was so stupid.
+- Added `GameObjectEditor` for doing stuff like moving, rotating, deleting and/or disabling gameobjects.
+- Fixed an issue with Artifice and Embrion where because they're hidden you would get rejected from landing on them by default.
+
+## v0.3.2
+
+- Added MaterialPropertiesReplacement to EntityReplacements.
+- Added ScanNodeReplacement to EntityReplacements.
+- Gave devs support to `NetworkVariable<bool>` and `NetworkVariable<float>`.
+- Added tag: `#dawn_lib:has_buying_percent` to make your moon have the buying percentage similar to company.
+- Fixed some lag issues in the Editor.dll.
+- Fixed replacing blank SO's of all the ones that LLL replaced (and more) in DawnLib content.
+- Changed MapObjects to use NamespacedKeys.
+- Inside MapObjects spawn more performantly now too.
+- Fixed a small issue with hotloading where loading too early into a moon unlocks the lever too early.
+
+## v0.3.1
+
+- Switched from using quaternion on entity replacements, I realised that if even I don't get how they work, I can't expect anyone else to also understand that.
+
+## v0.3.0
+
+- **Update to v73. This version and versions after are not compatible with v72 or lower! (revert to v0.2.16 for v72)**
+- Added support for `Moons` and `Dungeons`. Please note that this is very experimental at the moment (compatibility for LLL is also unknown)
+  - Moons have multi-scene support.
+  - Moons also have custom landing animation support.
+
+- Changes to entity replacement, idk what.
+- Added date for a `DuskPredicate`
+- Added ItemKeys for the new scrap introduced in v73.
+- New `#lethal_company:body_parts` tag.
+- New `TerminalPredicateCollection` and `PredicateCollection` to allow using multiple predicates on shop items.
+- `DuskAdditionalTilesDefinition` can now use a `DuskPredicate` to determine when the tiles should be injected
+
+## v0.2.16
+
+- Fixed issue with parent achievements not disappearing if they aren't possible.
+- Fixed issue where inside hazards would not spawn.
+- Fixed issue with being unable to move furniture properly with furniture lock mod.
+- Fixed issue where SID started including items that they shouldn't because those items had 0 weights on the moon.
+
+## v0.2.15
+
+- Fixed issues with some specific scrap mods that caused a lot of scraps and other parts of the mod to break.
+- Added some more error safety with using incorrect config formats.
+- Made some weather fields internal rather than public.
+
+## v0.2.13
+
+- Added more debugging for ship unlockables not being registered properly via other mods.
+
+## v0.2.12
+
+- Fixed weathers being unregistered on lobby reload.
+
+## v0.2.11
+
+- Added a date filter predicate to the entity replacement definitions.
+- Serialized some fields from UnlockProgressiveObject that should've been serialized.
+
+## v0.2.10
+
+- Changed some bestiary node behaviour to do with enemies.
+- Fixed issues with Ship Upgrades and Decors not being assigned the correct ID's.
+- Edited the spacing in the ContentDefinitions for enemies items and entity replacements to give the user more space to write configs.
+- Fixed DawnLib Scrap not saving after a game restart.
+
+## v0.2.9
+
+- Fixed issues with ship upgrades and decors not respawning or not working with furniturelock mod.
+
+## v0.2.8
+
+- Fixed more achievement issues for when they're disabled.
+
+## v0.2.7
+
+- Fixed an issue with multiple mods adding achievements
+
+## v0.2.6
+
+- Added more config error checking to the Definitions as this mod uses a different format compared to other mods.
+- Added the tag `custom` to the mod as `lethal_company:custom` or just `custom` should work.
+- Entity, Enemy and Item content definitions have defaults weights of 0 on every vanilla moon, multipliers of 1 on every vanilla weather and default weight of 0 on every vanilla interior.
+- Fixed `SpawnWeightsPreset` entirely not working causing nothing to have any weights.
+- Fixed Weight Updater depending on weather never running thus nothing causing everything to not have any weights.
+
+## v0.2.5
+
+- Edited Editor.dll to be depending on the latest DawnLib version.
+- Fixed spawn weight issues with items, enemies and entity replacements where the config gets replaced with an empty config.
+
+## v0.2.4
+
+- Fixed an issue relating to buying custom vehicles.
+- Fixed some issues with some moons not setting up their dungeon generator correctly.
+- Fixed some issues with some enemy creators COUGH ALICE COUGH not setting up the enemy on the right timing.
+
+## v0.2.3
+
+- Fixed issues with editor configs not being generated by the content definitions.
+- Exposed some normal game refs
+- Updated readme a bit.
+- Added LunarConfig tag to DawnLib incase Crafty wants to add that tag to everything and then change the DawnInfo so it makes things easier to edit.
+- Added `InDropShipAnimation` to VehicleAPI for vehicle currently in drop ship animation.
+
+## v0.2.2
+
+- Fixed some issues with the Entity Replacements bricking the game, again bwaa.
+- Butler bees should now be accessible in the enemy registry.
+
+## v0.2.1
+
+- Fixed some issues with the Entity Replacements bricking the game, yw.
+
+## v0.2.0
+
+- Implemented near-complete-prototype of EntityReplacementDefinition
+  - Contains EnemyReplacementDefinition and ItemReplacementDefinition currently, but potentially more to come.
+  - Usable with custom enemies and items too, but requires the editor for the script to be auto generated, check the wiki or ask in the discord thread for DawnLib for more info.
+- Improved Editor tools a bit more in terms of NamespacedKey formatting and other areas like the package building picking up assetbundles.
+- Removed any configs or reference to `DuskContentDefinition`s from `ContentContainer`, moved all configs to the `DuskContentDefinition` itself and added a button to just migrate old configs to new places.
+- Fix parent achievements not registering other achievements as complete properly.
+- Got rid of WR dependency on the editor, so now you just need DawnLib, the DawnLib editor tool and PathfindingLib.
+- Fixed issues with UnlockableItems (i.e. ship upgrades) not showing up in the terminal.
+- Fixed .AddWeight not working properly.
+- Removed validation from the Editor.dll temporarily to move it into the `DuskContentDefinition`s themselves later.
+- Did a bit more work on vehicle registration with terminal pricing strategies and terminal predicates.
+
+## v0.1.9
+
+- Fixed an issue with some enemies like from pikmin not registering.
+
+## v0.1.8
+
+- Added `On First Scan` event to `ExtraScanEvents`.
+- Fixed issues with other mods adding duplicate items into the list of all items.
+- Fixed more compatibilities with other mods.
+- Made sure to fix issues with achievement popup not working properly.
+
+## v0.1.7
+
+- Attempt at fixing some more file locking issues or whatever.
+- Fixed a bunch of the definitions being broken in editor.
+
+## v0.1.6
+
+- Improved error handling with corrupted save data and tagging.
+- Fixed an issue with applying item spawn group tags.
+- Added `ExtraScanEvents` with an `On Scan` event (requires `Scan Node Properties`)
+- Refined VehicleBase + VehicleStation code to be compatible with dropship attaching etc.
+
+## v0.1.5
+
+- Fixed issues with LLL shop items not being proper keyword names by LLL.
+- Fixed achievement UI sound not playing and breaking the achievements.
+- Fixed an issue where mods like MoreShipUpgrades allow LethalLib shop items to be disabled incorrectly.
+
+## v0.1.4
+
+- Fixed issues with checking unlockables and unlockables not registering.
+- Fixed issues with trying to use the Achievement Predicate.
+- Fixed Editor.dll issues with accessing achievements for AchievementTriggers script.
+- Fixed issues with DailyPricingStrategy accessing TimeOfDay too early.
+- Fixed issues with achievements causing a share violation error on loading multiple achievements simultaneously sometimes.
+
+## v0.1.2
+
+- Disabled achievements button if there are no achievements.
+
+## v0.1.1
+
+- Fixed some editor dll stuff and separated compatiblity with soundapi into another dll.
+
+## v0.1.0
+
+Hello World!
+
+## DawnLib
+
+- Added registering content through `DawnLib`
+- Added `WeightTable` and `CurveTable` so that weights can be updated dynamically in-game.
+- Added `ITerminalPurchasePredicate` to allow some items to not be bought based on conditions.
+  - `TerminalPurchaseResult.Success()`: Acts like normal
+  - `TerminalPurchaseResult.Failed()`: Player is unable to purchase the item and a different terminal node is displayed. Also allows overriding the name in this state with `.SetOverrideName(string)`
+  - `TerminalPurchaseResult.Hidden()`: Does not show up in `store`, and player is also unable to purchase the item.
+- `ITerminalPurchase` interface for (currently only some) possible terminal purchases:
+  - `ITerminalPurchasePredicate Predicate`: see above, set with `builder.SetPredicate(predicate)`
+  - `IProvider<int> Cost`: allows cost to be easily updated, set with `builder.SetCost(int)` or `builder.SetCost(provider)`
+- Removed `VanillaEnemies` and added `LethalContent`
+- Added `tags`
+- Allow registering new tilesets to dungeons
+- Added `PersistentDataContainer`
+
+## DuskMod
+
+**MIGRATING FROM CODEREBIRTHLIB:**
+
+You will need to remake your `Content Container`, `Mod Information` and content definitions.
+The general flow has not changed overall.
+
+- Reworked `Content Container`:
+  - `Entity Name` (from content definitions) and `Entity Name Reference` have been removed. Instead, content can just be referenced.
+  - `Asset Bundle Name` is now a dropdown.
+  - Button to dump all `NamespacedKey`s to a `.json` file to be used with the `TeamXiaolan.DawnLib.SourceGen` package.
+- Added 4 types of `Achievements`: `Discovery`, `Instant`, `Stat`, `Parent`
+- Content definitions can now apply `tags`
+- Added `DuskModContent` for the `Achievement` registry.
+- Moved `.RegisterMod()` from `CRLib` to `DuskMod`
+- Added `DuskAdditionalTilesDefinition`
+- Added 2 `DuskTerminalPredicate`s:
+  - `ProgressivePredicate`: Allows for a shop item to be unlocked through progression
+  - `AchievementPredicate`: Requires that the player purchasing the item has an achievement
+- Added 1 `DuskPricingStrategy`:
+  - **NOTE:** Setting a pricing strategy in a content definition *overrides* the price set in the config.
+  - `DailyPricingStrategy`: Price of shop item changes as the quota progresses.
+
+## Utilities / Misc
+
+- Added `NetworkAudioSource`, `AssetBundleUtils`
+- Removed `ExtendedLogging` and split it into `DebugLogSources` (yes this uses SoundAPI code)

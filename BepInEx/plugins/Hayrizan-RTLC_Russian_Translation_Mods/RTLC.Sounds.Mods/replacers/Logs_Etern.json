@@ -1,0 +1,36 @@
+{
+    "replacements": [
+        {
+            "matches": "audiolog1:audio_log_1",
+            "sounds": [
+                {
+                    "sound": "Logs_Etern/audio_log_1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "audiolog2:audio_log_2",
+            "sounds": [
+                {
+                    "sound": "Logs_Etern/audio_log_2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "audiolog3:audio_log_3",
+            "sounds": [
+                {
+                    "sound": "Logs_Etern/audio_log_3.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "audiolog4:audio_log_4",
+            "sounds": [
+                {
+                    "sound": "Logs_Etern/audio_log_4.ogg"
+                }
+            ]
+        }
+    ]
+}

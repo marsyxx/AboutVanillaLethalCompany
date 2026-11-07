@@ -1,0 +1,12 @@
+{
+    "replacements": [
+        {
+            "matches": "TVAudio:SnareFleaTipChannel",
+            "sounds": [
+                {
+                    "sound": "TV/SnareFleaTipChannel.ogg"
+                }
+            ]
+        }
+    ]
+}

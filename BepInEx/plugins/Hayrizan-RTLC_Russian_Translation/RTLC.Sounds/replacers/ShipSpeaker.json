@@ -1,0 +1,28 @@
+{
+    "replacements": [
+        {
+            "matches": "SpeakerAudio:IntroCompanySpeech",
+            "sounds": [
+                {
+                    "sound": "ShipSpeaker/IntroCompanySpeech.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:0DaysLeftAlert",
+            "sounds": [
+                {
+                    "sound": "ShipSpeaker/0DaysLeftAlert.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SpeakerAudio:FiredVoiceline",
+            "sounds": [
+                {
+                    "sound": "ShipSpeaker/FiredVoiceline.ogg"
+                }
+            ]
+        }
+    ]
+}

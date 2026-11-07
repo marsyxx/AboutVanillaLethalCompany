@@ -1,0 +1,36 @@
+{
+    "replacements": [
+        {
+            "matches": "WarningAnnouncerHandler:warning1",
+            "sounds": [
+                {
+                    "sound": "FacilityMeltdown/warning1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "WarningAnnouncerHandler:warning2",
+            "sounds": [
+                {
+                    "sound": "FacilityMeltdown/warning2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "WarningAnnouncerHandler:warning3",
+            "sounds": [
+                {
+                    "sound": "FacilityMeltdown/warning3.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "WarningAnnouncerHandler:warning4",
+            "sounds": [
+                {
+                    "sound": "FacilityMeltdown/warning4.ogg"
+                }
+            ]
+        }
+    ]
+}

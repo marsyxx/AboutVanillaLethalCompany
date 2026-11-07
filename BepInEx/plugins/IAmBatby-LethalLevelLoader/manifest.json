@@ -1,0 +1,12 @@
+{
+  "namespace": "IAmBatby",
+  "name": "LethalLevelLoader",
+  "description": "A Custom API to support the manual and dynamic integration of all forms of custom content in Lethal Company. (v81 Compatible)",
+  "version_number": "1.7.13",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2305",
+    "Evaisa-FixPluginTypesSerialization-1.1.4"
+  ],
+  "website_url": "https://github.com/pacoito123/LC_LethalLevelLoader",
+  "FullName": "IAmBatby-LethalLevelLoader"
+}

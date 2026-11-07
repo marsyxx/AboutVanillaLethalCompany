@@ -1,0 +1,7 @@
+{
+    "name": "Concentus",
+    "version_number": "2.3.0",
+    "website_url": "https://github.com/lostromb/concentus",
+    "description": "Portable C# implementation of the Opus audio compression codec",
+    "dependencies": []
+}

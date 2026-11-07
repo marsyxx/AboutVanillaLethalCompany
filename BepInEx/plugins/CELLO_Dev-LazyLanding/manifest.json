@@ -1,0 +1,9 @@
+{
+  "name": "LazyLanding",
+  "version_number": "1.0.2",
+  "website_url": "",
+  "description": "Smooths moon loading: spreads end-of-generation work over frames, builds the outdoor navmesh on worker threads, and preloads suits and Diversity assets at the menu. Same levels, multiplayer-safe.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2305"
+  ]
+}

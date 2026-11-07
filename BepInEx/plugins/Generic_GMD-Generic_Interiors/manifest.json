@@ -1,0 +1,16 @@
+{
+    "name": "Generic_Interiors",
+    "version_number": "5.2.1",
+    "website_url": "https://github.com/GenericGMD/Generic-Moons",
+    "description": "Currently adds 6 interiors. Includes Storehouse, Bunker, Drains, Substation, Tower, and Liminal Facility. Now with separate assetbundles!",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "IAmBatby-LethalLevelLoader-1.2.2",
+        "Generic_GMD-ManuLib-1.0.0",
+        "Beaniebe-Beanie_Lib-1.0.2",
+        "rectorado-KenjiLib-0.2.1",
+        "Generic_GMD-Generic_Doorscript-1.0.0",
+        "rectorado-JKConfig-1.0.0",
+	"JacobG5-JLL-1.6.5"
+    ]
+}

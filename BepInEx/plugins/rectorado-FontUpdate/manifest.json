@@ -1,0 +1,9 @@
+{
+    "name": "FontUpdate",
+    "version_number": "0.8.2",
+    "website_url": "",
+    "description": "Updates LC's font, adding the expanded latin unicode characters list.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

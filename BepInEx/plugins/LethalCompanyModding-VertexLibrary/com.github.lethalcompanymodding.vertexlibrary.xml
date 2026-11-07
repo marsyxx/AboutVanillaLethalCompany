@@ -1,0 +1,262 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VertexLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:VertexLibrary.Caches.IVertexCache">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:VertexLibrary.Caches.IVertexCache.IgnoreSkinnedRenders">
+            <summary>
+            Gets a value indicating whether this cache will ignore hits for <see cref="T:UnityEngine.SkinnedMeshRenderer"/>.
+            </summary>
+        </member>
+        <member name="P:VertexLibrary.Caches.IVertexCache.CacheSize">
+            <summary>
+            Gets the number of entries in the cache.
+            </summary>
+        </member>
+        <member name="P:VertexLibrary.Caches.IVertexCache.Cache">
+            <summary>
+            The internal dictionary used to store vertex data for each mesh.
+            </summary>
+        </member>
+        <member name="P:VertexLibrary.Caches.IVertexCache.Item(UnityEngine.Mesh)">
+            <summary>
+            Indexer for accessing vertex data in the cache by a specific <see cref="T:UnityEngine.Mesh"/>.
+            </summary>
+            <param name="mesh">The mesh to retrieve or assign vertex data for.</param>
+            <returns>The cached array of vertex positions for the mesh.</returns>
+        </member>
+        <member name="M:VertexLibrary.Caches.IVertexCache.ContainsKey(UnityEngine.Mesh)">
+            <summary>
+            Determines if the cache contains vertex data for a specified <see cref="T:UnityEngine.Mesh"/>.
+            </summary>
+            <param name="mesh">The mesh to check for in the cache.</param>
+            <returns><c>true</c> if the cache contains the mesh; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:VertexLibrary.Caches.IVertexCache.TryGetValue(UnityEngine.Mesh,UnityEngine.Vector3[]@)">
+            <summary>
+            Attempts to retrieve vertex data for a specified <see cref="T:UnityEngine.Mesh"/>.
+            </summary>
+            <param name="mesh">The mesh to retrieve vertex data for.</param>
+            <param name="vertices">The array of vertex positions, if found.</param>
+            <returns><c>true</c> if the vertex data is found; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:VertexLibrary.Caches.IVertexCache.AsPartial">
+            <summary>
+            Returns a cache object that uses the same internal dictionary but ignores <see cref="T:UnityEngine.SkinnedMeshRenderer"/> components.
+            </summary>
+            <returns>An <see cref="T:VertexLibrary.Caches.IVertexCache"/> instance representing a partial cache.</returns>
+        </member>
+        <member name="M:VertexLibrary.Caches.IVertexCache.AsFull">
+            <summary>
+            Returns a cache object that uses the same internal dictionary and includes <see cref="T:UnityEngine.SkinnedMeshRenderer"/> components.
+            </summary>
+            <returns>An <see cref="T:VertexLibrary.Caches.IVertexCache"/> instance representing a full cache.</returns>
+        </member>
+        <member name="M:VertexLibrary.Caches.IVertexCache.CreateCache(System.Boolean)">
+            <summary>
+            Factory method for creating a new vertex cache, either partial or full.
+            </summary>
+            <param name="partial">If <c>true</c>, a partial cache is created; otherwise, a full cache is created.</param>
+            <returns>A new instance of an <see cref="T:VertexLibrary.Caches.IVertexCache"/>.</returns>
+        </member>
+        <member name="T:VertexLibrary.ExecutionOptions">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:VertexLibrary.ExecutionOptions.#ctor">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:VertexLibrary.ExecutionOptions.LogHandler">
+            <summary>
+            Function to process logs from the library.
+            </summary>
+        </member>
+        <member name="P:VertexLibrary.ExecutionOptions.CullingMask">
+            <summary>
+            Culling mask used to filter out Renderers
+            </summary>
+        </member>
+        <member name="P:VertexLibrary.ExecutionOptions.FilteredComponents">
+            <summary>
+            Set of Unity component types that, if present on a GameObject, will cause it to be skipped.
+            </summary>
+        </member>
+        <member name="P:VertexLibrary.ExecutionOptions.OverrideMatrix">
+            <summary>
+            Translation matrix to be used to convert the vertexes from local space
+            </summary>
+        </member>
+        <member name="P:VertexLibrary.ExecutionOptions.VertexCache">
+            <summary>
+            Cache used to speed up computation. If <value>null</value> no cache will be used.
+            </summary>
+        </member>
+        <member name="T:VertexLibrary.Plugin">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:VertexLibrary.VertexesExtensions">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:VertexLibrary.VertexesExtensions.GlobalCache">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:VertexLibrary.VertexesExtensions.GlobalPartialCache">
+            <summary>
+            </summary>
+        </member>
+        <member name="E:VertexLibrary.VertexesExtensions.logEvent">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:VertexLibrary.VertexesExtensions.GetBounds(UnityEngine.GameObject,VertexLibrary.ExecutionOptions)">
+            <summary>
+            Finds the oriented bounding box (OOBB) of the specified GameObject.
+            Optionally uses the <see cref="P:VertexLibrary.ExecutionOptions.OverrideMatrix"/> to translate the result.
+            </summary>
+            <param name="target">The GameObject to process.</param>
+            <param name="executionOptions">Optional modifiers for the computation.</param>
+            <returns>The bounding box encapsulating the object.</returns>
+        </member>
+        <member name="M:VertexLibrary.VertexesExtensions.TryGetBounds(UnityEngine.GameObject,UnityEngine.Bounds@,VertexLibrary.ExecutionOptions)">
+            <summary>
+            Tries to find the oriented bounding box (OOBB) of the specified GameObject.
+            Optionally uses the <see cref="P:VertexLibrary.ExecutionOptions.OverrideMatrix"/> to translate the result.
+            </summary>
+            <param name="target">The GameObject to process.</param>
+            <param name="bounds">Out parameter to hold the resulting bounds if found.</param>
+            <param name="executionOptions">Optional modifiers for the computation.</param>
+            <returns><c>true</c> if any vertex has been found; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:VertexLibrary.VertexesExtensions.GetWorldBounds(UnityEngine.GameObject,VertexLibrary.ExecutionOptions)">
+            <summary>
+            Finds the axis-aligned bounding box (AABB) of the specified GameObject.
+            The <see cref="P:VertexLibrary.ExecutionOptions.OverrideMatrix"/> will be ignored in this calculation.
+            </summary>
+            <param name="target">The GameObject to process.</param>
+            <param name="executionOptions">Optional modifiers for the computation.</param>
+            <returns>The axis-aligned bounding box encapsulating the object.</returns>
+        </member>
+        <member name="M:VertexLibrary.VertexesExtensions.TryGetWorldBounds(UnityEngine.GameObject,UnityEngine.Bounds@,VertexLibrary.ExecutionOptions)">
+            <summary>
+            Tries to find the axis-aligned bounding box (AABB) of the specified GameObject.
+            The <see cref="P:VertexLibrary.ExecutionOptions.OverrideMatrix"/> will be ignored in this calculation.
+            </summary>
+            <param name="target">The GameObject to process.</param>
+            <param name="bounds">Out parameter to hold the resulting bounds if found.</param>
+            <param name="executionOptions">Optional modifiers for the computation.</param>
+            <returns><c>true</c> if any vertex has been found; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:VertexLibrary.VertexesExtensions.GetRadius(UnityEngine.GameObject,VertexLibrary.ExecutionOptions)">
+            <summary>
+            Computes the largest distance from the bounding box center for the specified GameObject.
+            The <see cref="P:VertexLibrary.ExecutionOptions.OverrideMatrix"/> will be ignored in this calculation.
+            </summary>
+            <param name="target">The GameObject to process.</param>
+            <param name="executionOptions">Optional modifiers for the computation.</param>
+            <returns>The largest distance from the bounding box center.</returns>
+        </member>
+        <member name="M:VertexLibrary.VertexesExtensions.GetVertexes(UnityEngine.GameObject,VertexLibrary.ExecutionOptions)">
+            <summary>
+            Obtains all the vertices of the specified GameObject in local space.
+            Optionally uses the <see cref="P:VertexLibrary.ExecutionOptions.OverrideMatrix"/> to translate the result.
+            </summary>
+            <param name="target">The GameObject to process.</param>
+            <param name="executionOptions">Optional modifiers for the computation.</param>
+            <returns>All the vertices found in local space.</returns>
+        </member>
+        <member name="M:VertexLibrary.VertexesExtensions.CacheVertexes(UnityEngine.GameObject,VertexLibrary.ExecutionOptions)">
+            <summary>
+            Pre-fills the cache with vertex data from the specified GameObject using the given <see cref="P:VertexLibrary.ExecutionOptions.VertexCache"/>.
+            </summary>
+            <param name="target">The GameObject whose vertex data should be cached.</param>
+            <param name="executionOptions">Optional modifiers and the cache to be filled.</param>
+        </member>
+        <member name="M:VertexLibrary.VertexesExtensions.GetBounds(UnityEngine.Transform,VertexLibrary.ExecutionOptions)">
+            <summary>
+            Finds the oriented bounding box (OOBB) of the specified GameObject.
+            Optionally uses the <see cref="P:VertexLibrary.ExecutionOptions.OverrideMatrix"/> to translate the result.
+            </summary>
+            <param name="target">The Transform to process.</param>
+            <param name="executionOptions">Optional modifiers for the computation.</param>
+            <returns>The bounding box encapsulating the object.</returns>
+        </member>
+        <member name="M:VertexLibrary.VertexesExtensions.TryGetBounds(UnityEngine.Transform,UnityEngine.Bounds@,VertexLibrary.ExecutionOptions)">
+            <summary>
+            Tries to find the oriented bounding box (OOBB) of the specified GameObject.
+            Optionally uses the <see cref="P:VertexLibrary.ExecutionOptions.OverrideMatrix"/> to translate the result.
+            </summary>
+            <param name="target">The Transform to process.</param>
+            <param name="bounds">Out parameter to hold the resulting bounds if found.</param>
+            <param name="executionOptions">Optional modifiers for the computation.</param>
+            <returns><c>true</c> if any vertex has been found; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:VertexLibrary.VertexesExtensions.GetWorldBounds(UnityEngine.Transform,VertexLibrary.ExecutionOptions)">
+            <summary>
+            Finds the axis-aligned bounding box (AABB) of the specified GameObject.
+            The <see cref="P:VertexLibrary.ExecutionOptions.OverrideMatrix"/> will be ignored in this calculation.
+            </summary>
+            <param name="target">The Transform to process.</param>
+            <param name="executionOptions">Optional modifiers for the computation.</param>
+            <returns>The axis-aligned bounding box encapsulating the object.</returns>
+        </member>
+        <member name="M:VertexLibrary.VertexesExtensions.TryGetWorldBounds(UnityEngine.Transform,UnityEngine.Bounds@,VertexLibrary.ExecutionOptions)">
+            <summary>
+            Tries to find the axis-aligned bounding box (AABB) of the specified GameObject.
+            The <see cref="P:VertexLibrary.ExecutionOptions.OverrideMatrix"/> will be ignored in this calculation.
+            </summary>
+            <param name="target">The Transform to process.</param>
+            <param name="bounds">Out parameter to hold the resulting bounds if found.</param>
+            <param name="executionOptions">Optional modifiers for the computation.</param>
+            <returns><c>true</c> if any vertex has been found; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:VertexLibrary.VertexesExtensions.GetRadius(UnityEngine.Transform,VertexLibrary.ExecutionOptions)">
+            <summary>
+            Computes the largest distance from the bounding box center for the specified GameObject.
+            The <see cref="P:VertexLibrary.ExecutionOptions.OverrideMatrix"/> will be ignored in this calculation.
+            </summary>
+            <param name="target">The Transform to process.</param>
+            <param name="executionOptions">Optional modifiers for the computation.</param>
+            <returns>The largest distance from the bounding box center.</returns>
+        </member>
+        <member name="M:VertexLibrary.VertexesExtensions.GetVertexes(UnityEngine.Transform,VertexLibrary.ExecutionOptions)">
+            <summary>
+            Obtains all the vertices of the specified GameObject in local space.
+            Optionally uses the <see cref="P:VertexLibrary.ExecutionOptions.OverrideMatrix"/> to translate the result.
+            </summary>
+            <param name="target">The Transform to process.</param>
+            <param name="executionOptions">Optional modifiers for the computation.</param>
+            <returns>All the vertices found in local space.</returns>
+        </member>
+        <member name="M:VertexLibrary.VertexesExtensions.CacheVertexes(UnityEngine.Transform,VertexLibrary.ExecutionOptions)">
+            <summary>
+            Pre-fills the cache with vertex data from the specified GameObject using the given <see cref="P:VertexLibrary.ExecutionOptions.VertexCache"/>.
+            </summary>
+            <param name="target">The GameObject whose vertex data should be cached.</param>
+            <param name="executionOptions">Optional modifiers and the cache to be filled.</param>
+        </member>
+        <member name="M:VertexLibrary.VertexesExtensions.GetBounds(System.Collections.Generic.IEnumerable{UnityEngine.Vector3})">
+            <summary>
+            Calculates the bounding box that encapsulates all the specified vertices.
+            </summary>
+            <param name="vertexes">The collection of vertices to encapsulate.</param>
+            <returns>The bounding box that encompasses all the specified vertices.</returns>
+        </member>
+        <member name="M:VertexLibrary.VertexesExtensions.GetFarthestPoint(System.Collections.Generic.IEnumerable{UnityEngine.Vector3},UnityEngine.Vector3)">
+            <summary>
+            Finds the farthest point from the specified origin among the given vertices.
+            </summary>
+            <param name="vertexes">The collection of vertices to analyze.</param>
+            <param name="origin">The reference point from which distances are measured. Defaults to <see cref="P:UnityEngine.Vector3.zero"/> if not specified.</param>
+            <returns>A tuple containing the farthest point from the origin and the relative distance to that point.</returns>
+        </member>
+    </members>
+</doc>

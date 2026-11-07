@@ -1,0 +1,9 @@
+{
+    "name": "EladsHUDPlus",
+    "version_number": "1.1.1",
+    "website_url": "",
+    "description": "EladsHUD+: Elad's HUD for V81 with the utility slot, a mic icon, a status row for buffs, injuries and warnings, a free cursor with tooltips, an optional crosshair and extra health on the health bar.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2305"
+    ]
+}

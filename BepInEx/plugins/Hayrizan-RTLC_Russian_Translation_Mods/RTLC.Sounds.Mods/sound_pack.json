@@ -1,0 +1,34 @@
+{
+    "name": "RTLC.Sounds.Mods",
+
+    "config": {
+        "EnabledSounds:Speaker_Diversity": {
+            "description": "Включить озвучку диктора? (Diversity)",
+            "default": true
+        },
+         "EnabledSounds:Girl_Diversity": {
+            "description": "Включить озвучку девочки-призрака? (Diversity)",
+            "default": true
+        },
+         "EnabledSounds:Logs_Etern": {
+            "description": "Включить озвучку записией на Etern?",
+            "default": true
+        },
+         "EnabledSounds:FacilityMeltdown": {
+            "description": "Включить озвучку эвакуации? (FacilityMeltdown)",
+            "default": true
+        },
+         "EnabledSounds:Logs_Gratar": {
+            "description": "Включить озвучку записией на Gratar?",
+            "default": true
+        },
+         "EnabledSounds:Nokia_ChillaxScraps": {
+            "description": "Включить озвучку Nokia 3310? (ChillaxScraps)",
+            "default": true
+        },
+         "EnabledSounds:Fumo_LethalThings": {
+            "description": "Включить озвучку фумо Куки? (LethalThings)",
+            "default": true
+        }
+    }
+}

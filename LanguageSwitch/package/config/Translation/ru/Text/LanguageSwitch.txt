@@ -1,9 +1,0 @@
-// LanguageSwitch: Russian labels for the Language page. XUnity.AutoTranslator reads this file in Russian mode.
-> Language=> Язык
-LANGUAGE=ЯЗЫК
-- GAME LANGUAGE -=- ЯЗЫК ИГРЫ -
-Language=Язык
-English=English
-Russian=Русский
-German=Deutsch
-> Back=> Назад

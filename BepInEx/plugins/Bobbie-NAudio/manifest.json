@@ -1,0 +1,9 @@
+{
+    "name": "NAudio",
+    "version_number": "2.2.2",
+    "website_url": "https://github.com/naudio/NAudio",
+    "description": "Audio and MIDI library for .NET",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

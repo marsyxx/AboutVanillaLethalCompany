@@ -1,0 +1,12 @@
+{
+  "namespace": "xilophor",
+  "name": "StaticNetcodeLib",
+  "description": "A library/patcher for NGO in a static context.",
+  "version_number": "1.2.0",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100",
+    "Lordfirespeed-OdinSerializer-2024.2.2700"
+  ],
+  "website_url": "https://github.com/Xilophor/StaticNetcodeLib",
+  "FullName": "xilophor-StaticNetcodeLib"
+}

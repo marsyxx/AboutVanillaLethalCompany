@@ -1,0 +1,12 @@
+{
+    "name": "RTLC_Russian_Translation",
+    "version_number": "1.3.3",
+    "website_url": "https://discord.gg/gmyTwzbDXF",
+    "description": "Russian localisation Lethal Company",
+    "dependencies": [
+	"BepInEx-BepInExPack-5.4.2100",
+	"Hayrizan-XUnity_AutoTranslator-5.3.0",
+        "Hayrizan-RTLC_Russian_Translation_Mods-1.2.9",
+        "loaforc-loaforcsSoundAPI-1.1.6"
+    ]
+}

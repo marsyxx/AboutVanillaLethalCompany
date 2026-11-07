@@ -1,0 +1,140 @@
+{
+    "replacements": [
+        {
+            "matches": "CookieFumo:bingle",
+            "sounds": [
+                {
+                    "sound": "Fumo_LethalThings/bingle.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CookieFumo:buwah",
+            "sounds": [
+                {
+                    "sound": "Fumo_LethalThings/buwah.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CookieFumo:fish",
+            "sounds": [
+                {
+                    "sound": "Fumo_LethalThings/fish.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CookieFumo:fitness",
+            "sounds": [
+                {
+                    "sound": "Fumo_LethalThings/fitness.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CookieFumo:glock",
+            "sounds": [
+                {
+                    "sound": "Fumo_LethalThings/glock.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CookieFumo:gram",
+            "sounds": [
+                {
+                    "sound": "Fumo_LethalThings/gram.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CookieFumo:head",
+            "sounds": [
+                {
+                    "sound": "Fumo_LethalThings/head.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CookieFumo:homeless",
+            "sounds": [
+                {
+                    "sound": "Fumo_LethalThings/homeless.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CookieFumo:hoo",
+            "sounds": [
+                {
+                    "sound": "Fumo_LethalThings/hoo.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CookieFumo:jfk",
+            "sounds": [
+                {
+                    "sound": "Fumo_LethalThings/jfk.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CookieFumo:penny",
+            "sounds": [
+                {
+                    "sound": "Fumo_LethalThings/penny.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CookieFumo:princess",
+            "sounds": [
+                {
+                    "sound": "Fumo_LethalThings/princess.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CookieFumo:snez",
+            "sounds": [
+                {
+                    "sound": "Fumo_LethalThings/snez.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CookieFumo:weh",
+            "sounds": [
+                {
+                    "sound": "Fumo_LethalThings/weh.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CookieFumo:cookiescreamsanddies",
+            "sounds": [
+                {
+                    "sound": "Fumo_LethalThings/cookiescreamsanddies.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CookieFumo:munch",
+            "sounds": [
+                {
+                    "sound": "Fumo_LethalThings/munch.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CookieFumo:typing",
+            "sounds": [
+                {
+                    "sound": "Fumo_LethalThings/typing.ogg"
+                }
+            ]
+        }
+    ]
+}

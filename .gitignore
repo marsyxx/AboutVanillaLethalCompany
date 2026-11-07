@@ -1,5 +1,8 @@
-build/
-dist/
-*.rsp
-*.log
-.vs/
+# runtime leftovers of an installed pack
+BepInEx/cache/
+BepInEx/LogOutput.*
+BepInEx/p_*.txt
+*.joined
+*.joining
+# personal settings
+BepInEx/config/lc.graphicsplus.cfg

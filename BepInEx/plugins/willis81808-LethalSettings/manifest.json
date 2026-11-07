@@ -1,0 +1,7 @@
+{
+    "name": "LethalSettings",
+    "dependencies": ["BepInEx-BepInExPack-5.4.2100"],
+    "description": "A centralized place for configuring mods from in-game",
+    "version_number": "1.4.1",
+    "website_url": "https://github.com/willis81808/LethalSettings"
+}

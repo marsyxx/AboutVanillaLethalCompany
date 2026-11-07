@@ -1,0 +1,11 @@
+{
+  "namespace": "mrov",
+  "name": "LightsOut",
+  "description": "Disables items' lights in the ship to improve FPS",
+  "version_number": "0.2.1",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2305"
+  ],
+  "website_url": "https://github.com/AndreyMrovol/LethalLightsOut",
+  "FullName": "mrov-LightsOut"
+}

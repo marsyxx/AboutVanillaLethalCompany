@@ -1,0 +1,9 @@
+{
+    "name": "MeleeFixes",
+    "version_number": "1.5.1",
+	"website_url": "https://github.com/ButteryStancakes/MeleeFixes",
+    "description": "Fixes several gamebreaking bugs with shovels and knives.",
+    "dependencies": [
+		"BepInEx-BepInExPack-5.4.2305"
+	]
+}

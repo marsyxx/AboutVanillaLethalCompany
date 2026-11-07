@@ -1,0 +1,16 @@
+{
+    "name": "StarlancerMoons",
+    "version_number": "4.0.1",
+    "website_url": "https://github.com/AudioKnight/Starlancer",
+    "description": "(LLL) 4 new moons: 1 free, 1 intermediate, 1 late-game, and 1 hidden. Part of my Starlancer series!",
+    "dependencies": [
+	"TeamXiaolan-DawnLib-0.9.24"
+	, "BepInEx-BepInExPack-5.4.2305"
+	, "AudioKnight-StarlancerAIFix-3.13.2"
+	, "Hardy-LCMaxSoundsFix-1.2.0"
+	, "AudioKnight-Auralis-4.0.1"
+	, "AudioKnight-Solace-4.0.1"
+	, "AudioKnight-Triskelion-4.0.1"
+	, "AudioKnight-StarlancerZero-4.0.1"
+    ]
+}

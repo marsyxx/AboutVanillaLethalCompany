@@ -1,0 +1,9 @@
+{
+    "name": "WeedKillerFixes",
+    "version_number": "1.2.1",
+	"website_url": "https://github.com/ButteryStancakes/WeedKillerFixes",
+    "description": "Fixes several major issues with weed killer.",
+    "dependencies": [
+		"BepInEx-BepInExPack-5.4.2305"
+	]
+}
