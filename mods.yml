@@ -2501,3 +2501,28 @@
   enabled: true
   onlineSource: true
   trustedPackage: false
+- manifestVersion: 1
+  name: Chonkzilla-SimpleOptimize
+  authorName: Chonkzilla
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Chonkzilla/SimpleOptimize/
+  displayName: SimpleOptimize
+  description: >-
+    Per-player FPS optimizer for hoard runs (/opt): item sleeper, shadow killer,
+    culling. Written by Claude & Chonk.
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1794147642279
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 1
+    patch: 17
+  enabled: true
+  onlineSource: true
+  trustedPackage: false

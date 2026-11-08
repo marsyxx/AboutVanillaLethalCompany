@@ -1,0 +1,11 @@
+{
+    "namespace": "Chonk_Zilla",
+    "name": "SimpleOptimize",
+    "description": "Per-player FPS optimizer for hoard runs (/opt): item sleeper, shadow killer, culling. Written by Claude & Chonk.",
+    "version_number": "0.1.17",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ],
+    "website_url": "",
+    "FullName": "Chonk_Zilla-SimpleOptimize"
+}

@@ -1,6 +1,6 @@
 # Список модов
 
-Собрано из профиля Thunderstore Mod Manager (`mods.yml`): **97 включено**, 2 выключено. Файлы модов лежат в `BepInEx/plugins`, у каждого мода своя лицензия, страницы авторов указаны в ссылках.
+Собрано из профиля Thunderstore Mod Manager (`mods.yml`): **98 включено**, 2 выключено. Файлы модов лежат в `BepInEx/plugins`, у каждого мода своя лицензия, страницы авторов указаны в ссылках.
 
 ## Наши моды (команда devil1nme)
 
@@ -93,24 +93,25 @@
 | 77 | [RTLC_Russian_Translation_Mods](>-) | Hayrizan | 1.2.9 |
 | 78 | [ShipLoot](https://thunderstore.io/c/lethal-company/p/Dysora/ShipLoot/) | Dysora | 1.2.2 |
 | 79 | [ShipWindows](https://thunderstore.io/c/lethal-company/p/TestAccount666/ShipWindows/) | TestAccount666 | 2.11.1 |
-| 80 | [Solace](https://thunderstore.io/c/lethal-company/p/AudioKnight/Solace/) | AudioKnight | 4.0.2 |
-| 81 | [StarlancerAIFix](https://thunderstore.io/c/lethal-company/p/AudioKnight/StarlancerAIFix/) | AudioKnight | 3.13.2 |
-| 82 | [StarlancerMoons](https://thunderstore.io/c/lethal-company/p/AudioKnight/StarlancerMoons/) | AudioKnight | 4.0.1 |
-| 83 | [StarlancerZero](https://thunderstore.io/c/lethal-company/p/AudioKnight/StarlancerZero/) | AudioKnight | 4.0.1 |
-| 84 | [StaticNetcodeLib](https://thunderstore.io/c/lethal-company/p/xilophor/StaticNetcodeLib/) | xilophor | 1.2.0 |
-| 85 | [SyncedSkinwalkers](>-) | Enchanted_Games | 2.1.1 |
-| 86 | [TestAccountCore](https://thunderstore.io/c/lethal-company/p/TestAccount666/TestAccountCore/) | TestAccount666 | 1.18.0 |
-| 87 | [TooManyEmotes](https://thunderstore.io/c/lethal-company/p/FlipMods/TooManyEmotes/) | FlipMods | 2.3.17 |
-| 88 | [Triskelion](https://thunderstore.io/c/lethal-company/p/AudioKnight/Triskelion/) | AudioKnight | 4.0.1 |
-| 89 | [UniTask](https://thunderstore.io/c/lethal-company/p/Bobbie/UniTask/) | Bobbie | 2.5.0 |
-| 90 | [UsualScrap](https://thunderstore.io/c/lethal-company/p/etherealemil/UsualScrap/) | etherealemil | 2.0.9 |
-| 91 | [VertexLibrary](>-) | LethalCompanyModding | 1.1.0 |
-| 92 | [VeryLateCompany](https://thunderstore.io/c/lethal-company/p/LTGVE/VeryLateCompany/) | LTGVE | 0.1.9 |
-| 93 | [WeatherRegistry](https://thunderstore.io/c/lethal-company/p/mrov/WeatherRegistry/) | mrov | 0.8.8 |
-| 94 | [WeedKillerFixes](https://thunderstore.io/c/lethal-company/p/ButteryStancakes/WeedKillerFixes/) | ButteryStancakes | 1.2.1 |
-| 95 | [Wider_Ship_Mod](https://thunderstore.io/c/lethal-company/p/mborsh/Wider_Ship_Mod/) | mborsh | 1.4.3 |
-| 96 | [XUnity_AutoTranslator](https://thunderstore.io/c/lethal-company/p/Hayrizan/XUnity_AutoTranslator/) | Hayrizan | 5.6.1 |
-| 97 | [YippeeMod](https://thunderstore.io/c/lethal-company/p/sunnobunno/YippeeMod/) | sunnobunno | 1.2.4 |
+| 80 | [SimpleOptimize](https://thunderstore.io/c/lethal-company/p/Chonkzilla/SimpleOptimize/) | Chonkzilla | 0.1.17 |
+| 81 | [Solace](https://thunderstore.io/c/lethal-company/p/AudioKnight/Solace/) | AudioKnight | 4.0.2 |
+| 82 | [StarlancerAIFix](https://thunderstore.io/c/lethal-company/p/AudioKnight/StarlancerAIFix/) | AudioKnight | 3.13.2 |
+| 83 | [StarlancerMoons](https://thunderstore.io/c/lethal-company/p/AudioKnight/StarlancerMoons/) | AudioKnight | 4.0.1 |
+| 84 | [StarlancerZero](https://thunderstore.io/c/lethal-company/p/AudioKnight/StarlancerZero/) | AudioKnight | 4.0.1 |
+| 85 | [StaticNetcodeLib](https://thunderstore.io/c/lethal-company/p/xilophor/StaticNetcodeLib/) | xilophor | 1.2.0 |
+| 86 | [SyncedSkinwalkers](>-) | Enchanted_Games | 2.1.1 |
+| 87 | [TestAccountCore](https://thunderstore.io/c/lethal-company/p/TestAccount666/TestAccountCore/) | TestAccount666 | 1.18.0 |
+| 88 | [TooManyEmotes](https://thunderstore.io/c/lethal-company/p/FlipMods/TooManyEmotes/) | FlipMods | 2.3.17 |
+| 89 | [Triskelion](https://thunderstore.io/c/lethal-company/p/AudioKnight/Triskelion/) | AudioKnight | 4.0.1 |
+| 90 | [UniTask](https://thunderstore.io/c/lethal-company/p/Bobbie/UniTask/) | Bobbie | 2.5.0 |
+| 91 | [UsualScrap](https://thunderstore.io/c/lethal-company/p/etherealemil/UsualScrap/) | etherealemil | 2.0.9 |
+| 92 | [VertexLibrary](>-) | LethalCompanyModding | 1.1.0 |
+| 93 | [VeryLateCompany](https://thunderstore.io/c/lethal-company/p/LTGVE/VeryLateCompany/) | LTGVE | 0.1.9 |
+| 94 | [WeatherRegistry](https://thunderstore.io/c/lethal-company/p/mrov/WeatherRegistry/) | mrov | 0.8.8 |
+| 95 | [WeedKillerFixes](https://thunderstore.io/c/lethal-company/p/ButteryStancakes/WeedKillerFixes/) | ButteryStancakes | 1.2.1 |
+| 96 | [Wider_Ship_Mod](https://thunderstore.io/c/lethal-company/p/mborsh/Wider_Ship_Mod/) | mborsh | 1.4.3 |
+| 97 | [XUnity_AutoTranslator](https://thunderstore.io/c/lethal-company/p/Hayrizan/XUnity_AutoTranslator/) | Hayrizan | 5.6.1 |
+| 98 | [YippeeMod](https://thunderstore.io/c/lethal-company/p/sunnobunno/YippeeMod/) | sunnobunno | 1.2.4 |
 
 ## Установлены, но выключены
 
