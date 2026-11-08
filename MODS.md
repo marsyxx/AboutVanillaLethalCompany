@@ -6,7 +6,7 @@
 
 | Мод | Версия |
 |---|---|
-| GraphicsPlus | 1.0.1 |
+| GraphicsPlus | 1.0.2 |
 | LanguageSwitch | 1.0.1 |
 | LCCompatFixes | 1.0.2 |
 
