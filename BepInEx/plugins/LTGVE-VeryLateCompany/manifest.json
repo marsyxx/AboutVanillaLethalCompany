@@ -1,0 +1,10 @@
+{
+    "name": "VeryLateCompany",
+    "author": "LT_GVE",
+    "version_number": "0.1.9",
+    "website_url": "https://github.com/LTGVE/LC-VeryLateCompany",
+    "description": "Allows joining mid-session(v81 Compatible)",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

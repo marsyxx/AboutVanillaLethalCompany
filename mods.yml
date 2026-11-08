@@ -1692,32 +1692,6 @@
   onlineSource: true
   trustedPackage: false
 - manifestVersion: 1
-  name: SleepyMiles-EladsHUDPlus
-  authorName: SleepyMiles
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/SleepyMiles/EladsHUDPlus/
-  displayName: EladsHUDPlus
-  description: >-
-    EladsHUD+: Elad's HUD for V81 with the utility slot, a mic icon, a status
-    row for buffs, injuries and warnings, a free cursor with tooltips, an
-    optional crosshair and extra health on the health bar.
-  gameVersion: '0'
-  networkMode: both
-  packageType: other
-  installMode: managed
-  installedAtTime: 1793546888019
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2305
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 1
-  enabled: true
-  onlineSource: true
-  trustedPackage: false
-- manifestVersion: 1
   name: Slayerrr45-MemoryJanitor
   authorName: Slayerrr45
   websiteUrl: https://thunderstore.io/c/lethal-company/p/Slayerrr45/MemoryJanitor/
@@ -2427,32 +2401,6 @@
   onlineSource: true
   trustedPackage: false
 - manifestVersion: 1
-  name: aloneluvsya-Alones_TooManyEmotes
-  authorName: aloneluvsya
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/aloneluvsya/Alones_TooManyEmotes/
-  displayName: Alones_TooManyEmotes
-  description: >-
-    An addon for TooManyEmotes with emotes from secret sources including hand
-    animated animations.
-  gameVersion: '0'
-  networkMode: both
-  packageType: other
-  installMode: managed
-  installedAtTime: 1794046834517
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-    - FlipMods-TooManyEmotes-2.3.17
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 6
-  enabled: true
-  onlineSource: true
-  trustedPackage: false
-- manifestVersion: 1
   name: Zaggy1024-OpenBodyCams
   authorName: Zaggy1024
   websiteUrl: https://thunderstore.io/c/lethal-company/p/Zaggy1024/OpenBodyCams/
@@ -2480,28 +2428,76 @@
   onlineSource: true
   trustedPackage: false
 - manifestVersion: 1
-  name: MrGlim-CrewMonitors
-  authorName: MrGlim
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/MrGlim/CrewMonitors/
-  displayName: CrewMonitors
+  name: s1ckboy-LethalHUD
+  authorName: s1ckboy
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/s1ckboy/LethalHUD/
+  displayName: LethalHUD
   description: >-
-    4-panel crew OpenBodyCams stack: body/map/external cycle, click-to-focus
-    radar, OBC-matched screens.
+    [v81] Quality of Life mod to improve HUD elements with config options and
+    additional features, fixes, custom UIs
   gameVersion: '0'
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1794046873210
+  installedAtTime: 1794094978764
   loaders: []
   dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-    - Zaggy1024-OpenBodyCams-3.0.5
+    - AinaVT-LethalConfig-1.4.6
+    - BepInEx-BepInExPack-5.4.2305
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
+    minor: 6
+    patch: 3
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: mr_hat-EladsLethalHUD
+  authorName: mr_hat
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/mr_hat/EladsLethalHUD/
+  displayName: EladsLethalHUD
+  description: '[v81] EladsHUD port for LethalHUD'
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1794094978779
+  loaders: []
+  dependencies:
+    - AinaVT-LethalConfig-1.4.6
+    - BepInEx-BepInExPack-5.4.2305
+    - s1ckboy-LethalHUD-1.6.3
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
     minor: 0
-    patch: 33
+    patch: 8
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: LTGVE-VeryLateCompany
+  authorName: LTGVE
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/LTGVE/VeryLateCompany/
+  displayName: VeryLateCompany
+  description: Allows joining mid-session(v81 Compatible)
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1794135475964
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 1
+    patch: 9
   enabled: true
   onlineSource: true
   trustedPackage: false

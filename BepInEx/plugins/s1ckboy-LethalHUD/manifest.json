@@ -1,0 +1,10 @@
+{
+    "name": "LethalHUD",
+    "version_number": "1.6.3",
+    "website_url": "https://github.com/s1ckboii/LethalHUD",
+    "description": "[v81] Quality of Life mod to improve HUD elements with config options and additional features, fixes, custom UIs",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2305",
+	"AinaVT-LethalConfig-1.4.6"
+    ]
+}

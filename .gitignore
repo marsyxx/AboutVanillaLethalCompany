@@ -2,6 +2,7 @@
 BepInEx/cache/
 BepInEx/LogOutput.*
 BepInEx/p_*.txt
+BepInEx/perf-*
 *.joined
 *.joining
 # personal settings
