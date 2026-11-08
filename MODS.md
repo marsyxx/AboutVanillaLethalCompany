@@ -1,6 +1,6 @@
 # Список модов
 
-Собрано из профиля Thunderstore Mod Manager (`mods.yml`): **99 включено**, 0 выключено. Файлы модов лежат в `BepInEx/plugins`, у каждого мода своя лицензия, страницы авторов указаны в ссылках.
+Собрано из профиля Thunderstore Mod Manager (`mods.yml`): **98 включено**, 1 выключено. Файлы модов лежат в `BepInEx/plugins`, у каждого мода своя лицензия, страницы авторов указаны в ссылках.
 
 ## Наши моды (команда devil1nme)
 
@@ -8,7 +8,7 @@
 |---|---|
 | GraphicsPlus | 1.0.1 |
 | LanguageSwitch | 1.0.1 |
-| LCCompatFixes | 1.0.1 |
+| LCCompatFixes | 1.0.2 |
 
 ## Включены
 
@@ -69,47 +69,52 @@
 | 53 | [MaskedInvisFix](https://thunderstore.io/c/lethal-company/p/VirusTLNR/MaskedInvisFix/) | VirusTLNR | 0.0.3 |
 | 54 | [MaskFixes](https://thunderstore.io/c/lethal-company/p/ButteryStancakes/MaskFixes/) | ButteryStancakes | 1.6.3 |
 | 55 | [Matty_Fixes](https://thunderstore.io/c/lethal-company/p/mattymatty/Matty_Fixes/) | mattymatty | 1.1.41 |
-| 56 | [MelanieMelicious_2_sToRy_ShIp__works_w_Wider_Ship_Mod](>-) | MelanieMelicious | 2.2.14 |
-| 57 | [MeleeFixes](https://thunderstore.io/c/lethal-company/p/ButteryStancakes/MeleeFixes/) | ButteryStancakes | 1.5.1 |
-| 58 | [MemoryJanitor](https://thunderstore.io/c/lethal-company/p/Slayerrr45/MemoryJanitor/) | Slayerrr45 | 1.3.0 |
-| 59 | [Mirage](https://thunderstore.io/c/lethal-company/p/qwbarch/Mirage/) | qwbarch | 1.29.1 |
-| 60 | [MirageCore](https://thunderstore.io/c/lethal-company/p/qwbarch/MirageCore/) | qwbarch | 1.0.4 |
-| 61 | [MonkeyInjectionLibrary](>-) | mattymatty | 1.0.3 |
-| 62 | [MonoDetour](https://thunderstore.io/c/lethal-company/p/MonoDetour/MonoDetour/) | MonoDetour | 0.7.1701 |
-| 63 | [MonoDetour_BepInEx_5](https://thunderstore.io/c/lethal-company/p/MonoDetour/MonoDetour_BepInEx_5/) | MonoDetour | 0.7.1701 |
-| 64 | [More_Suits](https://thunderstore.io/c/lethal-company/p/x753/More_Suits/) | x753 | 1.5.4 |
-| 65 | [MoreCompany](https://thunderstore.io/c/lethal-company/p/notnotnotswipez/MoreCompany/) | notnotnotswipez | 1.14.0 |
-| 66 | [MrovLib](https://thunderstore.io/c/lethal-company/p/mrov/MrovLib/) | mrov | 0.4.15 |
-| 67 | [NAudio](https://thunderstore.io/c/lethal-company/p/Bobbie/NAudio/) | Bobbie | 2.2.2 |
-| 68 | [NAudioLame](https://thunderstore.io/c/lethal-company/p/qwbarch/NAudioLame/) | qwbarch | 2.1.1 |
-| 69 | [OdinSerializer](https://thunderstore.io/c/lethal-company/p/Lordfirespeed/OdinSerializer/) | Lordfirespeed | 2024.2.2700 |
-| 70 | [OpenBodyCams](https://thunderstore.io/c/lethal-company/p/Zaggy1024/OpenBodyCams/) | Zaggy1024 | 3.0.13 |
-| 71 | [OpusDotNet](https://thunderstore.io/c/lethal-company/p/qwbarch/OpusDotNet/) | qwbarch | 1.0.30 |
-| 72 | [PathfindingLagFix](https://thunderstore.io/c/lethal-company/p/Zaggy1024/PathfindingLagFix/) | Zaggy1024 | 2.4.2 |
-| 73 | [PathfindingLib](https://thunderstore.io/c/lethal-company/p/Zaggy1024/PathfindingLib/) | Zaggy1024 | 2.4.2 |
-| 74 | [PremiumScraps](https://thunderstore.io/c/lethal-company/p/Zigzag/PremiumScraps/) | Zigzag | 2.5.1 |
-| 75 | [ReservedFlashlightSlot](https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedFlashlightSlot/) | FlipMods | 2.0.10 |
-| 76 | [ReservedItemSlotCore](https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedItemSlotCore/) | FlipMods | 2.0.55 |
-| 77 | [ReservedWalkieSlot](https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedWalkieSlot/) | FlipMods | 2.0.7 |
-| 78 | [RTLC_Russian_Translation](>-) | Hayrizan | 1.3.3 |
-| 79 | [RTLC_Russian_Translation_Mods](>-) | Hayrizan | 1.2.9 |
-| 80 | [ShipLoot](https://thunderstore.io/c/lethal-company/p/Dysora/ShipLoot/) | Dysora | 1.2.2 |
-| 81 | [ShipWindows](https://thunderstore.io/c/lethal-company/p/TestAccount666/ShipWindows/) | TestAccount666 | 2.11.1 |
-| 82 | [Solace](https://thunderstore.io/c/lethal-company/p/AudioKnight/Solace/) | AudioKnight | 4.0.2 |
-| 83 | [StarlancerAIFix](https://thunderstore.io/c/lethal-company/p/AudioKnight/StarlancerAIFix/) | AudioKnight | 3.13.2 |
-| 84 | [StarlancerMoons](https://thunderstore.io/c/lethal-company/p/AudioKnight/StarlancerMoons/) | AudioKnight | 4.0.1 |
-| 85 | [StarlancerZero](https://thunderstore.io/c/lethal-company/p/AudioKnight/StarlancerZero/) | AudioKnight | 4.0.1 |
-| 86 | [StaticNetcodeLib](https://thunderstore.io/c/lethal-company/p/xilophor/StaticNetcodeLib/) | xilophor | 1.2.0 |
-| 87 | [SyncedSkinwalkers](>-) | Enchanted_Games | 2.1.1 |
-| 88 | [TestAccountCore](https://thunderstore.io/c/lethal-company/p/TestAccount666/TestAccountCore/) | TestAccount666 | 1.18.0 |
-| 89 | [TooManyEmotes](https://thunderstore.io/c/lethal-company/p/FlipMods/TooManyEmotes/) | FlipMods | 2.3.17 |
-| 90 | [Triskelion](https://thunderstore.io/c/lethal-company/p/AudioKnight/Triskelion/) | AudioKnight | 4.0.1 |
-| 91 | [UniTask](https://thunderstore.io/c/lethal-company/p/Bobbie/UniTask/) | Bobbie | 2.5.0 |
-| 92 | [UsualScrap](https://thunderstore.io/c/lethal-company/p/etherealemil/UsualScrap/) | etherealemil | 2.0.9 |
-| 93 | [VertexLibrary](>-) | LethalCompanyModding | 1.1.0 |
-| 94 | [VeryLateCompany](https://thunderstore.io/c/lethal-company/p/LTGVE/VeryLateCompany/) | LTGVE | 0.1.9 |
-| 95 | [WeatherRegistry](https://thunderstore.io/c/lethal-company/p/mrov/WeatherRegistry/) | mrov | 0.8.8 |
-| 96 | [WeedKillerFixes](https://thunderstore.io/c/lethal-company/p/ButteryStancakes/WeedKillerFixes/) | ButteryStancakes | 1.2.1 |
-| 97 | [Wider_Ship_Mod](https://thunderstore.io/c/lethal-company/p/mborsh/Wider_Ship_Mod/) | mborsh | 1.4.3 |
-| 98 | [XUnity_AutoTranslator](https://thunderstore.io/c/lethal-company/p/Hayrizan/XUnity_AutoTranslator/) | Hayrizan | 5.6.1 |
-| 99 | [YippeeMod](https://thunderstore.io/c/lethal-company/p/sunnobunno/YippeeMod/) | sunnobunno | 1.2.4 |
+| 56 | [MeleeFixes](https://thunderstore.io/c/lethal-company/p/ButteryStancakes/MeleeFixes/) | ButteryStancakes | 1.5.1 |
+| 57 | [MemoryJanitor](https://thunderstore.io/c/lethal-company/p/Slayerrr45/MemoryJanitor/) | Slayerrr45 | 1.3.0 |
+| 58 | [Mirage](https://thunderstore.io/c/lethal-company/p/qwbarch/Mirage/) | qwbarch | 1.29.1 |
+| 59 | [MirageCore](https://thunderstore.io/c/lethal-company/p/qwbarch/MirageCore/) | qwbarch | 1.0.4 |
+| 60 | [MonkeyInjectionLibrary](>-) | mattymatty | 1.0.3 |
+| 61 | [MonoDetour](https://thunderstore.io/c/lethal-company/p/MonoDetour/MonoDetour/) | MonoDetour | 0.7.1701 |
+| 62 | [MonoDetour_BepInEx_5](https://thunderstore.io/c/lethal-company/p/MonoDetour/MonoDetour_BepInEx_5/) | MonoDetour | 0.7.1701 |
+| 63 | [More_Suits](https://thunderstore.io/c/lethal-company/p/x753/More_Suits/) | x753 | 1.5.4 |
+| 64 | [MoreCompany](https://thunderstore.io/c/lethal-company/p/notnotnotswipez/MoreCompany/) | notnotnotswipez | 1.14.0 |
+| 65 | [MrovLib](https://thunderstore.io/c/lethal-company/p/mrov/MrovLib/) | mrov | 0.4.15 |
+| 66 | [NAudio](https://thunderstore.io/c/lethal-company/p/Bobbie/NAudio/) | Bobbie | 2.2.2 |
+| 67 | [NAudioLame](https://thunderstore.io/c/lethal-company/p/qwbarch/NAudioLame/) | qwbarch | 2.1.1 |
+| 68 | [OdinSerializer](https://thunderstore.io/c/lethal-company/p/Lordfirespeed/OdinSerializer/) | Lordfirespeed | 2024.2.2700 |
+| 69 | [OpenBodyCams](https://thunderstore.io/c/lethal-company/p/Zaggy1024/OpenBodyCams/) | Zaggy1024 | 3.0.13 |
+| 70 | [OpusDotNet](https://thunderstore.io/c/lethal-company/p/qwbarch/OpusDotNet/) | qwbarch | 1.0.30 |
+| 71 | [PathfindingLagFix](https://thunderstore.io/c/lethal-company/p/Zaggy1024/PathfindingLagFix/) | Zaggy1024 | 2.4.2 |
+| 72 | [PathfindingLib](https://thunderstore.io/c/lethal-company/p/Zaggy1024/PathfindingLib/) | Zaggy1024 | 2.4.2 |
+| 73 | [PremiumScraps](https://thunderstore.io/c/lethal-company/p/Zigzag/PremiumScraps/) | Zigzag | 2.5.1 |
+| 74 | [ReservedFlashlightSlot](https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedFlashlightSlot/) | FlipMods | 2.0.10 |
+| 75 | [ReservedItemSlotCore](https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedItemSlotCore/) | FlipMods | 2.0.55 |
+| 76 | [ReservedWalkieSlot](https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedWalkieSlot/) | FlipMods | 2.0.7 |
+| 77 | [RTLC_Russian_Translation](>-) | Hayrizan | 1.3.3 |
+| 78 | [RTLC_Russian_Translation_Mods](>-) | Hayrizan | 1.2.9 |
+| 79 | [ShipLoot](https://thunderstore.io/c/lethal-company/p/Dysora/ShipLoot/) | Dysora | 1.2.2 |
+| 80 | [ShipWindows](https://thunderstore.io/c/lethal-company/p/TestAccount666/ShipWindows/) | TestAccount666 | 2.11.1 |
+| 81 | [Solace](https://thunderstore.io/c/lethal-company/p/AudioKnight/Solace/) | AudioKnight | 4.0.2 |
+| 82 | [StarlancerAIFix](https://thunderstore.io/c/lethal-company/p/AudioKnight/StarlancerAIFix/) | AudioKnight | 3.13.2 |
+| 83 | [StarlancerMoons](https://thunderstore.io/c/lethal-company/p/AudioKnight/StarlancerMoons/) | AudioKnight | 4.0.1 |
+| 84 | [StarlancerZero](https://thunderstore.io/c/lethal-company/p/AudioKnight/StarlancerZero/) | AudioKnight | 4.0.1 |
+| 85 | [StaticNetcodeLib](https://thunderstore.io/c/lethal-company/p/xilophor/StaticNetcodeLib/) | xilophor | 1.2.0 |
+| 86 | [SyncedSkinwalkers](>-) | Enchanted_Games | 2.1.1 |
+| 87 | [TestAccountCore](https://thunderstore.io/c/lethal-company/p/TestAccount666/TestAccountCore/) | TestAccount666 | 1.18.0 |
+| 88 | [TooManyEmotes](https://thunderstore.io/c/lethal-company/p/FlipMods/TooManyEmotes/) | FlipMods | 2.3.17 |
+| 89 | [Triskelion](https://thunderstore.io/c/lethal-company/p/AudioKnight/Triskelion/) | AudioKnight | 4.0.1 |
+| 90 | [UniTask](https://thunderstore.io/c/lethal-company/p/Bobbie/UniTask/) | Bobbie | 2.5.0 |
+| 91 | [UsualScrap](https://thunderstore.io/c/lethal-company/p/etherealemil/UsualScrap/) | etherealemil | 2.0.9 |
+| 92 | [VertexLibrary](>-) | LethalCompanyModding | 1.1.0 |
+| 93 | [VeryLateCompany](https://thunderstore.io/c/lethal-company/p/LTGVE/VeryLateCompany/) | LTGVE | 0.1.9 |
+| 94 | [WeatherRegistry](https://thunderstore.io/c/lethal-company/p/mrov/WeatherRegistry/) | mrov | 0.8.8 |
+| 95 | [WeedKillerFixes](https://thunderstore.io/c/lethal-company/p/ButteryStancakes/WeedKillerFixes/) | ButteryStancakes | 1.2.1 |
+| 96 | [Wider_Ship_Mod](https://thunderstore.io/c/lethal-company/p/mborsh/Wider_Ship_Mod/) | mborsh | 1.4.3 |
+| 97 | [XUnity_AutoTranslator](https://thunderstore.io/c/lethal-company/p/Hayrizan/XUnity_AutoTranslator/) | Hayrizan | 5.6.1 |
+| 98 | [YippeeMod](https://thunderstore.io/c/lethal-company/p/sunnobunno/YippeeMod/) | sunnobunno | 1.2.4 |
+
+## Установлены, но выключены
+
+| # | Мод | Автор | Версия |
+|---|---|---|---|
+| 1 | [MelanieMelicious_2_sToRy_ShIp__works_w_Wider_Ship_Mod](>-) | MelanieMelicious | 2.2.14 |
