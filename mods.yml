@@ -2397,7 +2397,7 @@
     major: 5
     minor: 2
     patch: 1
-  enabled: true
+  enabled: false
   onlineSource: true
   trustedPackage: false
 - manifestVersion: 1
