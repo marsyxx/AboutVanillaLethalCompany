@@ -1,0 +1,10 @@
+{
+    "name": "Wesleys_Shenanigans",
+    "version_number": "1.0.26",
+    "website_url": "",
+    "description": "This makes things work.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "MaxWasUnavailable-LethalModDataLib-1.2.2"
+    ]
+}

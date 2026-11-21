@@ -1,3 +1,15 @@
+## 2.2.17
+- Fixed an ancient oversight of not having adjusted fog exclusion zone for the new ship sizes. Compatible with floor configs and wider variant. Thank you for reminding me @cad
+- Disabling mesh renderer and collider of old ship catwalk instead of the entire game object to prevent errors with other mods. Thank you @Muggy
+
+## 2.2.16
+- Fixed a bug where having the third story enabled would actually give you 6 stories instead. Thank you @BBAPepsiMan :sob:
+- Fixed a bug where reloading a lobby in the same session will double your original stories number each consecutive reload. Thank you ALSO @BBAPepsiMan :sob:
+
+## 2.2.15
+- Fixed a bug with nav mesh regen and breaking a lot. Thank you for looking into it @T-Rizzle
+- Handful of small changes over time. I can probably do a proper update EVENTUALLY, but I have to ease into it.
+
 ## 2.2.14
 - Added cozylight changes based on current ship.
 - Reverted cost override on ladders back to default.

@@ -1,3 +1,5 @@
+Usual Scrap is a scrap mod adding many new equipment and scrap items that try to expand on the vanilla roster.
+
 https://ko-fi.com/boxoemilios is my ko-fi if you'd like to support me, either way, enjoy the mod!
 
 ## Dependencies
@@ -77,7 +79,7 @@ The Auto-Injector is a single use item that applies the following buffs to the p
 
 - Jump Height boost
 
-- Negates the slow effects of carry weight
+- Negates the slowing effects of carry weight
 
 </details>
 
@@ -106,7 +108,7 @@ The Blowtorch can be used to dismantle traps and will produce scrap when done su
 
 To dismantle a trap, stand by it and hold left click. You should hear and see sparks, and after short period of time (the time depends on the trap) the trap will be dismantled and drop a number of scrap items.
 
-- THe torch has a heat mechanic and gains heat while being used. When heat reaches a high enough point you begin being burned.
+- The torch gains heat while being used. When heat reaches a high enough threshold you will begin taking damage.
 
 </details>
 
@@ -151,7 +153,7 @@ Tips for survival - Take it first or take it last and know the way back to the s
 <details>
 <summary>Radioactive Cell</summary>
 
-The Radioactive Cell produces a sickly green light in a radius around it infinitely. When the cell is held, the holder will regularly take ramping damage until they drop it or perish.
+The Radioactive Cell produces a sickly light in a radius around it infinitely. When the cell is held, the holder will regularly take ramping damage until they drop it or perish.
 
 - The Cell inflicts ramping damage on a rough curve going from 5 to infinity.
 
@@ -181,7 +183,14 @@ The Crowbar is a melee weapon that does average damage but can unlock locked doo
 <details>
 <summary>Sledgehammer</summary>
 
-The Sledgehammer is a melee weapon that does high damage but swings slower and is pretty heavy.
+The Sledgehammer is a melee weapon that when charged/readied long enough, does double damage.
+
+</details>
+
+<details>
+<summary>Fire Axe</summary>
+
+The Fire Axe is a melee weapon that gains a single double damage swing when out of combat for a time.
 
 </details>
 
@@ -189,33 +198,46 @@ The Sledgehammer is a melee weapon that does high damage but swings slower and i
 <details>
 <summary>Padlock</summary>
 
-The Padlock is a consumable item that keeps doors open or closed when used on them.
+The Padlock is a consumable item that locks doors or can keep them open.
 
 </details>
 
 <details>
 <summary>Walking Cane</summary>
 
-Increases your movement speed when held, meaning not when in your pocket.
+Increases your movement speed when held.
 
 </details>
 
 <details>
 <summary>Sizable Scissors</summary>
 
-Sizable Scissors are a two handed melee weapon that deals double damage and randomly damages it's holder if they are sprinting.
+Sizable Scissors are a two handed melee weapon that deals double damage and randomly damages it's holder when sprinting.
 
 Tips for survival - don't run with them or drop them. If the scissors kill you then you ran with scissors, what'd you expect?
 </details>
 
 <details>
+<summary>Antique Sword</summary>
 
-<summary>Candy Dispenser</summary>
+The Antique Sword is a melee weapon that passively gives the held player a speed boost and has longer range than other melee weapons.
 
-The Candy Dispenser is a melee weapon that rarely drops a piece of vintage candy when swung (1/25 chance each swing).
+</details>
 
-- The candy dropped by the dispenser is worth a small amount and gives a small buff when eaten.
-- The candy dispenser will not drop candy if the ship is in orbit or if it is on moon that has no time cycle like the company building.
+<details>
+<summary>Regal Scepter</summary>
+
+The Regal Scepter is a melee weapon that passively gains value when in a players inventory and gains value fore each unique enemy struck by it.
+
+</details>
+
+<details>
+<summary>Gumball Machine</summary>
+
+The Gumball Machine is a melee weapon that stores a gumball when swung (1/15 chance) and ejects them when dropped.
+
+- The Gumballs dropped by the Humball Machine are worth a small amount and give many different effects when eaten.
+- The Gumball Machine will not drop Gumballs if the ship is in orbit or if landed on a moon that has no time cycle like the company building.
 
 </details>
 

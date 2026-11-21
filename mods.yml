@@ -510,7 +510,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1793543383051
+  installedAtTime: 1795297141728
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -518,8 +518,8 @@
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 0
-    patch: 11
+    minor: 1
+    patch: 0
   enabled: true
   onlineSource: true
   trustedPackage: false
@@ -641,7 +641,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1793540123428
+  installedAtTime: 1795297141708
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -650,7 +650,7 @@
   versionNumber:
     major: 2
     minor: 2
-    patch: 14
+    patch: 17
   enabled: false
   onlineSource: true
   trustedPackage: false
@@ -817,7 +817,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1793540143578
+  installedAtTime: 1795297141651
   loaders: []
   dependencies: []
   incompatibilities: []
@@ -825,7 +825,7 @@
   versionNumber:
     major: 0
     minor: 7
-    patch: 1701
+    patch: 1801
   enabled: true
   onlineSource: true
   trustedPackage: false
@@ -841,16 +841,16 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1793540143597
+  installedAtTime: 1795297141677
   loaders: []
   dependencies:
-    - MonoDetour-MonoDetour-0.7.1701
+    - MonoDetour-MonoDetour-0.7.1801
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 0
     minor: 7
-    patch: 1701
+    patch: 1801
   enabled: true
   onlineSource: true
   trustedPackage: false
@@ -1477,7 +1477,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1793543382995
+  installedAtTime: 1795297141627
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2305
@@ -1486,7 +1486,7 @@
   versionNumber:
     major: 1
     minor: 17
-    patch: 25
+    patch: 26
   enabled: true
   onlineSource: true
   trustedPackage: false
@@ -1780,7 +1780,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1793725539924
+  installedAtTime: 1795297141605
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -1791,8 +1791,8 @@
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 0
-    patch: 9
+    minor: 1
+    patch: 1
   enabled: true
   onlineSource: true
   trustedPackage: false
@@ -2523,6 +2523,240 @@
     major: 0
     minor: 1
     patch: 17
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: Swaggies-BetterEXP
+  authorName: Swaggies
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Swaggies/BetterEXP/
+  displayName: BetterEXP
+  description: >-
+    Lethal Company mod to replace the vanilla EXP system with a more advanced
+    system. Includes custom Performance Report notes too.
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795296566728
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2305
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 0
+    patch: 1
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: Proudlock_Technology-GsLethalStatsEmitter
+  authorName: Proudlock_Technology
+  websiteUrl: >-
+    https://thunderstore.io/c/lethal-company/p/Proudlock_Technology/GsLethalStatsEmitter/
+  displayName: GsLethalStatsEmitter
+  description: Posts session/day/death/item stats to gs.proudtech.net for the gs dashboard.
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795296616559
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2305
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 5
+    patch: 0
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: super_fucking_cool_and_badass_team-Biodiversity
+  authorName: super_fucking_cool_and_badass_team
+  websiteUrl: >-
+    https://thunderstore.io/c/lethal-company/p/super_fucking_cool_and_badass_team/Biodiversity/
+  displayName: Biodiversity
+  description: '[V81] Expanding the flora and fauna of Lethal Company!'
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795298249491
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-LethalLib-1.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 2
+    patch: 95
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: MaxWasUnavailable-LethalModDataLib
+  authorName: MaxWasUnavailable
+  websiteUrl: >-
+    https://thunderstore.io/c/lethal-company/p/MaxWasUnavailable/LethalModDataLib/
+  displayName: LethalModDataLib
+  description: >-
+    A library for Lethal Company, providing a standardised way to save and load
+    modded data.
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795299109541
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 2
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: DemonMae-Raven_Manor_Interior
+  authorName: DemonMae
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/DemonMae/Raven_Manor_Interior/
+  displayName: Raven_Manor_Interior
+  description: A Mansion-like dungeon with elements of Castles.
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795299109562
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-HookGenPatcher-0.0.5
+    - Evaisa-LethalLib-1.1.0
+    - IAmBatby-LethalLevelLoader-1.4.11
+    - JacobG5-JLL-1.9.5
+    - MaxWasUnavailable-LethalModDataLib-1.2.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 4
+    patch: 1
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: Magic_Wesley-Wesleys_Shenanigans
+  authorName: Magic_Wesley
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Magic_Wesley/Wesleys_Shenanigans/
+  displayName: Wesleys_Shenanigans
+  description: This makes things work.
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795299157842
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - MaxWasUnavailable-LethalModDataLib-1.2.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 26
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: Magic_Wesley-Wesleys_Ememy_Variants
+  authorName: Magic_Wesley
+  websiteUrl: >-
+    https://thunderstore.io/c/lethal-company/p/Magic_Wesley/Wesleys_Ememy_Variants/
+  displayName: Wesleys_Ememy_Variants
+  description: Variants of vanilla enemies for my projects.
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795299157887
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - IAmBatby-LethalLevelLoader-1.7.12
+    - JacobG5-JLL-1.10.1
+    - Magic_Wesley-Wesleys_Shenanigans-1.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 14
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: Magic_Wesley-Expanded_Facility
+  authorName: Magic_Wesley
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Magic_Wesley/Expanded_Facility/
+  displayName: Expanded_Facility
+  description: Standalone version of Expanded Facility.
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795299157911
+  loaders: []
+  dependencies:
+    - AudioKnight-StarlancerAIFix-3.8.4
+    - BepInEx-BepInExPack-5.4.2100
+    - Hardy-LCMaxSoundsFix-1.2.0
+    - IAmBatby-LethalLevelLoader-1.4.11
+    - JacobG5-JLL-1.10.1
+    - Magic_Wesley-Wesleys_Ememy_Variants-1.3.0
+    - Magic_Wesley-Wesleys_Shenanigans-1.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: Beaniebe-Liminal_House
+  authorName: Beaniebe
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Beaniebe/Liminal_House/
+  displayName: Liminal_House
+  description: A Vanilla friendly modern house interior, similar to manor (v81 Support)
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795299196777
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-HookGenPatcher-0.0.5
+    - IAmBatby-LethalLevelLoader-1.3.10
+    - JacobG5-JLL-1.9.4
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 6
   enabled: true
   onlineSource: true
   trustedPackage: false

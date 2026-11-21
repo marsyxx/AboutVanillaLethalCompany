@@ -1,3 +1,18 @@
+# v1.17.26
+- New save files now display actual starting credits (instead of $0) if the main menu is accessed without triggering a save
+- Echo scanner projector (the "blue sphere") now follows the player camera (for Scandal)
+- Fixed sapsucker eggs hatching early (at the start of rounds) for some clients
+- Fixed an oversight with `FixSurfacePrices` that would cause bee hive price seeding to change based on how many rounds you've played
+- `PlayermodelPatches` now applies to deaths caused by the Kidnapper fox
+- Earth Leviathans are now invisible when unemerged
+- Implemented item collision fixes for various pieces of vanilla furniture (thanks [Xu Xiaolan](https://thunderstore.io/c/lethal-company/p/XuXiaolan/))
+  - Table
+  - Romantic table
+  - Sofa chair
+  - Electric chair
+  - Dog house
+- Empty spray paints/weed killers will no longer be saved to file (like TZP inhalant)
+- Patched utility belt dropping items to the wrong position when teleporting (thanks [jaramp](https://thunderstore.io/c/lethal-company/p/jaramp/))
 # v1.17.25
 - Titan's radar text no longer changes if [AutoScroll](https://thunderstore.io/c/lethal-company/p/mrov/AutoScroll/) is installed (for you, Scandal)
 # v1.17.24

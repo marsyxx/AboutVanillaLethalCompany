@@ -1,3 +1,23 @@
+# 2.1.0
+
+## Added
+
+- A feature where lights set to update only on enable or on demand are managed by CullFactory to render mainly static geometry into the cached shadow map, retained only while visible
+
+## Fixed
+
+- Dynamic lights that are near but outside tiles still being invisible after the last fix
+
+## Changed
+
+- Reduced the cost of calculating visibility of items and dynamic lights
+
+# 2.0.12
+
+## Fixed
+
+- Dynamic lights that are slightly outside tiles being considered part of the moon
+
 # 2.0.11
 
 ## Fixed

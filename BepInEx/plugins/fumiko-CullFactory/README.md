@@ -21,6 +21,14 @@ This is a more naive method that will make tiles visible that are separated from
 
 ## Developer Information
 
+### Cached Shadow Maps
+
+A light can be set up so that CullFactory manages it and only renders its shadow maps when they become visible, keeping them in the cached shadow map until they become invisible again. This is done by setting its `Shadow Map`'s `Update Mode` to `On Enable` or `On Demand`, and turning the `Update on light movement` and `Always draw dynamic` off. Lights set to `On Enable` are changed to `On Demand` at runtime when culling is enabled.
+
+For all lights that meet those criteria, CullFactory will mark the lights to have their shadow maps rendered when they go from culled to visible. While their shadow maps are rendering they are set to render only `Room`, `MiscLevelGeometry`, `Terrain`, and `Railing`. These are specifically chosen because they generally contain only static geometry, to avoid shadows being baked into the cache that will appear out of place when an object moves.
+
+Using this feature should allow more shadow maps to be used with less cost to performance. It is best suited to environments with a lot of static geometry, especially when it is out of reach of the player and their shadow.
+
 ### Rooms are invisible in my interior!
 
 **Neighboring rooms are invisible:** The `Doorway.Socket.Size` field is used to determine the bounds of every doorway in the interior. If the size does not encompass the entirety of the possible visible portions of any tiles that can connect to the socket, then those tiles may visibly disappear.

@@ -8,6 +8,34 @@
 
 <details>
 
+<summary>Version 2.1.0, Patch 2.1.1</summary>
+
+This update has quite a lot of changes, fair warning if you plan to continue a game save that existed prior.
+
+- Remodeled the scepter and sword.
+- Radioactive cell has a second model variation and a few new color variations.
+- Candy dispenser -> Gumball Machine, Vintage Candy -> Gumball
+- Gumball Machine majorly change - Now holds gained candy inside itself until dropped which will then cause all stored/gained candies to spill out (max 5)
+- Gumball majorly changed - Now provide stacking semi permanent buffs, debuffs, and other effects (min: 50% of base stats, max 300% of base stats). Has an optional basic effects config disabling the semi permanent effects for balancing modpacks mostly.
+- Regal scepter Buffed - Passive gains are now capped but gains from monsters remain uncapped and are buffed from 5$ to 30$ per new monster.
+- Fireaxe and sledgehammer shake when double damage hit is ready.
+- Undid some networking changes from last update for the medical items and redid detection.
+- Tons of polish across the roster of items and changes I've forgotten.
+
+- Fixed Gumball weight.
+- Added Gumball eat sound.
+
+Again if you know a mod you want blowtorch trap compatibility with, let me know. Balancing info would also be great as I don't play much myself.
+
+Interior specific spawning next update. Eventually.
+
+</details>
+
+
+---
+
+<details>
+
 <summary>Version 2.0.9</summary>
 
 - Fixed a critical bug causing crashing, sorry about that.

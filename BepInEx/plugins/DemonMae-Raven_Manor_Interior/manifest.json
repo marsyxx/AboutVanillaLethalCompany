@@ -1,0 +1,14 @@
+{
+    "name": "Raven_Manor_Interior",
+    "version_number": "1.4.1",
+    "website_url": "",
+    "description": "A Mansion-like dungeon with elements of Castles.",
+    "dependencies": [
+        "Evaisa-LethalLib-1.1.0",
+		"IAmBatby-LethalLevelLoader-1.4.11",
+		"BepInEx-BepInExPack-5.4.2100",
+		"Evaisa-HookGenPatcher-0.0.5",
+		"MaxWasUnavailable-LethalModDataLib-1.2.2",
+		"JacobG5-JLL-1.9.5"
+    ]
+}

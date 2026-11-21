@@ -1,0 +1,12 @@
+{
+  "namespace": "super_fucking_cool_and_badass_team",
+  "name": "Biodiversity",
+  "description": "[V81] Expanding the flora and fauna of Lethal Company!",
+  "version_number": "0.2.95",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100",
+    "Evaisa-LethalLib-1.2.0"
+  ],
+  "website_url": "https://github.com/BiodiversityLC",
+  "FullName": "super_fucking_cool_and_badass_team-Biodiversity"
+}

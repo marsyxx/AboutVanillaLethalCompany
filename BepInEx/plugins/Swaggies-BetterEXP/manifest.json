@@ -1,0 +1,7 @@
+{
+    "name": "BetterEXP",
+    "version_number": "3.0.1",
+    "website_url": "",
+    "description": "Lethal Company mod to replace the vanilla EXP system with a more advanced system. Includes custom Performance Report notes too.",
+    "dependencies": [ "BepInEx-BepInExPack-5.4.2305" ]
+}
