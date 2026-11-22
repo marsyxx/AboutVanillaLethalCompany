@@ -1,0 +1,67 @@
+{
+    "username": "MWAlcatras",
+    "modname": "AlcatrasLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "1Prisoner note",
+            "text": "I found some pen and paper stached below my cold, hard mattress.\nMeaning I can FINALLY write down some of my problems with this BROKEN justice system.\n\nFor one, I AM INNOCENT!\nI would never EVER do that to my wife and children.\nAnd the fact that they never even had a look at the evidence I provided.\nHORRID!\n\nIf I ever get the opportunity to het out of this hell hole..\nI will sue the everliving hell out of those people.\nJustice my ass.\n\nMeanwhile I'm sure that monster is still out there.\nAGHH\nWhat he did to my children, my Jane..\n\nIf I ever find him I'll be happy to watch him ROT behind these same bars that I find myself behind.\nHE belongs in a cell on Alcatras NOT ME!\n\nThough unfortunately they gave me life in prison.\nI don't think I'll ever be able to get true justice.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "2Prisoner note",
+            "text": "I remember that moment... clear as day.\nI was at work when I received a message from my wife Jane.'There's people in the house'.\nI told her to grab the gun from my desk and hide with the kids in the bedroom closet.\n'I am on my way' I said.\n\nWhile driving home I got a call from my nextdoor neighbor.\nShe said she heard screams and gunshots from our apartment.\nAnd that her husband called the police.\nI should have never gone home after I heard that...\n\nWhen I finally got home, I burst through the door and...\nI found her..\nOn the floor in the kitchen..\nShe had been shot multiple times and her body was partially flayed.\n\nAnd before I could even see what he did to my children, the cops ran in and I was arrested on the spot.\n\nBut as we drove away. I saw him I SAW HIM.\nHis crooked smile and those fiery eyes staring at me through the bushes, still covered in Jane's blood.\n\nI will never forget that face.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "3Prisoner note",
+            "text": "I've been here for six weeks now.\nThey told me there will be a retrial for my case!\nTHANK GOD!\nMaybe this time they will actually have a close look at all the evidence I've provided.\nThis also means I can FINALLY leave this place.\nEven if temporarily.\n\nWe're also slowly being moved to another prison I've heard.\nI really hope it's a little nicer because I am SICK of waking up to a swarm of rats running around our cells.\n\nThe activities here are horrible too.\nWe can't even work out since most of the equipment is either broken or extremely dirty.\n\nThey cleared out a couple cell blocks already.\nI think we might be next.\n\nThis does mean I'll have to leave my notes here.\nI don't think I can sneak those with me.\n\ni will find justice for you Jane.\nI loved you.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "3": {
+            "name": "Guard note",
+            "text": "This poor guy didn't deserve this.\nI wonder if there are any other innocent prisoners here.\n\nIf I knew this I would've made sure he wasn't put with the others.\nBut.\nWe're all just following orders here.\n\nIt's vile what we do here.\nPoor guy thought he'd be moved.\nWe don't keep prisoners here.\nWe kill them and turn their bodies into soil.\nSoil which is used to grow crops at an extraordinary rate.\nThese crops are then sold back to the public.\n\nPeople would go crazy if they knew about this.\nI would too.\nBut that's just our job.\n\nI hate it but.. it's how money gets made.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

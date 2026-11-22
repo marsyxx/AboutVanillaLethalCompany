@@ -1,0 +1,67 @@
+{
+    "username": "MWLecaro",
+    "modname": "LecaroLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "1Explorer note",
+            "text": "It has not been a couple hours since I entered this abandoned mineshaft. And already something feels off. If not for the missing equipment in the supply area, it would be the distant rumbling giving me a sense of unease. Maybe I should just shrug it off and get what I came here for.\nA large deposit of various crystals is what attracted me to this place.\nI've been short on money and I'm slowly heading into debt. If I'm able to find what I'm looking for it could really help me out. I don't know how deep they are but I know for certain that they're there.\nThere's no mineshaft here for nothing.\nI'm heading in deeper.",
+            "moon": "",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "2Explorer note",
+            "text": "I was uneased before, now I'm scared.\nI have seen some of the equipment scattered around the caverns. Abandoned by whomwever used to work here. Possibly left in an emergency I thought. But then I started seeing bones and bodies.\nThere were empty birdcages sitting on the floor about an hour back. My theory is that there might be something toxic in the air. Possibly some sort of gas leak. Suffocating everyone who was down here at the time. It could be in the air still.\nEither way, I need to make it quick. The rumbling is getting closer. And I do not entertain what that could mean.",
+            "moon": "",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "3Explorer note",
+            "text": "The earthquakes are getting louder and I can hear parts of the cavern collapsing in the distance ahead of me.\nThe amount of bodies I have seen have left me horrified. While some of them were slumped over. Others looked like they were trying to run.\nIt's getting harder for me to breathe. And my legs are getting tired.\nI have found a few crystals of value. Not many but I should not succomb to my greed. This deposit is lost and I don't want to die trying to find it.\nI'm turning around and heading back. I want to see my cat Bean again.\nI just need to remember the way I came.",
+            "moon": "",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "3": {
+            "name": "Miner recording",
+            "text": "Ah well would you look at that\nI think I got this thing workin\nMight serve me some entertainment in these caves\nIt's not easy spendin all day down here\nCan't see the sun, can't read the time\nIt's actually quite sad\nDiggin for these shiny crystals and I don't even kno what they are\nThey were sendin birds in earlier\nHaven't heard from them since\nAh well\nBetter get back to work",
+            "moon": "",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

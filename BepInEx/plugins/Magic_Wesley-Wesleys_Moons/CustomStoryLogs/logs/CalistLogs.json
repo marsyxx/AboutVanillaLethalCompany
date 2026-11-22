@@ -1,0 +1,67 @@
+{
+    "username": "MWCalist",
+    "modname": "CalistLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "Michael statement",
+            "text": "To start off my statement I would like everyone to remember why the use of biological warfare was made illegal in the first place.\nNot two hundred years ago, over in the Altra region when the study and use of biological weapons was allowed still.\nA conflict between two dominions turned to bloodshed. This war is now known as one of the most devastating wars in all of time across the known regions.\n\nAnd it was the weaponry they used which marked this war as the deadliest one in history thus far.\nThe most commonly used was the melting gas made with the spores of an acidic super-fungi.\nWhen it touched the skin or was inhaled, it would melt the victim from the inside out. And the majority of victims were not military but civilians.\n\nSurely I do not speak for myself when I say-\nThis musn't happen again.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "1Michael Report",
+            "text": "I understand that I am writing on an official document but I have overheard something I feel like I shouldn't have. However it seems important enough to have it written down for later.\nWhile I walked through the halls near the office secions. I heard a faint discussion through one of the closed doors.\nIt was the Emperor talking to his closest agent.\n\nWhile I do not exactly recall what was said, I do remember them discussing the case as it stands. Their strategy is unusual.\nThe agent seemed sceptical while the Emperor remained adamant. Understandibly so.\n\nApparently their next argument will be that biological weapons might come in use if, say, a swarm of unidentified lifeforms from beyond the known regions invade that of ours.\nNot impossible but certainly not plausible.\n\nI am going to try figuring out more about the Emperor's plans.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "2Michael Report",
+            "text": "I followed him through the vast halls of this citadel, hoping to see if he revealed anything else.\nBut when I turned the corner, he had vanished into one of the storage rooms. Which is particularly strange I thought.\nAnd when I put my ear up against the door. I heard him talk again.\n\nHe sounded rather monotone. Having a discussion with himself.\nOr so I thought.\nIt wasn't until he said 'my overseer' when I realised he was talking to someone or.. something.\n\nI hid around the corner when he left the storage closet. And he quietly mumbled 'The seed must grow' as he left the hallway.\nI am uncertain what any of this means but I feel something larger is a play here.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "3": {
+            "name": "3Michael Report",
+            "text": "I, Michael Dunton hereby resign from my position on the council.\n\nI feel there are things at play that are bigger than they seem.\nWhile I am certain that I would not be believed if I brought this up myself, I have left my notes and recordings in my office.\n\nI do not wish to be part of what's happening or what's to come.\nStrange things are going on in this council, and in this case.\n\nDuring the 4th and previous conference it seems to me that all sense of logistics are thrown out the window.\nI will take my leave on the day of the 5th and final conference.\n\nIt is best to carry my words with heavy thought.\n\n-Michael Dunton",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

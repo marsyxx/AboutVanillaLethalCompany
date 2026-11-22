@@ -1,0 +1,52 @@
+{
+    "username": "MWBerunah",
+    "modname": "BerunahLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "Unknown Voice",
+            "text": "He. Is. Watching.\nHe has his eye.. directly.. upon you.\nYou disturbed his temple.. and he is angry.\n\nI have been trying to rid this universe of this being for longer than you can imagine.\n\nThe things you see.. \nThey aren't real, ignore them.\nHe is trying to melt your mind.\n\nI can help you, if you help me.\n\nBring these seeds to their designated celestial bodies.\nIt will distract him for long enough.\n\nOnce that's done.. return..\nAnd I will make my move.\n\nSometimes a sacrifice is needed.. to banish evil.. for good.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "Stones of purification",
+            "text": "The stones of purification\n\nThese stones hold incredible power.\nThrough the crystal growing within, it can be used to alter matter.\n\nTo rid food of mold, crops of insects, water of plagues.\nIt can speed the growth of plants, heal the wounded, increase their strength.\n\nOnly when put together in precise ways can their power be used.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "Purifying shrine",
+            "text": "The purifying shrine\n\nThis device was designed to harvest and project the power of the purifying stones and spread their effect across areas far and wide.\n\nThe farmers most often used these to stabilize their farmland and increase the rate at which their crops grew.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

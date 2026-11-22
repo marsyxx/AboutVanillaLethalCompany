@@ -1,0 +1,67 @@
+{
+    "username": "MWAcidir",
+    "modname": "AcidirLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "1Lost note",
+            "text": "It has been a strange past few days.\nOf course that is the usual around here but some things appear off.\nStranger than usual.\n\nWe noticed that the water filters have been burnt through.\nThere was a substantial buildup in acidir material in the pipelines.\nLuckilly no leakages but it is strange how none of us noticed the.. acidic taste in the water supply.\nWe have been drinking this for days.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "2Lost note",
+            "text": "Things are getting weirder.\nIt has only been slightly over a week since the renowned Crescent of Curses arrived on our doorstep.\n\nI fear unlike the other artefacts we collected, this one appears to radiate some sort of aura which messes with the brain.\n\nAt least the filter has been replaced.\nUnfortunately it was only after one of us took a warm bath and melted overnight.\n\nWe need to get rid of that thing.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "3Lost note",
+            "text": "We should never have accepted that Crescent of Curses.\nSome of us have gone mad!\n\nThis morning we discovered three more skeletons at the bottom of the lakes.\nI fear out of sheer madness they went for an acidic swim.\n\nI too have experienced some strange things.\nSometimes when I look down a hallway, it starts expanding.\nLike there are more than a million other ways to go.\n\nIt shows things that nobody can see.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "3": {
+            "name": "4Lost note",
+            "text": "SO MANY HALLWAYS\n\nCURSES CURSES CURSES CURSES CURSES\nCURSES CURSES CURSES CURSES CURSES\nCURSES CURSES CURSES CURSES CURSES\nCURSES CURSES CURSES CURSES CURSES\n\nHAHAHAHAHAHAHA\n\nIT IS WATCHING ME\n\nNOWHERE TO GO\n\nIT IS COMING\n\nTHE BIG EYE IN THE SKY\n\nIT SEES US ALL",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

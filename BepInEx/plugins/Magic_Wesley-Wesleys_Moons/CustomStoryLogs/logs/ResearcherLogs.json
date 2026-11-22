@@ -1,0 +1,98 @@
+{
+    "username": "MWResearcher",
+    "modname": "ResearcherLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "1Researcher Takeoff",
+            "text": "Transcript security recording - Day 14 \n—----------------------- 15:12 - Cargo dock\n\nC. Darter: That’s everything in cargo?\nS. Dent: Just about, yeah.\nC. Darter: Good, I’ll signal Julian so he can start the engines.\nS. Dent: He knows how to fly this thing? I thought he was only here in case things like.. that.. Jump out on us.\nC. Darter: He doesn’t need to know how to fly, the autopilot takes care of that. He only needs to power the engines and make sure nothing goes up in flames in the process.\nS. Dent: oh, I assumed there was some manual labour involved in the taking off part but that makes sense. Well I’ll be in the office on Level 2 documenting our discoveries.\nC. Darter: Alright.\n\n—----------------------- 17:20 - Central hallway\n\nS. Dent: Hey, is everything in order?\nJ. Charter: I have nothing to report on, there hasn’t been a breach of containment.\nS. Dent: That’s good.\nJ. Charter: Sorry for asking but, what is that stuff we collected?\nS. Dent: It’s a type of Eumycota.. or fungi in layman's terms, a white mold that seems to form these spike-like pustules which it uses to inject itself into any unfortunate creature that happens to step on it.\nJ. Charter: I see. So that’s what was wrong with that spider.\nS. Dent: Yeah, so don’t touch the mold.\nJ. Charter: What are you planning on doing with it?\nS. Dent: That is classified.\nJ. Charter: Understood.\nS. Dent: I’ve got some work to do so I’ll be off.\nJ. Okay. Stay safe.\n\n—----------------------- 22:43 - Communications\n\nS. Underhill: What’s the status.\nC. Darter: We have contained some new samples for the project.\nS. Underhill: Is it promising?\nC. Darter: ..Potentially, I have not conducted extensive research just yet.\nS. Underhill: That will be your priority from now on.\nC. Darter: Of course. As you wish.\nS. Underhill: I sense that you are displeased. Is there anything I should know about?\nC. Darter: It doesn’t feel right. It’s immoral. We shouldn’t build a future on the torture of innocents.\nS. Underhill: If the loss of innocent lives worries you then I would recommend reminding yourself that our sins are as many as the others.\nC. Darter: It isn’t right.\nS. Underhill: Perhaps you don’t understand.\nC. Darter: Understand what? The fact that innocent people are being cut to pieces for an opportunity of finding someone who we then also torture with the notion of it will help build our future? You mean that?\nS. Underhill: We have our projects, our corporations, people, governments, ideologies, politics, empires.. together it forms a society.. The people strive to climb higher, rule, gain control, to sit at the top of whatever they feel gives them power, yet even when they get there, they still feel it.. that entity looming over their shoulder from a step on the ladder too high for anyone to reach. They hide behind the facade of smaller corporations. You know their influence. They allow us to exist as long as we provide, no matter the methods or the cost. If they won't care, why should we.\nC. Darter: The.. entity?\nS. Underhill: I expect a report tomorrow before the end of the day. Otherwise you will be considered for repurposing.\nC. Darter: ..Understood.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "2Researcher Research",
+            "text": "Transcript security recording - Day 15 \n—----------------------- 11:56 - Lab\n\nS. Dent: Out of all the specimens we have gathered, this one seems the most potent.\nC. Darter: On that I agree. We would only have to bioengineer the instinctual need to spread out of the samples before it can be merged and experimented with.\nS. Dent: Of course. I noted on the spider back on Utril that the exoskeleton seemed to have hardened with an increased density to help it protect itself from brute force impact.\nC. Darter: I wonder if it would do the same to a bone structure or if it would respond to the skin instead.\nS. Dent: Either way it would likely induce extreme pain, shock and possibly death were we to try that on an animal or even a person.\nC. Darter: I am aware. Though I doubt Solover cares as long as we can get a subject to survive.\nS. Dent: You’re probably right. But try finding medical research where animals didn’t suffer.\nC. Darter: Does it ever bother you? The screeches of pain whenever we have to test on a live subject.\nS. Dent: Yeah.. Of course it does. I don’t enjoy it. I try to remind myself that we’re doing this now so that people in the future will be able to live a better life. It doesn’t make it better but it’s how I deal with it.\nC. Darter: I suppose that makes sense.\n\n—----------------------- 12:46 - Central hallway\n\nC. Darter: Stand guard at the lab in case anything goes awry.\nJ. Charter: Yes sir.\n—----------------------- 13:08 - Lab\n\nJ. Charter: Everything okay here?\nS. Dent: Yeah, did something happen?\nJ. Charter: No no, I was sent by Cavil. He said I should keep watch in case anything happened.\nS. Dent: Fair enough. We’re only working with a highly infectious aggressive fungi haha.\nJ. Charter: Yeah hah.\nJ. Charter: The experiments that are conducted here, are they very dangerous?\nS. Dent: In the wrong hands, yes, very. Handle them wrong and we could have an outbreak. A scenario like that can only end nasty.\nJ. Charter: Good thing you’re so skilled then.\nS. Dent: Yeah, thanks.\nJ. Charter: I am curious though, do you feel.. safe.. Here? On the ship?\nS. Dent: Well. Not always. These are very dangerous things we’re working with. But in the end it’s part of the job, it’s what we signed up for. I feel you of all people would probably know that.\nJ. Charter: We have our duties, even if it’s dangerous. We’re building a future. That’s important.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "3Researcher Success",
+            "text": "Transcript security recording - Day 16\n—----------------------- 10:36 - Lab\n\nS. Dent: I think that’s it. I think we’ve got it. This will be perfect when it’s merged with the main compound.\nC. Darter: Yeah.. that’s great.\nS. Dent: Is something wrong? I thought you’d be celebrating.\nC. Darter: I don’t think we’re doing the right thing.\nS. Dent: How so? We’re helping people. If not for the Triton Empire we’re saving people’s lives with this.\nS. Dent: Are we not? Cavil?\nC. Darter: They uh.. You aren’t allowed to know but it’s likely not for the purpose you’ve been led to believe.\nS. Dent: What do you mean? This is medicine, it will protect people.\nC. Darter: Yes but. Not the people you might think.\nS. Dent: Well.. Go on.\nC. Darter: This is part of Project Mycete. A project where they’re attempting to make enhanced soldiers by stuffing them with experimental drugs.\nS. Dent: What.\nC. Darter: And.. not only that but out there people are being slaughtered, tortured and murdered in pursuit of people fit for the procedure.\nS. Dent: WHAT.\nS. Dent: All this time. I have been working for a lie. Harming these poor creatures. Just so we have a small step up in this conquest??.\nC. Darter: .. Basically.\nS. Dent: Why didn’t you tell me?\nC. Darter: I mean, they will likely have me repurposed when they discover I have now leaked this information.. It’s more of an execution than a repurpose.\nS. Dent: Right. So. What now?. Do we leave? Do we burn it all? Tell me.\nC. Darter: I need time to think. I don’t want to hand Sol this research. We’ll talk about this tomorrow. Pretend like none of this happened.\nS. Dent: Yeah. Okay. Simple. I’ll just simply pretend like I haven’t spent the past two and half weeks risking my life for a lie.\nC. Darter: I mean it.\n—----------------------- 16:13 - Office\n\nJ. Charter: Sarah? Are you okay?\nS. Dent: I’m fine.\nJ. Charter: The tears running down your face say otherwise. Did something happen?\nS. Dent: I would prefer not to talk about it.\nJ. Charter: Something personal?\nS. Dent: Yea.\nJ. Charter: I see.. If something is up you can talk to me about it, it’s okay.\nS. Dent: Wouldn’t want it to be a detriment to the mission would you.\nJ. Charter: What?\nS. Dent: No I mean. I’m sorry. I don’t know where that came from. It’s just hard. I’m not sure if I can take much more of it.\nJ. Charter: It’s okay, I get it.\nS. Dent: Did Cavil send you?\nJ. Charter: No he didn’t.\nS. Dent: What made you come here?\nJ. Charter: Well you’ve seemed a bit down today. It’s important that everyone on this crew feels okay. And I also care.. about.. you. I mean..\nS. Dent: Thank you, I really appreciate it. There’s just.. Maybe I miss home and it’s wearing me down.\nJ. Charter: That makes sense. I can’t say I don’t miss it back there. Sooner or later we’ll be back. We just have to complete our mission. We’ll be okay.\nS. Dent: Yeah. Thank you, really.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "3": {
+            "name": "4Researcher Execution",
+            "text": "Transcript security recording - Day 17 \n—----------------------- 18:56 - Maintenance tunnel\n\nC. Darter: Hopefully nobody can hear us down here.\nS. Dent: Hope so too. Have you got an idea?\nC. Darter: I have a plan. It will be hairy.\nS. Dent: Alright. Can’t be worse than whatever they’re doing out there.\nC. Darter: It’s a two part plan. We have to destroy the autopilot. And manually route it somewhere else so they won’t be able to find it. I wrote the coordinates on this note. Send this ship here.\nS. Dent: Uhm. Okay. What will you do?\nC. Darter: I’ll make sure they won’t be able to track the ship anymore and prepare the escape pod.\nS. Dent: What about Julian? We tell him right?\nC. Darter: It’s better if we don’t. He’s loyal to the Triton Empire. I don’t trust him to betray that.\nS. Dent: Well we can’t just leave him. Maybe he’ll listen to me.\nC. Darter: It’d be best not to try. He might sound the alarm.\nS. Dent: I won’t leave him.\nC. Darter: If you can convince him to join us in the escape pod he can come with. But only after you’ve done your part.\nS. Dent: Right, If this is another lie I’ll kill you.\nC. Darter: I promise.\nS. Dent: When do we start?\nC. Darter: 22:00. I’ll have the escape pod ready by 23:30. Be there.\nS. Dent: Okay.\nC. Darter: I have some digging to do. Good luck.\nS. Dent: You too.\n\n—----------------------- 22:24 - Security office\n\nJ. Charter: The fuck.\n\n—----------------------- 22:38 - Cockpit\n\nJ. Charter: Who’s there? Sarah?\nS. Dent: Julian?\nJ. Charter: What are you doing? Did you mess with the autopilot?\nS. Dent: I can explain.\nJ. Charter: Is this an order? Why are you doing this?\nS. Dent: This is not right.\nJ. Charter: What do you mean?.\nS. Dent: This whole project is wrong. We’re not helping anyone with this. It won’t be for medicine. We’re developing weapons.\nJ. Charter: I know. This is a military operation, as was stated in my briefing.\nS. Dent: You knew? This whole time? They’re torturing people. Just so they can experiment on the survivors with this. You’re okay with that?\nJ. Charter: People suffer either way. Whether we complete this mission or not. You know that. We could be part of something great.\nS. Dent: If we are building a future like this.. I want none of it.\nJ. Charter: You’re a traitor.\nS. Dent: Please, think about it. We can escape this. Leave it behind. Knowing we won’t have innocent blood on our hands.\nJ. Charter: I trusted you, Cavil trusted you. Why would you sabotage the mission. We were going home. We were..\nS. Dent: Cavil is preparing the escape pod. Please just come with me.\nJ. Charter: You all Lied to me. You betrayed me.\nS. Dent: Please Julian, they are evil.\nJ. Charter: Why.\nS. Dent: Julian, please. Calm down, Lower your weapon and join me. We’ll be okay.\nS. Dent: Please calm down, Julian, please. Juli-.\nJ. Charter: I.. I’m sorry.\n\n—----------------------- 23:13 - Central hallway\n\nJ. Charter: I’m sorry Sarah. I love you.\n\n—----------------------- 23:16 - Cargo bay\n\nJ. Charter: I’m sorry.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "4": {
+            "name": "5Researcher The pod",
+            "text": "Transcript security recording - Day 18\n—----------------------- 00:23 - Pod-1\n\nC. Darter: These might be the last words you’ll hear from me. Escape pods don’t have a great track record when it comes to landings.\nC. Darter: Sarah is dead. The damn bastard shot her in the neck. Following orders before he launched himself out the airlock. Watched him sobbing through the hallway.\nC. Darter: I didn’t want them to get hurt. It just happened.\nC. Darter: She was innocent.\nC. Darter: Sol, if you ever read the logs. I want you to know I’m not sorry for sabotaging your mission. You are a corrupt piece of shit who deserves to be put with the innocents you’re slaughtering.\nC. Darter: I’ve got your documents. I’ve read your history. You were always like this.\nC. Darter: Watch what happens when the common people figure out who you really are.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+        ,
+        "5": {
+            "name": "6Researcher Escape pod 1",
+            "text": "Transcript emergency recording\n—----------------------- 2:50\n\nS. Underhill: I know you’re there Cavil.\nS. Underhill: You realise we possess the ability to read the security transcripts from our headquarters.\nS. Underhill: Your pod sent out a distress signal, Cavil. I know where you are.\nC. Darter: Fuck you.\nS. Underhill: Do you believe you are doing the right thing?\nC. Darter: Stopping you from murdering innocents? Yes. Yes I believe I am.\nS. Underhill: By murdering innocents of your own?\nC. Darter: I didn’t mean to.\nS. Underhill: Yet you did. In an attempt to sabotage my plans you killed not just one, but two. You gave Sarah the illusion of escape. But Julian would’ve been left to die all alone. You are a hypocrite.\nC. Darter: I have your documents. I know what you did. Your experiments at the Crosswind Mental Hospital in Last Hope. Hailey Robertson, remember her? It’s all there. It will all be public soon enough.\nS. Underhill: And you think that changes things? We can tell the public anything and they’ll believe it.\nC. Darter: If this gets out you become a risk. Risks don’t tend to live long.\nS. Underhill: Then what. I’ve finished my machine. You think they’ll stop? It’s working. It’s working really well. You may have sabotaged your mission but we’ll find that ship, one way or another. Then project Mycete will be perfect. The soldiers we produce will be impenetrable, unstoppable. We will rescue so many cities from their lawlessness. We will unite what’s left after the silent age. You can stop the engineer, but not his machine.\nC. Darter: You’re lost, Sol. You’re lost in your own fantasy.\nS. Underhill: Don’t you see it? The cities we’ve saved? The people exist in peace. We brought them that peace. We’ve perfected it. You give people too much will, they destroy themselves. You give them too little, they destroy their government. You give them just enough, they’re happy. It doesn’t even have to be real. History is an archive of mistakes, an encyclopedia of lessons, we are the only ones who chose not to ignore them.\nC. Darter: You can’t call it peace when you’re the one bringing war. Maybe I can’t stop the project. But I can stop you.\n—----------------------- \nEmergency recording ended",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

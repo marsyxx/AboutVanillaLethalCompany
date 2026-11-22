@@ -1,0 +1,67 @@
+{
+    "username": "MWAtlantica",
+    "modname": "AtlanticaLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "1Wet note",
+            "text": "I woke up to screams of terror.\nThe city is sinking!\n\nAll is flooded we need to leave.\nOnly the bridge can save us!\n\n... The bridge is gone. No hope.\nI need to find a higher point.\nGoodbye",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "2Wet note",
+            "text": "I woke up to screams of terror.\nThe city is sinking!\n\nAll is flooded we need to leave.\nWill the bridge be gone?\n\nIt's gone! I need to find a higher point.\nGoodbye",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "3Wet note",
+            "text": "I woke up to screams of terror. But less than in my dreams.\nThe city is sinking! Again!\n\nSomething is wrong.. This is.. unnatrual.\nAll who died are gone this time.\nI saw a platform rise around 5pm.\nI need to find a higher point.\n That way I will survive.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "3": {
+            "name": "4Wet note",
+            "text": "It's all real! Every time!.\nThe city sinks but at midnight, the city returns.\nBut all who die stay dead.\n\nI am the only one left!\nThe hallway is flooding again.\n\nI might not make it this time.\nTime is repeating...",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

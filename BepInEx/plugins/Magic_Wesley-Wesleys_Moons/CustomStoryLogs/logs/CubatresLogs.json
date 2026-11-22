@@ -1,0 +1,82 @@
+{
+    "username": "MWCubatres",
+    "modname": "CubatresLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "Apparatus concept",
+            "text": "Apparatus MK3\n\nPlugs for apparatus sockets.\nTitanium top.\nTitanium base.\nCrystal pulser and crystal holder.\nHighly dense glass.\n\nThis device might be able to harness the power of the crystaline cubes and use them to power ships, facilities and possibly entire cities.\n\nThe pulser will ensure the crystals are perpetually generating vast amounts of electricity at all times.\n\nThe titanium in combination with this kind of glass will prevent it from overheating and destroying itself on the spot.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "Cube findings",
+            "text": "Crystaline cube\n\nThese cubic shaped anomalies are covelant crystals.\nPossibly made from a chemical reaction.\n\nSlightly luminescent.\n\nHighly volatile. Known to release rays of electricity and another unidentified material.\n\nNot many cleavage planes. Mainly in cubic formations.\nAppears to generate piezoelectricity even when slightly moved.\n\nInteresting patern.\n\nCrystalised Chisel\n\nThe item was left near a cube. After a few electric pulses from the cube it turned crystalline.\n\nDoes not appear to have the same properties as the cube.\nUseless.\n\n\nThese cubes could be used for highly efficient power sources if their volatile abilities are harnessed in a proper way.\n\nDo not get close or leave any items near them.\nEspecially while charged.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "1Findings",
+            "text": "We, quarry sector_4 on Cubatres have found an unidentified crystal.\n\nWe discovered this.. anomaly earlier today. It would light up nearby torches and lightbulbs.\nIt also seems to turn nearby objects into similarly look crystal.\nThis happened earlier to some of our equipment.\n\nI ask to have experts send over to identify what this could be and if it is of any use to our company.\n\nFor the time being it will be stored in Storage Area C.\n\n- Head of operation QS_4",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "3": {
+            "name": "2Findings",
+            "text": "Something has gone wrong. One of the anomalies in our storage areas have gone missing after a loud pulse like sound.\nOur security cameras show nobody entering or leaving this area, it disappeared on its own.\n\nAnd the employee who was watching over storage at the time has now been turned to crystal.\n\nI fear this might call for an emergency evacuation considering we don't know what we're dealing with yet.\n\nI now ask for immediate help.\n\n- Head of operation QS_4",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },        
+        "4": {
+            "name": "Crystalised note",
+            "text": "They won't let us near it.\nThey won't let us touch the smoothness of the crytal.\nThey won't let us feel the embrace of its glowy shell.\nThey won't let us experience the relief.\nThey won't stop us from becoming one.\nThey won't stop us from being enlightened.\nThey won't stop us. They can't stop us.\nThey won't stop us. They can't stop us.\nThey won't stop us. They can't stop us.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "username": "MWTrite",
+    "modname": "TriteLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "Radio3",
+            "text": "This is \n-Across The Stars-\nBack with the 11-ish am news, I’m a little late today.\nThere’s a lot to catch up on nowadays.\nIt’s been a cloudy week and it looks like it’ll be cloudy for a little while longer.\n\nThe reports have not been great.. quite the opposite in fact.\nIf you haven’t heard it already, Trite has suffered its most devastating attack yet.\n..The cities have fallen.\nI’ll repeat it once more, the cities of Trite have fallen.\nAccording to my sources most of the people were able to flee in time.\nI wish I could say I know what will happen next.\nBut..\nI can’t.\nWhat the Triton Military will do next is a mystery.\n\nAll I can say is go to the Domes of Demetrica, and survive.\n\nThere will be some comforting tunes, please, stay tuned.\nAnd for those still listening, thank you.\n",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }, 
+        "1": {
+            "name": "1Solover Solover's recording",
+            "text": "They have to be perfect, we cannot bathe in a stew of mediocrity if we wish to thrive in our future. With slight alterations, one perfect specimen might be worth a hundred regulars in action. The process might be slow but we require patience. An empire built in a day will end in one too. We must be patient, build our machines. Then watch as we bring order and end this quiet age.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }, 
+        "2": {
+            "name": "2Solover The entity",
+            "text": "It strikes a fear in me, rooted deep within my ocean of thought. He kept asking about it and I don't even have the full answer. They have a way of operating that makes them invisible to not only the surface but even those who'd consider themselves high up the ladder. But I know they're here. They're everywhere. Stare long enough into the abyss, you start seeing things. Holes in reality. Fissures in logic. Yet you shake your head and pretend it was your eyes playing tricks on you. I see them. Companies appear more and more frequent like an infestation of roaches from influential businessmen to lower class entrepreneurs. All with history, documents, lives. Processed within our systems. It's usual. Standard practice. Nothing strange about it. But you look closer. You read their documents. Everything seems normal until.. you get a glimpse. A date mismatched. A name changed. Manlike mistakes, for sure. Look deeper, closer. Children without proof of birth. Deposits from companies that only registered days later. Trades between people who don't even know each other. Fissures. I've never observed them, my superiors have never seen them. Only stories.. irregularities. Seemingly random. But I think they are connected. They're here. And I believe they're scared. There is something here that scares them, threatens them. Makes them slip up. And if something is here that scares the corporate entity that’s able to twist our reality no matter where in our galaxy. You best know I sleep with one eye open.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

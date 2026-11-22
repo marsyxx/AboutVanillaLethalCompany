@@ -1,0 +1,82 @@
+{
+    "username": "MWFilitrios",
+    "modname": "FilitriosLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "Missing poster",
+            "text": "MISSING\n\nIf you see him please call:\n353-536-145-2-2\n\nHendry was wearing a blue t-shirt, blue jeans and black sneakers.\n\nHe was last seen playing with his fellow peers outside the Filitrios Toy Store near distinctly red bushes.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "Local news",
+            "text": "Filitrios Newest News\n\nCLOSED!!!\n\nFILITRIOS TOY STORE CLOSED!\nOn the 253rd day of the year 2092, the Filitrios Toy Store was officially closed after several cases of missing children were resolved. The towns near the toy store have had several large vain shroud infestations before. There were several infested areas near the toy store which could easily have been rid by the Filitrios company. Unfortunately this has let to many so called 'Kidnapper Foxes' snatching children around the toys store and taking them back to their vain shroud hideouts to be killed. The toy store was therefor deemed unsafe and the company was sued for their neglect.\n\nTHE DANGERS OF KIDNAPPER FOXES.\nAre you curious about the dangers and beauty of Kidnapper foxes and how to avoid them?\nHead over to our website:\nwww.kidnappedmyfox.comp\n\nDESHROUD BACK IN BUSINESS AFTER COLOSSAL BREAKOUT.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "Businesscard",
+            "text": "Trouble with vain shrouds?\nCALL US!\n111-111-111-1-1\nDeshroud - keep it clean",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "3": {
+            "name": "Autopsy",
+            "text": "Pathologist name: H. Fisher\nCase #334\n\nAutopsy Report\n\nName: Jim Henfield\nAge: 6\nSex: Male\nAddress: 4305-2NM Walltown\nPhone -\n\nAge  6\nLength  -\nWeight  33LBS\nEyes  -\nHair  -\nBeard  -\nHaircolor  Black\n\nBlood Type  AB\nContents in blood  -\nRigor Mortis  No\nLivor Mortis  No\n\nMarks and Wounds\nMissing\nBite marks\nBite marks\nDeep cuts\n\nThe majority of the body was missing.\nBitemarks have been noted near the edges of the limbs.\n\nThe limbs were covered in dried saliva.\nLikely from the Kidnapper fox(Vulpes raptor).\n\nMany cuts were noted, possibly from dragging through rough terrain.\n\nProbable Cause of Death\nMauling and blood loss\n\nDate of autopsy  233rd 2092\nLocation of autopsy  Filtra City General Hospital",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "4": {
+            "name": "Radio4",
+            "text": "Hello everyone, you are listening to Across the Stars and I’d like to apologize for my absence in the past few days.\n\nTimes are tough.\n\nIt’s currently 2:23 pm and I’m sorry to announce that this will be my final broadcast.\n\nMy sources are dwindling and finding any good news has been like searching a needle in a haystack.\nThere’s just not much good out there anymore.\n..It’s all terrible.\n\nFor those still out there. I’m telling you to leave.\nFind the closest to you and go.\nGo to the Domes.\nThere will be salvation on Demetrica.\n\nI will be going too.\n\nThe Triton military has been growing in numbers and they’ll launch a system wide attack to conquer our side of the region.\nAnd I don’t want anyone to experience the horrors of what that will bring.\nSo I’m telling you again, leave.\nRun for the Domes.\n\nWe will be going dark.\nThis was Across the Stars.\nThank you.\n\nI’ll see you there.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

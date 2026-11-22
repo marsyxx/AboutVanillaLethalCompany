@@ -1,0 +1,82 @@
+{
+    "username": "MWGratar",
+    "modname": "GratarLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "1Fatality report",
+            "text": "Logged in as manager 1.\n\nThere are several reports.\n\nSelected report 1.\n\nDay 584 of year 15.\n4 accidents involving workstations.\nDetailed report.\nEmployee 124 was hit by Crane C-463, Slight injuries sustained.\nEmployee 495 was hit by Robotic Arm G-134, Slight injuries sustained.\nEmployee 526 was hit by Robotic Arm F-351, Slight injuries sustained.\nEmployee 693 was stabbed by Robotic Drill F-145, Medium injuries sustained.\n\nNo fatalities",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "2Fatality report",
+            "text": "Logged in as manager 1.\n\nThere are several reports.\n\nSelected report 2.\n\nDay 585 of year 15.\n7 accidents involving workstations.\nEmployee 151 was struck by Crane G-256, slight injuries sustained.\nEmployee 125 was hit by Robotic Arm L-714, slight injuries sustained.\nEmployee 374 was hit by Robotic Drill F-145, medium injuries sustained.\nRobotic Drill F-145 was detached by Engineer 253, fatal damage sustained.\nEmployee 894 was electrocuted by Robotic Arm F-34, injuries sustained.\nCrane C-463 was detached by Engineer 149, fatal damage sustained.\nRobotic Arm G-134 was detached by Engineer 253, fatal damage sustained.\n\n3 fatalities",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "3Fatality report",
+            "text": "Logged in as manager 1.\n\nThere are several reports.\n\nSelected report 3.\n\nDay 586 of year 15.\n12 accidents involving workstations.\nReading out first 7.\nEmployee 25 was hit by Robotic Arm E-264, slight injuries sustained.\nRobotic Arm L-714 was detached by Engineer 253, fatal damage sustained.\nEmployee 583 was bashed by Crane k-34, fatal injuries sustained.\nRobotic Arm F-351 was detached by Engineer 149, fatal damage sustained.\nEmployee 25 was stabbed twice by Robotic Drill B-234, fatal injuries sustained.\nEngineer 253 was shot by Defensive Turret C-34, fatal injuries sustained.\nEngineer 149 was shot by Defensive Turret C-51, fatal injuries sustained.\n\n9 fatalities\n\nThe secret must be contained.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "3": {
+            "name": "4Fatality report",
+            "text": "Logged in as manager 1.\n\nThere are several reports.\n\nSelected report 4.\n\nDay 587 of year 15.\n2535 accidents involving workstations.\nReading out first 7.\nEngineer 141 was shot by Defensive Turret G-54, fatal injuries sustained.\nEmployee 33 was shot by Defensive Turret C-235, fatal injuries sustained.\nEmployee 645 was shot by Defensive Turret F-6, fatal injuries sustained.\nEmployee 754 was shot by Defensive Turret B-175, fatal injuries sustained.\nEngineer 15 was shot by Defensive Turret A-25, fatal injuries sustained.\n\nNobody will leave the factory.\n\nThe secret will be contained.\n\nCharging turret in control room 1.\nFiring turret in control room 1.\nManager 1 is escaping.\nCharging up all turrets within the factory.\n\nG.A.R.Y. Thanks you for your service.\n\nLogging off as manager one.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "4": {
+            "name": "Visit",
+            "text": "G.A.R.Y. : Unregistered personel found within the factory.\n\nG.A.R.Y. : Alert, all employees must die.\n\nCunningham : We don't work here.\n\nG.A.R.Y. : Alert, all intruders must die.\n\nCunningham : Aren't intruders supposed to be arrested?\n\nG.A.R.Y. : Alert, this is.. correct.\n\nCunningham : Arest us.\n\nG.A.R.Y. : Alert, all intruders are now under arrest. Calling management for questioning.\n\nCunningham : Management has arrived.\n\nG.A.R.Y. : I killed management, following code 5, all intruders must die.\n\nCunningham : UH I'M M NEW!\n\nG.A.R.Y. : Alert, order overwritten, awaiting new orders.\n\nCunningham : Tell me the hidden code of finding Cosmocos.\n\nG.A.R.Y. : The hidden code is,\n\n[DATA CORRUPTED]\n\nCunningham : That was easier than expected.\n\nG.A.R.Y. : Alert, no records of new management has been found, following code 5, all intruders must die.\n\nCunningham : OH MOTHERF-",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

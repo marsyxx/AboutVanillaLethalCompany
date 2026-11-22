@@ -1,0 +1,52 @@
+{
+    "username": "MWCentus",
+    "modname": "CentusLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "1Stanley The apartment",
+            "text": "If anyone has followed me from across the stars, I made it to my apartment, Julie is here with my daughter, they’re safe. The armies aren’t here yet but the city is preparing for an invasion. I just don’t think they’re ready.\nI mean I’ve read the reports. This city doesn’t have nearly enough to withstand whatever army they’ll throw at us.\nI’m fearful.\n\nBags are packed and we are about ready to leave. But if I’m speaking in honesty, it doesn’t quite sit right with me. I know I have done all that I could to warn people but I am not sure if it was right for me to just.. Leave like that. \nI’ve thought about going back but then I’d be leaving my family. There are countless people listening to my station and I hope they don’t feel abandoned. I know what that’s like unfortunately.\nIt’s rough. Like the lifeboat sailed away and now you’re drowning alone, unsure of how to survive. I’ve been there.\nTimes are worse now.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "2Stanley The city",
+            "text": "They’re here. We’ve tried to leave the city but we’re boxed in. There’s borders beyond which you might get shot and I’d rather not take the risk.\nWe’re stuck in an apartment building waiting for an opportunity to leave. Not even sure if that opportunity will arrive at all but I must stay hopeful. If not for me, for my Julie and my daughter. They mean the world to me. I cannot afford to lose hope.\n\nThey are coming at the city with full force. I can hear the gunfire from here. I think we might be able to get to the metro station and escape through there. There’s a safety curfew in place, anyone out at night is at risk of getting shot, we must travel before then and be quick.\nThe clock is ticking so we’re preparing to go.\nJust like I always said, there is hope.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "3Stanley The metro",
+            "text": "I am trying to compose myself. I must stay strong in front of her. I must be there for her. They took Julie. Me and the others in the building ran for the metro while they broke through the barrier. We went building by building. She was right there with me. We kept running as the gunfire got closer. A bomb went off and the group split apart in a panic. Then when I looked behind me she was gone. She was right god damn there.\n\nIs this some sort of punishment? Is this because I left those poor people I was trying to help?\nAll I hear is screams and gunfire. This isn’t a battle, this is a massacre. People are being lined up and shot. Please god tell me Julie got away. Please.\nWe need her. I don’t want our daughter to grow up without a mother. I don’t want to lose you.\nPlease return to us. I know you’re out there.\nWe won’t be able to stay for long. If you’re not here soon we will have to leave.\nWe’re moving to the end of the metro, there should be a way to get off of Filitrios from there.\nI will leave this note here for you. Please come to us. I love you.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

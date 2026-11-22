@@ -1,0 +1,82 @@
+{
+    "username": "MWOldred",
+    "modname": "OldredLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "1Transcript",
+            "text": "Transcript: interview one\n\nYear: 3\n\nDay: 74\n\nEmployee: 15-1\n\n\nInterviewer: How pleased are you with this job?\n\nEmployee: It's alright, it gets the family paid.\n\nInterviewer: How are the working conditions?\n\nEmployee: It's not the worst, a few accidents have happened but so far it's been OK.\n\nInterviewer: How would you recommend this job?\n\nEmployee: I can't say I'd recommend this job but if you are in desperate need of money like most of us, it's an alright job.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "2Transcript",
+            "text": "Transcript: interview two\n\nYear: 3\n\nDay: 84\n\nEmployee: 35-2\n\n\nInterviewer: How pleased are you with this job?\n\nEmployee: ... this job is horrible. I hate it.\n\nInterviewer: How are the working conditions?\n\nEmployee: Unbearable, you either end up burning yourself to oil or you fall over from exhaustion. It's not like it matters to the higher ups, ware expendible anyways. There's a reason I am numbered 32-2.\n\nInterviewer: How would you recommend this job?\n\nEmployee: I wouldn't.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "3Transcript",
+            "text": "Transcript: interview three\n\nYear: 3\n\nDay: 96\n\nEmployee: 17-5\n\n\nInterviewer: How pleased are you with this job?\n\nEmployee: To be quite frank, it's horrible. If I could take any other job right now, I would.\n\nInterviewer: How are the working conditions?\n\nEmployee: They're horrible. There's no safety equipment, an accident can happen at any time. I am pretty sure there's only one first aid area. And the only reason it's there is because it's required.\nYou all know this moon incredible pressure below its thin crust, one mistake and it might just burst.. It'll flood the entire surface with boiling hot oil, likely killing most.. if not all of us.\n\nInterviewer: How would you recommend this job?\n\nEmployee: I simply wouldn't.\n\nInterviewer: this is the third person we've interviewed now... I swear if the next one is just like the others. I am going to start threatening these assholes and force some words oh.. it's still recording.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "3": {
+            "name": "4Transcript",
+            "text": "Transcript: interview four\n\nYear: 3\n\nDay: 104\n\nEmployee: 24-3\n\n\nInterviewer: How pleased are you with this job?\n\nEmployee: I am very pleased with this job. I love it here. This place is fantas-\n...\nYou don't think I am actually keep reading this bullshit. This place is a fucking abomination.\nInterviewer: How are the working conditions?\n\nEmployee: Oh they are absolutely fucked. If it's not the poison you feed us every day it's unregulated broken machinery that'll kill us. I have seen at least six bodies in the past three fucking days. One of them you even interviewed. And the funny thing.. THEY ARE STILL THERE!. \n\nInterviewer: How would you recommend this job?\n\nEmployee: NO! I AM DONE WITH THIS BULLSHIT! THERE IS A FUCKING WAR GOING ON AND WE ARE STUCK HERE TRYING TO PROVIDE FOR YOUR FAMILIES WHILE YOU TREAT US LIKE SOME SORT OF EXPENDABLE OBJECTS! I AM DONE HELPING YOU FUEL THIS WAR! HELL THIS FUCKING PLACE WILL BE ATTACKED SOON ANYWAYS. I AM GOING TO FUCKING KILL Y-",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "4": {
+            "name": "Radio2",
+            "text": "You are now listening to\n-Across The Stars-\nI'm your favourite radio host and I'm here with your 11 AM news.\n On the dot for a change.\nIt looks like our Thursday will be sunny with little clouds in the sky.\nAlways nice after nothing but storms.\n\nJust like the past weeks the war is still raging on and we don’t see it ending anytime soon with how things are currently going.\nIn fact, the new factories on Oldred are doing nothing but throwing more gas on the fire.\nAs if the inferno isn’t large enough.\nCities are burning and for what.\nSurely not for sticks and marshmallows…\nI bring good news too though.\nThere have been talks of a safe place away from the war.\nA place to hide out until the nightmare is over.\nSomewhere to live.\nThe Domes of Demetrica.\n\nI’m out of time, I’ve got some more hits coming up to fill up the void of your day to day work schedule.\nStay tuned and thank you for listening to\n-Across The Stars-",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

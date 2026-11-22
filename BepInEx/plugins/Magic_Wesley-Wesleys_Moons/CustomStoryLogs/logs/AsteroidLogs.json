@@ -1,0 +1,97 @@
+{
+    "username": "MWAsteroid",
+    "modname": "AsteroidLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "Hyperacid Experiment",
+            "text": "Day 374 - Hyper Acid - Origin: Acidir\n\nExperiment-1: Touch\nThe subject's finger was unharmed.\n\nExperiment-2: Spray\nThe subject experienced discomfort but remained healthy.\n\nExperiment-3: Ingest\nThe subject felt slight burning of the throat but remained healthy.\n\nExperiment-4: Dousing\nThe subject lived for a total of 4.68 seconds after being fully drenched. The flesh was fully melted in 8.49 seconds once the subject was fully covered.\nOnly few bones remained.\n\nConclusion: Weaponisable",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "Comedymask Experiment",
+            "text": "Day 387 - Comedy Mask - Origin: Etern\n\nExperiment-1: Presence\nThe subject was put in a room with a mask for 7.8 hours. The subject claimed to have heard laughs. No further effects noted.\n\nExperiment-2: Wearing\nThe subject entered a zombie like state within 28.78 seconds. The subject was executed.\n\nExperiment-3: Conversion\nTwo subjects were put in a room, one of which converted. The living subject was immedietely attacked and converted. Both were executed.\n\nNOTE\nA secret log was recovered from a body on Etern. It was put into storage area D.\n\nConclusion: Weaponisable",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "Cursedcoin Experiment",
+            "text": "Day 394 - Cursed Coin - Origin: Polarus\n\nExperiment-1: Proximity\nThe subject was given the coin. It took 6 hours for the subject to enter insanity. The subject claimed to see a ghostly figure.\nPossible schizophrenia.\n\nNOTE\nSeveral employees died with similar symtoms. Every employee who claimed to see a ghost has died.\n\nAny further experiments with this item are prohibited!\n\nConclusion: Not Weaponisable",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "3": {
+            "name": "BIOHXNV7 Experiment",
+            "text": "Day 402 - BIO HXNV7 - Origin: Cosmocos\n\nExperiment-1: Touch\nUpon touch the subject became very agressive and seemed to slightly deform. The subject was executed before further experiments could be done.\n\nExperiment-2: Isolation\nThe subject was infected with BIO HXNV7 and put into a room. It took 12.24 seconds for the subject to become agressive. It took 15.48 seconds for the subject to deform. The subject's flesh seemed to merge with the walls it touched. Turning into a concrete statue while completely consious. It took 4.23 minutes for the subject to lose thought. At 4.44 minutes the subject was a concrete statue.\n\nNOTE\nBIO HXNV7 OUTBREAK! SEVERAL INFECTED.\nSTARTING SECTOR WIDE DECONTAMINATION.\nDECONTAMINATION LEVEL 5: INCINERATION.\n\nSEVERAL STILL INFECTED, FEW FULLY TRANSFORMED.\nDON'T LOOK AWAY!\nFACILITY WIDE DECONTAMINATION IMMINENT.\nGOODBYE.\n\nConclusion: Highly Weaponisable",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "4": {
+            "name": "Goldendagger Experiment",
+            "text": "Day 289 - Golden Dagger - Origin: Junic\n\nExperiment-1: Possession\nThe subject was given the dagger and left alone in a room. The subject would not let go of the dagger.\nAfter 15.1 hours the subject started chanting strange words. The subject attempted to murder another employee, during with the subject was executed. The employee fell victim to crossfire.\n\nExperiment-2: Grouping\nThe subject was given the dagger and placed in a room with 3 more subjects. The other subjects attempted to carry the dagger but were unable to.\nAfter 27.4 hours the subject started to chant strange words again. The subject covered their face with their hand and decapitated another subject using the dagger before violently ripping out their organs and drawing a strange symbol on the floor. All surviving subjects except for the wielder were removed from the room. After 34.44 minutes of the subject searching for other subjects, the subject stabbed itself through the mouth upwards into the brain using the dagger.\n\nConclusion: Not Weaponisable",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "5": {
+            "name": "Secretlog Data",
+            "text": "Scientist: Year 154, uh day 73.\nI've found cosmocos.\nUh..\nWell..\nThe artificial intelligence I made uh found it.\nFrom what I understand.. It is encrypted.\nUhm, computer, tell me the location of Cosmocos.\n\nComputer: Alert! The location of Cosmocos is bit dot ly slash 3.. 3...\n\nScientist: Ugh! you stupid machine. I will sell you to the company of Gratar when I'm done with you!\n Uh, last time he stopped after the second letter which was.. uh.. capital H!\nUhm nobody can find out about this..\nMe out.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

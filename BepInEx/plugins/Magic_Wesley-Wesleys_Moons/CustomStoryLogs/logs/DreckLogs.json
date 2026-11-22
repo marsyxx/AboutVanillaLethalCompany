@@ -1,0 +1,67 @@
+{
+    "username": "MWDreck",
+    "modname": "DreckLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "Pedro1",
+            "text": "It's been 3 weeks since I was sent to the quarry.\nMy life in Filtra was nice, peaceful. My job was simple but it payed well.\nNow I find myself in this shithole.. Doomed to work until my back snaps in two.\nDoomed to never see my wife and child ever again. I don't even know if they're alive.\nBut I know who took them. I know the name of the man who burst into our home and ripped our family apart.\nThe man who gave the order. The man who beat me into submission.\nThe invastion of Filitrios left a scar on my mind. That scar has a name.\nJareck Hill.\nI will come for you.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "Pedro2",
+            "text": "This facility isn't big. It's composed of two sections. The work area and the guards office above.\nThe work area has 4 sleeping chambers, 6 beds in each if they're all like mine.\nAll connected to one long hallway leading down to the mine past the cafeteria.\nOn the other end are the stairs to the guard office.\nWhich I know has at leat an armory and a control room.\nI've noticed a pattern where they sent a different guard to check on us every day.\nReminding us that we'll be left for the vultures if we don't comply.\nSo far I've counted 7 faces. They're armed with automatic weapons each time. But we only need to get the jump on one.\nOne weapon, 24 men against 6.. I like these odds.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "Pedro3",
+            "text": "The plan worked. We lost good men but we took control over the facility.\nIn the control room I gained access to the ships which we are now loading up to make our escape.\nIt appears as though the guards called in an emergency.\nI expect more of them to come soon.\nI'll shoot a couple pipes on my way out in hopes that some of them suffocate in the leaking gas.\nBut more importantly. I went searching. And I found.\nJareck Hill was here 6 days ago. The log I read indicates that he now finds himself in another facility.\nThe flight route was set to 842 Core. I expect to find him there. With a proper disguise.\n\nPerhaps I can sneak in.. I must try.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "3": {
+            "name": "Dreck",
+            "text": "------------------\nCrew: 14\nOrigin: Trite\nDestination: Dreck\n------------------\nMission Details\n------------------\nWorkers are rebelling, 22 men are present and armed. 9 have already been taken care of by the local guards. They're about to reach the control room. Triton lives have been lost.\n------------------\nTerminate the rebelling forces and await further instructions.\n------------------",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

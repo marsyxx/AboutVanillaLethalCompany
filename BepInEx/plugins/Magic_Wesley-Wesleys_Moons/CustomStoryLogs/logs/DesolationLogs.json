@@ -1,0 +1,67 @@
+{
+    "username": "MWDesolation",
+    "modname": "DesolationLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "1Harrington Log",
+            "text": "uh, we really need to get better voice recorders for this.\nuhh anyways, yesterday we have finally concluded construction of the secondary research facillity here.\nThe equipment will arrive in a few days from now. Then we can offically start studdying on this side of the moon.\nWhich is splendid because have made a recent discovery...\nThis weird stuff..\nSome sort of fungi perhaps?\n\nI am not entirely sure what this is just yet but it has a.. regenerative ability.. at speeds unlike anything we have seen before.\n\nWe discovered this when we used a metal pipe to carefully stab a hole into it.\nAnwyays.\nI should wrap this up now, I'll record another log once we've got something.\n\nProfessor Harrington, over and out.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "2Harrington Log",
+            "text": "Well, we found something.\n\nIt appears this strange growth is neither a fungi.. nor its own organism.\nIt's its own new thing.\nIt is able to remember certain growing patern from a genetic blueprint.\nMeaning it's alive!\nBut seamingly not in the traditional way we precieve living things.\nOur entire understanding of life was just flipped upside down.\nIt is even able to grow these weird.. bulbs resembling eyes.\nIt is unsure if these eyes serve a purpose.. Well.. They must.. Otherwise it wouldn't be growing them.\n\nWe will refer to this as.. Cosmic Growth from now on.\nThat's all I can say for now.\n\nProfessor Harrington, over and out.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "3Harrington Log",
+            "text": "These old voice recorders are the worst.. \nRight.. \nWe've got word from captain Donahue over at the primary facility. \nThey have found.. something.. \nIt appears to be something new, something unexplored. \nThey think it might be some sort of plant which sounds exciting. \n\nHere however we've made steady progress. \nAs mentioned before, this cosmic growth is able to grow.. eyes wherever it pleases. \nAt first we thought it might be some sort of defense mechanism. \nBut there's no active predators on Cosmocos from the data we've gathered. \nBut then we noticed something strange.. \n\nOne of the eyes growing in our incubators was able to move and look around, illuminating whatever it looked at. \nThis place is full of surprises. \nMore information soon. \n\nProfessor Harrington, over and out.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "3": {
+            "name": "4Harrington Log",
+            "text": "It's been a strange past few weeks, we've heard that luitenant commander Cunningham was send back to 61 after going mad. \nI have no idea what that's all about. \nBut they've started extracting this.. plant I think it was? \nAnyways. \nResearch has been going steady, these illuminating eyes don't seem to have a purpose.. \nwell.. \nnot a definitive one at least. \nEver since the Cunningham incident it appears to be more.. agressive almost. \nIt's certainly strange. \nI wonder if the- \n\n*Rumbling*\n\nWhat is happening? \nEverything is bright outside?? \n\n*More rumbling*\n\nWoah. \nWhat's happening.\n\n*Agressive rumbling*\n\nThere's a what coming at us?! \n\n*The sounds of a moon ripping itself apart.*\n\nWe have been hit. \nWorse. \nWe have been separated from Cosmocos. \nI..\nI need to go..",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

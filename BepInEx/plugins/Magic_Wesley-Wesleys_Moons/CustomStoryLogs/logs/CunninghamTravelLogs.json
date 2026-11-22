@@ -1,0 +1,67 @@
+{
+    "username": "MWCunTravel",
+    "modname": "CunTravelLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "1Cunningham Travel log",
+            "text": "Captain’s log. Log 1. Location: Infernis.\n\nNo information on the whereabouts of Cosmocos after its unusual disappearance.\n32 of us on the ground and found nothing of note.\nWe will be leaving shortly due to dangerous conditions...as if no one could have seen that coming.\nStepping off the ship was like walking into an oven.\nI am still struggling to recall any of the knowledge I possessed on Cosmocos - but there is something still urging me to continue in my pursuits.\n\nNext point of interest is the so-called Death Labs on Etern.\nNot an exciting prospect for the team, but they will manage.\n\nAfter that...Acidir.\nTo investigate the fantastically named Crescent of Curses.\nHoping it leads us in the direction of it’s true origins.\n\nThis is Cunningham, signing off.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "2Cunningham Travel log",
+            "text": "Captain’s Log. Log 2. Location, Atlantica.\n\nAfter visiting Etern, we diverted course to Atlantica due to reports of ‘unnatural occurrences’ having taken place here.\nAnd I’m glad we did - most excitingly, we have discovered a map of Cosmocos on this small island not far from the mainland.\nWe lost a crewmate trying to swim over and resorted to using jetpacks instead.\nAnd despite our loss...seeing some evidence of Cosmocos was exhilarating.\nIt solidifies in my mind that these weren’t just delusions of mine, it was real.\nI was there.\nI saw it.\nI’m familiar with this terrain.\nI may not be able to recall with perfect clarity, but it is knowledge I possess.\nOr...possessed.\n\nAlso of significant note - a body was discovered on Etern along with a log not dissimilar to mine.\nI believe we’ve obtained another piece of the puzzle, so to speak.\nI’ve etched it into the map.\nPlease excuse my haste, Atlantica is sinking and I must return to the ship.\n\nOur course is set for Acidir.\nWith one less crewmate, we should be vigilant.\n\nCunningham, signing off.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "3Cunningham Travel log",
+            "text": "Captains Log. Log 3. Location, Acidir.\n\nI’ve hardly had a moment to record my findings.\nNavigating Etern was a nightmare with those bloody Nutcrackers roaming the desert.\nWe were down to a crew of 26 after that veritable screw-up - and I’m afraid things have only gotten worse since we arrived on Acidir.\nBut first - my findings on Etern.\n\nA silver lining - I recovered a log from the corpse of a scientist pertaining to Cosmocos’ location.\nIt seems that he created some sort of AI for the sole purpose of retrieving these coordinates.\nUnfortunately, the AI seems to malfunction while reciting them...\n\nCertainly, it’s some system error in the mad-man’s machine.\nMost definitely.\nBut...for some reason, it feels to me that Cosmocos...does not want to be found.\nAnd yet the more I recall, the more intense my desire becomes to try and locate it.\nTo see the way the walls of crystal shimmer in the light of those strange bulbs that hang from the trees...\n\nI know that my dreary mind couldn’t create things of such beauty of its own accord.\nI’m far too boring for that.\n\nNevertheless.\nI left a log with the rising map on Atlantica, and I’ve discovered that the 6th letter of the coordinates is a lowercase Z. Zee. Zed.\n\nWe’ll soon be leaving Acidir.\n5 went mad after coming into contact with the Crescent of Curses and decided to go for a swim with the local pond life.\n3 ran screaming into the woods, and it’s been hours since we saw them.\nThe ship will fly soon when the conditions become too dangerous.\nIf they’re not back before then…\n\nOur next destination is Polarus.\nThis was the closest moon to Cosmocos before it’s disappearance.\nWe’ll stop by Gratar in lieu of the ramblings in the scientists log.\n\nThis is Cunningham. Signing off.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "3": {
+            "name": "4Cunningham Travel log",
+            "text": "Captains Log. Log 4. Location, Polarus.\n\nFirst, my findings on Gratar.\nWe managed to trick that conniving AI into revealing the final letter to us.\nIt’s P.\nIt’s a capital P.\nIt’s smart - but we were smarter.\nThe ones of us that survived, anyway.\nI think it realised we were deceiving it and it decimated 10 of us.\nWe’re down to a pathetic team of 8, half of whom are too disturbed to carry on their duties as usual.\n\nOur ‘skeleton crew’ might be real skeletons, soon enough.\nBut I only need them to help pilot the ship for the last leg of our journey.\n\nBecause I’ve found it.\nI know where Cosmocos is.\n\n...I wonder if it felt the same loss that I felt...when I left?\nLike my heart was wrenched from my chest.\nTo get to know something...some- someone…so magnificent...to know that you leave them blighted...wounded and sick...\n\nI’ll be with you soon, old friend.\nI’ll heal you.\nI only need the opportunity.\nAnd then we’ll be one again.\n\nCunningham. Signing off.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

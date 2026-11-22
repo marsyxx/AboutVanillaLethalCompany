@@ -1,0 +1,67 @@
+{
+    "username": "MWFission",
+    "modname": "FissionLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "1Plan",
+            "text": "I need to burn these notes later, can't risk anyone finding out about this.\nMy 'friend' Aaron has been a nuisance my entire life. \nHe stole my girlfriend, he stole my job! \nI can't keep acting friendly while he's around. \nI HATE HIM!",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "2Plan",
+            "text": "The plan:\n\nI am going to kill Aaron.\nI must.\nI don't want there to be any evidence after so. \nI'll have to burn everyhing. Anyways.\nOnce he has arrived aI will lead him over to a small room where we used to hang out as children.\nAnd when he thinks he's safe I'll hrab my baseball bat and if not kill him, knock him unconsious.\nI'll hide his body in one of those giant standing Jack-in-the-box boxes that used to scare me to death.\nI'll have to improvise after.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "3Plan",
+            "text": "I.. I can't believe I actually did it. \nHis body flopped right onto the floor. \nI picked him up, now all covered in blood and I dumped him into one of those boxes.\nI wasn't quite sure what to do next so I closed it and pushed it into a giant pool of toxic waste.\nIn hindsight he might've still been alive.\nNot that it matters now..\nMy geiger counter reads dangerous levels now.\nI need to burn my stuff and leave before the radiation kills me..\nBye Bye Aaron.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "3": {
+            "name": "4Plan",
+            "text": "He didn't die.. He DIDN'T DIE!!\nAt least I don't think he did.. I saw that box.\nIt was walking..\nIt was stalking me with his corpse still inside it.\nIt can't be possible.\nThere wasn't even machinery inside it.\nNot much at least.\n\nAfter a few minutes it stopped and started cranking itself..\nI ran away.\n\nI am hiding, not sure what to do now.\n\nSOMETHING IS COMING! \nI HEAR SCREAMS! \nI AM SO SOR-",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

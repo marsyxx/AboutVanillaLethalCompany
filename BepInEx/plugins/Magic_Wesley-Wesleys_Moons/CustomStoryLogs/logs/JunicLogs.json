@@ -1,0 +1,67 @@
+{
+    "username": "MWJunic",
+    "modname": "JunicLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "1Desmond note",
+            "text": "I thought I would write about our findings.\nDuring the excavation we laid eyes upon an ancient golden mask.\nI bet this is worth millions considering where it came from!\n\nIt was perhaps used by the ancient people of this moon.\nNot quite sure what for however. I do feel it has a creepy look to it.\nMaybe my fellow archeologist Jack might have an idea.\nHere's a sketch:",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "2Desmond note",
+            "text": "Yesterday Jack claimed to have found an ancient dagger.\nHe was eager to tell the crew but he does not want to let go of it.\nThis is quite strange behaviour for Jack so I went to investigate this blade.\n\nHe left it next to his bed while he was asleep.\nI snuck in and tried to grab it but.. It was incredibly heavy.\nWhich is weird considering jack was able to carry it fine.\nHowever, in his sleep, I heard him mumble about some ancient note or.. ritual..\nCertainly strange.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "3Desmond note",
+            "text": "I AM IN SHOCK!\nWhen Jack came in earlier he was completely covered in blood!\nHe has lost his mind!\nHe was holding the dagger in his right hand and the mask in his left held before his face.\nHe looked at me.\nChanting soem unrecognisable words before he walked away. Seemingly heading outside.\n\nI am not sure if he killed an animal or..\nI need to make sure Dave is ok.\nI don't want to be alone with Jack the lunatic.\nMaybe I should go look what's outside.\n\nI fear the worst.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "3": {
+            "name": "Lunatics translations",
+            "text": "For one to get life\nOne must take it\n\nTo strike a deal with the devils of junic\nA symbol must be drawn with the blood of two\n\nTheir presence pointing at the center of power\n\nOnly then will you be rewarded\n\nLet the blade be your guide",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

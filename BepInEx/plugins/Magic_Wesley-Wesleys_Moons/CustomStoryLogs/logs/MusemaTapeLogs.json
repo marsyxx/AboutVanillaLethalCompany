@@ -1,0 +1,277 @@
+{
+    "username": "MWMusema",
+    "modname": "MusemaLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "Asteroid-13",
+            "text": "This tape contains highly classified material and must not see the eyes of the public\n\nA hidden bio-weapon testing facility has been discovered on the 13th Asteroid orbiting 56-vow\n\nYou have been tasked to find and extract what remains of  the weapons tested here\n\nThe facility has been destroyed but there are several rogue bio-weapons primed to kill anyone  and everyone in any way possible\n\nGood luck",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "Infernis",
+            "text": "Tape 1, Infernis.\n\nThis is Captain Commander Cunningham.\nI have decided to start recording our sites of research and the environments we find ourselves in.\n\nOur current location is Infernis.\nThis fiery hellscape has done nothing but slow us down.\nThe seismic activity here is quite high so I'm not expecting to stay long.\nGood thing.\nThe mineshafts are riddled with bugs and are very much preventing us from doing anything.\n\nI rate this place a B+.\nCunningham, signing off.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "Atlantica",
+            "text": "Tape 2, Atlantica.\n\nThis is Captain Cunningham.\nGoing to Atlantica wasn't something we had initially planned. It was purely our curiosity that has led us here.\n\nAs of now we have not yet encountered anything unnatural as the reports have said.\nHowever, I do feel something is off about this place. It is pretty but something in me is telling me to leave.\n\nSo far I would rate this place a C.\nHowever I might've changed my mind by the time we go.\nCunningham, signing off.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "3": {
+            "name": "Acidir",
+            "text": "Tape 4, Acidir.\nThis is Captain Cunningham.\n\nWhen we arrived here the crew seemed fine.\nI use the term fine very loosely here.. They managed.\n\nHowever I feel the longer we stay, the worse things seem to be getting.\nI'm not sure if it's the air, the manor or the lakes of acid. But a few of us have already gone missing.\n\nI rate Acidir an S.\nCunningham, signing off.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "4": {
+            "name": "Etern",
+            "text": "Tape 3, Etern.\n\nThis is Captain Cunningham.\nI have not been able to record much here and we will be leaving as soon as possible.\n\nOur trip to Etern has been an absolute disaster. I’ve seen more nutcrackers searching for us than there are grains of sand in this desert.\nWe’ve lost many and I’m not keen on losing any more of us.\n\nEtern gets an S+.\nI highly discourage anyone from going here.\nCunningham, signing off.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "5": {
+            "name": "Gratar",
+            "text": "Tape 5, Gratar.\n\nThis is Captain Commander Cunningham.\nIt hasn’t been long since we got here.\nIt already appears to be a nice fresh breath of air compared what we have been through before.\n\nThe view is undeniably.. Stunning and the local wildlife has yet to try and kill us.\nWe will be going in soon to have a chat with this AI before we take off again.\n\nThus far I rate Gratar a low C.\nCunningham, signing off.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "6": {
+            "name": "Utril",
+            "text": "I really am cursed to live out my days recording with subpar recording devices.\n\nThis is professor Harrington and I have found myself to be on Utril.\nThe days may be darker than the nights yet it has a strange sense of beauty.\nIt is not a place I ever expected to visit.\nThe wildlife is unlike the usual, not very diverse.\nGenerally consistent of spore lizards and arachnids.\nIt was surprising to learn that it wasn't the spiders that were the aggressive ones here.\nThey were much more keen on posing for a picture.\nEither way,\nI'm needed back in the labs.\nProfessor Harrington, over and out.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "7": {
+            "name": "Empra",
+            "text": "What is happiness?\n\nIs it your dirty workplace?\nIs it your filthy house?\n\nIs it your crippling need for a therapist because you realised the universe is completely stacked against you and you will likely suffer the same fate as millions of others as the pressure of your worthless life becomes to much for the imagination of the mind leading to eventual damnination?\n\n\nNo!\n\n\nHappiness is the one who sends you money!\nHappiness is the one who created your job!\nHappiness is the one who protects you!\nHappiness is the Emperor!\nAnd if you work hard enough,\nYou will be personally invited to live in his golden city!\n\nHappiness is Empra!\n\nEmpra is happiness!",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "8": {
+            "name": "Motra",
+            "text": "Hi, it's harry with mighty mortor!\nIt's like a mortar but it's a mortor!\nMordor wouldn't have fallen with this mortar!\n\nRegular defences don't work well.\nPeople get their houses broken into all the time!\nBurglars, thieves, your neighbors, nosy aunts, crazy exes, giants bees, nintendo, not even I will be able to break in with this thing in your backyard!\n\nNormal mortars can only fire one shell at the time.\nThis thing can launch 30 of them within the blink of an eye!\nBet nobody expects that on their weather forecast!\n\nYou can put it in your backyard, put it on your car!\nAttach it to your wallet, you'll spot it from afar!\nYou can even use it to collect water when you get deserted on an uninhabited island!\n\nMortors mortar, only 300.000 per piece!\nBut if you call now with in the next 20 minutes, we'll give you a second one absolutely free!",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "9": {
+            "name": "Gloom",
+            "text": "Are you in need of money?\nDo you want a stable job?\nDo you like safe and healthy work environments?\n\nCome to gloom!\n\nThere are trees growing on trees.\nAnd we need to get them all down.\nWood you help us with that?\n\nGloom Logging Company\nGet logged in history\n",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "10": {
+            "name": "Oldred",
+            "text": "Hello employee.\nYou may not know me but.. I know you.\nSince the death of your soulmate you have been taken by grief, you have felt like your existence is once again pointless.\nYou continuously put yourself in danger, inching closer and closer to the end each time.\nLets see if you have what it takes to survive, if you still appreciate the body that has been given to you.\nIn front of you there hangs a Decimator, an explosive device that will destroy everything in this room when the timer hits zero.\nThere also hangs another employee, you may know him as he has been in your crew for months, he will be the key to your freedom, All you need to do is remove the right wire with the knife you now posses.\nBut beware, if he dies by your hands, neither of you will make it out alive.\nLive or die, make your choice.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "11": {
+            "name": "Filitrios",
+            "text": "",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "12": {
+            "name": "1Collector The Collector",
+            "text": "I cannot say I am much of a writer, I beg of you, don’t have grave expectations.\nAs for any story it would be good to know who’s behind the pencil. Or keyboard in this instance.\n\nTo introduce myself, my name is Zellenah. Born on Haltar under the family name Cross.\nFor those who are unaware, Haltar is likely one of the wealthiest moons still remaining in our region.\nFirst, an agreement. Then the golden flame. Foolish to have gotten involved.\nOur father couldn’t keep the political talk to himself so I’ve become rather educated on the conflict.\n\nI feel I am already losing the path. Where was I? Ah yes.\nFor the greater part of my life I have spent mindlessly staring at golden halls and sipping the most elegant vintages while relatives endlessly discuss their fortunes with a devotion I could not understand. We’ve always gone on the same trips and visited the same fountains. I couldn’t convey how often I’ve seen the gemstone waters.\nYou could say I’ve always had more of an explorative trait. The predictability of it all became rather stifling. The people are kind, but perhaps a touch soulless. All they conversed about was their wealth and what grandiose places they visited. I found it to be rather dull. Terribly underwhelming. I fear the normality of it all has greatly impacted my joy of what were seemingly magnificent things.\n\nI found myself unwilling to accept such predictability so I left for a few trips outside of our usual experiences.\nA majority of the places I went to were fresh, unique. Often whelming as I had witnessed the same before but on a grander scale.\n\nThen, during one of these visits there were these magnetized pebbles. Not too extraordinary I believe we have all seen magnets before. But these pebbles, when they touched they would brighten up. Not only brighten up, they would share a light that traveled between them. Now that was lovely. I had never seen that before. Truly magnificent. I still have them somewhere I am quite certain. Perhaps in one of my drawers with the crystals which pacifies insects with a soft drone, another magical find.\nEither way I put on a glove and took a hand full of them back to the manor.\nFrom then on all I ever wanted was to collect more of these interesting objects.\nIndeed I did. I went on many trips following this initial find.\nI had gathered plentiful mistiques. It had gotten to a point where they were turning my manors into a dreadful mess.\nThere was a terrible need for a place to put these things. And that’s when I came with the idea of the gallery. A gallery of uniquities.\nI wouldn’t want it to be back on Haltar, you could display something magnificent and they wouldn’t even lift their glasses.\n\nThis place looks delightful and happens to be right in the center of everything. Nearly too good to be true.\nSo I acquired this small moon and began planning out the gallery.\nA few months pass and now we are here.\n\nI appreciate your reading. I find it incredibly relaxing to write.\nPerhaps I might write some more in the future.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "13": {
+            "name": "2Collector Company Trouble",
+            "text": "I desire to write again following today's frightful ordeal.\nIt was in the early morning when the trouble began. I had woken up from an annoyingly repetitive beeping coming from my computer. And so I had a gaze at what happened to be a message. It was deeply unsettling.\nIt read as follows: \n“The celestial body designated [98 Galetry] falls under company territory and is marked for collection. Agree to our terms or leave immediately.”.\nOf course I took this sudden message very dear. It had appeared to be rather important though a bit distasteful. So as with any message of seemingly grave importance like this I had informed them, in terms perhaps less diplomatic than advisable, that I had no interest in their proposal.\n\nNot much time had passed and I heard this charming jingle of an elevator of sorts followed by an explosion. Immediately I put on my gloves and armed myself with an antique blade in hopes it would scare away whoever had impolitely seared my front yard. Or at the very least offer me the confidence to confront them.\n\nTo my surprise there was nobody there. Only the wind, a dull quietness and a pod with a big gap presumably from the explosion.\nThen to my surprise, a dreadful swarm of hornets attacked me. I ran away as fast as I could and locked myself in my bed chamber.\nThen I remembered those droning crystals. Unsure where I had left them I began searching. It had taken me a fair moment but in the end I discovered them to be in a small box in one of my closets. I took out a few and slowly opened the door. Nothing in the hallway. Quite curious. I slowly made my way along the gallery towards the entrance, not a hornet in sight. Then to my surprise there was a bulging man standing in the grass. He quietly gazed at me. To my knowledge I was alone, there hadn’t been any visitors in days. I yelled out to him. No response. Frightening. I took a step back. Then he seemed to search for something in his tailor coat. Before long he ran at me holding a shimmering knife. Having neither a plan or any courage in that moment I instinctively held out the small bag of crystals between us. To my surprise this bloated man seemed enamored by them. Staring soullessly into the bag. Only then it dawned on me, this was not an ordinary man at all, but a deteriorating arrangement of skin and cloth piloted by these hornets. The dreadful smell only confirmed that. Terrifying discovery yet I must admit in a way quite divine.\nI had led him to the back room as he followed the bag of crystals. As I had no proper placement for this ominous gentleman, I elected to leave him where he was. I don’t think he minds that much.\n\nFinally I return to my computer only to find it beeping once more. A new message.\n“You have received your first and only warning, The celestial body designated [98 Galetry] falls under company territory and is marked for collection. Agree to our terms or leave immediately.”\nI was left with a choice and perhaps in an act of fear I agreed.\n\nAs long as I help their workers ship the things they found to Gordion without interrupting their work, I should be left alone.\nI’m hopeful.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "14": {
+            "name": "3Collector Intruder",
+            "text": "There has been a fair passage of time between now and the previous time I have written.\nI had not expected this arrangement would prove so demanding. It feels as though every few days a new ship arrives at my door, not to be enamored by the mystiques of my gallery but rather to dispose of the debris they have gathered.\nI have attempted to inquire about their work yet they seem either hesitant to explain or convey that they know as much as I do.\nEither way, I have made the wise decision to automate the process of exporting these worthless pieces to Gordion. I cannot imagine taking care of such matters personally without leaving me exhausted.\n\nThere has however been one thing I became aware of regarding this mysterious company. They do not take kindly to their employees and demand them work an absurd amount where failure appears to be met with termination in the quite literal sense.\nI have always been aware of the cruelty within this region from the tales but I had never imagined it to be this terrible. Not until I met this gentleman of the name Marcus Brad.\n\nI wouldn't say it was the most pleasant of encounters.\nThis company ship had landed and were doing their own usual business. I on the other hand was altering some of the displays, not quite paying the attention to my surroundings as I likely should have.\nUpon turning, I discovered an armed stranger silently standing a few paces behind me, which in honesty I found considerably less pleasant than the display I had been arranging moments earlier. It was quite alarming even and my response was rather lacking. He demanded that I help him with his harrowing situation which, at the time, I wasn’t aware of how bad it was. His suit appeared worn, bloodied with a scorch mark covering the left side of his helmet. An intimidating figure.\nI exclaimed I wouldn’t know how and even if I did there would be a chance this mysterious company would return with evil intent.\nHe appeared serious, slightly frustrated even. Still pointing the weapon in my direction I attempted to politely ask for his name and how I could be of service.\n“My name is Marcus.”, he replied. “I have survived this company for at least five weeks now. You wouldn’t believe what they put us through. You need to help me escape them. Sooner or later they will try to kill me again.”. This ominous response left me curious and so I tried to inquire what exactly he meant with, they will try to kill him again. \nHe replied: “We have a quota we have to meet every few days. It keeps getting higher every time we succeed. I don’t believe it stops. It gets higher and higher until it’s impossible to reach. What happens if we don’t meet the quota? We die. The ship enters space and opens the doors sucking us into space to die an excruciating death. I survived this once, only because I could crawl into this airtight space within the ship’s internals before the doors opened and.. Took the others.”.\nI was stunned by this news. I confess I initially expected exaggeration.\nI could now sense that it wasn’t frustration in his voice but desperation. Perhaps a hint of sadness and dread.\nI offered a proposal, if he’s able to find and bring me uniquities or antiquities. I would search for a way of hiding him from and possibly tricking this company. Which he accepted.\n\nSince that eye opening encounter I have had a security system installed at the counter in case somebody deranged comes upon me with malicious intent.\nSo it appears for now I will be keeping myself busy with devising a plan alongside some other research I have been doing.\nI am certain I will write again.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "15": {
+            "name": "4Collector The Great Mystery",
+            "text": "I must write about this. I believe I have acquired all the information that remains.\nBack in my early days on Haltar, on the television this advertisement would play. It was an elegant place to visit with stunning environments, yet I’ve never quite discovered where this place is or even what it’s called. I only remember greenery with purplish waters and a soft pink sky. It was extraordinary. But it seems as if it never existed, though I am certain it did.\nThroughout my life I have attempted to inquire information of its whereabouts yet nobody seemed to know. I only had rumors to work off of. Some said it was made to disappear due to a chemical accident. Others said it was a hoax entirely, which seemed like a rather dull explanation.\n\nI simply cannot allow the matter to remain unsolved. It has most certainly been removed form every public source of information as nothing has turned up over the many years I have searched for this. But perhaps a physical copy remains in existence somewhere.\n\nI have reached what may generously be described as a plan, the idea fills me with discomfort, though I see no alternative but to attend to it personally. When Marcus returns I will fly out with him in search of what could be one of the only physical copies of this remarkable advertisement. I believe I know where such a copy may still exist.\nYou will see me return soon.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "16": {
+            "name": "5Collector Dread",
+            "text": "I am uncertain where to begin.\nWhat has occurred was beyond dreadful.\nI find myself lacking the vocabulary to describe it.\nIt has taken me a fair amount of time to even build the courage to leave my bed chamber.\nI am frightened. Deeply frightened. It was a mistake. They died because I ran. I watched him cry in fear as I fled like a coward.\nThese doors will protect me. Opening them would require a considerable source of power. Such sources are rare in today’s day and age. Yet still I fear. There is a sound. I was certain it was my imagination playing tricks on me. I no longer believe that.\nIt’s drawing nearer. Every day I become more certain of that.\nIt spoke. I wish it had not. It echoes through my mind. It leaves me without peace.\nIt’s drawing nearer.\nI should never have viewed that tape.\nI assure you what I am hearing is real.\nThat thing was real.\nI urge you to stay away. I beg of you.\nLet it remain undisturbed.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "17": {
+            "name": "Recovery order",
+            "text": "RECOVERY\n\nSHIPMENT CONTAINING HIGH VALUE MATERIAL\n\nLAST KNOWN POSITION: 67-2 VINDICT\n—--------------------------------------------------------\nDESIGNATION: RESEARCHER_6_X1753B\n—--------------------------------------------------------\nCREW:\nCAVIL DARTER- CHIEF BIOLOGY OFFICER\nSARAH DENT- BIOLOGIST\nJULIAN CHARTER- SOLDIER\n—--------------------------------------------------------\nCONDITIONS: AUTOPILOT DESTROYED, HAZARDOUS MATERIALS ON BOARD\n—--------------------------------------------------------\nNOTES:\nTHE SHIPMENT IS MEANT TO BE RETURNED IN PRIME CONDITION. ANY ASSETS ON BOARD ARE TO REMAIN UNDISTURBED. YOU HAVE BEEN SUPPLIED WITH TRIANGULATION DEVICES TO AID YOU IN THE SEARCH OF THE SHIPMENT. BREACH OF PROTOCOL WILL RESULT IN REPURPOSING\n—--------------------------------------------------------\nShip type: Researcher-6\nCreation ID: X1753B\nBlackbox: Yes\nAssets: Classified\n\nTRITE CONTROL CORPORATION",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

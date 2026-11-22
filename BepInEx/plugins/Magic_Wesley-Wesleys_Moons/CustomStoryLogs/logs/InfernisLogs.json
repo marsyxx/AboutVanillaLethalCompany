@@ -1,0 +1,67 @@
+{
+    "username": "MWInfernis",
+    "modname": "InfernisLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "1Burnt note",
+            "text": "The volcano was supposed to be dead!\nAt least that's what they told us.\nAny poor soul out there is currently being fried in the fiery rains of death.\nIf we don't call in rescue..\nWe might not see the light of day again.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "2Burnt note",
+            "text": "We were able to reach out to one of those giant emergency service centers on Polarus.\nOne of those near the overly protected vaults.\nI wonder what kind of crazy stuff they hide in there.\nAnyway, rescue is on the way. We're scared but only a few more hours and we will be safe.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "3Burnt note",
+            "text": "We heard noises in the walls.\nA buddy of mine went to investigate one of the vents and..\nThere were so many of them..\nThe bees they..\nI can still hear his screams as they were digging into his eyesockets and flying into his mouth.\nIf rescue won't come quick, I don't know what else might follow.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "3": {
+            "name": "4Burnt note",
+            "text": "They're everywhere!\nBees, spiders and whatever else lived out there.\nI think they killed most of the people here.\nI'm heading out the fire exit to wait outside.\nIt's that or getting eaten alive in here..\nTell my family I love them.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "username": "MWMotra",
+    "modname": "MotraLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "Radio1",
+            "text": "Hello everyone, this is your favourite radio host from\n-Across the stars-\nIt is currently 11:13 AM and it looks like the weather is quite upset today but lets not have that ruin our Mondays ey.\n\nUnfortunately I have to be the bearer of bad news, we have had reports of an attack that happened on the Grand Capitol of Calist. As of now we are unsure of the severity of the attack but I'm sure we'll find out soon enough.\n\nIn some other news the nuclear power plants in the C sector of Fission have been closed down due to a failure to meet safety regulations.\nThank god for that,\nThat place sounded like you'd be glowing green from simply being there.\nThere have also been constructions sightings on the moon of Oldred, which is interesting considering that's about the single worst place to build literally anything.\n\nEither way, that's it for me.\nI've got some classic hits lined up for your usual monday madness so stay tuned. Thank you for listening to\n-Across The Stars-",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

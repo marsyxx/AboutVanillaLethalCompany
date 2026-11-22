@@ -1,0 +1,82 @@
+{
+    "username": "MWUtril",
+    "modname": "UtrilLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "HarringtonCrash",
+            "text": "The past few weeks have been difficult.\nMy memory hasn't been the same since the crash.\nI do not recall much from before.\nAll that remains is some faint visions of self healing flesh, independently growing eyes and a bright flash before panic ensued.\n4 of us fled to one of ships and escaped the scene. \nI don't know what happened to the other two teams who were present at the time.\nI have now come to know that the entirety of Cosmocos vanished. And what we were standing on was merely a severed chunk of it.\n\nNobody has dared to return. We called it Desolation.\nI'll attach the coordinates to this log for anyone brave enough to have a look for themselves.\nAfter my recovery I might be able to help the people out over here.\nI've heard some interesting projects being discussed.\n\nProfessor Harrington, over and out.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "1Research log",
+            "text": "It's been a while now since my arrival at this facility.\nI've been closely paying attention to the projects here.\nI was told that moon is THE home of the Lacerta-glomerorum.\nOr.. spore lizards in the common tongue.\nThis is where they are most frequently hunted.\nHowever, in the labs they seem to be working on cloning technology.\nThe cloning of creatures to be more specific.\nI feel it's right up my alley.\nProfessor Harrington, over and out.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "2Research log",
+            "text": "I wanted to give an update to my time here.\nThe cloning process is very complex but the technology is easy to produce.\nWhen they explained to me the current state of the project I was told that they had figured out how to grow a spore lizard from practically nothing to a fully functioning adult in the matter of days.\nHowever there was one fatal flaw.\nDue to GYN-H chemicals used in the process of speeding up the development of the creature, a unique form of cancer would grow in the brain which, after about a month would kill it.\nBut I think I came up with a solution, LYN-H is a very similar chemical to GYN-H, It's only down one component.\nI've theorised this could be the required change.\nProfessor Harrington, over and out.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "3": {
+            "name": "3Research log",
+            "text": "Not weeks ago we had a big breakthrough with one of my theories.\nNow yesterday our front door was broken though.\nAfter having celebrated our victory in the cloning of spore lizards we weren't expecting to see the military show up to investigate our lab.\nBut after learning about our success in the cloning department, we had a.. less than peaceful discussion as they had brought it to their higher ranks who now demand to use it to clone.. people.. for the war of course.\nThis leaves us with a choice, we either give them an unlimited army.. or we destroy all our progress.\n\nI have to take my leave.\nProfessor Harrington, over and out.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "4": {
+            "name": "4Research log",
+            "text": "This will be my last day here, after today, I will be fleeing once more.\nBut to someplace safe this time.\nWe had come to the decision that the decades of research was simply too valuable to destroy.\nSo we have handed them the tools, the research and they will likely proceed with making their own soldier in labs.\nThe prospect of that is horrifying.\nOr.. well \nIt would have been had I not removed any mention of LYN-H, the one thing that prevents clones from dying shortly after being created.\nThe armies they grow will all drop dead within a month after being created.\nTime to find a brighter horizon.\nProfessor Harrington, over.. and out.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

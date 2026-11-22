@@ -1,0 +1,1790 @@
+# CHANGELOG
+## 7.0.18
+- All moons
+  - Triangulation spots are now randomised for each run
+- Galetry
+  - Added a glass of banana milkshake
+  - Added a glass of clown
+- Glimmer
+  - Changed the collider layer of the Glow plants
+- Cubatres
+  - Fixed footstep sounds for the alt version
+- Filitrios
+  - Fixed the mysterious coffee mugs
+- Acidir
+  - Altered some of the tree collisions
+- Glace
+  - Increased the indoor/outdoor power
+- Gloom
+  - Fixed the detonator scannode being in the wrong place
+- Fixed some misc issues
+## 7.0.14
+- Fixed some navmesh related issues
+- Fixed some model related issues
+- Adjusted balancing
+## 7.0.13
+- Honey stingers will now remember your actions.. forever (until the safe file is reset)
+## 7.0.12
+- Fixed.. things
+- Added a treat for honey stingers
+## 7.0.11
+- Galetry/Gratar
+  - Fixed an exploit with the fabrication machine
+- Fixed some other cruiser related exploits
+- Did some mild balancing changes regarding ingredient item surplus moons
+## 7.0.10
+- Fixed some visuals here and there
+## 7.0.9
+- Things were fixed
+## 7.0.8
+- All Moons (involved)
+  - Changed the value of the 3 big apparatuses
+  - You can no longer grab items from caches from outside the detection bounds
+- Galetry
+  - Fixed an issue with defense cards targeting the wrong player
+- Glace
+  - Fixed a high pitched ringing noise in the ambience track
+- Narcotic
+  - Changed the sun animator
+- Hyx
+  - Buffed the loot
+  - Made the interior slightly bigger
+- Calist
+  - Made the royal apparatus slightly brighter to help with the parkour
+- Cosmocos
+  - The cosmic apparatus is now properly registered again
+- There were more things, didn't note them down
+## 7.0.7
+- Glace
+  - Fixed white quads clipping through terrain
+## 7.0.6
+- Galetry
+  - Fixed some tree lods
+  - Fixed some footstep sounds
+  - Action figures should now face the right way when placed again
+  - Action battle music should no longer restart after the very first round in a lobby
+  - Fixed the defense card blocking damage for the round it is played in for player 1
+- Heap
+  - Fixed the preview video
+## 7.0.4
+- Fixed a few issues I forgot to note down
+- Reduced the filesize
+## 7.0.3
+- Filitrios
+  - Rain particles from vanilla weathers should no longer clip through the roof of the toy store
+  - Fixed the bridge model
+  - The bridge can now collapse
+- Gloom
+  - Removed the ominous white cylinders
+- Demetrica
+  - Reduced the water hinderance
+- Gratar
+  - The falling bridge will now parent items again
+- Glace
+  - Sunlight should no longer clip through the cave
+- Thalasso
+  - Fixed the starfish
+- Lecaro
+  - Fire exits will no longer place you inside the walls
+- Vindict
+  - Mud puddles are now visible
+- Gratar
+  - Beehives can no longer spawn inside buildings
+- Galetry
+  - The Acidir tape will now actually use the new video
+  - The glass of water will now slightly increase sanity
+  - Added Glass of Gunk
+  - Added Glass of Milk
+  - Added Glass of Glass'os
+- Various other fixes I forgot to note down
+## 7.0.1
+- All moons
+  - Quicksand should now be much more obvious
+  - Fixed some item grab colliders
+  - Fixed some item holding positions
+  - Snowy moons will now have snowy vain shrouds
+  - Various other fixes
+- Galetry
+  - Moved the asteroid tape to prevent interact softlocks
+- Lecaro
+  - Fixed a few models not being replaced
+- Gloom
+  - Cabin furniture now have proper colliders
+- Chasm
+  - Can no longer have rainy weather
+
+## 7.0.0 Obscurity
+- Note- There are probably a lot more things I simply forgot to write down, especially balance changes and fixes
+- All moons
+  - V81 support
+  - VR support
+  - Added Project Mycete with new progression and an ending
+  - Added the door animation to every moon
+  - Added bestiary entries to most of the added enemy variants
+  - Updated the log translator machine visuals
+  - Updated the footstep sounds on moons
+    - Added three new types, Sandy, Crystal and Ice
+  - (almost) Every moon has had a major ambience update
+    - They should sound a lot more lively
+  - Massively optimised the foliage used on moons
+  - Remodeled and updated most if not all scrap items
+  - Remodeled that one tree that I use everywhere
+  - I have doubled the spawn weight of every scrap item
+    - This means the spawn chances don’t actually change but scrap mods don’t completely overtake the spawn pools and make items like tapes not impossible to find with them
+  - Distributed the existing scrap items further over several moons for added variety, especially on the newer ones
+  - Added some configs and moved the trial configs to somewhere else
+  - A few moons now have caches with crafting supplies
+  - Items related to progression should no longer spawn when progression is disabled
+  - Lots and lots of fixes and balancing
+- Moons
+  - Added
+- Galetry
+  - Completely remodeled the gallery building and updated some textures, it remains visually similar to before
+  - The time setting on Galetry now has a chance to be morning, noon, evening and rarely night
+  - Updated the terrain
+  - Updated the foliage
+  - Updated the projector model
+  - Added a bunch of ambient sounds to make it feel more alive
+  - Added some indirect light so it’s not always pitch black in the shadows
+  - Remodeled the gift shop and updated the visuals
+  - Added the Action Figure Battle Board
+    - Can be bought in the store
+    - You can use any 2 action figures to battle
+    - Has a deck of 11 cards to battle with
+    - Has a whole battle sequence
+    - Basically just a silly card game
+    - Added an Action Battle guide
+  - Added Weed killer to the gift shop
+    - Added De-weed
+  - Much stronger version of regular weed killer
+  - Added the Triangulation device
+  - Added the Advanced flashlight
+    - Flashlight with a bigger range
+  - Added the Fog reducer
+    - Device which can be used to greatly reduce fog around
+  - Added the Pesticide sprinkler
+    - Device which can be used to gradually kill vain shrouds or cadaver growths in an area around it, it can also help prevent player infections
+  - Added the Pulatrum spore emitter
+    - Device which can be used to heal nearby employees
+  - Added the Homemade spore emitter
+  - Added the Adrenaline stim
+  - Added the Health stim
+  - Added the Fabricated key
+  - Added the blank floppy disc
+  - Added the single-barrel shotgun
+  - Added a new area
+  - Added a Failsafe floppy disc which will re-unlock the moons you’ve previously unlocked in case they vanish
+  - Removed the outer ring of terrain (this means the large loop of nothingness has been removed)
+  - Items bought from the gift shop are now worth way less than before
+  - Added proper ai nodes for maniacs who like spawning things here
+  - Added a waterfall
+  - Added an action battle board to the gift shop
+  - Vain shrouds can no longer spawn here
+  - Huge performance increase
+- Etern
+  - Should no longer randomly crash people
+  - Added a bunch of ambient sounds to make the place feel more lively.. yet empty
+  - Updated the foliage
+  - Remodeled the cacti
+  - Updated the assimilated variant
+  - Remodeled the buildings
+  - Updated lore related areas
+  - Remodeled the rock hideouts
+  - Fixed quicksand being invisible
+- Polarus
+  - Updated the terrain visuals
+  - Updated the foliage
+  - Added a bunch of ambient sounds to make the environment feel more real
+  - Added some rocks here and there
+  - Reworked and replaced the ice lake with a new, different gimmick
+  - Updated the tree models
+  - Remodeled the buildings
+  - Fully remodeled the ice worm and redid its sound design
+  - Made the ice worm more involved
+  - Remade the elevator
+  - Removed the ladder
+  - Updated the research site
+  - Moved geoffrey’s log
+  - Fixed the ship clipping into the walls when landing
+  - Added the Backwater Cryofish
+- Lecaro
+  - Updated the terrain materials
+  - Remodeled, replaced and fixed the ferns
+  - Remodeled the cart handle
+  - Remodeled the cave
+  - Remodeled the stalagmites
+  - Remodeled the crystals
+  - Added reverb triggers to the caves
+  - Added a bunch of ambient sounds to make the moon feel warmer
+  - Updated the minecarts and the rideable minecart
+  - Updated the lava-falls
+  - Updated the dead trees
+  - Vain shrouds can no longer spawn here
+  - Added the Springwater Hotfish
+- Cosmocos
+  - Updated the terrain materials
+  - Switched back to unity terrain
+  - Remade the models of the alien like plants
+  - Reworked the foliage
+  - Added a lot more glowing and bioluminescent plants for visibility
+  - Trees and the guidance plants now glow differently
+  - Remodeled the celestial brain
+  - Updated the brain area
+  - Added Donnahue’s note
+  - Added a bunch of ambient sounds to make the moon feel.. weirder
+  - Changed the intro animation back to only starting at the end of the landing animation
+  - Finally added back the lake (this used to be a thing a longggg time ago)
+  - Possible sound related fixes
+  - It should perform better
+- Atlantica
+  - Remodeled the buildings
+  - Altered the layout
+  - Added another fire exit
+  - Pushable bridges now have navmesh
+  - Updated the dead bushes
+  - Added some small grass on the moss
+  - Added a bunch of seaweed underwater
+  - Added a bunch of ambient sounds to increase the sense of ocean life
+  - Updated the rocks
+  - Added the Gunkfish to inside and daytime spawns
+  - Added the Backwater Aquafish to inside and daytime spawns
+- Alcatras
+  - Updated the terrain layer materials
+  - Added some new foliage
+  - Added a bunch of ambient sounds to make it feel more like an island with the deeper parts being more tropic jungle-y
+  - Remodeled the buildings
+  - Remodeled the mortars
+  - Remodeled the palm trees
+  - Changed the ship landing and take off animation to prevent clipping
+  - Added the Cadavers to the spawn pool
+  - Added the Backwater Aquafish to daytime and inside spawns
+  - Fixed the water movement resistance being absurdly high
+- Motra
+  - Updated the terrain
+  - Updated the foliage
+  - Updated the lighting
+  - Added a bunch of extra visual details
+  - Updated the radio stand
+  - Remodeled the buildings
+  - Remodeled the mortars
+  - Updated the explosion effects
+  - The beehive has a 33% chance of existing
+- Infernis
+  - Updated the terrain
+  - The falling stalagmite now has navmesh
+  - Remodeled the lava crystals
+  - Remodeled the stalagmites
+  - Remodeled the buildings
+  - Updated the foliage
+  - Added a bunch of ambient sounds to make the place sound warmer and more destructive
+  - Added some decals
+- Asteroid-13
+  - Updated the building models
+  - Updated the light pole models
+  - Updated the light control panel
+  - Updated the moon visuals
+  - Moved geoffrey’s final log
+- Narcotic
+  - Slightly adjusted the terrain
+  - Added the Gunkfish and the Cadavers
+- Release
+  - Lowered the indoor enemy power
+  - Completely redid the foliage
+  - Slightly changed the terrain
+  - Added Cadavers (with a weight of 1) and the Feiopar
+  - Made some changes to the lighting
+  - Fixed some of the janky tree colliders
+- Faith
+  - Updated the foliage
+  - Added some decals
+  - Updated the terrain visuals
+  - Replaced the boulders
+  - Removed Butlers
+  - Added the Cadavers (rare) and the Gunkfish
+- Oldred
+  - Updated the visuals of the hanging mine
+  - Remodeled a bunch of props
+  - Updated the radio stand
+  - Replaced the rocks
+  - Added a few ambient sounds, mainly oil’n metal
+  - Remade the lights
+  - Remade the factory buildings
+  - Remodeled and replaced the catwalks
+  - Updated a bunch of sound things
+  - Switched back to unity terrain
+  - Added the Backoiler Spillfish
+- Descent
+  - Added a bunch of ambient sounds to make it feel more natural
+  - The trials storage area only appears with progression enabled
+- Roart
+  - Completely remodeled the jungle trees to be way more optimized and fit the game more
+  - Added a bunch of ambient sounds to make the place feel a lot more like an actively lived in jungle
+  - Completely reworked the foliage
+  - Switched to unity terrain
+  - Added the Cadaver and the feiopar
+- Empra
+  - Completely reworked the city visuals
+  - Updated the terrain visuals and added some extra details
+  - Some other visual changes
+  - Remodeled the mortars
+  - Replaced the "deathmachine" prop
+  - Replaced the shipping container models with a new, more vanilla model
+  - Updated the effect of destroying the seed
+  - Updated the seed effects
+  - Added Amber’s Diary
+  - Remodeled the rail cart
+  - Replaced the rocks
+  - Remodeled the crane
+  - Remodeled the crane control panel
+- Crowd
+  - Updated the terrain materials
+  - Added a bunch of ambient sounds to make it feel more alive, there’s birds in the trees with the crows guarding the abandoned manor
+  - Switched back to regular unity terrain
+  - Spruced up the foliage
+  - Added the Feiopar, the Gunkfish and the Cadaver
+- Calist
+  - Remodeled the buildings
+  - Added some details
+  - Some visual changes
+  - Vain shrouds can no longer spawn here
+  - Added a config to dim the stars, this will help with motion sickness
+- Desolation
+  - Updated the terrain
+  - Reworked the foliage
+  - Added a bunch of ambient sounds to increase the feel of desolation.. on desolation.. yup
+  - Updated the sound of the falling logs
+  - Remodeled the buildings
+- Demetrica
+  - Completely remade the dome
+  - Reworked the dome interior completely
+  - Reworked the foliage
+  - Added a few ambient sounds for the exterior-interior
+  - Updated the process of obtaining the bloody apparatus
+  - Big performance improvements
+  - I basically reworked the moon
+  - Added the Cadavers
+  - Updated the kill walls
+- Hyve
+  - Reduced movement resistance in honey
+  - Added a lot of extra rocks
+  - Added a bunch of ambient sounds, mainly bees
+  - Added some slight vegetation here and there
+  - Did some visual updates to terrain
+  - Remodeled the giant bees flying over the map
+- Repress
+  - Updated the ship building area
+  - Replaced the shipping container models with a new, more vanilla model
+  - Added a few ambience sounds
+  - Vain shrouds can no longer spawn here
+  - Remodeled the cranes
+  - Gratar tape is now a guaranteed spawn
+- Gloom
+  - Completely reworked the foliage
+  - Remodeled the cabins
+  - Remodeled the caves
+  - Updated the big trees
+  - Updated the assimilated variant
+  - Trapdoors have a new sound when used
+  - Added a bunch of ambient sounds to give some life to the dark forest while still keeping it somewhat spooky
+  - Updated the lighting
+  - Added reverb triggers to the caves and cabins
+  - Updated the torch scrap item with new functionality
+- Fission-C
+  - Updated the terrain visuals
+  - Updated the dead trees
+  - Updated the bushes
+  - Added a bunch of ambient sounds to amplify that sense of chemical destruction
+  - Remodeled the powerplant building
+  - Updated some other misc visuals
+  - Updated the assimilated variant
+  - Replaced the shipping container models with a new, more vanilla model
+  - Added the cadavers
+- Gratar
+  - Updated the foliage
+  - Updated the waterfalls
+  - Remodeled the buildings
+  - Updated the bridges
+  - Added the Backwater Aquafish
+  - Remodeled the trees
+  - Added a bunch of ambient sounds to increase the liveliness
+  - The fire exit leading to the fabrication room is now a different color
+  - Reworked the Fabrication Machine with a new system
+    - The Fabrication machine has a new design to accommodate the rework
+    - You can now insert as many ingredient items as you want
+    - The ingredient items put into the machine will save until quota is lost
+    - Some ingredient items count for more than one
+    - There are 15 different recipes of old and new items, some of which can exclusively be obtained here
+  - Added two new ingredient items: Cables, Chemical container
+  - Added rarer, larger variants of the ingredient items
+  - Updated the locations of the ingredients
+- Extort
+  - Spruced up the moon with foliage
+  - Added a bunch of ambient sounds to make the environment feel colder and more lively.. also crest-bears
+  - Added the Feiopar
+  - Added the Backwater Cryofish
+- Junic
+  - Reworked the foliage (I am sorry for those who struggled navigating this place before I turned it into an actual jungle)
+  - Remodeled the trees
+  - Updated the terrain visuals
+  - Added a bunch of ambient sounds to make the place feel a lot more like an actively lived in jungle
+  - Replaced the OOB terrain
+  - Added the Gunkfish, Cadavers and Feiopars
+- Cubatres
+  - Updated the terrain
+  - Replaced the out of bounds terrain
+  - Made the ambience loop more tame
+  - Added a bunch of weird ambient sounds
+  - Reworked the foliage
+  - Remodeled the buildings
+  - Added the Feiopar
+- Trite
+  - Remodeled the buildings
+  - Updated the radio stand
+  - Added a bunch of ambient sounds to make the city feel more destroyed and unstable
+  - Bunch of visual improvements
+  - Updated the scanner model with the new one from Grand Armory
+  - Added a thorlar easteregg to compensate for the removal of the octopus on Atlantica
+  - The scanner's detected state is now synced
+- Utril
+  - Made changes to foliage
+  - Optimised a bunch of models
+  - Updated the building models
+  - Replaced the tree-hint map with a sign
+  - Added a bunch of ambient sounds to make the environment feel alive yet empty
+  - Updated the assimilated variant’s visuals
+  - Removed the interior mist from the assimilated variant
+  - Added something else to the assimilated variant
+  - Fixed some audio things
+- Filitrios
+  - Remade the building visuals
+  - Replaced a bunch of interior models
+  - The hyve beehive now has a 33% chance of existing
+  - Completely reworked the interior to feel much grander and abandoned while still keeping the original vibe
+  - Added a bunch of ambient sounds to the outside, making it more alive, I also added sounds to the inside making it feel more.. dilapidated and grand
+  - Updated the terrain
+  - Updated the assimilated variant’s visuals
+  - Removed the interior mist from the assimilated variant
+  - Added something else to the assimilated variant
+  - Reworked the foliage
+  - Added a few new plushies
+  - Added the Feiopar
+  - Removed the thumper
+  - Updated the assimilated variant
+  - Remade the Across The Stars radio station to look like a proper building
+  - Updated the arachnohead visuals
+- Dreck
+  - Updated the terrain
+  - Replaced all the rocks
+  - Updated the caves
+  - Added a bunch of ambient sounds
+  - Updated the terrain materials
+  - Added some extra details
+- Core
+  - Made some visual changes to terrain
+  - Added some rocks and decals
+  - Added a bunch of ambient sounds
+  - Vain shrouds can no longer spawn here
+  - Added the Springwater Hotfish
+- Thalasso
+  - Remade the oob terrain
+  - Completely overhauled the visuals
+  - Added a bunch of ambient sounds to increase the sense of environmental activity
+  - Reworked the terrain
+  - Made water easier to traverse through (with paths below the water)
+  - Vain shrouds can no longer spawn here
+  - Honestly one of my favourite reworks
+  - Added the Backwater Gunkfish, Backoiler Spillfish, Backwater Cryofish, Backwater Aquafish, Springwater Hotfish
+- Acidir
+  - Grass no longer has collision
+  - Reworked the foliage
+  - Replaced the bubble particles
+  - Added a bunch of ambient sounds to bring life to the swamp
+  - Remodeled the trees
+  - Updated the fire exits
+  - Updated the terrain
+  - Updated the research site
+  - Slightly reduced the tilt on the interior and the mansion
+  - Remodeled a bunch of props
+  - Added the Feiopar and the Cadavers
+- Hyx
+  - Hyx can now hear and feel you
+  - Hyx can now get progressively angrier
+  - Complete rework (Probably the craziest moon rework I’ve done)
+  - Greatly improved the visuals
+  - Completely remade the terrain and completely altered the layout
+  - Made it more lore accurate
+  - Added a bunch of ambient sounds
+  - Added several databoxes
+  - Tentacles should no longer be able to kill you while you are inside the ship
+  - Made the interior smaller and greatly reduced the amount of scrap that can spawn
+  - Reduced the amount of enemies that can spawn
+  - Changed the ship landing and take off animation to prevent clipping
+  - Removed the indoor Eyeless dog
+  - Added the Gunkfish, Feiopar and something else
+
+## 6.9.12
+- Cursed tape will now explode people again
+## 6.9.11
+- Done some optimisation
+## 6.9.10
+- Filitrios
+  - Slight opimisation
+  - Moved the main entrance
+  - Added another fire exit
+## 6.9.9
+- Small fix
+## 6.9.8
+- Fixed the log piles on Gloom being gigantic
+## 6.9.7
+- Fission is playable again
+## 6.9.5
+- Fixed audio logs sometimes playing twice
+- Fixed the maneater plushie being screwed again
+## 6.9.4
+- Progression integration for facto
+## 6.9.3
+- Fixed terrain issues on Cosmocos
+## 6.9.0
+- Nice
+- General
+  - Fixed the mesh of that one tree I use everywhere so it's not reliant on double sided materials and works better with the post processing
+- Acidir 6.2.1 -> 6.3.0:
+  - Meshed
+  - Updated foliage
+  - Replaced the manor building with a newer more optimised one
+  - Renamed the ribcage to large ribcage
+  - Optimised the ribcage model
+- Alcatras 2.0.1 -> 2.0.2:
+  - Renamed the bone item to small bone
+  - Fixed the issue of the mortars sometimes not disabling
+- Calist 2.0.3 -> 2.0.4:
+  - Increased the max scrap spawns
+  - Changed the indoor hazard amount from 2 to a min/max of 3/6
+- Desolation 4.0.2 -> 4.0.3:
+  - Meshed
+- Fission 4.0.1 -> 4.0.2:
+  - Meshed
+- Gloom 4.0.3 -> 4.0.4:
+  - Meshed
+  - Slight visual redesign
+- Oldred 4.0.1 -> 4.0.2:
+  - Meshed
+  - Fun button now only has 5% chance of existing
+  - Fun lighting effects only appear outside
+- Crowd 1.0.4 -> 1.0.5:
+  - Switched the physically based sky with a gradient sky (this will fix bugs with the rendering of certain shaders)
+- Descent 1.0.4 -> 1.0.5: 
+  - Switched the physically based sky with a gradient sky (this will fix bugs with the rendering of certain shaders)
+- Extort 1.0.3 -> 1.0.4:
+  - Switched the physically based sky with a gradient sky (this will fix bugs with the rendering of certain shaders)
+- Release 1.0.4 -> 1.0.5:
+  - Switched the physically based sky with a gradient sky (this will fix bugs with the rendering of certain shaders)
+  - Gave it a unique night skybox
+- Trite 2.0.2 -> 2.0.3:
+  - Updated the Graffiti art
+  - Added a hint for the lone listeners
+- Hyx 2.0.3 -> 2.0.4:
+  - Meshed
+- Motra 1.1.0 -> 1.1.1:
+  - Meshed
+- Galetry 3.0.7 -> 3.0.8:
+  - Added enable/disable sounds for the mortar (can still only be enabled by the host)
+  - Updated the hyx tape video
+
+## 6.8.9
+- Updated to the newer version of unity
+- This fixes things like (water colors or pink/red material rendering issues on the new moons)
+- This is a good thing
+- Allegedly
+## 6.8.8
+- Made some big balancing changes to Polarus
+- Made some balancing changes to Etern
+- Gave all the moons which were previously untagged fitting tags (which was most of the post journeys moons)
+## 6.8.7
+- Cosmocos: 5.0.0 -> 5.0.1:
+  - Terrameshed the terrain
+  - Updated the watcher textures
+  - Bushes will now glow when walking through them
+- Desolation: 4.0.1 -> 4.0.2:
+  - Updated the watcher textures
+## 6.8.3
+- Undid the changes made to release as it caused a bunch of visual issues
+## 6.8.1
+- Hotfix
+## 6.8.0
+- This is the final part of the Unhallowed Update, Happy Halloween
+- Release
+  - Added
+- Various Moons
+  - Various fixes
+- Galetry 3.0.3 -> 3.0.4:
+  - Removed most of the tapes from the gift shop
+  - Redistributed the tapes over the trial moons
+  - Teach the disloyal can now be found in the gift shop, on Trite and a few other moons
+  - Added trial tickets
+  - Inserting the Apparatuses should now work for clients
+- Repress 1.0.4 -> 1.0.5:
+  - Added two new endings
+- Thalasso 2.0.0 -> 2.0.1:
+  - Human hearts can now rarely spawn on Roart
+## 6.7.3
+- Some minor fixes
+## 6.7.2
+- Some minor fixes
+## 6.7.1
+- Pumpkins can now rarely be found in the gift shop
+- Some other stuff
+## 6.7.0
+- Progression should now work on V73
+- Changed the LLL dependency with the V73 compatible LLL fork
+- Extort
+  - Added
+- Galetry 3.0.0 -> 3.0.1:
+  - Added a new tape "Grind the deluded"
+- Some other fixes which I have forgotten
+## 6.6.10
+- Narcotic
+  - Added some additional hints
+  - Something else I forgot
+## 6.6.9
+- Narcotic
+  - Dropship no longer flies into the floor
+## 6.6.8
+- Added some scan nodes
+- Fixed some things
+## 6.6.7
+- Some fixes
+## 6.6.6
+- General
+  - Some optimisation here and there
+  - Fixed the item ships playing music before they have fully landed
+  - Temporarily added weathers and interiors as dependencies
+- Galetry 2.0.2 -> 3.0.0:
+  - Added a Halloween vibe during october
+  - Fixed infernis still being hidden if the floppy disk is used
+  - Added a Teserex action figure
+  - Added a Generic action figure
+  - Added a Kenji action figure
+  - Added a Beanie action figure
+  - Updated the web textures
+  - Added the silent dynamite to the gift shop
+  - Added a new tape "Bury the child"
+  - Added a new tape "Teach the disloyal"
+  - Added a new tape "Medicate the unwell"
+  - Added a new tape "Incinerate the lies"
+  - Added the Harold hammer
+- Dreck 1.0.3 -> 1.1.0:
+  - Fixed the sound of the gas leaks multiplying with the amount of people in the lobby
+- Oldred 4.0.0 -> 4.0.1:
+  - Fixed radio message 2 being way louder than the others
+  - Removed the random flying door
+- Hyx 2.0.2 -> 2.0.3:
+  - Hyx now has the mansion tag
+- Calist 2.0.2 -> 2.0.3:
+  - Painful pencil is painful
+- Filitrios 2.0.2 -> 2.0.3:
+  - The note on the log translator won't appear when progression is disabled
+  - The fog in the radio station is slightly less now
+  - Moved the Arachnohead to Wesley's Enemy Variants
+- Trite 2.0.1 -> 2.0.2:
+  - The note on the log translator won't appear when progression is disabled
+- Gloom 4.0.2 -> 4.0.3:
+  - Added silent dynamite
+- Gratar 4.2.1 -> 4.2.2:
+  - Renamed the Gas Tank to Propane Tank
+- Junic 4.0.0 -> 4.0.1:
+  - Changed the ritual voiceline
+- Desolation 4.0.0 -> 4.0.1:
+  - Fixed the evil cosmochad holding position
+- Roart 1.0.3 -> 1.0.4:
+  - Added a new halloween event
+  - Fixed the golden plate holding position
+  - Moved the Elder to Wesley's Enemy Variants
+- Alcatras 2.0.0 -> 2.0.1:
+  - Fixed the Generic Apple
+- Crowd
+  - Added
+- Narcotic
+  - Added
+- Descent
+  - Added
+- Last known position of Cosmocos
+  - Fixed
+## 6.1.7
+- Berunah
+  - Fixed a voiceline
+  - Added a hint to the lever
+- I'm going on vacation, bye.
+## 6.1.6
+- Fixed some cutscene stuff on Repress (hopefully)
+## 6.1.5
+- Hyx 2.0.1 -> 2.0.2:
+  - He's big again
+## 6.1.4
+- Some progression fixes
+- roart 1.0.2 -> 1.0.3:
+  - Fixed forest giants getting the elder texture
+- Gloom 4.0.1 -> 4.0.2:
+  - Added the mansion tag
+- Faith 1.0.4 -> 1.0.5:
+  - Removed the storylog
+- Dreck 1.0.2 -> 1.0.3:
+  - Removed the storylog
+- Atlantica 4.3.0 -> 4.3.1:
+  - Cunningham travel log 2 should no longer spawn in the water
+- Cubatres 2.0.1 -> 2.0.2:
+  - Almost halved the amount of items that can spawn
+  - Increased the value of crystalline items by a lot
+## 6.1.3
+- Small progression related change to berunah
+## 6.1.2
+- Repress 1.0.3 -> 1.0.4:
+  - Fixed some cutscene jank
+- Faith 1.0.3 -> 1.0.4:
+  - You can now still obtain the note after the mysterious object has been moved
+- Gratar 4.2.0 -> 4.2.1:
+  - Updated the waterfall visuals slightly
+- Calist 2.0.1 -> 2.0.2:
+  - Adjusted the debris hazard visuals
+- Trite 2.0.0 -> 2.0.1:
+  - No more random moon sizes
+## 6.1.1
+- Thunderstore, please for the love of god just give us an option to change the readme/changelog without having to upload a whole new version of the mod.. thx
+## 6.1.0
+- Repress 1.0.2 -> 1.0.3:
+  - Changed the interior spawn curve
+- Fission 4.0.0 -> 4.0.1:
+  - Replaced the interior fog spots with toxic barrel hazards
+- Hyve 3.2.0 -> 3.2.1:
+  - Added an interior hazard
+  - I somehow fixed hoarding bugs stacking up next to the ship?
+- Galetry 2.0.1 -> 2.0.2:
+  - Added the chainsaw to the gift shop
+  - Legs action figure lost its stump
+  - Butch no longer uses a whoopie cushion to sweep
+- Faith 1.0.2 -> 1.0.3:
+  - Buffed loot spawns
+  - Smoothed out the terrain a bit (makes it easier to drive on)
+  - The path of fireflies should now be easier to follow when it gets dark
+- Calist 2.0.0 -> 2.0.1:
+  - Added interior collapse effects and a hazard
+- Acidir 6.2.0 -> 6.2.1:
+  - Replaced the bush models with a more optimised one
+- Gloom 4.0.0 -> 4.0.1:
+  - Replaced the bush models with a more optimised one
+  - Some changes to the alt version
+- Filitrios 2.0.1 -> 2.0.2:
+  - Replaced the bush models with a more optimised one
+## 6.0.5
+- Minor optimisation
+- Cubatres 2.0.0 -> 2.0.1:
+  - The moon now starts off grassy again
+## 6.0.4
+- Optimised filesizes a bit
+- Lecaro 2.0.0 -> 2.0.1:
+  - Optimised the terrain
+- Berunah 1.0.1 -> 1.0.2:
+  - Fixed the broken fire exit
+- Galetry 2.0.0 -> 2.0.1:
+  - Changed some tape spawns
+- Faith 1.0.1 -> 1.0.2:
+  - Fixed the kill triggers in the holes
+- Polarus 5.0.0 -> 5.0.1:
+  - Fixed the ice wall renderers not moving with the object
+## 6.0.3
+- Repress 1.0.0 -> 1.0.1:
+  - Lowered loot spawns
+- Faith 1.0.0 -> 1.0.1:
+  - Fixed standalone
+- Dreck 1.0.0 -> 1.0.1:
+  - Fixed standalone
+- Core 1.0.0 -> 1.0.1:
+  - Fixed standalone
+  - Made some big changes to the lava geysers for optimisation
+## 6.0.2
+- Due to the annoyance that rng can be, new moon progression is no longer reliant on rng
+- Also last small patch for now unless something is horribly wrong
+## 6.0.1
+- Hotfix for the berunah fire exits
+## 6.0.0 Conquer Update (spoilers)
+- Added radar maps to (almost) all the moons
+- Added more to the progression
+- Expanded the lore and story
+- Added 5 new endings (4 final ones)
+- Added end (credits)
+- Added destiny items
+- Faith
+  - Added
+- Dreck
+  - Added
+- Core
+  - Added
+- Berunah
+  - Added
+- Roart
+  - Added
+- Repress
+  - Added
+- Asteroid-13 4.1.2 -> 4.2.0:
+  - Geoffrey's final message no longer unlocks Gratar as a secondary route
+- Gratar 4.1.0 -> 4.2.0:
+  - Added a new factory room accessible through a new fire exit
+  - Added new ingredient scrap items
+- Hyx 1.0.2 -> 2.0.0:
+  - Updated the look and movements of the overseer (mainly his eye)
+  - Lowered the weight of outside maneaters to 1
+  - The Empra tape is now a guaranteed spawn (it already kinda was)
+  - Added the assimilated maneater scrap item
+  - Replaced the red mist with tendrils
+- Atlantica 4.1.3 -> 4.2.0:
+  - Increased the time between interior water rising by 80 seconds
+- Demetrica 1.0.1 -> 2.0.0:
+  - Made fog on foggy slightly less dense
+  - Eyeless dogs are now less likely to spawn outside
+- Desolation 3.1.1 -> 4.0.0:
+  - Removed outside nutcrackers
+  - Added the sapsucker
+- Gloom 3.1.1 -> 4.0.0:
+  - Removed outside maneaters
+  - Added the sapsucker
+  - Made the fog slightly clearer
+  - Removed old birds
+- Junic 3.1.1 -> 4.0.0:
+  - Made giants and outside spore lizards more rare
+  - Made outside spiders more common
+  - Added the sapsucker
+  - Updated the visuals and audio of the rose hazards
+  - Updated the visuals for the entrance buildings
+  - Slight changes to the ritual note
+  - Updated the planet prefab
+  - Added a new secret
+  - Small visual updates
+- Acidir 6.1.1 -> 6.2.0:
+  - Added the sapsucker
+  - Fixed the cunningham log spawning twice
+  - Lost notes won't unlock the polarus storylogs anymore
+- Lecaro 1.0.3 -> 2.0.0:
+  - Added visual indicators to the big falling stalagmites
+  - Terrameshed terrain
+- Alcatras 1.0.1 -> 2.0.0:
+  - Added the sapsucker
+  - Generic apple is now throwable
+- Cubatres 1.0.1 -> 2.0.0
+  - Lowered the outside power level
+  - Removed the maneater from outside spawns
+  - Added the sapsucker
+  - Lowered the ambience volume
+  - Rebalanced the weights of outside enemies
+  - Added something
+- Filitrios 1.0.1 -> 2.0.0:
+  - Added the sapsucker (rare spawn)
+  - Made foggy weather less fun (for me) and less dense
+  - Added a maneater plushie
+  - Made the fog in the interior area less dense
+  - Added reverb triggers for the interior area
+  - Added a new exterior and interior hazard
+- Utril 1.0.2 -> 2.0.0:
+  - Added the sapsucker
+  - Removed maneaters, barbers and crawlers from interior spawns
+  - Removed maneaters, masked and forest giants from outside spawns
+  - Made spiders and spore lizards more common
+  - Made the fog on foggy weather a lot less dense
+- Oldred 3.1.1 -> 4.0.0:
+  - Fixed transcript 1 bugging the player
+  - Lights will now be colored red during eclipsed weather
+  - Added the oilbarrel to Dreck, Fission, Titan, Repress
+- Trite 1.0.1 -> 2.0.0:
+  - Fixed the radio item spawning twice
+  - Made a more viable path for the cruiser
+  - Removed a few outside turrets
+  - Added a fire exit close to the ship (only accessible by extension ladder or jetpack)
+  - Added catwalks to some of the buildings
+  - Fixed not being able to use interacts on the cruiser in certain spots
+  - Removed Old Birds, Masked and maneaters from outside spawns
+  - Lowered the weight of outside earth leviathans, coilheads and nutcrackers
+  - Changed the interior spawn curve
+  - Changed the fog above the city to make it easier to fly over the buildings with a jetpack
+- Galetry 1.0.3 -> 2.0.0:
+  - There's new items in the gift shop some more important than others
+  - Some visual updates
+  - Updated the gift shop
+  - They have spread
+  - Added a faster way to transport items to the desk
+  - Added a ladder for easier access to the projector
+  - Added an item underneath the desk in the gift shop to quick start journeys and skip watching the first three tapes
+  - Added a very subtle message to tell people there's new progression
+  - Gratar's tape now spawns on Infernis, Atlantica, Cosmocos, Acidir, Polarus, Etern and most commonly on Assurance and Repress
+  - Tapes that are not found in set locations now have value
+- Cosmocos 4.1.2 -> 5.0.0:
+  - The random paths are now seed based
+  - Lowered the chance of indoor dogs, jesters, maneaters, hoarding bugs
+  - Increased the chance of brackens and coilheads
+  - Added the barber
+- Infernis 5.1.2 -> 6.0.0:
+  - Remodeled the oil lantern to reduce verts and make it more vanilla
+  - Made the lights on the oil lantern more spread out
+  - Terrameshed terrain
+- Polarus 4.1.2 -> 5.0.0:
+  - Optimised the jewel box model
+  - Removed the maneater from outside spawns
+  - Added the sapsucker
+  - Terrameshed terrain (configable)
+- Fission 3.1.1 -> 4.0.0:
+  - Greatly lowered the chance of outside thumpers
+  - Added dogs to outside spawns
+  - Done some visual adjustments to the ground texture
+- Calist 1.0.2 -> 2.0.0:
+  - Made the asteroid parkour sections easier? harder? not sure but they move now
+- Thalasso 1.0.1 -> 2.0.0:
+  - Added "The heart chamber"
+  - Fixed the intro animation
+## 5.1.8
+- Duckstroid-14 1.0.1
+  - Re-"balanced" Duckstroid-14
+  - Removed the problem children from Gloom
+  - Optimized filesize significantly
+  - Fixed an issue with LethalSponge where the texture was applied to other instances of Baboon Hawk materials
+- Probably fixed a couple things
+- Removed the april fools dependency that I genuinely had nothing to do with
+- Funny interiors are here to stay (for April 1st 2026)
+- Also removed last known position of cosmocos as I accidentally included it.. whoopsies
+## 5.1.6
+- Don't worry about it :D
+## 5.1.5
+- Empra 1.0.1 -> 1.0.2:
+  - Fixed the cart being desynced when progression is disabled
+  - Fixed huge harold not spawning when progression is disabled
+- Lecaro 1.0.1 -> 1.0.2:
+  - Fixed scan nodes on stalagmites not disappearing when the stalagmite is destroyed
+## 5.1.3
+- Calist 1.0.0 -> 1.0.1:
+  - removed old birds from daytime spawns
+  - Adjusted the outside curve
+  - You can now walk on the fire exit building
+  - You don't want the stormy sun anim here
+- Utril 1.0.0 -> 1.0.1:
+  - Puffbulb should no longer throw errors
+- Galetry 1.0.0 -> 1.0.1:
+  - Removed the weather override
+- Lecaro 1.0.0 -> 1.0.1:
+  - Added scan nodes to destructible stalagmites
+  - Limited outside spawns to just dogs
+  - Lowered the outside power from 15 -> 8
+- Empra 1.0.0 -> 1.0.1:
+  - Fixed the story animations being delayed in some cases
+## 5.1.2
+- Atlantica 4.1.0 -> 4.1.2:
+  - Fixed bloodlantica's terrain
+- Motra 1.0.0 -> 1.0.1:
+  - Fixed the hint not dissapearing when progression is disabled
+- Hyx 1.0.0 -> 1.0.1:
+  - Thalasso
+## 5.1.1
+- Asteroid 4.0.1 -> 4.1.0:
+  - You will no longer fly
+- Atlantica 4.1.0 -> 4.1.1:
+  - You can now stand
+## 5.1.0 Go Figure Update (spoilers)
+- Galetry:
+  - Added a gift shop
+  - Added a new item to buy
+  - Added 26 action figures to collect
+- Asteroid 4.0.1 -> 4.1.0:
+  - Fixed foggy not covering the entire moon
+- Junic 3.0.1 -> 3.1.0:
+  - Fixed flowers being able to clip you through the map
+- Alcatras:
+  - Fixed prisoners note 1
+- Acidir 6.0.1 -> 6.1.0:
+  - Fixed missing navmesh in certain areas
+- Hyx:
+  - Performance improvements
+- Fission:
+  - Slightly buffed loot values for the Geigercounter and the Battery
+- Empra:
+  - Performance improvements
+  - Jacob forced me to fix the tiny player bug :(
+- Cosmocos 4.0.1 -> 4.1.0:
+  - Updated the entry event
+  - Increased min/max scrap spawns
+  - Made the Anomalous Object hint more rare
+- Polarus 4.0.0 -> 4.1.0:
+  - Changed how the ice walls work
+  - Outside ambience is back
+  - The ice sheets are now properly synced
+  - Some visual updates on the worm
+  - Some changes to the elevator
+- Lecaro:
+  - Removed the invisible wall on the rails
+  - Moving platforms are now synced
+- Trite:
+  - Made collapsing buildings more rare
+- Gloom:
+  - Brackens will now spawn outside instead of maneaters (usually) 
+  - Increased min/max scrap spawns a little
+- Something.. strange was added
+## 5.0.21
+- Added a couple more hints to which moons have logs
+- Hyve:
+  - The items are back
+- Atlantica:
+  - Some optimisation
+- Probably some other stuff I forgot
+## 5.0.20
+- Adjusted balancing for Oldred, Fission, Gloom, Polarus, Junic
+- Increased the scan range for video tapes
+- Fission
+  - Navmesh fixes
+- Cosmocos
+  - REMOVED MINESHAFT
+  - All paths open at a certain point in the day
+  - Added a new note
+## 5.0.19
+- Fixed a networking issue on one of the new moons
+- Cosmocos:
+  - The day should now be longer rather than shorter.. whoops
+## 5.0.18
+- Fixed reverb trigger error spam
+## 5.0.17
+- Fixed a bunch of notes and lore items
+- Fixed enemies walking through the ship on every moon which still had this issue
+- Balanced some moons
+- I fixed a bunch of Miscellaneous things
+## 5.0.16
+- Cactus3 can go on vacation again
+## 5.0.15
+- Fixed a whoopsie
+## 5.0.14
+- Added simple hints for locating the loggable items
+- Moved the Log translator on Infernis
+- Fixed a very annoying issue involving turrets
+## 5.0.13
+- Geoffrey's logs are louder
+- Gratar:
+  - Added a new log
+  - Rebalanced hazards a bit
+- Infernis:
+  - Mineshaft is now the main interior
+## 5.0.12
+- Did some balancing
+- Oldred:
+  - Actually fixed the mines
+- Gloom:
+  - Made the interior fog event more bearable
+  - Made outside maneaters way more rare
+- Cosmocos:
+  - Forgotten Logs are now loggable
+  - A day on Cosmocos is now slightly longer
+- Junic: 
+  - Outside hoarding bugs are now gone
+  - Spiders
+  - Slightly decreased the scrap amount
+- Hyve:
+  - Hoarding bugs should no longer be able to enter the ship
+- Etern:
+  - Slightly adjusted the inside spawn curve
+- Polarus:
+  - Made sure platform animations are properly synced
+- Infernis:
+  - Slightly decreased the scrap amount
+- Gratar:
+  - Decreased the scrap amount
+  - Decreased the interior scale
+  - Made facility its main interior again
+- Acidir:
+  - Fixed mimics walking through the ship
+- And probably some other stuff I don't remember
+## 5.0.11
+- Fixed some stuff on new moons
+## 5.0.10
+- Fixed something on Polarus
+## 5.0.9
+- Made the path to the logs on Polarus and Asteroid a bit more clear
+- Added a scorch mark to the dropship location on Galetry
+- Miscellaneous fixes and changes on the new moons
+## 5.0.7
+- Adjusted some item spawn weights
+- I swear this will be my last patch for now
+## 5.0.6
+- Improved the dropship area a bit
+- Fixed the tape on Atlantica not being there
+- Added something
+- Made sure Jacob won't kill me
+## 5.0.5
+- Made 5.0.4 disappear
+- Fixed something I overlooked
+## 5.0.3
+- Thanks to Autumnis for doing some bug hunting
+- Oldred: 3.0.0 -> 3.0.1
+  - Mines won't blow up the moment you land anymore
+- Atlantica: 4.0.0 -> 4.0.1
+  - Fixed the Atlantica tape not being networked properly
+- Gloom: 3.0.0 -> 3.0.1
+  - Interior scale has been upped to 1.4 from 1.16 to allow more room for fire exits to generate in the interior.. looking at you mineshaft
+- Asteroid-13: 4.0.0 -> 4.0.1
+  - Asteroid-13 lights will now properly shut off when the apparatus is pulled
+- Acidir: 6.0.0 -> 6.0.1
+  - Increased the value of the Crescent of Curses
+- Cosmocos: 4.0.0 -> 4.0.1
+  - Standalone release is now unlocked (whoops)
+- Other
+  - Temp fix for Videotapes and logs not working properly sometimes
+  - Fixed Special Apparatuses vanishing on moon change
+  - Fixed some navmesh things on some of the new moons
+  - The light above the sell counter no longer flickers
+  - Rebalanced one of the new moons
+  - Fixed "Doggy clipping through rock"
+  - Fixed a scan node
+## 5.0.2
+- I made a funny silly whoopsie but Cosmocos exists now
+## 5.0.1
+- Readme update
+## 5.0.0
+- New content
+  - Added Galetry
+- All Moons
+  - Adjusted a lot of scrap item positions (S1ckboy you are a legend for going through most of em)
+  - Adjusted the interact colliders of every scrap item to make them easier to grab
+  - Adjusted every multi-word scrap item name to conform to the lethal company naming conventions
+  - Optimised filesizes by a lot
+  - Fixed items not spawning when changed in configs
+  - Fixed foggy weather not covering the entire moon in some cases
+  - Fixed some performance related issues
+  - Locked and hid every moon
+  - Updated some itemship locations
+  - Notes should no longer cause errors
+  - Fixed the main entrance doors (yay door handles)
+  - Added the Log Translator to every moon and made it functional
+  - Fixed normal maps in a bunch of places (moons are prettier now)
+  - Lowered the volume of some background ambiences
+  - Ambiences are set up in a different way making them blend in better with the environment
+  - Items you can log at a Log Translator now have a different icon
+  - Removed the dopler effect from audio sources that didn't need them
+  - Added the mineshaft interior to a bunch of moons
+  - Fixed the water looking like clay
+  - Added the maneater to some moons, both inside and outside.. have fun figuring out where..
+  - Fixed dropship music playing before the ship has landed
+  - Fixed and added far audios for some noisemaker scraps
+  - Added playable video tapes
+  - You can now turn off audio logs
+  - Improved smoke effects
+- Asteroid-13: 3.0.9 -> 4.0.0
+  - Made the interior fog slightly less dense 
+  - The stun baton can now be used as a weapon
+  - Moved the itemship to account for the cruiser
+  - ~~Removed vain shrouds~~ nvm thanks zeekers
+  - Old computer and Bio-HXNV7 are now worth more
+  - Changed the leave event
+  - Implemented the Log Translator
+  - Added new orbit visuals
+- Asteroid-14: 2.0.3 -> 3.0.0
+  - Some beehives will now explode when you hit them with the cruiser.. try it.. it's great :D
+  - Fixed foggy weather
+  - Added some ambient bees to the corner of your eyes
+  - Added some bees to the sky
+  - Added flooded weather.. flooded with bees BEES BEEEEEEEEEEES
+  - Changed terminal and internal name to "Hyve"
+  - Added new orbit visuals
+- Desolation: 2.0.4 -> 3.0.0
+  - Fixed some falling logs missing their interact icon
+  - Fixed some trees missing collision
+  - ~~Added the Kidnapper Fox to inside spawns~~ :(
+  - ^Added the Lassoman instead with a weight of 1.. cus.. why not right?
+  - Watchers now deal damage over time again
+  - Cosmic growth can now kill you if you get crushed
+  - Updated orbit visuals
+  - Angry cosmic growths will now spawn as actual hazards
+- Infernis: 4.0.5 -> 5.0.0
+  - Remade the texture for the pickaxe
+  - Added a trail to the research camp
+  - Added stormy weather
+  - Massively improved the fireball visuals
+  - Blue
+  - My brain got mangled today.. (I am reading this now while putting it in the changelog.md, no clue what happened that day)
+  - The pickaxe is now a weapon
+  - Fixed the pickaxe resting position
+  - Increased the value of raw gold
+  - Fixed the skull sounds
+  - Updated lore notes to be a bit more.. descriptive
+  - Adjusted the loot spawns
+  - Slightly adjusted the leave event
+  - Fixed an issue where the leave event would start at random
+  - Cunningham's travel log is now a collectable item
+  - Added a screenshake to the leave event
+  - Added screenshakes to the earthquakes
+  - You can now sink in lava
+  - Updated the dropship music
+  - Updated orbit visuals
+  - Rocks are now throwable
+  - Lowered the volume of the music
+  - Changed the way eruption sounds and effects are handled
+  - Fixed me accidentally deleting navmesh in the interior, whoopsies
+- Acidir: 5.0.6 -> 6.0.0
+  - Added a trail to the research camp
+  - Uhm, I had accidentally made this moon always eclipsed.. whoopsies
+  - Removed loot from the research camp
+  - Added the Barber to inside and outside spawns
+  - Updated the lore notes to make them more descriptive
+  - Swamp trees look nicer
+  - Cunningham's travel log is now a collectable item
+  - Made the interior smaller
+  - The mansion now has textures (doubt you'll notice it though)
+  - Acid now burns
+  - Added some lights
+  - Maybe made trees destructible?
+  - Updated orbit visuals
+  - Updated the preview video
+  - Fixed me accidentally deleting navmesh in the interior.. again
+  - Added ogopogo compat
+- Cosmocos: 3.0.6 -> 4.0.0
+  - Fixed the "new" glowy plants (they are actually there now)
+  - Cunningham's final log is now a collectable item
+  - Optional terrain paths now have their own navmesh (no more floating enemies)
+  - Reworked the random path system
+  - Longer paths have a smaller chance of being chosen compared to shorter paths
+  - Removed rainy and stormy weather
+  - Added an animation to the guiding plants
+  - Fixed watchers not dealing consecutive damage
+  - You can now hit watchers to stun them.. or stun them with a zap gun
+  - Added sounds to the watchers
+  - Watchers will no longer hurt you through walls
+  - Updated the dropship music
+  - Watchers and.. cosmic strands will now spawn as interior hazards (no more wall watchers)
+  - Cosmic strands are now breakable
+  - Cosmic strands now have an animation
+  - Rebalanced the items values
+- Polarus: 3.0.5 -> 4.0.0
+  - Added a trail to the research camp
+  - Added the Barber
+  - The elevator is no longer janky
+  - You now move with the ice platforms if you stand on them
+  - Redid the ice platforms
+  - Added a large one-use ice sheet to transport items
+  - Lowered the interior scale
+  - Adjusted the inside spawn curve, enemies should no longer spawn immediately
+  - Enter event now properly happens when you land
+  - Updated the leave event
+  - Cunningham's travel log is now a collectable item
+  - Slightly improved the snow particles
+  - Updated the terrain to look a bit nicer here and there
+  - Added Polarmilk™
+  - Made it cruiser compatible
+  - Added screen shakes to the enter event, leave event and the worm hazard
+  - Icicles will now break your head
+  - Added a special event to eclipsed weather
+  - Made trees destructible
+  - Updated orbit visuals
+  - Added ogopogo compat
+- Gratar: 3.0.11 -> 4.0.0
+  - Updated the player enter/leave voicelines.. idk if they are used though lol
+  - Updated the explosion effects
+  - The bridge will now take you with it rather than push you
+  - Updated the Accident logs
+  - You can now put items on the falling bridge
+  - Made the fog less dense
+  - Added screenshakes to the explosion event
+  - The explosion event will now always happen at a certain time of day
+  - Updated orbit visuals
+  - Adjusted flooded weather to be more dangerous
+  - Added off mesh links near ladders
+- Junic: 2.0.8 -> 3.0.0
+  - Fixed interior ritual fog not covering the entire facility
+  - Updated the lighting and fog
+  - Trees no longer have mesh colliders
+  - Made the moon free
+  - Changed some textures
+  - Added some more visuals to the ritual event
+  - Changed the way the ritual works
+  - Changed the consequences of the ritual
+  - Updated the Lunatics translation (definitely not related to the 3 notes above)
+  - Added a new scrap item
+  - Increased the damage of flower traps
+  - The falling log and rocks can now crush you
+  - Made trees destructible
+  - Updated orbit visuals
+  - Vines will now spawn on indoor nodes
+- Oldred: 2.0.9 -> 3.0.0
+  - Mines now deal damage based on distance
+  - Added more mines
+  - Improved the explosion effect
+  - ~~Removed vain shrouds~~ again nvm
+  - Fixed mines disappearing
+  - Uh.. disco?
+  - Fixed the recurring damage for oil geysers
+  - Swimming in oil will now blind you
+  - Added a screenshake to the mines
+  - Updated orbit visuals
+  - The mines will now spawn as interior hazards
+  - Updated the oil geyser visuals
+  - Added more AI nodes
+  - Added ogopogo compat
+- Gloom: 2.0.5 -> 3.0.0
+  - Adjusted the grass texture
+  - Chainsaws are now a weapon
+  - The circular saw is now a weapon
+  - Updated the explosion effects
+  - Increased scrap value
+  - Increased scrap spawns
+  - Lowered the spike trap amount
+  - Lowered Old Bird spawns
+  - Added the Barber to outside spawns
+  - Removed rolling fog
+  - Brought back cave puddles
+  - Changed explosion damage
+  - Added screenshakes to the explosions
+  - Updated orbit visuals
+  - Dynamite can now explode
+  - Added the Big Dynamite.. anyone wanna play hot potato?
+- Etern: 4.0.7 -> 5.0.0
+  - Updated the nuke effect
+  - Added the barber
+  - Fixed some normals on the rocks and cacti
+  - Massively buffed the loot and loot values
+  - The nuke will now always go off at a certain time
+  - Added a screenshake to the nuke
+  - Updated the post nuke visuals
+  - Updated orbit visuals
+- Fission-C: 2.0.8 -> 3.0.0
+  - Added the Barber
+  - Enter event now properly happens when you land
+  - Buffed the loot
+  - Added screenshakes to the intro event
+  - Toxic waste will now kill you rather quickly
+  - Updated orbit visuals
+  - Updated how flooded weather works
+  - Updated the terrain
+  - Radioactive fog will now spawn on indoor AI nodes
+  - Lowered the amount of radioactive fogs that can spawn
+- Atlantica: 3.0.6 -> 4.0.0
+  - Fixed the secret island
+  - Cunningham's travel log is now a collectable item
+  - You can now drown inside
+  - The indoor flooding is now periodically and more than once, beware of the warning
+  - Updated the leaving event
+  - Updated orbit visuals
+  - Updated flooded weather
+  - Leaving makes you wet
+  - If an interior spawns with the bloody tag, there will be blood
+  - Lowered the volume of the waves
+  - Items should no longer in the air when the main entrance building sinks
+  - Added ogopogo compat
+## 4.0.29
+- I am still working on the big update, give it time
+- Added Company Cruiser Fix as a dependency (for now)
+## 4.0.28
+- Cosmocos : 3.0.4-> 3.0.5
+  - Added an actual texture to cosmic growth
+  - Made the cosmic models a bit smoother so it looks nicer
+  - The Cosmic Apparatus is now actually called Cosmic Apparatus
+- Fission: 2.0.5 -> 2.0.6
+  - Improved a model
+- Desolation : 2.0.3 -> 2.0.4
+  - Improved some models
+  - Added a texture to cosmic growth
+- Oldred: 2.0.6 -> 2.0.7
+  - Improved the mine model
+- Atlantica: 3.0.4 -> 3.0.5
+  - Improved some models
+## 4.0.27
+- Cosmocos : 3.0.4-> 3.0.5
+  - As long as you don't leave within the first one and a half minute, you shouldn't get ejected out of the ship when leaving
+## 4.0.26
+- Asteroid: 3.0.8 -> 3.0.9
+  - Fixed eclipses on asteroid-13
+## 4.0.25
+- Cosmocos : 3.0.3-> 3.0.4
+  - Added the void
+## 4.0.24
+- Cosmocos : 3.0.2 -> 3.0.3
+  - Small fix
+## 4.0.23
+- Cosmocos : 3.0.1 -> 3.0.2
+  - Small fix
+## 4.0.22
+- Etern: 4.0.6 -> 4.0.7
+  - I was gonna remove flooded weather but I'm doing an Adamance instead
+## 4.0.21
+- Fission: 2.0.5 -> 2.0.6
+  - Guaranteed Aaron
+## 4.0.20
+- Cosmocos 3.0.0 -> 3.0.1
+  - Changed a tiny thing that I kept forgetting about
+## 4.0.18
+- All Moons
+  - Made nights darker
+- Gratar: 3.0.10 -> 3.0.11
+- Asteroid: 3.0.7 -> 3.0.8
+  - Eclipsed power switch smoke is now smaller
+- Cosmocos : 2.0.7 -> 2.0.8
+  - (Hopefully) Fixed the crashes
+  - Grass broke so I've done a little redesigning
+  - Added confusion
+  - Large performance boost
+  - Made the second apparatus a bit more special (and a bit more valuable)
+  - Eclipsed weather will now have watchers outside
+  - Added a few more plant types
+  - Removed flooded weather
+  - Updated the skybox
+  - Updated the intro animation
+  - Increased the outside and daytime power level
+  - Increased the facility size slightly
+- Acidir: 5.0.4 -> 5.0.5
+  - Notes should no longer spam logs
+- Desolation : 2.0.3 -> 2.0.4
+- Polarus: 3.0.3 -> 3.0.4
+  - Notes should no longer spam logs
+- Infernis : 4.0.3 -> 4.0.4
+  - Notes should no longer spam logs
+- Gloom : 2.0.3 -> 2.0.4
+  - Fixed Gloom eclipse
+- Atlantica: 3.0.3 -> 3.0.4
+  - Notes should no longer spam logs
+- Junic : 2.0.6 -> 2.0.7
+  - Notes should no longer spam logs
+- Fission: 2.0.4 -> 2.0.5
+  - Notes should no longer spam logs
+- Oldred: 2.0.6 -> 2.0.7
+  - Notes should no longer spam logs
+- Etern: 4.0.4 -> 4.0.5
+## 4.0.17
+- Gratar: 3.0.9 -> 3.0.10
+  - Updated the apparatus pull and light switch sounds
+## 4.0.16
+- Asteroid: 3.0.6 -> 3.0.7
+  - Lowered the amount of falling stars on eclipsed asteroid
+## 4.0.15
+- Cosmocos : 2.0.6 -> 2.0.7
+  - Reverted latest change
+## 4.0.14
+- Asteroid: 3.0.5 -> 3.0.6
+  - Updated the skybox
+  - Updated the Eclipsed skybox
+  - Eclipses are now really pretty :D
+  - They are also extremely hellish now
+## 4.0.13
+- Cosmocos : 2.0.5 -> 2.0.6
+  - Attempt nr 4, disabled the intro animation
+## 4.0.12
+- All Moons
+  - Eclipses are now more dangerous
+  - Added a night skybox for when it turns night
+  - Night is now dark and actually feels like night (I hope so at least)
+  - Eclipsed weather will always have a night skybox
+- Cosmocos : 2.0.5 -> 2.0.6
+  - Re-added the second apparatus, hopefully it works
+- Gratar: 3.0.8 -> 3.0.9
+  - Added Wa to flooded weather
+  - Updated the decontamination voice line
+  - Increased the max amount of turrets
+  - Updated Flooded Weather
+  - Make sure to press all the big red buttons
+- Acidir: 5.0.4 -> 5.0.5
+  - Added some loot spawn spots near the research area
+- Desolation : 2.0.3 -> 2.0.4
+  - Updated the skybox
+- Polarus: 3.0.3 -> 3.0.4
+  - Changed fog
+  - Added some loot spawn spots near the research area
+- Infernis : 4.0.3 -> 4.0.4
+  - Added a bit more decoration to the backside of the island
+  - Added some loot spawn spots near the research area
+  - Added steam to rainy weather
+  - Inside dust should no longer get small when you get near
+  - Slightly updated the final eruption sound
+  - Lava crystal now glows
+- Gloom : 2.0.3 -> 2.0.4
+  - It can now be foggy or eclipsed (probably foggy and eclipsed if you have weather tweaks because thanks Mrov)
+- Atlantica: 3.0.3 -> 3.0.4
+  - Eclipsed weather is really pretty now (in my opinion)
+- Junic : 2.0.6 -> 2.0.7
+  - Removed clouds
+- Asteroid: 3.0.4 -> 3.0.5
+  - It can now be eclipsed (don't ask how)
+  - Updated the skybox
+  - Eclipsed weather has a special skybox
+- Fission: 2.0.4 -> 2.0.5
+- Oldred: 2.0.6 -> 2.0.7
+- Etern: 4.0.4 -> 4.0.5
+## 4.0.11
+- Cosmocos : 2.0.4 -> 2.0.5
+  - Attempt nr 3
+## 4.0.10
+- Cosmocos : 2.0.3 -> 2.0.4
+  - Attempt nr 2
+## 4.0.9
+- Cosmocos : 2.0.2 -> 2.0.3
+  - Can't seem to replicate it but I might have fixed the crashing
+## 4.0.8
+- Gratar: 3.0.3 -> 3.0.8
+  - Trees now like flooded weather
+## 4.0.7
+- General
+  - Added spike traps to every moon, Gratar has a 1.5% chance of having a hundred of them >:D     (Acidir/Polarus don't have any)
+- Acidir: 5.0.3 -> 5.0.4
+- Desolation : 2.0.2 -> 2.0.3
+- Polarus: 3.0.2 -> 3.0.3
+  - Increased old bird spawns
+  - Added butlers
+  - Fixed ice sheets being huge on multiplayer
+- Infernis : 4.0.2 -> 4.0.3
+- Gloom : 2.0.2 -> 2.0.3
+  - Added rare Old Bird Spawn
+- Cosmocos : 2.0.2 -> 2.0.3
+  - Watchers hurt again
+- Atlantica: 3.0.2 -> 3.0.3
+- Gratar: 3.0.3 -> 3.0.4
+- Junic : 2.0.5 -> 2.0.6
+  - Added butlers
+- Asteroid: 3.0.3 -> 3.0.4
+- Fission: 2.0.3 -> 2.0.4
+  - Added butlers
+- Oldred: 2.0.5 -> 2.0.6
+  - Adjusted outside spawns
+- Etern: 4.0.3 -> 4.0.4
+## 4.0.6
+- Acidir: 5.0.2 -> 5.0.3
+  - Updated eclipse effect
+- Desolation : 2.0.1 -> 2.0.2
+  - Updated eclipse effect
+- Polarus: 3.0.1 -> 3.0.2
+  - Updated eclipse effect
+- Infernis : 4.0.1 -> 4.0.2
+  - Updated eclipse effect
+- Gloom : 2.0.1 -> 2.0.2
+  - Something probably
+- Cosmocos : 2.0.1 -> 2.0.2
+  - Small fix
+- Atlantica: 3.0.1 -> 3.0.2
+  - Updated eclipse effect
+- Gratar: 3.0.2 -> 3.0.3
+  - Updated eclipse effect
+- Junic : 2.0.4 -> 2.0.5
+  - Updated eclipse effect
+- Asteroid: 3.0.2 -> 3.0.3
+  - Something?
+- Fission: 2.0.2 -> 2.0.3
+  - Updated eclipse effect
+- Oldred: 2.0.4 -> 2.0.5
+  - Updated eclipse effect
+- Etern: 4.0.2 -> 4.0.3
+  - Updated eclipse effect
+## 4.0.5
+- Junic: 2.0.2 -> 2.0.3
+  - No more main entrance puddles
+  - Changed collapse timings once more
+  - No more fire exit cheesing
+## 4.0.4
+- Not found
+## 4.0.3
+- Oldred: 2.0.1 -> 2.0.3
+  - The dropship was invisible? if this was an issue, it's probably fixed now
+## 4.0.2
+- Desolation : 2.0.0 -> 2.0.1
+  - Fixed weather vanishing when leaving
+  - Fixed risk rating
+- Polarus: 3.0.0 -> 3.0.1
+  - Fixed weather vanishing when leaving
+  - Fixed risk rating
+- Infernis : 4.0.0 -> 4.0.1
+  - Fixed weather vanishing when leaving
+  - Fixed risk rating
+- Gloom : 2.0.0 -> 2.0.1
+  - Fixed weather vanishing when leaving
+  - Fixed risk rating
+- Cosmocos : 2.0.0 -> 2.0.1
+  - Possible performance improvements
+  - Fixed weather vanishing when leaving
+  - Fixed risk rating
+- Atlantica: 3.0.0 -> 3.0.1
+  - Fixed weather vanishing when leaving
+  - Fixed risk rating
+- Gratar: 3.0.1 -> 3.0.2
+  - Fixed weather vanishing when leaving
+  - Fixed risk rating
+- Junic : 2.0.1 -> 2.0.2
+  - Fixed weather vanishing when leaving
+  - Fixed risk rating
+- Asteroid: 3.0.1 -> 3.0.2
+  - Fixed weather vanishing when leaving
+  - Fixed risk rating
+- Fission: 2.0.1 -> 2.0.2
+  - Fixed weather vanishing when leaving
+  - Fixed risk rating
+- Oldred: 2.0.1 -> 2.0.2
+  - Fixed weather vanishing when leaving
+  - Fixed risk rating
+- Etern: 4.0.1 -> 4.0.2
+  - Fixed weather vanishing when leaving
+  - Fixed risk rating
+- Acidir: 5.0.1 -> 5.0.2
+  - Possible performance improvements
+  - Fixed weather vanishing when leaving
+  - Fixed risk rating
+## 4.0.1
+- Gratar: 3.0.0 -> 3.0.1
+  - Added something to the apparatus and power switch
+- Junic : 2.0.0 -> 2.0.1
+  - Slightly changed flooded weather
+- Asteroid: 3.0.0 -> 3.0.1
+  - Random power down chance has been lowered from 20 to 8 (whoops)
+- Fission: 2.0.0 -> 2.0.1
+  - Fixed the main entrance (and the ramp to it)
+- Oldred: 2.0.0 -> 2.0.1
+  - Small visual changes
+- Etern: 4.0.0 -> 4.0.1
+  - Small visual changes
+- Acidir: 5.0.0 -> 5.0.1
+  - Don't remember
+## 4.0.0
+- Updated all of them
+- LLL port!
+- Added Celestial tint support
+## 3.1.10
+- Atlantica: 2.3.1 -> 2.3.2
+  - Whoops, broke the bridge (it works now)
+## 3.1.9
+- Atlantica: 2.3.0 -> 2.3.1
+  - Fixed the atlantica leaving event
+## 3.1.8
+- Oldred: 1.0.13 -> 1.0.14
+  - Updated some lore
+## 3.1.5
+- Polarus: 2.3.3 -> 2.3.4
+  - Fix 3.. weee
+## 3.1.4
+- Polarus: 2.3.2 -> 2.3.3
+  - Fix 2 electric boogaloo
+## 3.1.3
+- Etern: 3.3.1 -> 3.3.2
+  - Sound fix
+## 3.1.2
+- Polarus: 2.3.1 -> 2.3.2
+  - Fix
+## 3.1.1
+- Polarus: 2.3.0 -> 2.3.1
+  - Increased the loot value
+## 3.1.0
+- Infernis: 3.3.0 -> 3.3.2
+  - Finetuned the leaving event
+- Atlantica: 2.2.3 -> 2.3.0
+  - Changed the indoor flooding
+  - Added a pushable bridge
+- Junic: 1.0.17 -> 1.1.0
+  - Adjusted dungeon spawn rates
+- Polarus: 2.2.1 -> 2.3.0
+  - Updated the map
+- Etern: 3.3.0 -> 3.3.1
+  - Enemies should no longer be able to walk through the ship
+  - It strikes at 9
+- Oldred: 1.0.12 -> 1.0.13
+  - Enemies should no longer be able to walk through the ship
+- Gloom: 1.0.4 -> 1.0.5
+  - Enemies should no longer be able to walk through the ship
+  - Changed Dungeon spawn rates
+- Fission: 1.0.6 -> 1.0.7
+  - Touching the floor no longer hurts
+## 3.0.33
+- Junic: 1.0.16 -> 1.0.17
+  - hotfix
+## 3.0.32
+- Infernis: 3.2.0 -> 3.3.0
+  - No more instant kills when leaving through main
+  - Revamped the leaving event
+- Gloom: 1.0.3 -> 1.0.4
+  - Don't ask me how I spelled "They're" as "Yhey;re" and not notice it because I have no idea
+- Junic: 1.0.15 -> 1.0.16
+  - [redacted] should now work with teleporters
+- Fission: 1.0.5 -> 1.0.6
+  - Added a lamp above the main entrance
+## 3.0.31
+- Polarus: 2.2.0 -> 2.2.1
+  - The letter scrap items were invisible
+## 3.0.30
+- Oldred: 1.0.11 -> 1.0.12
+  - Updated some lore
+## 3.0.29
+- Desolation: 1.1.0 -> 1.1.1
+  - Small fix
+## 3.0.28
+- Desolation: 1.0.5 -> 1.1.0
+  - Added another fire exit
+  - Balanced scrap items a bit
+  - Added a new scrap item
+## 3.0.27
+- Oldred: 1.0.10 -> 1.0.11
+  - Added some lore
+- Gratar: 2.2.4 -> 2.2.5
+  - small fix
+- Etern: 3.2.0 -> 3.3.0
+  - Improved some visuals
+  - Made the map feel bigger
+  - Fixed the toy nutcracker sound
+- Atlantica: 2.2.1 -> 2.2.3
+  - Removed Giants
+- Gloom: 1.0.2 -> 1.0.3
+  - Added hoarding bugs to inside spawn pool
+  - Lowered crawler spawns by a lot
+- Fission: 1.0.4 -> 1.0.5
+  - Made the plastic box lighter
+## 3.0.26
+- Junic: 1.0.14 -> 1.0.15
+  - Small patch
+## 3.0.25
+- Junic: 1.0.13 -> 1.0.14
+  - Patched the secret update
+## 3.0.24
+- Junic: 1.0.12 -> 1.0.13
+  - Secret update
+## 3.0.23
+- Junic: 1.0.11 -> 1.0.12
+  - Enemies?
+- Gratar: 2.2.3 -> 2.2.4
+  - small fix
+- Gloom: 1.0.1 -> 1.0.2
+  - Minor map addition
+## 3.0.22
+- Junic: 1.0.10 -> 1.0.11
+  - Fixed flooded weather
+## 3.0.21
+- Oldred: 1.0.9 -> 1.0.10
+  - Added a thing
+  - Increased audio range of the mines
+## 3.0.20
+- Oldred: 1.0.8 -> 1.0.9
+  - Transcripts are now easier to read
+## 3.0.19
+- Gratar: 2.2.2 -> 2.2.3
+  - small fix
+## 3.0.18
+- Junic: 1.0.9 -> 1.0.10
+  - adjusted the timing of a few blockades
+- Desolation: 1.0.2 -> 1.0.3
+  - Changed inside spawns a bit
+  - Changed lil cosmo
+  - Added scan nodes to the falling logs
+- Gratar: 2.2.1 -> 2.2.2
+  - Updated and fixed the explosion event, it always plays near the end of the day
+- Oldred: 1.0.7 -> 1.0.8
+  - I don't remember to be honest
+## 3.0.17
+- Junic: 1.0.8 -> 1.0.9
+  - updated [redacted]
+- Oldred: 1.0.6 -> 1.0.7
+  - enemies should no longer teleport
+## 3.0.16
+- Oldred: 1.0.5 -> 1.0.6
+  - bombs no longer just dissapear
+## 3.0.15
+- Junic: 1.0.7 -> 1.0.8
+  - nerfed outside spawns
+- Oldred: 1.0.4 -> 1.0.5
+  - bombs now don't always explode in sync
+- Desolation: 1.0.1 -> 1.0.2
+  - Nerfed inside spawns
+## 3.0.14
+- Junic: 1.0.6 -> 1.0.7
+  - fixed [redacted]
+## 3.0.13
+- Fission: 1.0.3 -> 1.0.4
+  - The cube must be stopped
+  - Removed the cube

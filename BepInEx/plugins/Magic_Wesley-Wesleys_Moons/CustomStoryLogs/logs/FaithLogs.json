@@ -1,0 +1,67 @@
+{
+    "username": "MWFaith",
+    "modname": "FaithLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "Presence1",
+            "text": "Many years ago in a time long passed.\nA young man stood between the flowers in a ray of moonlight.\nObserving the stars, taking in the beauty that is the universe.\nHe did this every night. And every time it was breathtaking.\nBut on one fateful night it was different.\nHe saw a bright light in the sky.\nA comet?, A creature? no, something more.\nHe described it as a soul or a presence..\n And it spoke.\nThere between the flowers he listened to this voice from deep space.\nIt sounded powerful, but vague. A message he couldn't understand.\nYet he was inspired. He had to hear this again.\nHe had to tell everyone he knew.\nThis was something special.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "Presence2",
+            "text": "And every night he went back to that spot.\nHoping to see that light again.\nBut he didn't. For days he waited, hoping.\nAnd it wasn't until the seventh day when he heard it again. He saw it in the sky.\nHe was certain it was real.\nThe message was equally vague. Now he was determined.\n\nHe explained it to his friends. It took a lot of convincing to get them to join him for one night.\n\nAnd that night it was there. They all saw it. Moving across the sky.\nYet only he was able to hear it.\nBut they believed him.\nThey weren't sure what to make of it.\nThey all sat there, pondering, wondering.\nWhat or... who is this?",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "Presence3",
+            "text": "They brought this newfound knowledge to the village. They told everyone.\nWhile of course there were a lot of sceptics, there were few who had seen this light before when they were young. It had never spoken to them however.\nMaybe it wasn't a creature. Or something akin to that. Maybe it was the essence of their moon. Like a spirit, a presence as they described it.\nIt only made sense...\nAnd so they wished to see it again. To hopefully hear it speak, again.\nThey built shrines to please this presence.\nAnd even those of others.\nThey started giving them names, bodies, appearences, identities.\nThey would bring gifts to please them.\nThey would care for nature. The well being of their moon. Hoping to hear it again.\n\n... They never did, but they kept trying.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "3": {
+            "name": "Task5",
+            "text": "I have made it to faith but my health has rapidly declined.\nI can barely walk.\n\nIt's there, I feel it sitting in my chest...\nGrowing...\nThis tumor.\nI escaped the war..     I SURVIVED\nAnd this is how the universe rewards me?\nLife is suffering.\nAlways has been, from the moment I was created.\nOne month after being born I was already on the battlefield. Posessing memories of someone I'm not.\nThey didn't even give me a name.\nI was a number. A duplicate of someone else.\n...\nMy body is crumbling, I should get going.\nAnd when I'm done.\nAll my problems will go away.\n\n\nMy salvation lies on Berunah.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

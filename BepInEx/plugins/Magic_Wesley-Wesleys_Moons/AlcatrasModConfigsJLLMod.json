@@ -1,0 +1,13 @@
+{
+  "modAuthor": "MagicWesley",
+  "modName": "Alcatras",
+  "configOptions": [
+    {
+      "configName": "Banana launcher mode",
+      "configCategory": "Gimmicks",
+      "configDescription": "Banana launcher modeeeeeee",
+      "type": "bool",
+      "defaultValue": "false"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+    "username": "MWEtern",
+    "modname": "EternLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "1Scientist Log",
+            "text": "Year 154, day 136.\n\nBusiness as usual. \nProject nutcracker is well on the way. \nThese droids are getting more advanced by the day. \nEspecially since Geoffrey joined us a week ago. \nGreat stuff. \nMe out.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "2Scientist Log",
+            "text": "Year 154, day 139.\n\nUhh giants are still as prevalent as allways. \nUh. \nWe started to experiment with emotional manipulation alongside project nutcracker. \nWe just need the proper items to uh bind it to. \nMe out.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "3Scientist Log",
+            "text": "Year 154, day 146.\n\nWe used masks.. Big mistake. \nThey seem to get stuck to their wearers.. \nuh.. \nNo other side effects have been noted. \n\nI haven't seen it myself but I've heard project nutcracker was a succes! \nIt sounds like they're actually alive! \nuh.. \nWe also noticed that Geoffrey went missing recently. \nWe are looking into that. \nMe out.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "3": {
+            "name": "4Scientist Log",
+            "text": "Year 154, day 15.. something.\n\nI am on the run. \nThose masks.. took them. \nThey're not them anymore. \nThey took my team! Converted half of them! \nThe nutcrackers are not droids like I thought. \nI.. I saw one of them. \nIt shot me.. right in the chest before I got here. \nI'm bleeding out. \nI think the nutcrackers.. \nThey're my coworkers.. \nOr what's left of them. \nI think those masked men.. \nI think they.. \n\n*Gunshot*",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "4": {
+            "name": "Protocol Wipeout",
+            "text": "Year 154, day 12.\n\nToday is a scary day. \nProtocol wipeout was approved and the nuclear bomb will be installed tomorrow. \nKnowing where it came from I no longer feel quite as safe here. \nI can only imagine what could go wrong. \nWorse. \nHow it could ruin years of research and experimentation! \nIn case you don't know.. \nProtocol wipeout is only called during.. events of disaster. \nDestroying. \nEverything. \nAs much as I am facinated with the craft, I refuse to let it destroy all we've done. \nPerhaps I could modify some of its components. \nWe'll see. \nNow that project hawk is complete, we have received plans for new machines that will be used in the Grand War that just broke out. \nIt will be called, Project Nutcracker. \nI'm excited. \nMe out.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

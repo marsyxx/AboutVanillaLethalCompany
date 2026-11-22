@@ -1,0 +1,67 @@
+{
+    "username": "MWThalasso",
+    "modname": "ThalassoLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "Life",
+            "text": "I am nearing my day of birth yet again. It will be the twenty first.\nWhile to most it would seem a day of happiness.\nI look at it the opposite.\nThis year I have graduated for a course I was happy to start.\nBut time has shown that it might not be within my interest in this form.\nTherefor I feel a part of life was wasted. I have yet to understand what I truly want to do with the years that remain.\nI feel like a rock in a river. With life flowing around me. Unmoved. Waiting for change. Change that might never come if I stay this way.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "Friends",
+            "text": "During my time in this realm of mortality I have made friends of many. Though very few have stuck with me past my time of being around them.\nGrateful I am to those who remain. Those whom I can consider close.\nTrue friends.\nHowever I fear that the friends I have made in the past year become one with those who no longer seek contact with me. The thought haunts me daily. I fear that I might end up alone once more.\nI fear the void we call loneliness.\nOften I sit down, just me and my thoughts. No one to join my pondering. To fill up the void.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "Love",
+            "text": "It was a while ago when I first felt it. I felt it for a friends. But for the three years I was around. I was too scared to say something. And now we talk no longer.\nI often wonder what life would be had I been more courageous.\nBut now I have felt it once more.\nSomeone else. Another friend.\nBut it is different this time. While I send it from my side. I know I will never receive it.\nWhile to some it is a blessing. To me it is a curse. I feel the weight on my chest whenever I mention it.\nI feel like I am driving them away whenever I send it.\nI am lost.\nAnd I do not know the way.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "3": {
+            "name": "Fate",
+            "text": "My existence, my being, my mortality are comming thougts which cycle through my head more often than not.\nMy future, my past, my heart's desires. And the choices made which brought me here. Could I have done something different I wonder. Could I have been happy.\n\nI offered to have my heart cut out. In the ceremony of this rotation.\nI hope to be placed among the others. I hope to be happy. I hope to be unalone.\nI hope for my soul to be at peace within it. And may I be found.\nI ask, please, take care of me.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

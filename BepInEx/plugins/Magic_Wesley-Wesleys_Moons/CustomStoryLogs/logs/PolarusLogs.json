@@ -1,0 +1,67 @@
+{
+    "username": "MWPolarus",
+    "modname": "PolarusLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "1Undelivered Letter",
+            "text": "It's my second day working at this vault.\n\nThe work is quite boring if I'm bring honest.\nBut we are allowed to take breaks regularly!!\n\nThe people seem super nice as well, they make me feel at home.\n\nI like it here.\n\nBut I do miss you and I hope to see you and the kids soon :)\n\nFrom: employee-254 To [home address]",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "2Undelivered Letter",
+            "text": "It's my fifth day of work.\n\nMy apartment is surprisingly comfortable.\nIt's a long walk to the 'space bus' as I've started to call it.\n\nThere are also these strange noises below the ice, my co-worker speculated that it's the ice shifting.\n\nI have asked if I could go home and see the kids at least once a week but they refused to let me go.\nProbably because I am still in my proving period...\n\nBut I'll keep trying!\nI can't wait to see you again!\n\nFrom: employee-254 To [home address]",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "3Undelivered Letter",
+            "text": "It's been two weeks since my last letter.\nI am getting a little more homesick every day.\n\nI have noticed that a lot of newer employee get fired relatively quickly..\nMost of them don't even last a month!\n\nA co-worker of mine got fired as well.\nI haven't from him since :(\n\nWe also had to divert a rescue ship from Infernis to Gratar due to some accident there.\n\nBut I've got good news!\nThey agreed to let me go home at the end of this month!!!\n\nFrom: employee-254 To [home address]",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "3": {
+            "name": "4Undelivered Letter",
+            "text": "It's my last day before I can visit you.\n\nMost of my co-workers got fired and it's getting a little quiet around here lately.\n\nAnd there is definitely something below the ice, you can hear the growling in the deeper parts of the building.\n\nBut whatever it is they seem to keep it under control, maybe they are feeding it somehow.\n\nAnyway, they will take me home at the end of the day.\nI can't wait to see you!\nI've missed you!\n\nFrom: employee-254 To [home address]",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

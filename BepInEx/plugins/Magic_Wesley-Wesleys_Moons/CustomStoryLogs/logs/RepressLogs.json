@@ -1,0 +1,52 @@
+{
+    "username": "MWRepress",
+    "modname": "RepressLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "Kind crew",
+            "text": "-9th of July 2349-\nI found a couple floppy discs in a cabinet somewhere in the building.\nAllows me to put down my thoughts using the big computer in the hangar.\n\nFirst I'll introduce myself, hi, I'm Dan. It's been 7 days since I started working for the company.\nLucky for me I was greeted by a set of kind faces. They sort of explained to me how things work around here.\nWe're a crew of 4, there's Berry, he's pretty funny and good at keeping our spirits up. Then there's Kate who has been here the longest, used to be a mechanic for a failed business.\nAnd there's Arnold. Big guy, pretty smart as well, we call him engine man cause he's always the one carrying the engines hehe.\n(I'm also fairly certain Kate and Arnold have a thing for each other)\nDon't tell them I wrote that, they'll kill me\n\nIt's been rough. We've been going from building to building day by day delivering all our Junk to the company building.\nCan't say I'm quite fond of the place. The company desk reeks, it's nasty. And not only that but the building itself is quite imposing.\nI don't understand why but it feels like it wants to crush me like I'm an ant in the kitchen.\n\nSame with this place, though I feel a bit more safe here, its less menacing. Less like I'm being watched constantly.\nI'm not the only one who feels that way.\nArnold hates the company building too. He's always said there's something off about it.\nMaybe he's on to something.\n\nEither way Kate just radioed in that it's getting late. I better get going.\nI'll write more when I can.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "Insanity",
+            "text": "-12th of July 2349-\nOkay where do I start. First of all. There have been several near death experiences.\nThe quota is starting to get dangerously high. And Berry has seemingly cought the flu.\n\nIt's been rough.\n\nLast thing we expected was to enter an insane asylum back on Vow. I don't think I ever want to go back there.\nBerry stayed for ship duty this time due him getting sick. So me, Kate and Arnold went in. The place looked haunted.\nIt might as well have been because I swear I saw a trash can move. Arnold also claims to have seen a dark figure briefly staring at him when he opened a door before it vanished.\nTerrifying.\nThat wasn't the strangest part though. We heart Kate scream a few hallways down.. and when we got there, Blood was still freshly dripping from the ceiling. Guts, pieces of skin and hair littered the floor.\nWe were horrified. We thought it was maybe a mine or.. something worse. Either way we were in shock.\nToo scared to continue we retreated back to the entrance. But when we got there, there she was completely fine carrying a hairdryer and rubik's cube.\nArnold immediately ran over. Which I guess confirms my little theory heh.\nNevertheless it was unusual to say the least. I'm going to have nightmares about that for a while.\n\nBut then I knew one thing for certain. I want to leave.\nThey felt the same way.\nThe ship would only route to a few company issued moons. None are really suitable for hiding out.\nArnold suggested to mess with the terminal to see if we could get it to route us somewhere else.\nWhen Kate inspected it though she said doing that would trigger some form of protocol which would send us flying into space...\nI fear then we might have discovered what happens if we don't make quota.\nIf true the company is much worse than we initially thought.\n\nHowever Berry actually made a pretty good remark, he asked if we could take one of the ships back on Repress.\nWe had enough credits to go there soo.. now were here.\nNone of the ships were really usuable except for this one older model.\nKate said she can patch it up given enough time, it's missing a few components but we might be able to get those during the next quota.\nThere is hope.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "Destiny",
+            "text": "-16th of July 2349-\nI have unfortunate news.\nYesterday we lost Berry..\n\nWe went to Rend and everyone headed out to look for bolts, screws, metal plating, toy robots for wiring we could use on the new ship.\nOf course we left Berry in the ship, he was still sick but starting to recover.\nHe was great at communicating during ship duty, even though he felt like shit he was still able to crack a few jokes over the walkie.\nI remember him asking *What's the best animal to bring to the battlefield... DUCK!!* They were so.. bad.. so bad they became funny again.\nWe knew something was up when it went silent though.\nAnd sure enough when we headed back I faintly saw him roam around in the snow covered in red goop wearing a comedy mask, like he was possessed.\nNone of us had the strength to put him down if he was still in there so we just.. left.\nI'll miss him.\n\nKate and Arnold are now properly together, happy for them. They fit each other well.\nStress is starting to take me though.. I feel a constant pressure as we're racing against the clock.\nMakes me feel dizzy at times.\n\nThe ship is almost ready luckily. Good thing because our quota is reaching scarily high.\nEspecially with Berry gone we're not even sure if we'll make it past the next one.\nWe just need a control panel. None of us have seen one just yet but tomorrow we're making a visit to Titan, hopefully we'll find one there.\nWe have already planned out a place to escape to.\nThere's this city on a moon far from this region. 495-Risk. Fitting name I suppose.\nOnce we get there we'll be safe. Hopefully.\nI'll write again when we return for hopefully our final visit.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}

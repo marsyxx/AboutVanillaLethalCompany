@@ -1,0 +1,67 @@
+{
+    "username": "MWCore",
+    "modname": "CoreLogs",
+    "version": "1",
+    "logs": {
+        "0": {
+            "name": "Pedro4",
+            "text": "It worked. My disguise was enough to make them believe I was with them. I have been assigned a room in the guard chambers.\nThis facility is much larger.\nThe clouds seem to end before the building does.\nThe conditions are not better either. I feel for the workers.\nIn some places it's warm enough to melt skin off muscle.\n\nNow I'm here I will need to get accustomed to the standard procedures. I will also need to study the building a bit more before I can start planning anything.\nNot to mention figure out where Jareck is among all of this.\nBut I will have my vengeance.\nOne way or another.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "1": {
+            "name": "Pedro5",
+            "text": "I've been here for 4 weeks. I've learned much.\nI have gotten used to the procedures and the protocols of this place.\nDespite what it might seem from the perspective of the workers below.\nBeing a guard here is a differnt kind of imprisoning.\nInstead of constant physical labour you're put through committing actions that'll break a man.\nWhile I don't share the same chains as those below.\nI feel just as shackled.\n\nHowever, I know my way to the upper layers.\nI have seen him. He takes two smoke breaks by the left most fire exit at the bottom. Usually around 11am and 7pm.\nThe only place that's not monitored here is a small storage closet near the stairs atop the upper floor.\nIf I can sneak in there. With the right timing...\nI can give him what he deserves.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "2": {
+            "name": "Pedro6",
+            "text": "This is writ with bloodied hands.\nParts of Jareck's brain still between my fingernails.\nI succeeded.\n\nMy chest is bleedin. A searing pain from one side to the other. I believe he shot me in my ambush.\nThough I only geel it now.\nMy adrenaline kept me going. I was on top of him.\nEvery fist that struck his face was fueled by unmatched anger.\nI asked what happened to my wife and child..\nHe didn't even know who I was.\nI now realise the road I drove would lead to nowhere.\nI killed the man I hated so much.\nYet nothing's changed. I feel no different.\nMy family is still missing. And soon my breath will be my last.\nI was damned from the day I was taken.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        },
+        "3": {
+            "name": "Task4",
+            "text": "As per usual, I leave a note.\nI'm only getting closer to completing my task.\nThe cancer that grows within me makes me feel weaker by the day.\nBut I must continue.\nHe will heal me.\n\nI must say I enjoyed the peace that Dreck brought me.\nIt was cold yet empty. It felt like nothing was there to bother me.\nI felt alone but.. the good kind.\nI really.. needed that.\nThe war had quite a toll on me. Even if it's all I know.\nI mean. I was practically created by it.\nJust like many others.\n\n... I should get the fuel I came here for and proceed to Faith.",
+            "moon": " ",
+            "position": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            },
+            "rotation": {
+                "X": "1000",
+                "Y": "1000",
+                "Z": "1000"
+            }
+        }
+    }
+}
