@@ -1,5 +1,16 @@
 # Изменения сборки
 
+## 1.1.8 (22 ноября 2026)
+
+* Новые луны и интерьеры: Wesley's Moons, Wesley's Interiors (в том числе Expanded Facility), Wesley's Weathers, а также DunGenPlus, ImmersiveScrap, Custom Story Logs, LCCutscene, LethalNetworkAPI, ClickableTerminal, LethalSponge.
+* Окно загрузки: показывает, какой мод грузится, счётчики, ошибки и строки лога, закрывается само ([#82](../../issues/82)).
+* Видео-заставка на весь экран при запуске после полной загрузки (Пробел и Esc пропускают). Трейлер Wesley's Moons от Magic Wesley ([#82](../../issues/82)).
+* Терминал: «the company» снова открывает Company, а не файл монстра `thewail` ([#81](../../issues/81)).
+* Меню настроек Configurable Company: 8783 настройки вместо 65 081 (выключены вероятности предметов по лунам в LCV), меню строится 21 с вместо минут ([#83](../../issues/83)).
+* Wesley's Interiors работает на этой сборке игры (пересылка типов DunGen), убран дубль Expanded Facility ([#84](../../issues/84)).
+* Память: пик около 8,3 ГБ (было 4,7 ГБ): новые луны и интерьеры грузятся при запуске ([#46](../../issues/46)). Размер сборки вырос до 4 ГБ.
+* LCCompatFixes 1.0.3.
+
 ## 1.1.7 (22 ноября 2026)
 
 * Новые интерьеры: Liminal House, Raven Manor, Expanded Facility.

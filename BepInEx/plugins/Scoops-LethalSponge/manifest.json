@@ -1,0 +1,9 @@
+{
+    "name": "LethalSponge",
+    "version_number": "1.4.3",
+    "website_url": "https://github.com/CassCoffey/LethalSponge",
+    "description": "A performance and diagnosis suite focused on rendering and memory.",
+	"dependencies": [
+		"BepInEx-BepInExPack-5.4.2100"
+    ]
+}

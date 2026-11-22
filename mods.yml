@@ -627,34 +627,6 @@
   onlineSource: true
   trustedPackage: false
 - manifestVersion: 1
-  name: MelanieMelicious-MelanieMelicious_2_sToRy_ShIp__works_w_Wider_Ship_Mod
-  authorName: MelanieMelicious
-  websiteUrl: >-
-    https://thunderstore.io/c/lethal-company/p/MelanieMelicious/MelanieMelicious_2_sToRy_ShIp__works_w_Wider_Ship_Mod/
-  displayName: MelanieMelicious_2_sToRy_ShIp__works_w_Wider_Ship_Mod
-  description: >-
-    Very cool MelanieMelicious mod that makes the ship 2-stories tall.
-    Compatible with Wider Ship Mod, Ship Windows (reset config), AND Celestial
-    Tint. You can contact me in Lethal Company Modding Discord, I'll add more
-    options later.
-  gameVersion: '0'
-  networkMode: both
-  packageType: other
-  installMode: managed
-  installedAtTime: 1795297141708
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 2
-    patch: 17
-  enabled: false
-  onlineSource: true
-  trustedPackage: false
-- manifestVersion: 1
   name: Zaggy1024-PathfindingLib
   authorName: Zaggy1024
   websiteUrl: https://thunderstore.io/c/lethal-company/p/Zaggy1024/PathfindingLib/
@@ -2369,38 +2341,6 @@
   onlineSource: true
   trustedPackage: false
 - manifestVersion: 1
-  name: Generic_GMD-Generic_Interiors
-  authorName: Generic_GMD
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/Generic_GMD/Generic_Interiors/
-  displayName: Generic_Interiors
-  description: >-
-    Currently adds 6 interiors. Includes Storehouse, Bunker, Drains, Substation,
-    Tower, and Liminal Facility. Now with separate assetbundles!
-  gameVersion: '0'
-  networkMode: both
-  packageType: other
-  installMode: managed
-  installedAtTime: 1794035486179
-  loaders: []
-  dependencies:
-    - Beaniebe-Beanie_Lib-1.0.2
-    - BepInEx-BepInExPack-5.4.2100
-    - Generic_GMD-Generic_Doorscript-1.0.0
-    - Generic_GMD-ManuLib-1.0.0
-    - IAmBatby-LethalLevelLoader-1.2.2
-    - JacobG5-JLL-1.6.5
-    - rectorado-JKConfig-1.0.0
-    - rectorado-KenjiLib-0.2.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 5
-    minor: 2
-    patch: 1
-  enabled: false
-  onlineSource: true
-  trustedPackage: false
-- manifestVersion: 1
   name: Zaggy1024-OpenBodyCams
   authorName: Zaggy1024
   websiteUrl: https://thunderstore.io/c/lethal-company/p/Zaggy1024/OpenBodyCams/
@@ -2757,6 +2697,272 @@
     major: 1
     minor: 1
     patch: 6
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: Davesco-ClickableTerminal
+  authorName: Davesco
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Davesco/ClickableTerminal/
+  displayName: ClickableTerminal
+  description: Interactive terminal with mouse and controller support.
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795350046492
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 2
+    patch: 0
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: Alice-DungeonGenerationPlus
+  authorName: Alice
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Alice/DungeonGenerationPlus/
+  displayName: DungeonGenerationPlus
+  description: API to expand the compatibilities of Lethal Company's dungeon generation
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795350376212
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-FixPluginTypesSerialization-1.1.4
+    - IAmBatby-LethalLevelLoader-1.6.9
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 5
+    patch: 1
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: xilophor-LethalNetworkAPI
+  authorName: xilophor
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/xilophor/LethalNetworkAPI/
+  displayName: LethalNetworkAPI
+  description: A library/API to allow developers to easily add networking to their mods.
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795350376240
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Lordfirespeed-OdinSerializer-2024.2.2700
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 4
+    patch: 2
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: Magic_Wesley-Wesleys_Weathers
+  authorName: Magic_Wesley
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Magic_Wesley/Wesleys_Weathers/
+  displayName: Wesleys_Weathers
+  description: Adds 5 new weathers.
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795350376278
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - IAmBatby-LethalLevelLoader-1.7.12
+    - JacobG5-JLL-1.10.1
+    - Magic_Wesley-Wesleys_Ememy_Variants-1.3.0
+    - Magic_Wesley-Wesleys_Shenanigans-1.0.0
+    - mrov-WeatherRegistry-0.8.8
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 3
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: Magic_Wesley-WesleysInteriors
+  authorName: Magic_Wesley
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Magic_Wesley/WesleysInteriors/
+  displayName: WesleysInteriors
+  description: A few new interiors.
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795350376609
+  loaders: []
+  dependencies:
+    - Alice-DungeonGenerationPlus-1.5.1
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-HookGenPatcher-0.0.5
+    - IAmBatby-LethalLevelLoader-1.7.12
+    - JacobG5-JLL-1.10.1
+    - Magic_Wesley-Wesleys_Ememy_Variants-1.3.0
+    - Magic_Wesley-Wesleys_Shenanigans-1.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 5
+    minor: 0
+    patch: 19
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: Magic_Wesley-CustomStoryLogsFixed
+  authorName: Magic_Wesley
+  websiteUrl: >-
+    https://thunderstore.io/c/lethal-company/p/Magic_Wesley/CustomStoryLogsFixed/
+  displayName: CustomStoryLogsFixed
+  description: >-
+    Allows the addition of custom story logs. (this fixes a couple bugs until
+    the original gets fixed)
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795350376630
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2305
+    - Evaisa-LethalLib-1.2.0
+    - xilophor-LethalNetworkAPI-3.3.3
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 6
+    patch: 1
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: IntegrityChaos-LCCutscene
+  authorName: IntegrityChaos
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/IntegrityChaos/LCCutscene/
+  displayName: LCCutscene
+  description: >-
+    LCCutscene is a tool to create cutscenes and immersive animations to Lethal
+    Company.
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795350376654
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 1
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: Magic_Wesley-Wesleys_Moons
+  authorName: Magic_Wesley
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Magic_Wesley/Wesleys_Moons/
+  displayName: Wesleys_Moons
+  description: All of my moons & progression story mode.
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795350377853
+  loaders: []
+  dependencies:
+    - AudioKnight-StarlancerAIFix-3.13.2
+    - BepInEx-BepInExPack-5.4.2100
+    - Hardy-LCMaxSoundsFix-1.2.0
+    - IAmBatby-LethalLevelLoader-1.7.12
+    - IntegrityChaos-LCCutscene-2.0.1
+    - JacobG5-JLL-1.10.1
+    - Magic_Wesley-CustomStoryLogsFixed-1.6.1
+    - Magic_Wesley-Wesleys_Ememy_Variants-1.3.0
+    - Magic_Wesley-WesleysInteriors-5.0.0
+    - Magic_Wesley-Wesleys_Shenanigans-1.0.0
+    - Magic_Wesley-Wesleys_Weathers-1.3.0
+    - MaxWasUnavailable-LethalModDataLib-1.2.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 7
+    minor: 0
+    patch: 18
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: Scoops-LethalSponge
+  authorName: Scoops
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Scoops/LethalSponge/
+  displayName: LethalSponge
+  description: A performance and diagnosis suite focused on rendering and memory.
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795350469080
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 4
+    patch: 3
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: XuXiaolan-ImmersiveScrap
+  authorName: XuXiaolan
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/XuXiaolan/ImmersiveScrap/
+  displayName: ImmersiveScrap
+  description: >-
+    Adds a lot of new lore-friendly scraps for your game. Assets have been
+    cleaned and optimized for zero performance issue.
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795350518760
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - IAmBatby-LethalLevelLoader-1.3.10
+    - Rune580-LethalCompany_InputUtils-0.7.7
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 4
+    patch: 2
   enabled: true
   onlineSource: true
   trustedPackage: false
