@@ -1,31 +1,11 @@
 Y4NGZ Authored Placement Coverage
-Generated: 2026-11-23 01:48:42 +06:00
-Reason: before floor generation
+Generated: 2026-11-23 20:28:42 +06:00
+Reason: plugin startup
 Source: D:\Programs\ThunderStore\Data\LethalCompany\profiles\123\BepInEx\config\Y4NGZCompany\interior-authored-placements.local.json
 Note: Counts come from the canonical authored placement JSON. Zero-count interiors come from registered/loaded DungeonFlow resources discovered this run.
 
 Summary
-interiors listed: 20
+interiors listed: 0
 with authored placements: 0
-with zero authored placements: 20
+with zero authored placements: 0
 
-AquaticDungeonFlow authored mainframes: 0, company stashes: 0, defuse bombs: 0, shipping containers (blacksite-container): 0, cctv cameras: 0, loaded in game: yes, dungeon flow nodes: 2
-CarnivalFlow authored mainframes: 0, company stashes: 0, defuse bombs: 0, shipping containers (blacksite-container): 0, cctv cameras: 0, loaded in game: yes, dungeon flow nodes: 2
-DeepSewersFlow authored mainframes: 0, company stashes: 0, defuse bombs: 0, shipping containers (blacksite-container): 0, cctv cameras: 0, loaded in game: yes, dungeon flow nodes: 2
-ExpandedFacility authored mainframes: 0, company stashes: 0, defuse bombs: 0, shipping containers (blacksite-container): 0, cctv cameras: 0, loaded in game: yes, dungeon flow nodes: 2
-FracturedComplexFlow authored mainframes: 0, company stashes: 0, defuse bombs: 0, shipping containers (blacksite-container): 0, cctv cameras: 0, loaded in game: yes, dungeon flow nodes: 2
-GrandArmoryFlowBackup authored mainframes: 0, company stashes: 0, defuse bombs: 0, shipping containers (blacksite-container): 0, cctv cameras: 0, loaded in game: yes, dungeon flow nodes: 2
-GreenhouseFlow authored mainframes: 0, company stashes: 0, defuse bombs: 0, shipping containers (blacksite-container): 0, cctv cameras: 0, loaded in game: yes, dungeon flow nodes: 2
-LabFlow authored mainframes: 0, company stashes: 0, defuse bombs: 0, shipping containers (blacksite-container): 0, cctv cameras: 0, loaded in game: yes, dungeon flow nodes: 2
-Level1Flow authored mainframes: 0, company stashes: 0, defuse bombs: 0, shipping containers (blacksite-container): 0, cctv cameras: 0, loaded in game: yes, dungeon flow nodes: 2
-Level1Flow3Exits authored mainframes: 0, company stashes: 0, defuse bombs: 0, shipping containers (blacksite-container): 0, cctv cameras: 0, loaded in game: yes, dungeon flow nodes: 2
-Level1FlowExtraLarge authored mainframes: 0, company stashes: 0, defuse bombs: 0, shipping containers (blacksite-container): 0, cctv cameras: 0, loaded in game: yes, dungeon flow nodes: 2
-Level2Flow authored mainframes: 0, company stashes: 0, defuse bombs: 0, shipping containers (blacksite-container): 0, cctv cameras: 0, loaded in game: yes, dungeon flow nodes: 2
-Level3ButCoolFlowRenewed authored mainframes: 0, company stashes: 0, defuse bombs: 0, shipping containers (blacksite-container): 0, cctv cameras: 0, loaded in game: yes, dungeon flow nodes: 2
-Level3Flow authored mainframes: 0, company stashes: 0, defuse bombs: 0, shipping containers (blacksite-container): 0, cctv cameras: 0, loaded in game: yes, dungeon flow nodes: 2
-LiminalHouseFlow authored mainframes: 0, company stashes: 0, defuse bombs: 0, shipping containers (blacksite-container): 0, cctv cameras: 0, loaded in game: yes, dungeon flow nodes: 2
-MuseumInteriorFlow authored mainframes: 0, company stashes: 0, defuse bombs: 0, shipping containers (blacksite-container): 0, cctv cameras: 0, loaded in game: yes, dungeon flow nodes: 2
-RavenFlow authored mainframes: 0, company stashes: 0, defuse bombs: 0, shipping containers (blacksite-container): 0, cctv cameras: 0, loaded in game: yes, dungeon flow nodes: 2
-RubberRoomsFlow authored mainframes: 0, company stashes: 0, defuse bombs: 0, shipping containers (blacksite-container): 0, cctv cameras: 0, loaded in game: yes, dungeon flow nodes: 2
-SpookyManorFlow authored mainframes: 0, company stashes: 0, defuse bombs: 0, shipping containers (blacksite-container): 0, cctv cameras: 0, loaded in game: yes, dungeon flow nodes: 2
-ToystoreFlow authored mainframes: 0, company stashes: 0, defuse bombs: 0, shipping containers (blacksite-container): 0, cctv cameras: 0, loaded in game: yes, dungeon flow nodes: 2

@@ -1,5 +1,9 @@
 # Изменения сборки
 
+## 1.1.10 (23 ноября 2026)
+
+* Переводы (русский и немецкий) того, что оставалось английским по сбору из игры: интерфейс ClickableTerminal (магазин, контракты, прогноз погоды, кнопки), новые строки HUD, меню Configurable Company. В игре ещё не проверено ([#86](../../issues/86)).
+
 ## 1.1.9 (23 ноября 2026)
 
 * Новые моды: LETHALRESONANCE, loaforcsSoundAPI, SnatchinBracken, BackroomsFixed, Contracted (с Y4NGZCore), UtilityDrone, Malfunctions. ([#85](../../issues/85)).
