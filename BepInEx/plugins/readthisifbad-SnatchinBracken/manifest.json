@@ -1,0 +1,9 @@
+{
+    "name": "SnatchinBracken",
+    "version_number": "1.5.4",
+    "website_url": "https://github.com/Ian0526/SnatchinBracken/",
+    "description": "SnatchinBracken modifies the behavior of Bracken enemies. Instead of instantly killing players on contact, Brackens now capture and drag players to the infamous Bracken Room.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

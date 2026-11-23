@@ -1,0 +1,155 @@
+{
+    "schemaVersion": 1,
+    "placements": [
+        {
+            "objectKind": "camera",
+            "objectId": "primary",
+            "timestampUtc": "2026-06-04T17:20:49.0934162Z",
+            "flowName": "Level2Flow",
+            "dungeonName": "LevelGenerationRoot",
+            "dungeonFingerprint": "tiles49_hE8BF0667",
+            "tileName": "LargeHallwayOpeningTile(Clone)",
+            "tileBoundsSize": {
+                "x": 8.030515670776368,
+                "y": 7.39858341217041,
+                "z": 7.970690727233887
+            },
+            "tileDoorwayCount": 1,
+            "tileLocalPosition": {
+                "x": 2.1721832752227785,
+                "y": 1.919972538948059,
+                "z": 1.7229547500610352
+            },
+            "tileLocalEuler": {
+                "x": 29.513957977294923,
+                "y": 208.7677459716797,
+                "z": 0.0024934227112680675
+            }
+        },
+        {
+            "objectKind": "camera",
+            "objectId": "primary",
+            "timestampUtc": "2026-06-04T17:21:18.0188090Z",
+            "flowName": "Level2Flow",
+            "dungeonName": "LevelGenerationRoot",
+            "dungeonFingerprint": "tiles49_hE8BF0667",
+            "tileName": "HallwayTileTypeD(Clone)",
+            "tileBoundsSize": {
+                "x": 16.00082778930664,
+                "y": 6.890902519226074,
+                "z": 23.998842239379884
+            },
+            "tileDoorwayCount": 2,
+            "tileLocalPosition": {
+                "x": 0.5817669630050659,
+                "y": 6.159369945526123,
+                "z": -15.40922737121582
+            },
+            "tileLocalEuler": {
+                "x": 9.807058334350586,
+                "y": 30.918607711791993,
+                "z": 0.004280404653400183
+            }
+        },
+        {
+            "objectKind": "camera",
+            "objectId": "primary",
+            "timestampUtc": "2026-06-04T17:22:41.1655261Z",
+            "flowName": "Level2Flow",
+            "dungeonName": "LevelGenerationRoot",
+            "dungeonFingerprint": "tiles49_hE8BF0667",
+            "tileName": "NarrowHallwayTile2x2(Clone)",
+            "tileBoundsSize": {
+                "x": 16.00004005432129,
+                "y": 6.861741542816162,
+                "z": 16.000045776367189
+            },
+            "tileDoorwayCount": 3,
+            "tileLocalPosition": {
+                "x": -11.77769660949707,
+                "y": 1.1637829542160035,
+                "z": 11.476468086242676
+            },
+            "tileLocalEuler": {
+                "x": 8.862576484680176,
+                "y": 128.46258544921876,
+                "z": -0.0005080850678496063
+            }
+        },
+        {
+            "objectKind": "camera",
+            "objectId": "primary",
+            "timestampUtc": "2026-06-04T17:23:26.3434398Z",
+            "flowName": "Level2Flow",
+            "dungeonName": "LevelGenerationRoot",
+            "dungeonFingerprint": "tiles49_hE8BF0667",
+            "tileName": "GreenhouseTile(Clone)",
+            "tileBoundsSize": {
+                "x": 7.918702602386475,
+                "y": 6.748771667480469,
+                "z": 23.999635696411134
+            },
+            "tileDoorwayCount": 2,
+            "tileLocalPosition": {
+                "x": 3.600555419921875,
+                "y": 6.715816497802734,
+                "z": 7.340996742248535
+            },
+            "tileLocalEuler": {
+                "x": 8.488069534301758,
+                "y": 213.2530517578125,
+                "z": 0.006412280257791281
+            }
+        },
+        {
+            "objectKind": "camera",
+            "objectId": "primary",
+            "timestampUtc": "2026-06-04T17:27:03.9287638Z",
+            "flowName": "Level2Flow",
+            "dungeonName": "LevelGenerationRoot",
+            "dungeonFingerprint": "tiles49_hE8BF0667",
+            "tileName": "CloverTile(Clone)",
+            "tileBoundsSize": {
+                "x": 8.03052043914795,
+                "y": 8.038105010986329,
+                "z": 7.970650672912598
+            },
+            "tileDoorwayCount": 4,
+            "tileLocalPosition": {
+                "x": -60.83155059814453,
+                "y": 75.26825714111328,
+                "z": 3.954922914505005
+            },
+            "tileLocalEuler": {
+                "x": 31.81458854675293,
+                "y": 243.3893280029297,
+                "z": 255.20941162109376
+            }
+        },
+        {
+            "objectKind": "camera",
+            "objectId": "primary",
+            "timestampUtc": "2026-06-04T17:27:46.1485418Z",
+            "flowName": "Level2Flow",
+            "dungeonName": "LevelGenerationRoot",
+            "dungeonFingerprint": "tiles49_hE8BF0667",
+            "tileName": "HallwayTileTypeB(Clone)",
+            "tileBoundsSize": {
+                "x": 16.03584861755371,
+                "y": 6.862410545349121,
+                "z": 15.998675346374512
+            },
+            "tileDoorwayCount": 2,
+            "tileLocalPosition": {
+                "x": 15.56824779510498,
+                "y": 6.087185382843018,
+                "z": -7.461877346038818
+            },
+            "tileLocalEuler": {
+                "x": 23.639860153198243,
+                "y": 302.3775329589844,
+                "z": 0.007573284208774567
+            }
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+# What a weather does, as the terminal tells it. One weather a line: Weather name = what it does
+# A weather written here replaces what the terminal knows about it. Example:
+# Foggy = Thick fog outside. Bring a flashlight.

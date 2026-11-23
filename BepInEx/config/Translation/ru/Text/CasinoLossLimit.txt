@@ -1,0 +1,4 @@
+// Texts of CasinoLossLimit for XUnity.AutoTranslator (Russian)
+Casino limit=Лимит казино
+r:"^You have lost (\d+) here\. No more gambling until the next landing\.$"=Вы проиграли здесь $1. Больше играть нельзя до следующей посадки.
+r:"^This item is worth (\d+)\. You can still lose (\d+) before the next landing\.$"=Эта вещь стоит $1. До следующей посадки вам можно проиграть ещё $2.

@@ -1,0 +1,268 @@
+section	key	type	default	effective	description
+Blackout Audit	Ambient Flicker Interval Seconds By Risk	System.String	C=30, B=45, A=60, S=60	C=30, B=45, A=60, S=60	Host only. Seconds between ambient blackout flickers. Moon risk tiers, format: C=30, B=45, A=60, S=60.
+Blackout Audit	Breakers Required By Risk	System.String	C=1, B=2, A=3, S=3	C=1, B=2, A=3, S=3	Host only. Breaker boxes that must be switched to complete the audit. Moon risk tiers, format: C=1, B=2, A=3, S=3.
+Blackout Audit	Constellation Allow List	System.String			Comma-separated constellation names. Empty allows every constellation.
+Blackout Audit	Constellation Deny List	System.String			Comma-separated constellation names that always reject this contract.
+Blackout Audit	Enabled	System.Boolean	True	True	Host only. Master switch: when false this contract never rolls, regardless of weights.
+Blackout Audit	Failure Penalty Percent Override	System.Int32	-1	-1	Host only. Quota increase percent when this contract fails. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Blackout Audit	Interior Allow List	System.String			Comma-separated DungeonFlow names. Empty allows every otherwise eligible interior.
+Blackout Audit	Interior Deny List	System.String			Comma-separated DungeonFlow names that always reject this contract.
+Blackout Audit	Moon Allow List	System.String			Comma-separated moon names. Empty allows every otherwise eligible moon.
+Blackout Audit	Moon Deny List	System.String			Comma-separated moon names that always reject this contract.
+Blackout Audit	Reward Percent Override	System.Int32	-1	-1	Host only. Quota reduction percent when this contract succeeds. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Blackout Audit	Selection Weight	System.Int32	1	1	Host only. Random-selection weight against the other contracts and No Contract Weight. Zero disables random selection.
+Blackout Audit	Unlock After Completed Quotas	System.Int32	0	0	Host only. Completed quota count required before this contract can roll. Zero means immediately available.
+Company Stash Loot	Extra Loot Rolls	System.Int32	2	2	Host only. Weighted loot rolls after the Company Stash Gold bar spawns. Only used when LethalCCTV's Company Stashes are installed. Set to 0 to disable.
+Company Stash Loot	Loot Items	System.String	Shotgun Shells|30|1;Small Caliber Rounds|30|1;Heavy Caliber Rounds|30|1;Fuel Tank|15|1;Pistol|10|1;Bolt-Action Rifle|8|1;Assault Rifle|6|1	Shotgun Shells|30|1;Small Caliber Rounds|30|1;Heavy Caliber Rounds|30|1;Fuel Tank|15|1;Pistol|10|1;Bolt-Action Rifle|8|1;Assault Rifle|6|1	Host only. Weighted Company Stash loot. Any network-spawnable grabbable item name works. Format: name|weight|count; entries are separated by semicolons.
+Containment Breach	Constellation Allow List	System.String			Comma-separated constellation names. Empty allows every constellation.
+Containment Breach	Constellation Deny List	System.String			Comma-separated constellation names that always reject this contract.
+Containment Breach	Enabled	System.Boolean	True	True	Host only. Master switch: when false this contract never rolls, regardless of weights.
+Containment Breach	Enemies Per Wave	System.Int32	2	2	Host only. Enemies spawned at the start of each wave.
+Containment Breach	Failure Penalty Percent Override	System.Int32	-1	-1	Host only. Quota increase percent when this contract fails. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Containment Breach	Interior Allow List	System.String			Comma-separated DungeonFlow names. Empty allows every otherwise eligible interior.
+Containment Breach	Interior Deny List	System.String			Comma-separated DungeonFlow names that always reject this contract.
+Containment Breach	Moon Allow List	System.String			Comma-separated moon names. Empty allows every otherwise eligible moon.
+Containment Breach	Moon Deny List	System.String			Comma-separated moon names that always reject this contract.
+Containment Breach	Reward Percent Override	System.Int32	-1	-1	Host only. Quota reduction percent when this contract succeeds. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Containment Breach	Selection Weight	System.Int32	1	1	Host only. Random-selection weight against the other contracts and No Contract Weight. Zero disables random selection.
+Containment Breach	Unlock After Completed Quotas	System.Int32	0	0	Host only. Completed quota count required before this contract can roll. Zero means immediately available.
+Containment Breach	Wave Duration Seconds By Risk	System.String	C=45, B=60, A=75, S=90	C=45, B=60, A=75, S=90	Host only. Seconds players must survive each wave. Moon risk tiers, format: C=45, B=60, A=75, S=90.
+Containment Breach	Waves By Risk	System.String	C=1, B=2, A=3, S=4	C=1, B=2, A=3, S=4	Host only. Enemy waves that must be survived. Moon risk tiers, format: C=1, B=2, A=3, S=4.
+Contract HUD Audio	Enabled	System.Boolean	True	True	Client only. Play contract card and objective hint one-shots through the vanilla HUD audio source.
+Contract HUD Audio	Volume	System.Single	1	1	Client only. Master volume (0 to 1) for contract HUD one-shots; each cue has its own quieter mix level.
+Contracts	Constellation Contract Weights	System.String			Host only. Per-constellation contract weight overrides when constellation data is available. Format: ConstellationName:Contract=Weight,Contract=Weight.
+Contracts	Hazard Pay Percent By Weather	System.String	Eclipse=10	Eclipse=10	Host only. Extra quota reduction on contract success by weather. Format: Eclipse=10,Stormy=5.
+Contracts	Moon Contract Weights	System.String			Host only. Per-moon contract weight overrides. Format: MoonName:Contract=Weight,Contract=Weight;OtherMoon:Contract=Weight.
+Contracts	No Contract Weight	System.Int32	2	2	Host only. Random-selection weight for landing with no directive (vanilla Salvage), weighed against every enabled contract's Selection Weight. Zero means a directive rolls whenever any contract is eligible.
+Contracts	Reward And Penalty Percent By Risk	System.String	D=15,C=15,B=20,A=25,S=30	D=15,C=15,B=20,A=25,S=30	Host only. Quota reward on success and penalty on failure by moon risk tier. Each contract section can override its own reward or penalty. Waste Disposal success instead credits the exact burned scrap value. Format: D=15,C=15,B=20,A=25,S=30.
+Contracts	Suppress LGU Contract Shop	System.Boolean	True	True	Host only. When true, Lategame Upgrades' own contract purchases (its shop's random and specified moon entries, and the 'contract' terminal command) are refused on the host, because Contracted assigns the contract for every moon itself. Clients are always refused whatever their own value says: LGU's purchase asks the host to overwrite the assignment for everyone, so only the host's value decides. Ignored when Lategame Upgrades is not installed.
+Data Retrieval	Constellation Allow List	System.String			Comma-separated constellation names. Empty allows every constellation.
+Data Retrieval	Constellation Deny List	System.String			Comma-separated constellation names that always reject this contract.
+Data Retrieval	Enabled	System.Boolean	True	True	Host only. Master switch: when false this contract never rolls, regardless of weights.
+Data Retrieval	Failure Penalty Percent Override	System.Int32	-1	-1	Host only. Quota increase percent when this contract fails. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Data Retrieval	Interior Allow List	System.String			Comma-separated DungeonFlow names. Empty allows every otherwise eligible interior.
+Data Retrieval	Interior Deny List	System.String			Comma-separated DungeonFlow names that always reject this contract.
+Data Retrieval	Moon Allow List	System.String			Comma-separated moon names. Empty allows every otherwise eligible moon.
+Data Retrieval	Moon Deny List	System.String			Comma-separated moon names that always reject this contract.
+Data Retrieval	Reward Percent Override	System.Int32	-1	-1	Host only. Quota reduction percent when this contract succeeds. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Data Retrieval	Selection Weight	System.Int32	1	1	Host only. Random-selection weight against the other contracts and No Contract Weight. Zero disables random selection.
+Data Retrieval	Unlock After Completed Quotas	System.Int32	0	0	Host only. Completed quota count required before this contract can roll. Zero means immediately available.
+Defusal	Constellation Allow List	System.String			Comma-separated constellation names. Empty allows every constellation.
+Defusal	Constellation Deny List	System.String			Comma-separated constellation names that always reject this contract.
+Defusal	Enabled	System.Boolean	True	True	Host only. Master switch: when false this contract never rolls, regardless of weights.
+Defusal	Failure Penalty Percent Override	System.Int32	-1	-1	Host only. Quota increase percent when this contract fails. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Defusal	Interior Allow List	System.String			Comma-separated DungeonFlow names. Empty allows every otherwise eligible interior.
+Defusal	Interior Deny List	System.String			Comma-separated DungeonFlow names that always reject this contract.
+Defusal	Moon Allow List	System.String			Comma-separated moon names. Empty allows every otherwise eligible moon.
+Defusal	Moon Deny List	System.String			Comma-separated moon names that always reject this contract.
+Defusal	Reward Percent Override	System.Int32	-1	-1	Host only. Quota reduction percent when this contract succeeds. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Defusal	Selection Weight	System.Int32	1	1	Host only. Random-selection weight against the other contracts and No Contract Weight. Zero disables random selection.
+Defusal	Unlock After Completed Quotas	System.Int32	0	0	Host only. Completed quota count required before this contract can roll. Zero means immediately available.
+Defuse	Constellation Allow List	System.String			Comma-separated constellation names. Empty allows every constellation.
+Defuse	Constellation Deny List	System.String			Comma-separated constellation names that always reject this contract.
+Defuse	Deadline Normalized Time	System.Single	0.5625	0.5625	Host only. Normalized day time when Defuse fails (0.5625 matches 5:00 PM).
+Defuse	Elevated Bomb Placement	System.Boolean	True	True	Host only. Allow the procedural bomb placement to rest the bomb on stable prop tops (0,65-1,30 m above the floor) before falling back to the floor.
+Defuse	Enabled	System.Boolean	True	True	Host only. Master switch: when false this contract never rolls, regardless of weights.
+Defuse	Explosion Radius Meters	System.Single	8	8	Host only. Local failure blast radius in meters when FacilityMeltdown is not installed.
+Defuse	Failure Penalty Percent Override	System.Int32	-1	-1	Host only. Quota increase percent when this contract fails. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Defuse	Interact Distance Meters	System.Single	2.8	2.8	Maximum distance in meters for wire and keypad interaction.
+Defuse	Interior Allow List	System.String			Comma-separated DungeonFlow names. Empty allows every otherwise eligible interior.
+Defuse	Interior Deny List	System.String			Comma-separated DungeonFlow names that always reject this contract.
+Defuse	Max Correct Wire Inputs	System.Int32	5	5	Host only. Maximum correct wire inputs allowed in a generated Defuse procedure.
+Defuse	Min Correct Wire Inputs	System.Int32	1	1	Host only. Minimum correct wire inputs allowed in a generated Defuse procedure.
+Defuse	Moon Allow List	System.String			Comma-separated moon names. Empty allows every otherwise eligible moon.
+Defuse	Moon Deny List	System.String			Comma-separated moon names that always reject this contract.
+Defuse	Prefer LGU Defuse	System.Boolean	True	True	Temporarily inactive: Contracted's Defuse is suspended. LGU Defusal is used when available, regardless of this saved value. Without LGU Defusal, neither bomb-disarm contract rolls. Native Defuse tuning is preserved for restoration.
+Defuse	Reward Percent Override	System.Int32	-1	-1	Host only. Quota reduction percent when this contract succeeds. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Defuse	Selection Weight	System.Int32	1	1	Host only. Random-selection weight against the other contracts and No Contract Weight. Zero disables random selection.
+Defuse	Unlock After Completed Quotas	System.Int32	0	0	Host only. Completed quota count required before this contract can roll. Zero means immediately available.
+Diagnostics	Blacksite Detail Capture Seconds	System.Single	8	8	Seconds of high-rate gait and motion detail per soldier after a failure transition (a stall or a refused motion request). 0 disables all high-rate detail: no [UAT][Gait] lines, no [UAT][Motion] heartbeat, no [UAT][MotionRequest] repeats. Transition lines are always emitted. A window that keeps re-opening is capped at three times this value.
+Diagnostics	Blacksite Helmet Light Shadows	System.Boolean	True	True	When off, Blacksite soldier helmet lights cast no shadows. Performance A/B.
+Diagnostics	Blacksite Landing Search Max Seconds	System.Single	90	90	Host only. Seconds the Blacksite landing search may run. At the bound a hover search keeps the obstructed rappel foot it has found; a search with no landing yet skips the raid.
+Diagnostics	Blacksite Landing Search Outside Slice Milliseconds	System.Single	1	1	Host only. The same budget while you are outside the ship; never more than the inside value.
+Diagnostics	Blacksite Landing Search Slice Milliseconds	System.Single	1	1	Host only. Milliseconds a frame the Blacksite landing search may spend while you are inside the ship. Every frame runs one search step; a further step runs only if its last measured cost fits in what is left. Lower is smoother but the raid arrives later.
+Diagnostics	Blacksite Soldier Presentation LOD	System.Boolean	True	True	When off, every soldier runs full-rate animator, aim pose, helmet light and equipment presentation on this client regardless of distance. Performance A/B.
+Diagnostics	Blacksite UAT Output Muted	System.Boolean	False	False	Blacksite [UAT] producers skip building their lines (each is still counted for the [UAT][Cost] census); any remaining line is dropped at the log sink. The [UAT][Cost] line still prints. For log I/O A/B. Needs Shadow Raid Debug Logging on.
+Diagnostics	Defuse Debug Logging	System.Boolean	False	False	Enable detailed Defuse diagnostic logging.
+Diagnostics	Detailed Placement Reject Logging	System.Boolean	False	False	When true, logs every rejected interior placement candidate. Leave false during normal play; failed plans still log compact reject summaries.
+Diagnostics	Dungeon Size Soft Cap	System.Single	0	0	Mitigation for slower clients hard-hanging inside DunGen on oversized interiors (y4ngz313/Y4NGZCompany#446: a 125-tile Alcatras Bunker at DungeonSize 2.4 wedged both clients mid-generation while the host waited forever on floor-generation acks). 0 disables the cap and leaves the scalar exactly as the game and LethalLevelLoader set it - that value is NOT chosen by this mod. When set above 0, the effective DungeonSize (DunGen's LengthMultiplier) is clamped to this value immediately before generation starts, on whichever peer is generating, and the clamp is logged loudly. Around 1.8 is a reasonable starting ceiling; lower it further only if clients still stall.
+Diagnostics	Local Input State Watchdog Enabled	System.Boolean	True	True	Watches the local player's input flags and reports only when one stays set long enough to mean the player has genuinely lost interact, movement or look control. Costs ten field reads per frame while nothing is wrong. Replaces an older watchdog key that was never bound and so never had any effect.
+Diagnostics	Path LOS Caller Capture Seconds	System.Single	0	0	When set above 0, opens a capture window on the next landing (or immediately) that records every call to EnemyAI.PathIsIntersectedByLineOfSight, grouped by enemy type and calling mod path, then prints a ranked summary. Costs frame time while the window is open; leave at 0 for zero overhead.
+Diagnostics	Performance Report Preview	System.Boolean	False	False	Developer layout aid. On, Ctrl+Alt+F11 steps the performance report through a sample with six bottom-row cells, then five, then closed, in orbit or on a moon, and Y4NGZDebugTools can open it too. The sample never reaches XP, tokens or the save, and it will not open over a real round-end report. Local only; leave off for normal play.
+Diagnostics	Performance Timing Logging	System.Boolean	False	False	Developer profiling switch for the per-frame timing reports. Off, a runtime pass only reports once it costs more than a whole frame at 60 fps, and it reports at Info; the one-time Harmony patch census drops to Debug. On, the investigation thresholds and Warning levels come back, so a pass over 5ms is reported loudly. The once-per-round landing and HUD-reveal timing lines are unaffected either way.
+Diagnostics	Shadow Raid Debug Logging	System.Boolean	False	False	Enables rate-limited Shadow Raid and Blacksite Retrieval UAT diagnostics.
+Escalations	Blacksite Retrieval Chance	System.Single	0.15	0.15	Host only. Selection weight for Blacksite Retrieval during an eligible contract.
+Escalations	Blacksite Retrieval Enabled	System.Boolean	True	True	Host only. If true, Blacksite Retrieval can occur on valid moons. The team retrieves supported contract objectives; on other contracts it raids facility scrap or the apparatus.
+Escalations	Blacksite Retrieval Force Every Round	System.Boolean	False	False	Debug/testing toggle. Bypasses chance and delay, but never the contract mode table (Containment Breach is never raided) and never an unresolved contract reading.
+Escalations	Blacksite Retrieval Max Delay Seconds	System.Single	360	360	Host only. Maximum seconds after landing before Blacksite Retrieval can start.
+Escalations	Blacksite Retrieval Min Delay Seconds	System.Single	150	150	Host only. Minimum seconds after landing before Blacksite Retrieval can start.
+Escalations	Blacksite Retrieval Soldier Count	System.Int32	6	6	Host only. Number of military hostiles spawned by Blacksite Retrieval.
+Escalations	Blacksite Retrieval Use Vanilla-Friendly Model	System.Boolean	True	True	Local visual choice. Use the tactical scavenger-style Blacksite soldier. False restores the previous model. Older bundles fall back automatically. Requires a game restart.
+Escalations	Congregation Attack Damage	System.Int32	35	35	Host only. Damage dealt by a cultist stab.
+Escalations	Congregation Black Cultists	System.Int32	3	3	Host only. Number of black cultists spawned by The Congregation.
+Escalations	Congregation Chance	System.Single	0.15	0.15	Host only. Selection weight for The Congregation.
+Escalations	Congregation Cultist Health	System.Int32	3	3	Host only. Hit points for ritual cultists.
+Escalations	Congregation Enabled	System.Boolean	True	True	Host only. If true, The Congregation cult escalation can occur on valid moons.
+Escalations	Congregation Force Every Round	System.Boolean	False	False	Debug/testing toggle. When true, The Congregation starts shortly after landing on every valid moon.
+Escalations	Congregation Max Delay Seconds	System.Single	360	360	Host only. Maximum seconds after landing before The Congregation can start.
+Escalations	Congregation Min Delay Seconds	System.Single	150	150	Host only. Minimum seconds after landing before The Congregation can start.
+Escalations	Congregation Red Cultists	System.Int32	2	2	Host only. Number of red cultists spawned by The Congregation.
+Escalations	Congregation White Cultists	System.Int32	1	1	Host only. Number of white ritual cultists spawned by The Congregation.
+Escalations	Enabled	System.Boolean	True	True	Host only. Master switch: when false, no escalation of any kind can occur.
+Escalations	No Escalation Weight	System.Single	0.55	0.55	Host only. Selection weight for landing with no escalation, weighed against each escalation's Chance.
+Escalations	Stranger Chance	System.Single	0.15	0.15	Host only. Selection weight for The Stranger.
+Escalations	Stranger Enabled	System.Boolean	True	True	Host only. If true, The Stranger can be selected as the one runtime escalation on valid moons.
+Escalations	Stranger Force Every Round	System.Boolean	False	False	Debug/testing toggle. When true, The Stranger is selected on every valid moon.
+Escalations	Stranger Max Delay Seconds	System.Single	180	180	Host only. Maximum seconds after landing before The Stranger can start.
+Escalations	Stranger Min Delay Seconds	System.Single	120	120	Host only. Minimum seconds after landing before The Stranger can start.
+Exorcism	Constellation Allow List	System.String			Comma-separated constellation names. Empty allows every constellation.
+Exorcism	Constellation Deny List	System.String			Comma-separated constellation names that always reject this contract.
+Exorcism	Enabled	System.Boolean	True	True	Host only. Master switch: when false this contract never rolls, regardless of weights.
+Exorcism	Failure Penalty Percent Override	System.Int32	-1	-1	Host only. Quota increase percent when this contract fails. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Exorcism	Interior Allow List	System.String			Comma-separated DungeonFlow names. Empty allows every otherwise eligible interior.
+Exorcism	Interior Deny List	System.String			Comma-separated DungeonFlow names that always reject this contract.
+Exorcism	Moon Allow List	System.String			Comma-separated moon names. Empty allows every otherwise eligible moon.
+Exorcism	Moon Deny List	System.String			Comma-separated moon names that always reject this contract.
+Exorcism	Reward Percent Override	System.Int32	-1	-1	Host only. Quota reduction percent when this contract succeeds. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Exorcism	Selection Weight	System.Int32	1	1	Host only. Random-selection weight against the other contracts and No Contract Weight. Zero disables random selection.
+Exorcism	Unlock After Completed Quotas	System.Int32	0	0	Host only. Completed quota count required before this contract can roll. Zero means immediately available.
+Extermination	Constellation Allow List	System.String			Comma-separated constellation names. Empty allows every constellation.
+Extermination	Constellation Deny List	System.String			Comma-separated constellation names that always reject this contract.
+Extermination	Enabled	System.Boolean	True	True	Host only. Master switch: when false this contract never rolls, regardless of weights.
+Extermination	Failure Penalty Percent Override	System.Int32	-1	-1	Host only. Quota increase percent when this contract fails. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Extermination	Interior Allow List	System.String			Comma-separated DungeonFlow names. Empty allows every otherwise eligible interior.
+Extermination	Interior Deny List	System.String			Comma-separated DungeonFlow names that always reject this contract.
+Extermination	Moon Allow List	System.String			Comma-separated moon names. Empty allows every otherwise eligible moon.
+Extermination	Moon Deny List	System.String			Comma-separated moon names that always reject this contract.
+Extermination	Reward Percent Override	System.Int32	-1	-1	Host only. Quota reduction percent when this contract succeeds. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Extermination	Selection Weight	System.Int32	1	1	Host only. Random-selection weight against the other contracts and No Contract Weight. Zero disables random selection.
+Extermination	Unlock After Completed Quotas	System.Int32	0	0	Host only. Completed quota count required before this contract can roll. Zero means immediately available.
+Extraction	Constellation Allow List	System.String			Comma-separated constellation names. Empty allows every constellation.
+Extraction	Constellation Deny List	System.String			Comma-separated constellation names that always reject this contract.
+Extraction	Enabled	System.Boolean	True	True	Host only. Master switch: when false this contract never rolls, regardless of weights.
+Extraction	Failure Penalty Percent Override	System.Int32	-1	-1	Host only. Quota increase percent when this contract fails. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Extraction	Interior Allow List	System.String			Comma-separated DungeonFlow names. Empty allows every otherwise eligible interior.
+Extraction	Interior Deny List	System.String			Comma-separated DungeonFlow names that always reject this contract.
+Extraction	Moon Allow List	System.String			Comma-separated moon names. Empty allows every otherwise eligible moon.
+Extraction	Moon Deny List	System.String			Comma-separated moon names that always reject this contract.
+Extraction	Reward Percent Override	System.Int32	-1	-1	Host only. Quota reduction percent when this contract succeeds. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Extraction	Selection Weight	System.Int32	1	1	Host only. Random-selection weight against the other contracts and No Contract Weight. Zero disables random selection.
+Extraction	Unlock After Completed Quotas	System.Int32	0	0	Host only. Completed quota count required before this contract can roll. Zero means immediately available.
+HUD	Contract Card	Y4NGZCompany.Contracts._Shared.ContractCardMode	Always	Always	Client only. Always shows the live contract card. Never hides the live card and its alert belt; contract results still show. FadeAfter15Seconds fades the card out after 15 seconds without an update and brings it back on any objective, side objective or alert change, a result, or a new contract; the prompts below it do not move.
+HUD	Hide HUD During Performance Report	System.Boolean	True	True	Client only. Fades the gameplay HUD out while the end-of-round performance report is on screen and back in when it closes. False leaves the HUD up during the report.
+Objective Hints	Blink Seconds	System.Single	6	6	Client only. How long the outline blinks and the card word pulses each time the hint plays.
+Objective Hints	Delay Seconds	System.Single	180	180	Client only. Seconds you must spend alive inside the facility, with the objective still unfound, before the hint plays. Time outside the facility pauses the count; finding the objective resets it.
+Objective Hints	Enabled	System.Boolean	True	True	Client only. Master switch for objective hints: both the locate pity blink and the local first-sight glint. Nothing is sent over the network; every player has their own cues.
+Objective Hints	First Sight Glint	System.Boolean	True	True	Client only. Give the actual first-sighted Wesley side objective or completed Locate target one brief, subtle material-emission accent per target per round. Never shows through walls or during a pity blink, and does not change its timer. Requires Objective Hints / Enabled.
+Objective Hints	Repeat Seconds	System.Single	0	0	Client only. Seconds inside the facility after a hint before it plays again for the same objective. 0 plays it once per objective.
+Payload	Cargo Value	System.Int32	400	400	Host only. Scrap value awarded after successful delivery.
+Payload	Constellation Allow List	System.String			Comma-separated constellation names. Empty allows every constellation.
+Payload	Constellation Deny List	System.String			Comma-separated constellation names that always reject this contract.
+Payload	Enabled	System.Boolean	True	True	Host only. Master switch: when false this contract never rolls, regardless of weights.
+Payload	Failure Penalty Percent Override	System.Int32	-1	-1	Host only. Quota increase percent when this contract fails. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Payload	Interior Allow List	System.String			Comma-separated DungeonFlow names. Empty allows every otherwise eligible interior.
+Payload	Interior Deny List	System.String			Comma-separated DungeonFlow names that always reject this contract.
+Payload	Moon Allow List	System.String			Comma-separated moon names. Empty allows every otherwise eligible moon.
+Payload	Moon Deny List	System.String			Comma-separated moon names that always reject this contract.
+Payload	Push Speed Multiplier	System.Single	0.45	0.45	Host cart speed multiplier relative to a 4.6 m/s walking reference.
+Payload	Reverse Input Multiplier	System.Single	0.6	0.6	Additional speed multiplier while backing the cart up.
+Payload	Reward Percent Override	System.Int32	-1	-1	Host only. Quota reduction percent when this contract succeeds. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Payload	Runaway Cart Enabled	System.Boolean	True	True	Host only. Allow released carts to roll downhill and break loose on steep slopes. Falling gravity remains enabled.
+Payload	Selection Weight	System.Int32	1	1	Host only. Random-selection weight against the other contracts and No Contract Weight. Zero disables random selection.
+Payload	Unlock After Completed Quotas	System.Int32	0	0	Host only. Completed quota count required before this contract can roll. Zero means immediately available.
+Payload	Uphill Minimum Speed Multiplier	System.Single	0.55	0.55	Lowest speed multiplier reached on steep climbs.
+Pest Control	Constellation Allow List	System.String			Comma-separated constellation names. Empty allows every constellation.
+Pest Control	Constellation Deny List	System.String			Comma-separated constellation names that always reject this contract.
+Pest Control	Enabled	System.Boolean	True	True	Host only. Master switch: when false this contract never rolls, regardless of weights.
+Pest Control	Failure Penalty Percent Override	System.Int32	-1	-1	Host only. Quota increase percent when this contract fails. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Pest Control	Interior Allow List	System.String			Comma-separated DungeonFlow names. Empty allows every otherwise eligible interior.
+Pest Control	Interior Deny List	System.String			Comma-separated DungeonFlow names that always reject this contract.
+Pest Control	Moon Allow List	System.String			Comma-separated moon names. Empty allows every otherwise eligible moon.
+Pest Control	Moon Deny List	System.String			Comma-separated moon names that always reject this contract.
+Pest Control	Reward Percent Override	System.Int32	-1	-1	Host only. Quota reduction percent when this contract succeeds. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Pest Control	Selection Weight	System.Int32	1	1	Host only. Random-selection weight against the other contracts and No Contract Weight. Zero disables random selection.
+Pest Control	Unlock After Completed Quotas	System.Int32	0	0	Host only. Completed quota count required before this contract can roll. Zero means immediately available.
+Quota	Death Penalty Dynamic Cap	System.Single	0.5	0.5	Host only. Maximum dynamic quota penalty fraction for a full crew wipe.
+Quota	Death Penalty Mode	Y4NGZCompany.Bootstrap.QuotaDeathPenaltyMode	Dynamic	Dynamic	Host only. Off: crew deaths never raise the quota. Static: each death adds Death Penalty Percent Per Player. Dynamic: the penalty scales from crew size up to Death Penalty Dynamic Cap.
+Quota	Death Penalty Percent Per Player	System.Single	0.12	0.12	Host only. Static crew-loss quota penalty per dead player when Death Penalty Mode is Static.
+Quota	Death Penalty Recovery Bonus	System.Single	0.5	0.5	Host only. Fraction of one player's crew-loss quota penalty removed for each recovered body.
+Quota	Enabled	System.Boolean	True	True	Host only. When true, Contracted manages base quota scaling, crew-loss quota penalties, and report-row quota modifiers. When false, the whole Contracted performance-report extension (title, ledger row, notes, XP hold) also stands down and the vanilla report is left untouched on every machine.
+Quota	First Quota Multiplier Per Player	System.Single	0.25	0.25	Host only. Quota multiplier added for each counted player above the threshold on the first quota.
+Quota	First Quota Player Cap	System.Int32	8	8	Host only. Maximum player count used by first-quota scaling.
+Quota	First Quota Player Scaling	System.Boolean	True	True	Host only. When true, the very first quota scales by player count.
+Quota	First Quota Player Threshold	System.Int32	1	1	Host only. Players up to and including this count do not increase the first quota.
+Quota	Quota Increase Percent	System.Int32	25	25	Host only. Percent increase applied to the stored base quota whenever a quota is completed.
+Quota	Starting Quota	System.Int32	200	200	Host only. Base quota before first-quota player scaling.
+Shadow Raid	Constellation Allow List	System.String			Comma-separated constellation names. Empty allows every constellation.
+Shadow Raid	Constellation Deny List	System.String			Comma-separated constellation names that always reject this contract.
+Shadow Raid	Containers By Risk	System.String	C=1, B=2, A=2, S=3	C=1, B=2, A=2, S=3	Host only. Shipping containers placed for the raid. Moon risk tiers, format: C=1, B=2, A=2, S=3.
+Shadow Raid	Drill Duration Seconds By Risk	System.String	C=60, B=90, A=120, S=180	C=60, B=90, A=120, S=180	Host only. Seconds the breach drill runs on a container. Moon risk tiers, format: C=60, B=90, A=120, S=180.
+Shadow Raid	Enabled	System.Boolean	True	True	Host only. Master switch: when false this contract never rolls, regardless of weights.
+Shadow Raid	Failure Penalty Percent Override	System.Int32	-1	-1	Host only. Quota increase percent when this contract fails. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Shadow Raid	Interior Allow List	System.String			Comma-separated DungeonFlow names. Empty allows every otherwise eligible interior.
+Shadow Raid	Interior Deny List	System.String			Comma-separated DungeonFlow names that always reject this contract.
+Shadow Raid	Moon Allow List	System.String			Comma-separated moon names. Empty allows every otherwise eligible moon.
+Shadow Raid	Moon Deny List	System.String			Comma-separated moon names that always reject this contract.
+Shadow Raid	Reward Percent Override	System.Int32	-1	-1	Host only. Quota reduction percent when this contract succeeds. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Shadow Raid	Selection Weight	System.Int32	1	1	Host only. Random-selection weight against the other contracts and No Contract Weight. Zero disables random selection.
+Shadow Raid	Unlock After Completed Quotas	System.Int32	0	0	Host only. Completed quota count required before this contract can roll. Zero means immediately available.
+Survey	Constellation Allow List	System.String			Comma-separated constellation names. Empty allows every constellation.
+Survey	Constellation Deny List	System.String			Comma-separated constellation names that always reject this contract.
+Survey	Drones Required By Risk	System.String	C=1, B=2, A=3, S=4	C=1, B=2, A=3, S=4	Host only. Survey beacons that must be deployed to complete the contract. Moon risk tiers, format: C=1, B=2, A=3, S=4.
+Survey	Enabled	System.Boolean	True	True	Host only. Master switch: when false this contract never rolls, regardless of weights.
+Survey	Failure Penalty Percent Override	System.Int32	-1	-1	Host only. Quota increase percent when this contract fails. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Survey	Held Position Offset (tuning)	System.String			Temporary. Held beacon position offset as "x, y, z" metres in the built-in carry frame after centering it between both hands; empty keeps the built-in value.
+Survey	Held Rotation Offset (tuning)	System.String			Temporary. Held beacon rotation offset as "x, y, z" degrees from the built-in carry; empty keeps the built-in value.
+Survey	Interior Allow List	System.String			Comma-separated DungeonFlow names. Empty allows every otherwise eligible interior.
+Survey	Interior Deny List	System.String			Comma-separated DungeonFlow names that always reject this contract.
+Survey	Moon Allow List	System.String			Comma-separated moon names. Empty allows every otherwise eligible moon.
+Survey	Moon Deny List	System.String			Comma-separated moon names that always reject this contract.
+Survey	Reward Percent Override	System.Int32	-1	-1	Host only. Quota reduction percent when this contract succeeds. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Survey	Selection Weight	System.Int32	1	1	Host only. Random-selection weight against the other contracts and No Contract Weight. Zero disables random selection.
+Survey	Unlock After Completed Quotas	System.Int32	0	0	Host only. Completed quota count required before this contract can roll. Zero means immediately available.
+The Stranger	Chainsaw Volume	System.Single	0.65	0.65	Base playback volume for the chainsaw engine loop. The resting loop sits at this level and swings/contact swell above it toward 1.0.
+The Stranger	Finisher Chance Percent	System.Int32	75	75	Host only. Percent chance that a qualifying kill becomes a chainsaw finisher instead of a plain basic-attack kill.
+The Stranger	Finisher Uses BloodFX	System.Boolean	True	True	Routes the chainsaw finisher's gore through BloodVFX (HDRP decals and authored particles) when that mod is installed. Turn off to use the legacy particle spray.
+The Stranger	Footstep Volume	System.Single	0.9	0.9	Playback volume for The Stranger's footsteps.
+The Stranger	Knockdown Immunity Seconds	System.Single	30	30	Host only. After recovering from a knockdown The Stranger cannot be knocked down again for this many seconds; knockdown-tier damage during the window plays a small stagger instead. 0 disables the immunity.
+The Stranger	Run Speed	System.Single	4.25	4.25	Host only. The Stranger's pursuit run speed. Values below 4.25 are raised at runtime.
+The Stranger	Sprint Chance	System.Single	0.35	0.35	Host only. Chance the no-contact sprint fires on each re-check. 1 = always, 0 = never (the after-knockdown sprint still fires).
+The Stranger	Sprint Speed	System.Single	7.65	7.65	Host only. Ground speed during the overhead chainsaw sprint. The sprint animation is authored for exactly 7.65; changing it slides his feet in proportion to the difference.
+The Stranger	Stagger Bar Max	System.Single	100	100	Host only. Size of The Stranger's internal stagger (poise) bar. Every point has to be shot off before he can be knocked down, and it refills between fights.
+The Stranger	Stagger Damage Per Force	System.Single	5	5	Host only. Stagger-bar points drained per point of weapon hit force. At the default 5, a shovel (force 1) costs 5 and a point-blank shotgun (force 5) costs 25.
+The Stranger	Stagger Stun Threshold Percent	System.Single	50	50	Host only. At or below this percentage of Stagger Bar Max, a hit also plays a small stagger on top of the flinch. Above it, hits only flinch.
+The Stranger	Vanilla-Friendly Stranger	System.Boolean	True	True	Vanilla-friendly presentation: The Stranger never speaks (every voiceline is muted on this client) and uses the withered employee suit and damaged mask. If its optional body bundle is unavailable, he wears the existing sack instead. Chainsaw, footstep and hit audio are unchanged. Turn off for the original voiced appearance. Applies per player; takes effect on the next spawn.
+The Stranger	Voice Volume	System.Single	0.75	0.75	Playback volume for The Stranger's voicelines.
+The Stranger	Walk Speed	System.Single	1.7	1.7	Host only. The Stranger's walking speed. The walk animation is authored for the default; large changes make his feet slide.
+Waste Disposal	Constellation Allow List	System.String			Comma-separated constellation names. Empty allows every constellation.
+Waste Disposal	Constellation Deny List	System.String			Comma-separated constellation names that always reject this contract.
+Waste Disposal	Enabled	System.Boolean	True	True	Host only. Master switch: when false this contract never rolls, regardless of weights.
+Waste Disposal	Failure Penalty Percent Override	System.Int32	-1	-1	Host only. Quota increase percent when this contract fails. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Waste Disposal	Interior Allow List	System.String			Comma-separated DungeonFlow names. Empty allows every otherwise eligible interior.
+Waste Disposal	Interior Deny List	System.String			Comma-separated DungeonFlow names that always reject this contract.
+Waste Disposal	Malfunction Interval Max Seconds	System.Single	48	48	Host only. Longest running interval before a periodic malfunction.
+Waste Disposal	Malfunction Interval Min Seconds	System.Single	24	24	Host only. Shortest running interval before a periodic malfunction.
+Waste Disposal	Moon Allow List	System.String			Comma-separated moon names. Empty allows every otherwise eligible moon.
+Waste Disposal	Moon Deny List	System.String			Comma-separated moon names that always reject this contract.
+Waste Disposal	Repair Hold Seconds	System.Single	4	4	Seconds a player must hold interact to repair a malfunctioned burn cycle.
+Waste Disposal	Required Moon Scrap Percent By Risk	System.String	C=10, B=15, A=20, S=30	C=10, B=15, A=20, S=30	Host only. Percentage of the generated moon scrap value that must be burned. Moon risk tiers, format: C=10, B=15, A=20, S=30.
+Waste Disposal	Reward Percent Override	System.Int32	-1	-1	Host only. Quota reduction percent when this contract succeeds. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Waste Disposal	Selection Weight	System.Int32	1	1	Host only. Random-selection weight against the other contracts and No Contract Weight. Zero disables random selection.
+Waste Disposal	Unlock After Completed Quotas	System.Int32	0	0	Host only. Completed quota count required before this contract can roll. Zero means immediately available.
+Whistleblower	Blacksite Escort Enabled	System.Boolean	True	True	Host only. On a Whistleblower contract with a Blacksite raid, the recovery team takes the witness into custody and marches him to their ship; if it leaves with him aboard the contract voids. Off, the squad raids scrap on this contract as it did before. The switch is read when an escort takes him, so turning it off mid-round does not free a witness already in custody.
+Whistleblower	Constellation Allow List	System.String			Comma-separated constellation names. Empty allows every constellation.
+Whistleblower	Constellation Deny List	System.String			Comma-separated constellation names that always reject this contract.
+Whistleblower	Custody Broken By Knockdown	System.Boolean	True	True	Host only. Whether a heavy hit that puts the witness on the floor frees him from his escort. This is the crew's cheap, repeatable stall; off, only killing him or killing or stunning the escort ends custody.
+Whistleblower	Enabled	System.Boolean	True	True	Host only. Master switch: when false this contract never rolls, regardless of weights.
+Whistleblower	Failure Penalty Percent Override	System.Int32	-1	-1	Host only. Quota increase percent when this contract fails. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Whistleblower	Flee Distance Tiles	System.Int32	5	5	Host only. How many facility tiles (rooms and corridors) the Whistleblower runs through before he hides again after an escape. Counted over the generated dungeon's tile graph; when that graph is unavailable an equivalent path distance is used instead.
+Whistleblower	Health By Risk	System.String	C=20, B=28, A=36, S=45	C=20, B=28, A=36, S=45	Host only. Whistleblower hit points. Vanilla weapon force is applied directly. Moon risk tiers, format: C=20, B=28, A=36, S=45.
+Whistleblower	Interior Allow List	System.String			Comma-separated DungeonFlow names. Empty allows every otherwise eligible interior.
+Whistleblower	Interior Deny List	System.String			Comma-separated DungeonFlow names that always reject this contract.
+Whistleblower	Moon Allow List	System.String			Comma-separated moon names. Empty allows every otherwise eligible moon.
+Whistleblower	Moon Deny List	System.String			Comma-separated moon names that always reject this contract.
+Whistleblower	Reward Percent Override	System.Int32	-1	-1	Host only. Quota reduction percent when this contract succeeds. -1 uses the shared Reward And Penalty Percent By Risk table in the Contracts section.
+Whistleblower	Roam While Hiding	System.Boolean	True	True	Host only. Before he is discovered the Whistleblower wanders the facility like a vanilla enemy instead of standing where he spawned. He still stops and fights when a player gets line of sight on him.
+Whistleblower	Selection Weight	System.Int32	1	1	Host only. Random-selection weight against the other contracts and No Contract Weight. Zero disables random selection.
+Whistleblower	Unlock After Completed Quotas	System.Int32	0	0	Host only. Completed quota count required before this contract can roll. Zero means immediately available.
+Whistleblower	Use Vanilla-Friendly Model	System.Boolean	True	True	Swap the Whistleblower to a Lethal Company scavenger-based model so it reads as a vanilla asset. Requires a lgucontracts.bundle version that contains the WhistleblowerRuntimeVisualVanilla prefab; older bundles fall back to the default model.

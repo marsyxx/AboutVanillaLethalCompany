@@ -1,5 +1,13 @@
 # Изменения сборки
 
+## 1.1.9 (23 ноября 2026)
+
+* Новые моды: LETHALRESONANCE, loaforcsSoundAPI, SnatchinBracken, BackroomsFixed, Contracted (с Y4NGZCore), UtilityDrone, Malfunctions. ([#85](../../issues/85)).
+* Переводы: около 1760 строк для Wesley's Moons, интерьеров, погоды и других модов, на русском и немецком.
+* CasinoLossLimit: ограничение проигрыша в казино (в игре ещё не проверено).
+* LCCompatFixes 1.0.3: служебный сбор непереведённых текстов (по умолчанию выключен).
+* Эта версия целиком в игре не проверена.
+
 ## 1.1.8 (22 ноября 2026)
 
 * Новые луны и интерьеры: Wesley's Moons, Wesley's Interiors (в том числе Expanded Facility), Wesley's Weathers, а также DunGenPlus, ImmersiveScrap, Custom Story Logs, LCCutscene, LethalNetworkAPI, ClickableTerminal, LethalSponge.

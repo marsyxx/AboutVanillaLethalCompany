@@ -1,0 +1,53 @@
+{
+    "replacements": [
+        {
+            "matches": [
+			"HoarderBug:Fly",
+			"YippeeScrapEater:FlyAudio:Fly",
+			],
+			"condition": {
+				"type": "config",
+				"config": "EnabledSounds:hoarding_bug"
+			},
+            "sounds": [
+                {
+                    "sound": "hoarder/BugFly3.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			    "HoarderBug:BugWalk1",
+				"HoarderBug:BugWalk2",
+				"HoarderBug:BugWalk3",
+				"HoarderBug:BugWalk4",
+			    "YippeeScrapEater:WalkAudio:BugWalk1",
+				"YippeeScrapEater:WalkAudio:BugWalk2",
+				"YippeeScrapEater:WalkAudio:BugWalk3",
+				"YippeeScrapEater:WalkAudio:BugWalk4"
+			],
+			"condition": {
+				"type": "config",
+				"config": "EnabledSounds:hoarding_bug"
+			},
+            "sounds": [
+                {
+                    "sound": "hoarder/BugWalkV2_1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "hoarder/BugWalkV2_2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "hoarder/BugWalkV2_3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "hoarder/BugWalkV2_4.ogg",
+					"weight": 1
+                },
+            ]
+        }
+    ]
+}

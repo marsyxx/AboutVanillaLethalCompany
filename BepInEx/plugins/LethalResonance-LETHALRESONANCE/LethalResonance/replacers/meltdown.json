@@ -1,0 +1,69 @@
+{   
+    "condition": {
+        "type": "config",
+        "config": "EnabledSounds:meltdown"
+    },
+    "update_every_frame": true,
+    "replacements": [
+		{
+			"matches": "#FacilityMeltdown:warning_voice",
+			"sounds": [
+				{
+					"sound": "Meltdown/Warning.ogg"
+				}
+			]
+		},
+        {
+            "matches": "FacilityExplosion:final explosion",
+            "sounds": [
+                {
+                    "sound": "Meltdown/V2Adjusted_InsideMeltdown_Explosion.ogg",
+                    "condition": {
+                        "type": "LethalCompany:player:location",
+                        "value": "inside"
+                    }
+                },
+                {
+                    "sound": "Meltdown/V2Adjusted_OutsideMeltdown_Explosion.ogg",
+					"condition": {
+						"type": "LethalCompany:player:location",
+						"value": "outside"
+					}
+                },
+				{
+					"sound": "Meltdown/V2Adjusted_ShipMeltdown_Explosion.ogg",
+					"condition": {
+						"type": "LethalCompany:player:location",
+						"value": "on_ship"
+					}
+                }
+            ]
+        },
+        {
+            "matches": "#FacilityMeltdown:music",
+            "sounds": [
+                {
+                    "sound": "Meltdown/V2Adjusted_InsideMeltdown.ogg",
+                    "condition": {
+                        "type": "LethalCompany:player:location",
+                        "value": "inside"
+                    }
+                },
+                {
+                    "sound": "Meltdown/V2Adjusted_OutsideMeltdown.ogg",
+					"condition": {
+						"type": "LethalCompany:player:location",
+						"value": "outside"
+					}
+                },
+				{
+					"sound": "Meltdown/V2Adjusted_ShipMeltdown.ogg",
+					"condition": {
+						"type": "LethalCompany:player:location",
+						"value": "on_ship"
+					}
+				}
+            ]
+        }
+    ]
+}

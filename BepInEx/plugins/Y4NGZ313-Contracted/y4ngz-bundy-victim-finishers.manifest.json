@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "packId": "y4ngz.bundy.victim_finishers",
+  "displayName": "Bundy Victim Finishers",
+  "version": "0.2.0",
+  "pelvisMotionVersion": 1,
+  "author": "Y4NGZ",
+  "bundleFileName": "y4ngz-bundy-victim-finishers.animationbundle",
+  "bundleInternalName": "y4ngz-bundy-victim-finishers",
+  "controller": "Y4NGZ_BundyVictim_PlayerMetarig",
+  "fullBodyLayer": "BundyVictimFullBody",
+  "activeBool": "BundyVictimFinisherActive",
+  "exitTrigger": "BundyVictim_Exit",
+  "interactions": [
+    {
+      "interactionId": "victim_neckslash",
+      "displayName": "Bundy Victim Neck Slash",
+      "durationSeconds": 5,
+      "clip": "BundyVictim_NeckSlash",
+      "slot": "BundyVictim_NeckSlash_Slot",
+      "enterTrigger": "BundyVictim_NeckSlash"
+    },
+    {
+      "interactionId": "victim_sawmiddle",
+      "displayName": "Bundy Victim Saw Middle",
+      "durationSeconds": 3.333,
+      "clip": "BundyVictim_SawMiddle",
+      "slot": "BundyVictim_SawMiddle_Slot",
+      "enterTrigger": "BundyVictim_SawMiddle"
+    },
+    {
+      "interactionId": "victim_stablift",
+      "displayName": "Bundy Victim Stab Lift",
+      "durationSeconds": 4.667,
+      "clip": "BundyVictim_StabLift",
+      "slot": "BundyVictim_StabLift_Slot",
+      "enterTrigger": "BundyVictim_StabLift"
+    }
+  ]
+}

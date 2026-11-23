@@ -2966,3 +2966,215 @@
   enabled: true
   onlineSource: true
   trustedPackage: false
+- manifestVersion: 1
+  name: readthisifbad-SnatchinBracken
+  authorName: readthisifbad
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/readthisifbad/SnatchinBracken/
+  displayName: SnatchinBracken
+  description: >-
+    SnatchinBracken modifies the behavior of Bracken enemies. Instead of
+    instantly killing players on contact, Brackens now capture and drag players
+    to the infamous Bracken Room.
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795373039517
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 5
+    patch: 4
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: TheFixer-BackroomsFixed
+  authorName: TheFixer
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/TheFixer/BackroomsFixed/
+  displayName: BackroomsFixed
+  description: >-
+    Neekhaulas' Backrooms, rebuilt for current Lethal Company (v73+ networking,
+    v81 KillPlayer), with carpet footsteps from CarpetSound built in.
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795373141991
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 3
+    patch: 0
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: loaforc-loaforcsSoundAPI_LethalCompany
+  authorName: loaforc
+  websiteUrl: >-
+    https://thunderstore.io/c/lethal-company/p/loaforc/loaforcsSoundAPI_LethalCompany/
+  displayName: loaforcsSoundAPI_LethalCompany
+  description: LethalCompany bindings for loaforcsSoundAPI (v2)
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795373165235
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - loaforc-loaforcsSoundAPI-2.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: LethalResonance-LETHALRESONANCE
+  authorName: LethalResonance
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/LethalResonance/LETHALRESONANCE/
+  displayName: LETHALRESONANCE
+  description: >-
+    MELTDOWN FIXED! STREAM FRIENDLY. Immerse in 700+ enhanced audio tweaks and
+    custom sounds for a scarier, deeper experience. Feel sound roll off objects,
+    blending intense bass and subtle reverb for a captivating, immersive
+    experience.
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795373166768
+  loaders: []
+  dependencies:
+    - ButteryStancakes-EnemySoundFixes-1.5.10
+    - Hardy-LCMaxSoundsFix-1.2.0
+    - loaforc-loaforcsSoundAPI-2.0.4
+    - loaforc-loaforcsSoundAPI_LethalCompany-1.0.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 4
+    minor: 7
+    patch: 8
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: Y4NGZ313-Y4NGZCore
+  authorName: Y4NGZ313
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Y4NGZ313/Y4NGZCore/
+  displayName: Y4NGZCore
+  description: Shared library for Y4NGZ mods. Adds nothing on its own.
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795373812071
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2305
+    - TeamXiaolan-DawnLib-0.9.25
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 13
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: Y4NGZ313-Contracted
+  authorName: Y4NGZ313
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Y4NGZ313/Contracted/
+  displayName: Contracted
+  description: Contracts on every moon, with rewards, penalties and mid-round escalations.
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795373812361
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2305
+    - Evaisa-LethalLib-1.2.0
+    - Rune580-LethalCompany_InputUtils-0.7.13
+    - Sigurd-CSync-5.0.1
+    - TeamXiaolan-DawnLib-0.9.25
+    - xilophor-LethalNetworkAPI-3.4.2
+    - Y4NGZ313-Y4NGZCore-1.0.12
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: zealsprince-Malfunctions
+  authorName: zealsprince
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/zealsprince/Malfunctions/
+  displayName: Malfunctions
+  description: >-
+    Adds random malfunctions to the ship and intends to improve the core game
+    loop with interesting new events.
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795374525714
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2305
+    - xilophor-LethalNetworkAPI-3.3.3
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 10
+    patch: 3
+  enabled: true
+  onlineSource: true
+  trustedPackage: false
+- manifestVersion: 1
+  name: achachala-UtilityDrone
+  authorName: achachala
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/achachala/UtilityDrone/
+  displayName: UtilityDrone
+  description: >-
+    A new ship upgrade for the operator role, providing a fully customizable
+    drone! The drone supports interchangeable modules as well as voice relay,
+    loot cargo, and custom paint schemes.
+  gameVersion: '0'
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1795374586869
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2305
+    - Evaisa-LethalLib-1.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 8
+    patch: 0
+  enabled: true
+  onlineSource: true
+  trustedPackage: false

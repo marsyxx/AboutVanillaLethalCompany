@@ -1,0 +1,10 @@
+{
+  "name": "UtilityDrone",
+  "version_number": "0.8.0",
+  "website_url": "https://forms.gle/nNP2YYnZpy4nczJa8",
+  "description": "A new ship upgrade for the operator role, providing a fully customizable drone! The drone supports interchangeable modules as well as voice relay, loot cargo, and custom paint schemes.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2305",
+    "Evaisa-LethalLib-1.2.0"
+  ]
+}

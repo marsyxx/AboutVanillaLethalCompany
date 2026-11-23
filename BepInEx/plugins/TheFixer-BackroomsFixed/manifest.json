@@ -1,0 +1,9 @@
+{
+    "name": "BackroomsFixed",
+    "version_number": "0.3.0",
+    "website_url": "",
+    "description": "Neekhaulas' Backrooms, rebuilt for current Lethal Company (v73+ networking, v81 KillPlayer), with carpet footsteps from CarpetSound built in.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}
