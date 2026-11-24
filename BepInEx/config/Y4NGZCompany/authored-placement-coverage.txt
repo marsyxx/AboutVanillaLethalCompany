@@ -1,5 +1,5 @@
 Y4NGZ Authored Placement Coverage
-Generated: 2026-11-23 20:28:42 +06:00
+Generated: 2026-11-24 19:25:13 +06:00
 Reason: plugin startup
 Source: D:\Programs\ThunderStore\Data\LethalCompany\profiles\123\BepInEx\config\Y4NGZCompany\interior-authored-placements.local.json
 Note: Counts come from the canonical authored placement JSON. Zero-count interiors come from registered/loaded DungeonFlow resources discovered this run.
