@@ -8,7 +8,7 @@
 |---|---|
 | GraphicsPlus | 1.0.4 |
 | LanguageSwitch | 1.0.1 |
-| LCCompatFixes | 1.0.4 |
+| LCCompatFixes | 1.0.5 |
 
 ## Включены
 
