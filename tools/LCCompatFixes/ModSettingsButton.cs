@@ -49,6 +49,13 @@ internal static class ModSettingsButton
         var offset = launcher.rect.center;
         launcher.localPosition = new Vector3(center.x - offset.x, center.y - offset.y, old.z);
         if (header != null)
+        {
             header.localPosition += launcher.localPosition - old;
+            // The translated header needs the full width of the launcher to stay on one line.
+            var width = launcher.rect.width * launcher.localScale.x / header.localScale.x;
+            var extra = Mathf.Max(0f, width - header.rect.width);
+            header.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, header.rect.width + extra);
+            header.localPosition += Vector3.right * (extra * header.pivot.x * header.localScale.x);
+        }
     }
 }
