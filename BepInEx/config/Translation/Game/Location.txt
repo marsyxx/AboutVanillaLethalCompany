@@ -44,7 +44,7 @@ Embrion is devoid of biological life.=Embrion лишена биологичес�
 8 Titan=8 Titan
 85 Rend=85 Rend
 Voiumya-10=Voiumya-10
-20 Adamance=20 Admance
+20 Adamance=20 Adamance
 68 Artifice=68 Artifice
 5 Embrion=5 Embrion
 
@@ -52,7 +52,7 @@ HAZARD LEVEL:=РАНГ РИСКА:
 
 sr:"^CELESTIAL BODY: ([\s\S]+)$"=ОБЪЕКТ: $1
 
-sr:"^Orbiting: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?) \nFAUNA: (.+?)\nWeather: (.+?)$"=ОРБИТА: $1\nНАСЕЛЕНИЕ: $2\nУСЛОВИЯ: $3 \nФАУНА: $4\nПОГОДА: $4
+sr:"^Orbiting: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?) \nFAUNA: (.+?)\nWeather: (.+?)$"=ОРБИТА: $1\nНАСЕЛЕНИЕ: $2\nУСЛОВИЯ: $3 \nФАУНА: $4\nПОГОДА: $5
 sr:"^Orbiting: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)\n(.+?)$"=ОРБИТА: $1\nНАСЕЛЕНИЕ: $2\nУСЛОВИЯ: $3\nФАУНА: $4\n$5
 sr:"^Orbiting: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)\nWeather: (.+?)$"=ОРБИТА: $1\nНАСЕЛЕНИЕ: $2\nУСЛОВИЯ: $3\nФАУНА: $4\nПОГОДА: $5
 sr:"^Orbiting: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)$"=ОРБИТА: $1\nНАСЕЛЕНИЕ: $2\nУСЛОВИЯ: $3\nФАУНА: $4

@@ -54,7 +54,7 @@ Salute\n[8]=Отдать честь
 Line Break <color\=yellow>[SHIFT+ENTER] </color>=Перенос строки <color\=yellow>[Shift+Enter] </color>
 PREVIEW=ПРЕДПРОСМОТР
 CHARACTERS LEFT: <color\=yellow>100</color>=ОСТАЛОСЬ СИМВОЛОВ: <color\=yellow>100</color>
-sr:"^CHARACTERS LEFT: <color\=yellow>([0-9]|[1-9][0-9]|100)<\/color>=ОСТАЛОСЬ СИМВОЛОВ: <color\=yellow>\1<\/color>$"="CHARACTERS LEFT: <color=yellow>$1</color>=ОСТАЛОСЬ СИМВОЛОВ: <color=yellow>$1</color>"
+r:"^CHARACTERS LEFT: <color\=yellow>([0-9]+)</color>$"=ОСТАЛОСЬ СИМВОЛОВ: <color\=yellow>$1</color>
 Enter Text...=Введите текст...
 <color\=#fe6b02>[ENTER/X]</color> Submit=<color\=#fe6b02>[Enter/x]</color> Подтвердить
 <color\=#fe6b02>[RMB/B]</color> Cancel=<color\=#fe6b02>[RMB/B]</color> Отмена 

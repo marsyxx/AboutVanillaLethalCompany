@@ -89,4 +89,4 @@ Drop Wolf Plush : [G]=Выбросить Игрушку: [G]
 Wolf Plush collected!=Плюшевый волк собран!
 Giant Garlic=Гигантский чеснок
 Drop Giant Garlic : [G]=Выбросить Чеснок: [G]
-Wolf Plush collected!=Гигантский чеснок собран!
+Giant Garlic collected!=Гигантский чеснок собран!

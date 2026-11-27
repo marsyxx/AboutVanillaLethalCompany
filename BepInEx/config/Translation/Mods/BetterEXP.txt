@@ -3,7 +3,7 @@
 <color\=#009600ff><size\=80%>Thanks for installing BetterEXP!</size></color>=<color\=#009600ff><size\=80%>Спасибо за установку BetterEXP!</size></color>
 sr:"^<size\=90%>Based on your vanilla EXP, your BXP Rank has been automatically assigned to <color\=#0096ffff>(.+?)</color>! Remember to be a great asset.</size>$"=<size\=90%>Основываясь на вашем опыте из ванильной игры, вам автоматически присваивается ранг <color\=#0096ffff>$1</color>! Не забывайте побольше активничать.</size>
 
-sr:"^(.+?) <size=70%><color=#ff00ffff>([0-9]+)/([0-9]+)</color></size>$"=$1 <size=70%><color=#ff00ffff>$2/$3</color></size>
+sr:"^(.+?) <size\=70%><color\=#ff00ffff>([0-9]+)/([0-9]+)</color></size>$"=$1 <size\=70%><color\=#ff00ffff>$2/$3</color></size>
 r:"([0-9]+) BXP$"=$1 BXP
 
 r:"^Round Experience:(.+?)$"=Отчёт по вылазке:$1
