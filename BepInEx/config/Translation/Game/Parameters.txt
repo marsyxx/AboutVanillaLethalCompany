@@ -26,7 +26,6 @@ r:"([\s\S]+) started the ship."=$1 запустил корабль.
 r:"([\s\S]+) disconnected."=$1 отключился.
 r:"([\s\S]+) was left behind."=$1 был брошен.
 r:"([\s\S]+) was kicked."=$1 был исключён.
-r:"([\s\S]+)<color\\=#FF0000>([\s\S]+)"=$1<color\=#FF0000>$2.
 r:"^\[Cooldown: ([0-9]+) sec.\]$"=[Восстановление: $1 сек.]
 sr:"^Change: ([\s\S])$"=Изменить на: $1
 r:"PROFIT QUOTA:\\n\\$(\\d+) / \\$(\\d+)"=КВОТА:\n$1$\nиз\n$2$

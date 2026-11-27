@@ -34,7 +34,7 @@
   220 Assurance=  220 Assurance
   71 Gordion=  71 Gordion
   56 Vow=  56 Vow
-  20 Adamance=  20 Admance
+  20 Adamance=  20 Adamance
 69% =69% 
 68% =68% 
 67% =67% 
