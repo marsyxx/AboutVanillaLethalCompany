@@ -37,7 +37,7 @@ public class Plugin : BaseUnityPlugin
 
 	public const string Guid = "lc.compatfixes";
 
-	public const string Version = "1.0.8";
+	public const string Version = "1.0.9";
 
 	private static ManualLogSource Log;
 
@@ -108,6 +108,12 @@ public class Plugin : BaseUnityPlugin
 		if (Config.Bind("Fixes", "MoveModSettingsButton", true,
 			"Moves the LethalSettings launcher below the settings list.").Value)
 			Safe("LethalSettings launcher", () => ModSettingsButton.Install(harmony));
+		if (Config.Bind("Fixes", "ItemAudioGuard", true,
+			"Items without a sound source (Contracted's survey beacon) broke the inventory when switching away from them: invisible item, no switching or dropping until rejoin. Gives such items a silent source.").Value)
+			Safe("item audio guard", () => ItemAudio.Install(harmony, Log));
+		if (Config.Bind("Fixes", "ContractReportTitle", true,
+			"Lets Contracted find its end-of-day report title after the translation changed it, so the report is filled every round.").Value)
+			Safe("contract report title", () => ContractReportTitle.Install(harmony, Log));
 		if (Config.Bind("Fixes", "ForceExitAfterMainMenuSave", false,
 			"On Windows, bypasses Unity native shutdown after the main menu quit callback saves the selected slot.").Value)
 			Safe("main menu exit", () => MainMenuExit.Install(harmony, this, Log));
