@@ -1,3 +1,3 @@
 // Texts of CasinoLossLimit for XUnity.AutoTranslator (Russian)
 Close the quota first=Сперва закройте квоту
-r:"^Your loot is worth (\d+) and the quota still needs (\d+)\. Sell it at the counter, then gamble\.$"=Ваш лут стоит $1, а до квоты осталось $2. Сдайте его на стойке, потом играйте.
+r:"^Your loot would sell for (\d+) and the quota still needs (\d+)\. Sell it at the counter, then gamble\.$"=Ваш лут можно продать за $1, а до квоты осталось $2. Сдайте его на стойке, потом играйте.
