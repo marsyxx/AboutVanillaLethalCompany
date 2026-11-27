@@ -8,7 +8,7 @@
 |---|---|
 | GraphicsPlus | 1.0.4 |
 | LanguageSwitch | 1.0.1 |
-| LCCompatFixes | 1.0.7 |
+| LCCompatFixes | 1.0.8 |
 | CasinoLossLimit | 1.1.0 |
 
 ## Включены

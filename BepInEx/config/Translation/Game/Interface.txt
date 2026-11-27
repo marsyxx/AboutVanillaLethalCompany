@@ -150,7 +150,7 @@ Paycheck!=Зарплата!
 
 (Dead)=(Мёртв)
 
-PERFORMANCE REPORT=ОТЧЁТ О РАБОТЕ
+PERFORMANCE REPORT=PERFORMANCE REPORT
 
 PILOT COMPUTER=БОРТОВОЙ КОМПЬЮТЕР
 WARNING!!! The autopilot ship will leave at midnight. Please return quickly.=ВНИМАНИЕ!!!\nКорабль улетит в полночь.\nПожалуйста, вернитесь на борт.
