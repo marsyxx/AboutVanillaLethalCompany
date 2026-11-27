@@ -30,7 +30,7 @@ File incompatible!=Datei inkompatibel!
 Creating menu<br>Creating Presets...=Menü wird erstellt<br>Voreinstellungen werden erstellt...
 Populating menu<br>Updating Pages...=Menü wird gefüllt<br>Seiten werden aktualisiert...
 (Launched in LAN mode)=(Im LAN-Modus gestartet)
-r:"Populating menu<br>Updating Configs \(([0-9]+)%\)\.\.\."=Menü wird gefüllt<br>Einstellungen werden aktualisiert ($1 %)...
+r:"^Populating menu<br>Updating Configs \(([0-9]+)%\)\.\.\.$"=Menü wird gefüllt<br>Einstellungen werden aktualisiert ($1 %)...
 r:"^PROFIT QUOTA:\n\$([0-9]+) / \$([0-9]+)$"=GEWINNQUOTE:\n$$${1} / $$${2}
 r:"^DEADLINE:\n([0-9]+) Days?$"=FRIST:\n$1 Tage
 LAND=LANDEN
@@ -73,7 +73,7 @@ REMOVE=ENTFERNEN
 ADD=HINZUFÜGEN
 r:"^BUY \$([0-9]+)$"=KAUFEN $$${1}
 [No information about this object was found.=[Zu diesem Objekt wurden keine Informationen gefunden.
-<alpha\=#BB>[No information about this object was found.]=<alpha=#BB>[Zu diesem Objekt wurden keine Informationen gefunden.]
+<alpha\=#BB>[No information about this object was found.]=<alpha\=#BB>[Zu diesem Objekt wurden keine Informationen gefunden.]
 PRICE=PREIS
 NAME=NAME
 SUITS=ANZÜGE
@@ -140,10 +140,10 @@ The most affordable light source.=Die günstigste Lichtquelle.
 The most affordable light source. It's even waterproof!=Die günstigste Lichtquelle. Sie ist sogar wasserdicht!
 For digging!=Zum Graben!
 For digging! The Company does not condone violence or harm to local ecosystems.=Zum Graben! Die Firma duldet keine Gewalt und keine Schäden an lokalen Ökosystemen.
-<alpha\=#BB>For digging! The Company does not condone violence or harm to local ecosystems.\nShovels cannot equip to your utility belt.=<alpha=#BB>Zum Graben! Die Firma duldet keine Gewalt und keine Schäden an lokalen Ökosystemen.\nSchaufeln passen nicht an den Werkzeuggürtel.
+<alpha\=#BB>For digging! The Company does not condone violence or harm to local ecosystems.\nShovels cannot equip to your utility belt.=<alpha\=#BB>Zum Graben! Die Firma duldet keine Gewalt und keine Schäden an lokalen Ökosystemen.\nSchaufeln passen nicht an den Werkzeuggürtel.
 Deal with those pesky weeds!=Erledige diese lästigen Unkräuter!
 Deal with those pesky weeds! Repeated, firm presses on the trigger aimed at the root of the weed is all you need!=Erledige diese lästigen Unkräuter! Du musst nur mehrmals fest den Abzug drücken und auf die Wurzel des Unkrauts zielen!
-<alpha\=#BB>Deal with those pesky weeds! Repeated, firm presses on the trigger aimed at the root of the weed is all you need!=<alpha=#BB>Erledige diese lästigen Unkräuter! Du musst nur mehrmals fest den Abzug drücken und auf die Wurzel des Unkrauts zielen!
+<alpha\=#BB>Deal with those pesky weeds! Repeated, firm presses on the trigger aimed at the root of the weed is all you need!=<alpha\=#BB>Erledige diese lästigen Unkräuter! Du musst nur mehrmals fest den Abzug drücken und auf die Wurzel des Unkrauts zielen!
 The Company Cruiser is an entire delivery truck capable of carrying...=Der Company Cruiser ist ein ganzer Lieferwagen, der...
 The Company Cruiser is an entire delivery truck capable of carrying as many items as you could ever need, including your fellow coworkers! Your purchase of a...=Der Company Cruiser ist ein ganzer Lieferwagen, der so viele Gegenstände transportieren kann, wie du je brauchst, einschließlich deiner Kollegen! Mit dem Kauf eines...
 Use the "transmit" command to broadcast a text message to all...=Mit dem Befehl "transmit" sendest du eine Textnachricht an alle...
@@ -175,17 +175,156 @@ You are here=Du bist hier
 The Company is buying at 30%=Die Firma kauft zu 30 %
 r:"^The Company is buying at ([0-9]+)%$"=Die Firma kauft zu $1 %
 r:"^Orbiting (.+)$"=Im Orbit: $1
-<alpha\=#BB>The Company is buying your goods at 30%.\n\nGo here to drop off any valuable scrap you've collected while on the job. The rate of return updates hourly and fluctuates over the course of several days.=<alpha=#BB>Die Firma kauft deine Waren zu 30 %.\n\nKomm hierher, um wertvollen Schrott abzugeben, den du bei der Arbeit gesammelt hast. Der Kurs wird stündlich aktualisiert und schwankt über mehrere Tage.
-r:"^CONTRACT: (SURVEY|SALVAGE|WHISTLEBLOWER|BLACKOUT AUDIT|CONTAINMENT BREACH) - (.+)$"=AUFTRAG: $1 - $2
+<alpha\=#BB>The Company is buying your goods at 30%.\n\nGo here to drop off any valuable scrap you've collected while on the job. The rate of return updates hourly and fluctuates over the course of several days.=<alpha\=#BB>Die Firma kauft deine Waren zu 30 %.\n\nKomm hierher, um wertvollen Schrott abzugeben, den du bei der Arbeit gesammelt hast. Der Kurs wird stündlich aktualisiert und schwankt über mehrere Tage.
+// Contracted: contract window of ClickableTerminal (title, briefing, WHAT TO DO, task, art, footer).
+// The window is one text; XUnity cuts it at its tags and looks up every piece, so each line is its own key.
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?SALVAGE(</color>)? - (.+)$"=AUFTRAG: ${1}BERGUNG${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?WHISTLEBLOWER(</color>)? - (.+)$"=AUFTRAG: ${1}WHISTLEBLOWER${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?BLACKOUT AUDIT(</color>)? - (.+)$"=AUFTRAG: ${1}STROMNETZ-PRÜFUNG${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?SHADOW RAID(</color>)? - (.+)$"=AUFTRAG: ${1}SCHATTENÜBERFALL${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?CONTAINMENT BREACH(</color>)? - (.+)$"=AUFTRAG: ${1}EINDÄMMUNGSBRUCH${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?SURVEY(</color>)? - (.+)$"=AUFTRAG: ${1}VERMESSUNG${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?DEFUSE(</color>)? - (.+)$"=AUFTRAG: ${1}ENTSCHÄRFUNG${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?PAYLOAD HAUL(</color>)? - (.+)$"=AUFTRAG: ${1}FRACHTTRANSPORT${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?WASTE DISPOSAL(</color>)? - (.+)$"=AUFTRAG: ${1}ABFALLENTSORGUNG${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?PEST CONTROL(</color>)? - (.+)$"=AUFTRAG: ${1}SCHÄDLINGSBEKÄMPFUNG${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?DATA RETRIEVAL(</color>)? - (.+)$"=AUFTRAG: ${1}DATENBERGUNG${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?EXTERMINATION(</color>)? - (.+)$"=AUFTRAG: ${1}AUSROTTUNG${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?EXTRACTION(</color>)? - (.+)$"=AUFTRAG: ${1}RETTUNG${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?EXORCISM(</color>)? - (.+)$"=AUFTRAG: ${1}EXORZISMUS${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?DEFUSAL(</color>)? - (.+)$"=AUFTRAG: ${1}ENTSCHÄRFUNG${2} - ${3}
+WHAT TO DO=AUFGABE
+Done, it lowers the quota. Failed, it raises it, by the moon's risk.=Erfüllt senkt die Quote. Gescheitert erhöht sie, je nach Risiko des Mondes.
+Residual assets remain on-site. Recover all salvage and log it aboard the ship.=Auf dem Gelände sind noch Restwerte vorhanden. Berge den gesamten Schrott und verbuche ihn an Bord des Schiffs.
+Find scrap and get it to the ship.=Finde Schrott und bring ihn zum Schiff.
+An employee has breached disclosure policy. Locate the witness and close the leak before he exits the facility.=Ein Mitarbeiter hat gegen die Geheimhaltungsrichtlinie verstoßen. Finde den Zeugen und stopfe das Leck, bevor er die Anlage verlässt.
+Find the witness inside the facility and kill him.=Finde den Zeugen in der Anlage und töte ihn.
+  \\  |  /\n -- [X] --\n  /  |  \\=  \\  |  /\n -- [X] --\n  /  |  \\
+This facility's power grid is out of compliance. Locate every breaker box and restore output to specification.=Das Stromnetz dieser Anlage entspricht nicht den Vorgaben. Finde jeden Sicherungskasten und stelle die Stromversorgung gemäß Spezifikation wieder her.
+The power is out. Find every breaker box and flip all of its levers until the lights come back on.=Der Strom ist ausgefallen. Finde jeden Sicherungskasten und lege alle seine Hebel um, bis das Licht wieder angeht.
+  [POWER]\n     |\n   --o\n     |=  [POWER]\n     |\n   --o\n     |
+A competitor's sealed cache obstructs Company interests. Deploy the raid drill and recover the hard drive inside.=Ein versiegeltes Lager eines Konkurrenten steht den Interessen der Firma im Weg. Setze den Bohrer ein und berge die Festplatte darin.
+Take the drill from the drop ship and set it down in front of the sealed container. When it finishes, grab the hard drive.=Nimm den Bohrer vom Lieferschiff und stell ihn vor dem versiegelten Container ab. Wenn er fertig ist, schnapp dir die Festplatte.
+  [####]\n  | VA |\n \=\=    \=\==  [####]\n  | VA |\n \=\=    \=\=
+This site is scheduled for a hostile-response stress test. Remain inside the facility for the duration of the assessment.=Für diesen Standort ist ein Belastungstest mit feindlicher Reaktion angesetzt. Bleib für die Dauer der Bewertung in der Anlage.
+Survive waves of enemies until the timer runs out.=Überlebe die Gegnerwellen, bis der Timer abläuft.
+   /\\/\\\n  (o  o)\n  /|##|\\\n   /  \\=   /\\/\\\n  (o  o)\n  /|##|\\\n   /  \\
+Interior zones require assessment. Deploy survey beacons at the designated positions. Retrieval is not required.=Innenbereiche müssen bewertet werden. Stelle Vermessungsbaken an den vorgesehenen Positionen auf. Sie müssen nicht wieder eingesammelt werden.
+Take the beacons from the drop ship and drop one at each unmarked survey site. Beacons will beep as you get closer to the survey site.=Nimm die Baken vom Lieferschiff und lege an jedem unmarkierten Vermessungspunkt eine ab. Die Baken piepen, je näher du dem Vermessungspunkt kommst.
+  .------.\n  |SCAN>>|\n  |  03  |\n  '------'=  .------.\n  |SCAN>>|\n  |  03  |\n  '------'
+An armed device threatens Company property. Locate the case; Field Support holds the wire sequence and disarm code.=Ein scharfes Gerät bedroht Firmeneigentum. Finde den Koffer; der Außendienst-Support kennt die Kabelreihenfolge und den Entschärfungscode.
+Find the armed case. Type DEFUSE on the ship terminal and describe the case, then cut the wires and enter the code it gives. A wrong cut or timeout sets it off.=Finde den scharfen Koffer. Gib DEFUSE am Schiffsterminal ein und beschreibe den Koffer, dann schneide die Kabel durch und gib den genannten Code ein. Ein falscher Schnitt oder Zeitablauf löst ihn aus.
+  .--------.\n  | ARMED  |\n  | 1 2 3 |\n  '--------'=  .--------.\n  | ARMED  |\n  | 1 2 3 |\n  '--------'
+A containment cart awaits transfer. Route it through the main entrance and secure it to the ship's hull.=Ein Eindämmungswagen wartet auf den Transport. Bring ihn durch den Haupteingang und sichere ihn am Rumpf des Schiffs.
+Push the cart out the main entrance to the ship. Turn on the ship magnet and roll the cart into its pull. Fails if the cart is lost.=Schieb den Wagen durch den Haupteingang zum Schiff. Schalte den Schiffsmagneten ein und roll den Wagen in seine Anziehung. Geht der Wagen verloren, ist der Auftrag gescheitert.
+  .------.\n  |[####]|\n  | (o)  |\n  '-oo--oo'=  .------.\n  |[####]|\n  | (o)  |\n  '-oo--oo'
+Assigned assets are scheduled for thermal decommissioning. Feed the incinerator and certify the burn.=Zugewiesene Güter sind zur thermischen Entsorgung vorgesehen. Beschicke den Verbrennungsofen und bestätige die Verbrennung.
+Find the incinerator, load scrap worth the value on its screen, close the door and start the burn. If it breaks down, repair it and restart.=Finde den Verbrennungsofen, lade Schrott im Wert der Anzeige auf seinem Bildschirm ein, schließ die Tür und starte die Verbrennung. Fällt er aus, repariere ihn und starte neu.
+   /^^\\\n  |FIRE|\n  |____|\n  /|  |\\=   /^^\\\n  |FIRE|\n  |____|\n  /|  |\\
+A live specimen has been flagged for acquisition. Rig the Company trap, lure it onto the platform, and contain it.=Ein lebendes Exemplar wurde zur Beschaffung markiert. Stell die Falle der Firma auf, lock es auf die Plattform und sperr es ein.
+Find the cage trap inside the facility. Lure a live monster onto its platform and pull the lever to drop the cage.=Finde die Käfigfalle in der Anlage. Lock ein lebendes Monster auf ihre Plattform und zieh den Hebel, um den Käfig fallen zu lassen.
+A survey terminal was abandoned deep in the facility. Recover its records before the site is written off.=Tief in der Anlage wurde ein Vermessungsterminal zurückgelassen. Berge seine Daten, bevor der Standort abgeschrieben wird.
+Find the laptop and note its IP. Run 'bruteforce <ip>' on the ship terminal, then log in on the laptop and download survey.db.=Finde den Laptop und notiere seine IP. Führe 'bruteforce <ip>' am Schiffsterminal aus, melde dich dann am Laptop an und lade survey.db herunter.
+Find the laptop and note its IP. Run 'bruteforce=Finde den Laptop und notiere seine IP. Führe 'bruteforce
+' on the ship terminal, then log in on the laptop and download survey.db.=' am Schiffsterminal aus, melde dich dann am Laptop an und lade survey.db herunter.
+An infestation has taken the facility. Clear the swarm and destroy the nest it is defending.=Ein Befall hat die Anlage übernommen. Vernichte den Schwarm und zerstöre das Nest, das er verteidigt.
+Find the hoarding bug nest and destroy it. That finishes the job even if some bugs are still alive.=Finde das Nest der Hortkäfer und zerstöre es. Damit ist der Auftrag erledigt, auch wenn noch einige Käfer leben.
+   .-''-.\n  ( o  o )\n   '-..-'\n  /_||||_\\=   .-''-.\n  ( o  o )\n   '-..-'\n  /_||||_\\
+A contracted scavenger is down inside and still insured. Stabilize him and bring him back aboard.=Ein beauftragter Plünderer liegt drinnen am Boden und ist noch versichert. Stabilisiere ihn und bring ihn zurück an Bord.
+Find the downed scavenger, heal him with the medkit left on the moon, then carry him into the ship.=Finde den verletzten Plünderer, heile ihn mit dem auf dem Mond zurückgelassenen Medkit und trag ihn dann ins Schiff.
+Unlicensed ritual activity is interfering with operations. Complete the rite and remove the occupant.=Unlizenzierte rituelle Aktivitäten stören den Betrieb. Vollende den Ritus und entferne den Bewohner.
+Find the pentagram and run 'demon <name>' on the terminal for its item list. Place those items on it. A wrong item fails the ritual and calls ghost girls.=Finde das Pentagramm und führe 'demon <name>' am Terminal aus, um seine Gegenstandsliste zu erhalten. Lege diese Gegenstände darauf. Ein falscher Gegenstand lässt das Ritual scheitern und ruft Geistermädchen herbei.
+Find the pentagram and run 'demon=Finde das Pentagramm und führe 'demon
+' on the terminal for its item list. Place those items on it. A wrong item fails the ritual and calls ghost girls.=' am Terminal aus, um seine Gegenstandsliste zu erhalten. Lege diese Gegenstände darauf. Ein falscher Gegenstand lässt das Ritual scheitern und ruft Geistermädchen herbei.
+An armed device is sitting on Company property. Read the wiring off the terminal and shut it down.=Ein scharfes Gerät liegt auf Firmengelände. Lies die Verkabelung am Terminal ab und schalte es ab.
+Find the device and read its serial. Run 'lookup <serial>' on the terminal and cut the wires in the order it gives. A wrong cut or timeout sets it off.=Finde das Gerät und lies seine Seriennummer ab. Führe 'lookup <serial>' am Terminal aus und schneide die Kabel in der angegebenen Reihenfolge durch. Ein falscher Schnitt oder Zeitablauf löst es aus.
+Find the device and read its serial. Run 'lookup=Finde das Gerät und lies seine Seriennummer ab. Führe 'lookup
+' on the terminal and cut the wires in the order it gives. A wrong cut or timeout sets it off.=' am Terminal aus und schneide die Kabel in der angegebenen Reihenfolge durch. Ein falscher Schnitt oder Zeitablauf löst es aus.
+  .--------.\n  | * ARM  |\n  | \u002F\u002F\u002F\u002F |\n  '--------'=  .--------.\n  | * ARM  |\n  | \u002F\u002F\u002F\u002F |\n  '--------'
+// Contracted: CONTRACTS page, contract names, titles, failure banner, ship monitor.
+CONTRACTS=AUFTRÄGE
+Done lowers the quota, failed raises it=Erfüllt senkt die Quote, gescheitert erhöht sie
+No contracts are given out right now.=Derzeit werden keine Aufträge vergeben.
+SALVAGE=BERGUNG
+SALVAGE · FAILURE=BERGUNG · GESCHEITERT
+Recover valuable scrap=Wertvollen Schrott bergen
+WHISTLEBLOWER=WHISTLEBLOWER
+WHISTLEBLOWER · FAILURE=WHISTLEBLOWER · GESCHEITERT
+Find and neutralize the witness=Den Zeugen finden und ausschalten
+BLACKOUT AUDIT=STROMNETZ-PRÜFUNG
+BLACKOUT AUDIT · FAILURE=STROMNETZ-PRÜFUNG · GESCHEITERT
+Restore facility power=Stromversorgung der Anlage wiederherstellen
+Shadow Raid=Schattenüberfall
+Raid=Überfall
+SHADOW RAID=SCHATTENÜBERFALL
+SHADOW RAID · FAILURE=SCHATTENÜBERFALL · GESCHEITERT
+Recover the sealed hard drive=Die versiegelte Festplatte bergen
+CONTAINMENT BREACH=EINDÄMMUNGSBRUCH
+CONTAINMENT BREACH · FAILURE=EINDÄMMUNGSBRUCH · GESCHEITERT
+Survive hostile response waves=Feindliche Angriffswellen überleben
+SURVEY=VERMESSUNG
+SURVEY · FAILURE=VERMESSUNG · GESCHEITERT
+Deploy survey beacons=Vermessungsbaken aufstellen
+Defuse=Entschärfung
+Defusal=Entschärfung
+DEFUSE=ENTSCHÄRFUNG
+DEFUSE · FAILURE=ENTSCHÄRFUNG · GESCHEITERT
+Disarm the armed briefcase=Den scharfen Koffer entschärfen
+Payload Haul=Frachttransport
+PAYLOAD HAUL=FRACHTTRANSPORT
+PAYLOAD HAUL · FAILURE=FRACHTTRANSPORT · GESCHEITERT
+Deliver sealed containment cargo=Versiegelte Eindämmungsfracht liefern
+Waste Disposal=Abfallentsorgung
+WASTE DISPOSAL=ABFALLENTSORGUNG
+WASTE DISPOSAL · FAILURE=ABFALLENTSORGUNG · GESCHEITERT
+Incinerate assigned scrap=Zugewiesenen Schrott verbrennen
+Pest Control=Schädlingsbekämpfung
+PEST CONTROL=SCHÄDLINGSBEKÄMPFUNG
+PEST CONTROL · FAILURE=SCHÄDLINGSBEKÄMPFUNG · GESCHEITERT
+Trap and contain a specimen=Ein Exemplar fangen und einsperren
+Data Retrieval=Datenbergung
+DATA RETRIEVAL=DATENBERGUNG
+DATA RETRIEVAL · FAILURE=DATENBERGUNG · GESCHEITERT
+Recover the survey database=Die Vermessungsdatenbank bergen
+Extermination=Ausrottung
+EXTERMINATION=AUSROTTUNG
+EXTERMINATION · FAILURE=AUSROTTUNG · GESCHEITERT
+Destroy the hoarding bug nest=Das Hortkäfer-Nest zerstören
+Extraction=Rettung
+EXTRACTION=RETTUNG
+EXTRACTION · FAILURE=RETTUNG · GESCHEITERT
+Rescue the downed scavenger=Den verletzten Plünderer retten
+Exorcism=Exorzismus
+EXORCISM=EXORZISMUS
+EXORCISM · FAILURE=EXORZISMUS · GESCHEITERT
+Complete the banishing ritual=Das Bannritual vollenden
+DEFUSAL=ENTSCHÄRFUNG
+DEFUSAL · FAILURE=ENTSCHÄRFUNG · GESCHEITERT
+Disarm the armed device=Das scharfe Gerät entschärfen
+r:"^QUOTA INCREASED · \$([0-9]+)\nNEW QUOTA · \$([0-9]+)$"=QUOTE ERHÖHT · $$${1}\nNEUE QUOTE · $$${2}
+ORBITING:=IM ORBIT:
+CONTRACT:=AUFTRAG:
+RISK:=RISIKO:
+WEATHER:=WETTER:
+OBJECTIVE:=ZIEL:
+POPULATION:=BEVÖLKERUNG:
+CONDITIONS:=BEDINGUNGEN:
+FAUNA:=FAUNA:
+// Risk letter on the ship monitor stays as is (without these XUnity waits for an online translation of it).
+S=S
+A=A
+B=B
+C=C
+D=D
 r:"^FORECAST: (.+)$"=VORHERSAGE: $1
 r:"^SIMULATE: (.+)$"=SIMULATION: $1
-r:"WEATHER NOW"=WETTER JETZT
-r:"SCRAP AMOUNT"=SCHROTTMENGE
-r:"SCRAP VALUE"=SCHROTTWERT
-r:"TOMORROW"=MORGEN
-r:"NEVER HERE"=NIE HIER
-r:"WHAT TO DO"=AUFGABE
-r:"Clear skies\. Nothing out of the ordinary\."=Klarer Himmel. Nichts Ungewöhnliches.
+// ClickableTerminal: weather window (split at its tags like the contract window).
+WEATHER NOW=WETTER JETZT
+SCRAP AMOUNT=SCHROTTMENGE
+SCRAP VALUE=SCHROTTWERT
+TOMORROW=MORGEN
+NEVER HERE=NIE HIER
+Clear skies. Nothing out of the ordinary.=Klarer Himmel. Nichts Ungewöhnliches.
 LEVER=HEBEL
 Flying=Flug
 Hurricane=Hurrikan
@@ -193,9 +332,6 @@ Minefield=Minenfeld
 Disposal=Entsorgung
 Pest=Schädlinge
 Payload=Fracht
-BLACKOUT AUDIT=BLACKOUT-PRÜFUNG
-CONTAINMENT BREACH=EINDÄMMUNGSBRUCH
-BLACKOUT AUDIT · FAILURE=BLACKOUT-PRÜFUNG · GESCHEITERT
 CONTRACT FAILURE · RECOVER SCRAP AND EXTRACT=AUFTRAG GESCHEITERT · SCHROTT BERGEN UND EVAKUIEREN
 2ND WIND=ZWEITER ATEM
 SCRAP=SCHROTT
@@ -212,16 +348,16 @@ Happy Thursday.=Schönen Donnerstag.
 Happy Friday.=Schönen Freitag.
 Happy Saturday.=Schönen Samstag.
 Happy Sunday.=Schönen Sonntag.
-r:"Locate the breaker box"=Verteilerkasten finden
-r:"Survive wave ([0-9]+) · ([0-9:]+)"=Überlebe Welle $1 · $2
-r:"IN ([0-9]+) \$([0-9]+)  OUT ([0-9]+) \$([0-9]+)"=INNEN $1 $$${2}  AUSSEN $3 $$${4}
+// Contracted: objectives on the HUD card.
+Locate the breaker box=Sicherungskasten finden
+Locate the breaker boxes=Sicherungskästen finden
+Reset the breaker box=Sicherungskasten zurücksetzen
+Reset the breaker boxes=Sicherungskästen zurücksetzen
+r:"^Survive wave ([0-9]+)$"=Überlebe Welle $1
+r:"^Survive wave ([0-9]+) · ([0-9:]+)$"=Überlebe Welle $1 · $2
+r:"^IN ([0-9]+) \$([0-9]+)  OUT ([0-9]+) \$([0-9]+)$"=INNEN $1 $$${2}  AUSSEN $3 $$${4}
 r:"^SCRAP INSIDE ([0-9]+) \(\$([0-9]+)\)  OUTSIDE ([0-9]+) \(\$([0-9]+)\)$"=SCHROTT INNEN $1 ($$${2})  AUSSEN $3 ($$${4})
-r:"^// Vanilla EXP: ([0-9]+)$"=// Spiel-EP: $1
+SCRAP LEFT: NONE=SCHROTT: NICHTS ÜBRIG
+r:"^\/\/ Vanilla EXP: ([0-9]+)$"=\u002F\u002F Spiel-EP: $1
 r:"^\+([0-9]+) XP \(survived ([0-9]+)\)$"=+$1 EP (überlebt: $2)
 r:"^ROUTE: (.+)$"=ROUTE: $1
-r:"ORBITING:"=IM ORBIT:
-r:"POPULATION:"=BEVÖLKERUNG:
-r:"CONDITIONS:"=BEDINGUNGEN:
-r:"FAUNA:"=FAUNA:
-r:"OBJECTIVE:"=ZIEL:
-r:"Deploy survey beacons"=Vermessungsbaken aufstellen

@@ -30,10 +30,10 @@ File incompatible!=Файл несовместим!
 Creating menu<br>Creating Presets...=Создание меню<br>Создание пресетов...
 Populating menu<br>Updating Pages...=Заполнение меню<br>Обновление страниц...
 (Launched in LAN mode)=(Запущено в режиме LAN)
-r:"Populating menu<br>Updating Configs \(([0-9]+)%\)\.\.\."=Заполнение меню<br>Обновление настроек ($1%)...
+r:"^Populating menu<br>Updating Configs \(([0-9]+)%\)\.\.\.$"=Заполнение меню<br>Обновление настроек ($1%)...
 r:"^PROFIT QUOTA:\n\$([0-9]+) / \$([0-9]+)$"=НОРМА ПРИБЫЛИ:\n$$${1} / $$${2}
 r:"^DEADLINE:\n([0-9]+) Days?$"=СРОК:\n$1 дн.
-r:"^<color=\"yellow\">Body cam \$([0-9]+)$"=<color="yellow">Нагрудная камера $$${1}
+r:"^<color\=\"yellow\">Body cam \$([0-9]+)$"="<color\="yellow">Нагрудная камера $$${1}"
 LAND=ПОСАДКА
 LIGHTS=СВЕТ
 DOORS=ДВЕРИ
@@ -74,7 +74,7 @@ REMOVE=УБРАТЬ
 ADD=ДОБАВИТЬ
 r:"^BUY \$([0-9]+)$"=КУПИТЬ $$${1}
 [No information about this object was found.=[Информация об этом объекте не найдена.
-<alpha\=#BB>[No information about this object was found.]=<alpha=#BB>[Информация об этом объекте не найдена.]
+<alpha\=#BB>[No information about this object was found.]=<alpha\=#BB>[Информация об этом объекте не найдена.]
 PRICE=ЦЕНА
 NAME=НАЗВАНИЕ
 SUITS=КОСТЮМЫ
@@ -142,10 +142,10 @@ The most affordable light source.=Самый доступный источник
 The most affordable light source. It's even waterproof!=Самый доступный источник света. Он даже водонепроницаемый!
 For digging!=Для копания!
 For digging! The Company does not condone violence or harm to local ecosystems.=Для копания! Компания не одобряет насилие и вред местным экосистемам.
-<alpha\=#BB>For digging! The Company does not condone violence or harm to local ecosystems.\nShovels cannot equip to your utility belt.=<alpha=#BB>Для копания! Компания не одобряет насилие и вред местным экосистемам.\nЛопату нельзя повесить на пояс.
+<alpha\=#BB>For digging! The Company does not condone violence or harm to local ecosystems.\nShovels cannot equip to your utility belt.=<alpha\=#BB>Для копания! Компания не одобряет насилие и вред местным экосистемам.\nЛопату нельзя повесить на пояс.
 Deal with those pesky weeds!=Расправьтесь с надоедливыми сорняками!
 Deal with those pesky weeds! Repeated, firm presses on the trigger aimed at the root of the weed is all you need!=Расправьтесь с надоедливыми сорняками! Всё, что нужно, это несколько сильных нажатий на спусковой крючок, нацелившись на корень сорняка!
-<alpha\=#BB>Deal with those pesky weeds! Repeated, firm presses on the trigger aimed at the root of the weed is all you need!=<alpha=#BB>Расправьтесь с надоедливыми сорняками! Всё, что нужно, это несколько сильных нажатий на спусковой крючок, нацелившись на корень сорняка!
+<alpha\=#BB>Deal with those pesky weeds! Repeated, firm presses on the trigger aimed at the root of the weed is all you need!=<alpha\=#BB>Расправьтесь с надоедливыми сорняками! Всё, что нужно, это несколько сильных нажатий на спусковой крючок, нацелившись на корень сорняка!
 The Company Cruiser is an entire delivery truck capable of carrying...=Крейсер Компании — целый грузовик доставки, способный вместить...
 The Company Cruiser is an entire delivery truck capable of carrying as many items as you could ever need, including your fellow coworkers! Your purchase of a...=Крейсер Компании — целый грузовик доставки, способный вместить сколько угодно предметов, включая ваших коллег! Покупая...
 Use the "transmit" command to broadcast a text message to all...=Команда "transmit" отправляет текстовое сообщение всем...
@@ -178,28 +178,158 @@ You are here=Вы здесь
 The Company is buying at 30%=Компания покупает за 30%
 r:"^The Company is buying at ([0-9]+)%$"=Компания покупает за $1%
 r:"^Orbiting (.+)$"=На орбите: $1
-<alpha\=#BB>The Company is buying your goods at 30%.\n\nGo here to drop off any valuable scrap you've collected while on the job. The rate of return updates hourly and fluctuates over the course of several days.=<alpha=#BB>Компания покупает ваши товары за 30%.\n\nПриезжайте сюда, чтобы сдать весь ценный лом, собранный на работе. Курс обновляется каждый час и колеблется в течение нескольких дней.
-r:"^CONTRACT: (SURVEY|SALVAGE|WHISTLEBLOWER|BLACKOUT AUDIT|CONTAINMENT BREACH) - (.+)$"=КОНТРАКТ: $1 - $2
+<alpha\=#BB>The Company is buying your goods at 30%.\n\nGo here to drop off any valuable scrap you've collected while on the job. The rate of return updates hourly and fluctuates over the course of several days.=<alpha\=#BB>Компания покупает ваши товары за 30%.\n\nПриезжайте сюда, чтобы сдать весь ценный лом, собранный на работе. Курс обновляется каждый час и колеблется в течение нескольких дней.
+// Contracted: contract window of ClickableTerminal (title, briefing, WHAT TO DO, task, art, footer).
+// The window is one text; XUnity cuts it at its tags and looks up every piece, so each line is its own key.
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?SALVAGE(</color>)? - (.+)$"=КОНТРАКТ: ${1}СПАСЕНИЕ ИМУЩЕСТВА${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?WHISTLEBLOWER(</color>)? - (.+)$"=КОНТРАКТ: ${1}РАЗОБЛАЧИТЕЛЬ${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?BLACKOUT AUDIT(</color>)? - (.+)$"=КОНТРАКТ: ${1}ПРОВЕРКА ЭЛЕКТРОСЕТИ${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?SHADOW RAID(</color>)? - (.+)$"=КОНТРАКТ: ${1}ТЕНЕВОЙ РЕЙД${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?CONTAINMENT BREACH(</color>)? - (.+)$"=КОНТРАКТ: ${1}НАРУШЕНИЕ ИЗОЛЯЦИИ${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?SURVEY(</color>)? - (.+)$"=КОНТРАКТ: ${1}РАЗВЕДКА${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?DEFUSE(</color>)? - (.+)$"=КОНТРАКТ: ${1}РАЗМИНИРОВАНИЕ${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?PAYLOAD HAUL(</color>)? - (.+)$"=КОНТРАКТ: ${1}ПЕРЕВОЗКА ГРУЗА${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?WASTE DISPOSAL(</color>)? - (.+)$"=КОНТРАКТ: ${1}УТИЛИЗАЦИЯ ОТХОДОВ${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?PEST CONTROL(</color>)? - (.+)$"=КОНТРАКТ: ${1}БОРЬБА С ВРЕДИТЕЛЯМИ${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?DATA RETRIEVAL(</color>)? - (.+)$"=КОНТРАКТ: ${1}ИЗВЛЕЧЕНИЕ ДАННЫХ${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?EXTERMINATION(</color>)? - (.+)$"=КОНТРАКТ: ${1}ИСТРЕБЛЕНИЕ${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?EXTRACTION(</color>)? - (.+)$"=КОНТРАКТ: ${1}ЭВАКУАЦИЯ${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?EXORCISM(</color>)? - (.+)$"=КОНТРАКТ: ${1}ЭКЗОРЦИЗМ${2} - ${3}
+r:"^CONTRACT: (<color\=#[0-9A-Fa-f]{6}>)?DEFUSAL(</color>)? - (.+)$"=КОНТРАКТ: ${1}РАЗМИНИРОВАНИЕ${2} - ${3}
+WHAT TO DO=ЧТО ДЕЛАТЬ
+Done, it lowers the quota. Failed, it raises it, by the moon's risk.=Выполнено: норма снижается. Провалено: растёт на величину риска луны.
+Residual assets remain on-site. Recover all salvage and log it aboard the ship.=На месте остались ценности. Соберите весь лом и сдайте его на корабле.
+Find scrap and get it to the ship.=Найдите лом и доставьте его на корабль.
+An employee has breached disclosure policy. Locate the witness and close the leak before he exits the facility.=Сотрудник нарушил политику неразглашения. Найдите свидетеля и устраните утечку, пока он не покинул комплекс.
+Find the witness inside the facility and kill him.=Найдите свидетеля внутри комплекса и убейте его.
+  \\  |  /\n -- [X] --\n  /  |  \\=  \\  |  /\n -- [X] --\n  /  |  \\
+This facility's power grid is out of compliance. Locate every breaker box and restore output to specification.=Электросеть этого комплекса не соответствует нормам. Найдите все электрощитки и восстановите питание до нормы.
+The power is out. Find every breaker box and flip all of its levers until the lights come back on.=Электричества нет. Найдите все электрощитки и переключите на них все рычаги, пока не загорится свет.
+  [POWER]\n     |\n   --o\n     |=  [POWER]\n     |\n   --o\n     |
+A competitor's sealed cache obstructs Company interests. Deploy the raid drill and recover the hard drive inside.=Опечатанный тайник конкурента мешает интересам Компании. Установите бур и извлеките жёсткий диск из тайника.
+Take the drill from the drop ship and set it down in front of the sealed container. When it finishes, grab the hard drive.=Возьмите бур с корабля доставки и поставьте его перед опечатанным контейнером. Когда он закончит, заберите жёсткий диск.
+  [####]\n  | VA |\n \=\=    \=\==  [####]\n  | VA |\n \=\=    \=\=
+This site is scheduled for a hostile-response stress test. Remain inside the facility for the duration of the assessment.=На этом объекте назначена проверка под нагрузкой враждебных существ. Оставайтесь внутри комплекса до конца проверки.
+Survive waves of enemies until the timer runs out.=Переживите волны врагов, пока не истечёт таймер.
+   /\\/\\\n  (o  o)\n  /|##|\\\n   /  \\=   /\\/\\\n  (o  o)\n  /|##|\\\n   /  \\
+Interior zones require assessment. Deploy survey beacons at the designated positions. Retrieval is not required.=Зоны внутри комплекса требуют оценки. Установите маяки разведки в указанных точках. Забирать их не нужно.
+Take the beacons from the drop ship and drop one at each unmarked survey site. Beacons will beep as you get closer to the survey site.=Возьмите маяки с корабля доставки и оставьте по одному на каждом неотмеченном участке. Маяки пищат, когда вы приближаетесь к участку.
+  .------.\n  |SCAN>>|\n  |  03  |\n  '------'=  .------.\n  |SCAN>>|\n  |  03  |\n  '------'
+An armed device threatens Company property. Locate the case; Field Support holds the wire sequence and disarm code.=Взведённое устройство угрожает имуществу Компании. Найдите кейс; порядок проводов и код отключения знает полевая поддержка.
+Find the armed case. Type DEFUSE on the ship terminal and describe the case, then cut the wires and enter the code it gives. A wrong cut or timeout sets it off.=Найдите взведённый кейс. Введите DEFUSE в терминале корабля и опишите кейс, затем перережьте провода и введите выданный код. Неверный разрез или конец времени приведут к взрыву.
+  .--------.\n  | ARMED  |\n  | 1 2 3 |\n  '--------'=  .--------.\n  | ARMED  |\n  | 1 2 3 |\n  '--------'
+A containment cart awaits transfer. Route it through the main entrance and secure it to the ship's hull.=Контейнерная тележка ждёт перевозки. Выведите её через главный вход и закрепите на корпусе корабля.
+Push the cart out the main entrance to the ship. Turn on the ship magnet and roll the cart into its pull. Fails if the cart is lost.=Вытолкайте тележку через главный вход к кораблю. Включите магнит корабля и закатите тележку в зону его притяжения. Если тележка потеряна, контракт провален.
+  .------.\n  |[####]|\n  | (o)  |\n  '-oo--oo'=  .------.\n  |[####]|\n  | (o)  |\n  '-oo--oo'
+Assigned assets are scheduled for thermal decommissioning. Feed the incinerator and certify the burn.=Назначенное имущество подлежит термической утилизации. Загрузите мусоросжигатель и подтвердите сжигание.
+Find the incinerator, load scrap worth the value on its screen, close the door and start the burn. If it breaks down, repair it and restart.=Найдите мусоросжигатель, загрузите в него лом на сумму с его экрана, закройте дверцу и запустите сжигание. Если он сломается, почините его и запустите снова.
+   /^^\\\n  |FIRE|\n  |____|\n  /|  |\\=   /^^\\\n  |FIRE|\n  |____|\n  /|  |\\
+A live specimen has been flagged for acquisition. Rig the Company trap, lure it onto the platform, and contain it.=Живой образец отмечен для поимки. Подготовьте ловушку Компании, заманите его на платформу и запечатайте.
+Find the cage trap inside the facility. Lure a live monster onto its platform and pull the lever to drop the cage.=Найдите ловушку-клетку внутри комплекса. Заманите живого монстра на её платформу и потяните рычаг, чтобы опустить клетку.
+A survey terminal was abandoned deep in the facility. Recover its records before the site is written off.=Глубоко в комплексе брошен терминал разведки. Извлеките его записи, пока объект не списали.
+Find the laptop and note its IP. Run 'bruteforce <ip>' on the ship terminal, then log in on the laptop and download survey.db.=Найдите ноутбук и запишите его IP. Выполните 'bruteforce <ip>' в терминале корабля, затем войдите в систему на ноутбуке и скачайте survey.db.
+Find the laptop and note its IP. Run 'bruteforce=Найдите ноутбук и запишите его IP. Выполните 'bruteforce
+' on the ship terminal, then log in on the laptop and download survey.db.=' в терминале корабля, затем войдите в систему на ноутбуке и скачайте survey.db.
+An infestation has taken the facility. Clear the swarm and destroy the nest it is defending.=Комплекс захвачен паразитами. Зачистите рой и уничтожьте гнездо, которое он защищает.
+Find the hoarding bug nest and destroy it. That finishes the job even if some bugs are still alive.=Найдите гнездо жуков-собирателей и уничтожьте его. Этого достаточно, даже если часть жуков ещё жива.
+   .-''-.\n  ( o  o )\n   '-..-'\n  /_||||_\\=   .-''-.\n  ( o  o )\n   '-..-'\n  /_||||_\\
+A contracted scavenger is down inside and still insured. Stabilize him and bring him back aboard.=Наёмный мусорщик ранен внутри, но всё ещё застрахован. Стабилизируйте его и доставьте на борт.
+Find the downed scavenger, heal him with the medkit left on the moon, then carry him into the ship.=Найдите раненого мусорщика, вылечите его аптечкой, оставленной на луне, и отнесите на корабль.
+Unlicensed ritual activity is interfering with operations. Complete the rite and remove the occupant.=Нелицензированные ритуалы мешают работе. Завершите обряд и изгоните обитателя.
+Find the pentagram and run 'demon <name>' on the terminal for its item list. Place those items on it. A wrong item fails the ritual and calls ghost girls.=Найдите пентаграмму и выполните 'demon <name>' в терминале, чтобы узнать список предметов. Положите эти предметы на неё. Неверный предмет проваливает ритуал и призывает призрачных девочек.
+Find the pentagram and run 'demon=Найдите пентаграмму и выполните 'demon
+' on the terminal for its item list. Place those items on it. A wrong item fails the ritual and calls ghost girls.=' в терминале, чтобы узнать список предметов. Положите эти предметы на неё. Неверный предмет проваливает ритуал и призывает призрачных девочек.
+An armed device is sitting on Company property. Read the wiring off the terminal and shut it down.=На территории Компании лежит взведённое устройство. Узнайте схему проводов в терминале и отключите его.
+Find the device and read its serial. Run 'lookup <serial>' on the terminal and cut the wires in the order it gives. A wrong cut or timeout sets it off.=Найдите устройство и прочитайте его серийный номер. Выполните 'lookup <serial>' в терминале и перережьте провода в указанном порядке. Неверный разрез или конец времени приведут к взрыву.
+Find the device and read its serial. Run 'lookup=Найдите устройство и прочитайте его серийный номер. Выполните 'lookup
+' on the terminal and cut the wires in the order it gives. A wrong cut or timeout sets it off.=' в терминале и перережьте провода в указанном порядке. Неверный разрез или конец времени приведут к взрыву.
+  .--------.\n  | * ARM  |\n  | \u002F\u002F\u002F\u002F |\n  '--------'=  .--------.\n  | * ARM  |\n  | \u002F\u002F\u002F\u002F |\n  '--------'
+// Contracted: CONTRACTS page, contract names, titles, failure banner, ship monitor.
+CONTRACTS=КОНТРАКТЫ
+Done lowers the quota, failed raises it=Выполнено — норма ниже, провалено — выше
+No contracts are given out right now.=Сейчас контракты не выдаются.
+SALVAGE=СПАСЕНИЕ ИМУЩЕСТВА
+SALVAGE · FAILURE=СПАСЕНИЕ ИМУЩЕСТВА · ПРОВАЛ
+Recover valuable scrap=Собрать ценный лом
+WHISTLEBLOWER=РАЗОБЛАЧИТЕЛЬ
+WHISTLEBLOWER · FAILURE=РАЗОБЛАЧИТЕЛЬ · ПРОВАЛ
+Find and neutralize the witness=Найти и устранить свидетеля
+BLACKOUT AUDIT=ПРОВЕРКА ЭЛЕКТРОСЕТИ
+BLACKOUT AUDIT · FAILURE=ПРОВЕРКА ЭЛЕКТРОСЕТИ · ПРОВАЛ
+Restore facility power=Восстановить питание комплекса
+Shadow Raid=Теневой рейд
+Raid=Рейд
+SHADOW RAID=ТЕНЕВОЙ РЕЙД
+SHADOW RAID · FAILURE=ТЕНЕВОЙ РЕЙД · ПРОВАЛ
+Recover the sealed hard drive=Извлечь опечатанный жёсткий диск
+CONTAINMENT BREACH=НАРУШЕНИЕ ИЗОЛЯЦИИ
+CONTAINMENT BREACH · FAILURE=НАРУШЕНИЕ ИЗОЛЯЦИИ · ПРОВАЛ
+Survive hostile response waves=Пережить волны врагов
+SURVEY=РАЗВЕДКА
+SURVEY · FAILURE=РАЗВЕДКА · ПРОВАЛ
+Deploy survey beacons=Установить маяки разведки
+Defuse=Разминирование
+Defusal=Разминирование
+DEFUSE=РАЗМИНИРОВАНИЕ
+DEFUSE · FAILURE=РАЗМИНИРОВАНИЕ · ПРОВАЛ
+Disarm the armed briefcase=Обезвредить взведённый кейс
+Payload Haul=Перевозка груза
+PAYLOAD HAUL=ПЕРЕВОЗКА ГРУЗА
+PAYLOAD HAUL · FAILURE=ПЕРЕВОЗКА ГРУЗА · ПРОВАЛ
+Deliver sealed containment cargo=Доставить опечатанный груз
+Waste Disposal=Утилизация отходов
+WASTE DISPOSAL=УТИЛИЗАЦИЯ ОТХОДОВ
+WASTE DISPOSAL · FAILURE=УТИЛИЗАЦИЯ ОТХОДОВ · ПРОВАЛ
+Incinerate assigned scrap=Сжечь назначенный лом
+Pest Control=Борьба с вредителями
+PEST CONTROL=БОРЬБА С ВРЕДИТЕЛЯМИ
+PEST CONTROL · FAILURE=БОРЬБА С ВРЕДИТЕЛЯМИ · ПРОВАЛ
+Trap and contain a specimen=Поймать и запереть образец
+Data Retrieval=Извлечение данных
+DATA RETRIEVAL=ИЗВЛЕЧЕНИЕ ДАННЫХ
+DATA RETRIEVAL · FAILURE=ИЗВЛЕЧЕНИЕ ДАННЫХ · ПРОВАЛ
+Recover the survey database=Извлечь базу данных разведки
+Extermination=Истребление
+EXTERMINATION=ИСТРЕБЛЕНИЕ
+EXTERMINATION · FAILURE=ИСТРЕБЛЕНИЕ · ПРОВАЛ
+Destroy the hoarding bug nest=Уничтожить гнездо жуков-собирателей
+Extraction=Эвакуация
+EXTRACTION=ЭВАКУАЦИЯ
+EXTRACTION · FAILURE=ЭВАКУАЦИЯ · ПРОВАЛ
+Rescue the downed scavenger=Спасти раненого мусорщика
+Exorcism=Экзорцизм
+EXORCISM=ЭКЗОРЦИЗМ
+EXORCISM · FAILURE=ЭКЗОРЦИЗМ · ПРОВАЛ
+Complete the banishing ritual=Завершить ритуал изгнания
+DEFUSAL=РАЗМИНИРОВАНИЕ
+DEFUSAL · FAILURE=РАЗМИНИРОВАНИЕ · ПРОВАЛ
+Disarm the armed device=Обезвредить взведённое устройство
+r:"^QUOTA INCREASED · \$([0-9]+)\nNEW QUOTA · \$([0-9]+)$"=НОРМА ПОВЫШЕНА · $$${1}\nНОВАЯ НОРМА · $$${2}
+ORBITING:=ОРБИТА:
+CONTRACT:=КОНТРАКТ:
+RISK:=РИСК:
+WEATHER:=ПОГОДА:
+OBJECTIVE:=ЦЕЛЬ:
+POPULATION:=НАСЕЛЕНИЕ:
+CONDITIONS:=УСЛОВИЯ:
+FAUNA:=ФАУНА:
+// Risk letter on the ship monitor stays as is (without these XUnity waits for an online translation of it).
+S=S
+A=A
+B=B
+C=C
+D=D
 r:"^FORECAST: (.+)$"=ПРОГНОЗ: $1
 r:"^SIMULATE: (.+)$"=СИМУЛЯЦИЯ: $1
-r:"WEATHER NOW"=ПОГОДА СЕЙЧАС
-r:"SCRAP AMOUNT"=КОЛИЧЕСТВО ЛОМА
-r:"SCRAP VALUE"=СТОИМОСТЬ ЛОМА
-r:"TOMORROW"=ЗАВТРА
-r:"NEVER HERE"=НИКОГДА ЗДЕСЬ
-r:"WHAT TO DO"=ЧТО ДЕЛАТЬ
-r:"Clear skies\. Nothing out of the ordinary\."=Ясное небо. Ничего необычного.
-r:"Lightning strikes outside, drawn to metal\. When scrap you carry starts to crackle, drop it\."=Снаружи бьют молнии, их притягивает металл. Если лом в ваших руках начал потрескивать, бросьте его.
-r:"Night all day\. More creatures roam outside, and they are out from the moment you land\."=Ночь весь день. Снаружи бродит больше существ, и они выходят с момента посадки.
-r:"Done, it lowers the quota\. Failed, it raises it, by the moon's risk\."=Выполнено: норма снижается. Провалено: растёт на величину риска луны.
-r:"Interior zones require assessment\. Deploy survey beacons at the designated positions\. Retrieval is not required\."=Зоны интерьера требуют оценки. Установите маяки разведки в указанных точках. Подбирать их не нужно.
-r:"Take the beacons from the drop ship and drop one at each unmarked survey site\. Beacons will beep as you get closer to the survey site\."=Возьмите маяки с корабля доставки и оставьте по одному на каждом неотмеченном участке. Маяки пищат, когда вы приближаетесь к участку.
-r:"Residual assets remain on-site\. Recover all salvage and log it aboard the ship\."=На месте остались ценности. Соберите весь лом и сдайте его на корабле.
-r:"Find scrap and get it to the ship\."=Найдите лом и доставьте его на корабль.
-r:"An employee has breached disclosure policy\. Locate the witness and close the leak before he exits the facility\."=Сотрудник нарушил политику неразглашения. Найдите свидетеля и устраните утечку, пока он не покинул комплекс.
-r:"Find the witness inside the facility and kill him\."=Найдите свидетеля внутри комплекса и убейте его.
-r:"This facility's power grid is out of compliance\. Locate every breaker box and restore output to specification\."=Электросеть этого комплекса вышла за нормы. Найдите все распределительные щиты и восстановите подачу тока.
-r:"The power is out\. Find every breaker box and flip all of its levers until the lights come back on\."=Электричества нет. Найдите все распределительные щиты и переключайте их рычаги, пока не включится свет.
+// ClickableTerminal: weather window (split at its tags like the contract window).
+WEATHER NOW=ПОГОДА СЕЙЧАС
+SCRAP AMOUNT=КОЛИЧЕСТВО ЛОМА
+SCRAP VALUE=СТОИМОСТЬ ЛОМА
+TOMORROW=ЗАВТРА
+NEVER HERE=НИКОГДА ЗДЕСЬ
+Clear skies. Nothing out of the ordinary.=Ясное небо. Ничего необычного.
+Lightning strikes outside, drawn to metal. When scrap you carry starts to crackle, drop it.=Снаружи бьют молнии, их притягивает металл. Если лом в ваших руках начал потрескивать, бросьте его.
+Night all day. More creatures roam outside, and they are out from the moment you land.=Ночь весь день. Снаружи бродит больше существ, и они выходят с момента посадки.
 LEVER=РЫЧАГ
 Flying=Полёт
 Hurricane=Ураган
@@ -207,9 +337,6 @@ Minefield=Минное поле
 Disposal=Утилизация
 Pest=Вредители
 Payload=Груз
-BLACKOUT AUDIT=АУДИТ ОТКЛЮЧЕНИЯ
-CONTAINMENT BREACH=ПРОРЫВ ЛОКАЛИЗАЦИИ
-BLACKOUT AUDIT · FAILURE=АУДИТ ОТКЛЮЧЕНИЯ · ПРОВАЛ
 CONTRACT FAILURE · RECOVER SCRAP AND EXTRACT=ПРОВАЛ КОНТРАКТА · ВЕРНИТЕ ЛОМ И ЭВАКУИРУЙТЕСЬ
 2ND WIND=ВТОРОЕ ДЫХАНИЕ
 SCRAP=ЛОМ
@@ -226,16 +353,16 @@ Happy Thursday.=Хорошего четверга.
 Happy Friday.=Хорошей пятницы.
 Happy Saturday.=Хорошей субботы.
 Happy Sunday.=Хорошего воскресенья.
-r:"Locate the breaker box"=Найдите электрощиток
-r:"Survive wave ([0-9]+) · ([0-9:]+)"=Переживите волну $1 · $2
-r:"IN ([0-9]+) \$([0-9]+)  OUT ([0-9]+) \$([0-9]+)"=ВНУТРИ $1 $$${2}  СНАРУЖИ $3 $$${4}
+// Contracted: objectives on the HUD card.
+Locate the breaker box=Найдите электрощиток
+Locate the breaker boxes=Найдите электрощитки
+Reset the breaker box=Переключите электрощиток
+Reset the breaker boxes=Переключите электрощитки
+r:"^Survive wave ([0-9]+)$"=Переживите волну $1
+r:"^Survive wave ([0-9]+) · ([0-9:]+)$"=Переживите волну $1 · $2
+r:"^IN ([0-9]+) \$([0-9]+)  OUT ([0-9]+) \$([0-9]+)$"=ВНУТРИ $1 $$${2}  СНАРУЖИ $3 $$${4}
 r:"^SCRAP INSIDE ([0-9]+) \(\$([0-9]+)\)  OUTSIDE ([0-9]+) \(\$([0-9]+)\)$"=ЛУТ ВНУТРИ $1 ($$${2})  СНАРУЖИ $3 ($$${4})
-r:"^// Vanilla EXP: ([0-9]+)$"=// Опыт игры: $1
+SCRAP LEFT: NONE=ЛУТ: НИЧЕГО НЕ ОСТАЛОСЬ
+r:"^\/\/ Vanilla EXP: ([0-9]+)$"=\u002F\u002F Опыт игры: $1
 r:"^\+([0-9]+) XP \(survived ([0-9]+)\)$"=+$1 XP (пережили: $2)
 r:"^ROUTE: (.+)$"=МАРШРУТ: $1
-r:"ORBITING:"=ОРБИТА:
-r:"POPULATION:"=НАСЕЛЕНИЕ:
-r:"CONDITIONS:"=УСЛОВИЯ:
-r:"FAUNA:"=ФАУНА:
-r:"OBJECTIVE:"=ЦЕЛЬ:
-r:"Deploy survey beacons"=Установить маяки разведки
