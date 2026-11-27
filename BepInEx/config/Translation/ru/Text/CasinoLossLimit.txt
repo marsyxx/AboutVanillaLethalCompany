@@ -1,4 +1,3 @@
 // Texts of CasinoLossLimit for XUnity.AutoTranslator (Russian)
-Casino limit=Лимит казино
-r:"^You have lost (\d+) here\. No more gambling until the next landing\.$"=Вы проиграли здесь $1. Больше играть нельзя до следующей посадки.
-r:"^This item is worth (\d+)\. You can still lose (\d+) before the next landing\.$"=Эта вещь стоит $1. До следующей посадки вам можно проиграть ещё $2.
+Close the quota first=Сперва закройте квоту
+r:"^Your loot would sell for (\d+) and the quota still needs (\d+)\. Sell it at the counter, then gamble\.$"=Ваш лут можно продать за $1, а до квоты осталось $2. Сдайте его на стойке, потом играйте.
