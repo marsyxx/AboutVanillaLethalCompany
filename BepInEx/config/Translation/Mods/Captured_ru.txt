@@ -31,9 +31,9 @@ Creating menu<br>Creating Presets...=Создание меню<br>Создани
 Populating menu<br>Updating Pages...=Заполнение меню<br>Обновление страниц...
 (Launched in LAN mode)=(Запущено в режиме LAN)
 r:"Populating menu<br>Updating Configs \(([0-9]+)%\)\.\.\."=Заполнение меню<br>Обновление настроек ($1%)...
-r:"^PROFIT QUOTA:\n\$([0-9]+) / \$([0-9]+)$"=НОРМА ПРИБЫЛИ:\n$${1} / $${2}
+r:"^PROFIT QUOTA:\n\$([0-9]+) / \$([0-9]+)$"=НОРМА ПРИБЫЛИ:\n$$${1} / $$${2}
 r:"^DEADLINE:\n([0-9]+) Days?$"=СРОК:\n$1 дн.
-r:"^<color=\"yellow\">Body cam \$([0-9]+)$"=<color="yellow">Нагрудная камера $${1}
+r:"^<color=\"yellow\">Body cam \$([0-9]+)$"=<color="yellow">Нагрудная камера $$${1}
 LAND=ПОСАДКА
 LIGHTS=СВЕТ
 DOORS=ДВЕРИ
@@ -72,7 +72,7 @@ BUY NOW=КУПИТЬ СЕЙЧАС
 BUY=КУПИТЬ
 REMOVE=УБРАТЬ
 ADD=ДОБАВИТЬ
-r:"^BUY \$([0-9]+)$"=КУПИТЬ $${1}
+r:"^BUY \$([0-9]+)$"=КУПИТЬ $$${1}
 [No information about this object was found.=[Информация об этом объекте не найдена.
 <alpha\=#BB>[No information about this object was found.]=<alpha=#BB>[Информация об этом объекте не найдена.]
 PRICE=ЦЕНА
@@ -228,7 +228,8 @@ Happy Saturday.=Хорошей субботы.
 Happy Sunday.=Хорошего воскресенья.
 r:"Locate the breaker box"=Найдите электрощиток
 r:"Survive wave ([0-9]+) · ([0-9:]+)"=Переживите волну $1 · $2
-r:"IN ([0-9]+) \$([0-9]+)  OUT ([0-9]+) \$([0-9]+)"=ВХОД $1 $${2}  ВЫХОД $3 $${4}
+r:"IN ([0-9]+) \$([0-9]+)  OUT ([0-9]+) \$([0-9]+)"=ВНУТРИ $1 $$${2}  СНАРУЖИ $3 $$${4}
+r:"^SCRAP INSIDE ([0-9]+) \(\$([0-9]+)\)  OUTSIDE ([0-9]+) \(\$([0-9]+)\)$"=ЛУТ ВНУТРИ $1 ($$${2})  СНАРУЖИ $3 ($$${4})
 r:"^// Vanilla EXP: ([0-9]+)$"=// Опыт игры: $1
 r:"^\+([0-9]+) XP \(survived ([0-9]+)\)$"=+$1 XP (пережили: $2)
 r:"^ROUTE: (.+)$"=МАРШРУТ: $1

@@ -31,10 +31,8 @@ Creating menu<br>Creating Presets...=Menü wird erstellt<br>Voreinstellungen wer
 Populating menu<br>Updating Pages...=Menü wird gefüllt<br>Seiten werden aktualisiert...
 (Launched in LAN mode)=(Im LAN-Modus gestartet)
 r:"Populating menu<br>Updating Configs \(([0-9]+)%\)\.\.\."=Menü wird gefüllt<br>Einstellungen werden aktualisiert ($1 %)...
-r:"^PROFIT QUOTA:\n\$([0-9]+) / \$([0-9]+)$"=GEWINNQUOTE:
-$${1} / $${2}
-r:"^DEADLINE:\n([0-9]+) Days?$"=FRIST:
-$1 Tage
+r:"^PROFIT QUOTA:\n\$([0-9]+) / \$([0-9]+)$"=GEWINNQUOTE:\n$$${1} / $$${2}
+r:"^DEADLINE:\n([0-9]+) Days?$"=FRIST:\n$1 Tage
 LAND=LANDEN
 LIGHTS=LICHT
 DOORS=TÜREN
@@ -73,7 +71,7 @@ BUY NOW=JETZT KAUFEN
 BUY=KAUFEN
 REMOVE=ENTFERNEN
 ADD=HINZUFÜGEN
-r:"^BUY \$([0-9]+)$"=KAUFEN $${1}
+r:"^BUY \$([0-9]+)$"=KAUFEN $$${1}
 [No information about this object was found.=[Zu diesem Objekt wurden keine Informationen gefunden.
 <alpha\=#BB>[No information about this object was found.]=<alpha=#BB>[Zu diesem Objekt wurden keine Informationen gefunden.]
 PRICE=PREIS
@@ -216,7 +214,8 @@ Happy Saturday.=Schönen Samstag.
 Happy Sunday.=Schönen Sonntag.
 r:"Locate the breaker box"=Verteilerkasten finden
 r:"Survive wave ([0-9]+) · ([0-9:]+)"=Überlebe Welle $1 · $2
-r:"IN ([0-9]+) \$([0-9]+)  OUT ([0-9]+) \$([0-9]+)"=EIN $1 $${2}  AUS $3 $${4}
+r:"IN ([0-9]+) \$([0-9]+)  OUT ([0-9]+) \$([0-9]+)"=INNEN $1 $$${2}  AUSSEN $3 $$${4}
+r:"^SCRAP INSIDE ([0-9]+) \(\$([0-9]+)\)  OUTSIDE ([0-9]+) \(\$([0-9]+)\)$"=SCHROTT INNEN $1 ($$${2})  AUSSEN $3 ($$${4})
 r:"^// Vanilla EXP: ([0-9]+)$"=// Spiel-EP: $1
 r:"^\+([0-9]+) XP \(survived ([0-9]+)\)$"=+$1 EP (überlebt: $2)
 r:"^ROUTE: (.+)$"=ROUTE: $1
